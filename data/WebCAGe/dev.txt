@@ -1,0 +1,1032 @@
+Eltern überlassen die sexuelle Aufklärung größtenteils immer noch der Schule.	Um mehr über die militärischen Stellung zu erfahren, sollten wir eine Drohne zur Aufklärung hinschicken.	Aufklärung	True
+Stellen Sie jetzt bitte das Rauchen ein!	Nachdem das Thermostat richtig eingestellt war, hatte er es endlich warm in der Wohnung.	einstellen	False
+Der Einbrecher hat seine Komplizen bei der Polizei verraten.	Wenn Du meinem Gegner bei dieser Sache hilfst, dann verrätst Du mich!	verraten	True
+Das Stellenangebot war eine einmalige Gelegenheit, die ich einfach ergreifen musste.	„Die Bahncard 25 kostet einmalig 50 Euro für die 2. Klasse.“	einmalig	False
+Jahrelang haben sie nun nach einem Erretter begehrt.	Ich begehrte schon lange, zu erfahren, was mein lieber Herr Sohn den ganzen Tag so trieb.	begehren	False
+Er hat ständig Schmerzen in der Brust.	Sie besitzt riesige Brüste.	Brust	False
+Die Wache ist vor dem Haupteingang aufgestellt.	Wir sollten die Stühle aufstellen, bevor die Gäste kommen.	aufstellen	True
+Nach der Krankheit hatte er eine schlechte Konstitution.	In der Konstitution ist die Gewaltenteilung festgeschrieben.	Konstitution	False
+„Neben manchen Planeten hat auch der große Saturnmond Titan eine dichte Atmosphäre.“	„Eine physikalische Atmosphäre ist als 760 Torr definiert.“	Atmosphäre	False
+Auf einem Ceran-Kochfeld sollte man Verschmutzungen nur mit speziellen Werkzeugen abkratzen, um Beschädigungen zu vermeiden.	Er hat den Schmutz schon abgekratzt.	abkratzen	True
+Die Bittsteller erlebten eine grobe Abfertigung.	Die Abfertigung der Container ging sehr zügig vor sich.	Abfertigung	False
+Ich bin krank geschrieben, weil ich mich letzte Woche überarbeitet habe.	Unsere Firma lässt für mehrere Hundert Euro den Internetauftritt überarbeiten.	überarbeiten	False
+Das Ordnungsamt hat die Sanitärräume in diesem Restaurant nicht genehmigt.	Der Anbau einer neuen Werkshalle wurde vom Bauamt nicht genehmigt.	genehmigen	True
+Vielleicht solltest du diese Skulptur „Nekromania“ nennen.	Er nannte ihn einen Dummkopf.	nennen	False
+Die Industrie ist einer der wichtigsten Sektoren der Wirtschaft.	Ein Sektor wird von zwei Mittelpunktstrahlen des Kreises und dem Bogenstück zwischen ihnen begrenzt, ein Kreisabschnitt dagegen von einer Kreissekante und dem zugehörigen Bogenstück.	Sektor	False
+„Mit der Bezeichnung "Vogelgrippe" wollte man allgemein verständlich machen, dass das Virus von Geflügeln auf den Menschen übertragen wurde.“	Heute gibt's Geflügel.	Geflügel	False
+Er hielt eine flammende Rede.	Rede ist eine geläufige deutsche Übersetzung für den französischen linguistischen Begriff parole.	Rede	False
+Die Diskussion zieht sich mal wieder.	Hier zieht es ganz fürchterlich.	ziehen	False
+Seine Arme umspannten den Baum kaum.	Im Sportgeschäft konnte man den Tennisschläger umspannen.	umspannen	False
+Das Chamäleon ist ein Meister der Tarnung.	(ironisch) Ein bestimmter deutscher Bundeskanzler war ein wahrer Meister der Stilblüte.	Meister	True
+Deutschland überfiel Polen im zweiten Weltkrieg.	Ein Räuber überfiel die alte Dame.	überfallen	True
+„Was bildet dieser Penner sich eigentlich ein? Der hat doch keine Ahnung!“	„Diese Penner des Geldes kassieren als kleines ‚Dankeschön‘ für diese TOP-Leistung nicht nur Millionen an Prämien, sondern auch Renten in 6-stelliger Größenordnung.“	Penner	True
+Er erreichte den Zug in letzter Sekunde.	Die Kugel erreichte den fliehenden Schurken nicht.	erreichen	True
+In der Pubertät geriet er seinen Eltern gegenüber in Opposition, was die Frage der Lebensführung anbelangte.	In Bauernendspielen ist es oft wichtig, die Opposition zu haben.	Opposition	False
+Die Krankenstation wird nächstes Jahr in den Ostflügel verlegt.	einen Dielenboden verlegen	verlegen	False
+Der Boden senkt sich jedes Jahr einige Zentimeter.	Das senkt den Blutzuckerspiegel.	senken	False
+Kannst du mir mal das Salz reichen?	Robert reicht Johanna die Hand hin, um sie zu begrüßen.	reichen	True
+Welche Frequenzen soll dieses Filter aussondern?	Hast du zur Reinigung einen Filter eingebaut?	Filter	True
+Der Jupiter ist ein Gasplanet.	Jupiter ist ein römischer Gott.	Jupiter	False
+Die SI-Basiseinheit der Frequenz ist „Hertz“, abgekürzt „Hz“ = 1/s.	Die Frequenz des Senders liegt bei 108 MHz, also im UKW-Bereich.	Frequenz	True
+Begehrt Ihr, noch mehr meiner Kunstfertigkeiten präsentiert zu bekommen, Hoheit?	Ich begehre, dass du das Lyzeum besuchest.	begehren	True
+Zimmerer verarbeiten jede Menge Nägel.	In Deutschland werden 70 Prozent der Milch in genossenschaftlichen Molkereien (die praktisch den Milchbauern selbst gehören) verarbeitet.	verarbeiten	False
+Bitte entschuldigen Sie die Unterbrechung, aber da ist jemand am Telefon für Sie.	Das Unwetter führte zu einer längeren Unterbechung der Versorgungsflüge.	Unterbrechung	False
+Die Geistergeschichte war seine Erfindung.	Die Erfindung des Automobils sollte die industrielle Welt verändern.	Erfindung	False
+Wegen einer Bombenentschärfung wurde ein Teilstück der Bahnhofstraße gesperrt.	Der Räuber wurde zunächst einmal in das Spritzenhaus gesperrt.	sperren	False
+Den Abschluss der Rasenfläche bilden langgezogene Blumenbeete.	Ich hoffe, dass die Bauarbeiten dieses Jahr noch zum Abschluss gelangen.	Abschluss	False
+Wir behandeln im Unterricht die verschiedenen Wortarten.	Das Buch behandelt das Schicksal von Flüchtlingen.	behandeln	True
+Ihr Mädchenname war Müller, jetzt – nach ihrer Heirat – heißt sie Schmitz.	„Anna“ ist ein sehr beliebter Mädchenname.	Mädchenname	False
+sie stützte sich auf harte Fakten	er schlug hart zu	hart	False
+Gegen diesen Bescheid kann jeder Betroffene Widerspruch einlegen.	Mit der Einlegung eines Widerspruchs wird das Vorverfahren eröffnet.	Widerspruch	True
+Das Schiff wurde seiner Bestimmung zugeführt und zu Wasser gelassen.	Die Bestimmung des Alters der Fossilien gestaltete sich schwirig.	Bestimmung	False
+Das machen nur die Beine von Dolores.	Solange du deine Beine unter meinen Tisch steckst ...	Bein	True
+Ich habe darauf gebaut, dass Du diese Woche Zeit hast, mir zu helfen.	Die Firma baut Autos.	bauen	False
+Ich schaffe in einer Fabrik.	Ich habe mein Examen endlich geschafft!	schaffen	False
+im übertragenen Sinne: „»Man ist eine Masche, man ist erbärmlich in die Welt verstrickt,« tönte es von den Lippen des Vaters zurück.“	„Nach den Ermittlungen gibt es fünf Zentren mit fünf Hauptverdächtigen, die diese Masche immer wieder durchziehen.“	Masche	False
+Mit der Bürgschaft bürdete sie sich eine schwere Last auf.	Plötzlich brach die Brücke unter der großen Last zusammen.	Last	False
+Der Präsident wurde von einem Konvoi von Polizeifahrzeugen geschützt.	Sie fuhren in einem Konvoi zum Einsatzort.	Konvoi	False
+Lass es dir gut gehen.	Ich gehe einkaufen.	gehen	False
+„Ich liebe dich, mich reizt deine schöne Gestalt; / Und bist du nicht willig, so brauch ich Gewalt.“	Omphale ist eine Gestalt aus der griechischen Mythologie.	Gestalt	False
+Ein Philosoph, etwas närrisch wie alle seines Schlages, verließ eines Tages die Stadt, in der viele Häuser gebaut wurden, um keinen Ziegel oder Baustein auf den Kopf zu kriegen.	Da der weiße Marmor der vorherrschende Baustein ist, so hat es, wenn man die Stadt von der Höhe eines der fernen Berge betrachtet, den Anschein, als läge ein silbrig strahlendes Gestirn auf der Erde.	Baustein	True
+Die Ruhr hat eine Länge von 219 km.	„In den dreißiger Jahren hatte Eisenhower, das wußte Dr. Snyder, einmal an der Ruhr gelitten.“	Ruhr	False
+Wir müssen die Wohnung erst noch einrichten.	Wir haben uns ganz im Landhausstil eingerichtet.	einrichten	True
+„Wenn die Christen von »der Schrift« sprechen, meinen sie ihr heiliges Buch.“	„In diesem Buch wird der Standpunkt vertreten, dass die Schrift genuin ein Gegenstand der Sprachwissenschaft ist.“	Schrift	False
+Das ist mein letztes Wort!	Mir fehlen die Worte.	Wort	True
+Ich esse sehr viel Fett.	Es gibt gesunde und ungesunde Fette.	Fett	True
+Er wird seinen Weg fortsetzen, wie er es von Anfang an geplant hatte.	Er begegnete mir auf kaltem Wege.	Weg	False
+Verdient diese Gnade keinen Dank gegen den Schöpfer?	Dabei ist die offizielle Presseerklärung, das Unternehmen sei ihm "zu großem Dank verpflichtet", keineswegs als die übliche Trennungsfloskel zu verstehen.	Dank	True
+Er muss nicht arbeiten, denn er hat einen reichen Onkel und lebt wunderbar als Schmarotzer.	„‚Hoho, man will Sex und bekommt nichts als einen Schmarotzer, das kennen wir doch‘, so rufen die anderen, und schauen abfällig auf den Lebensabschnittsgefährten, der schlaff und arbeitslos auf der Couch herumschimmelt.“	Schmarotzer	True
+„Im arabischen und islamischen Kulturraum jedenfalls ist bis heute die Einschätzung weit verbreitet, letztendlich seien die Palästinenser über die Staatsgründung Israels, die als eine Konsequenz des Holocaust gedeutet wird, Folgeopfer des europäischen Antisemitismus und speziell des nationalsozialistischen Rassenwahns geworden; eine These, die freilich nicht nur dort vertreten wird.“	„Aus diesem Anlass zeigt das Deutsche Historische Museum eine Ausstellung zum Holocaust, dem nationalsozialistischen Völkermord an sechs Millionen Juden.“	Holocaust	True
+Das Messer ist so scharf, dass es ein Seidentuch zerschneidet.	Hey, das T-Shirt ist ja ein scharfes Teil!	scharf	False
+Nur als Qualifizierter darf man am Rennen teilnehmen.	Die engsten Verwandten betreuen ihn und nehmen an seinem Schmerz teil.	teilnehmen	False
+Es wurde ein Polizeitaucher über Funk angefordert.	Der einzige Mensch, den ich kenne, der Funk spielt, ist der fahle Johannes.	Funk	False
+Vater und Mutter sind nahe Verwandte.	Der nahe Blitz blendet mich.	nah	False
+Die Uhr ist stehengeblieben.	Um 10 Uhr stehe ich auf.	Uhr	False
+Man brauchte nur eine Zigarette zu rauchen um die Warnanlage einzuschalten.	Nach dem Zwischenfall mußte sich doch die Polizei einschalten.	einschalten	False
+Der Spieler stieß den Spielball mit dem Queue mitten in den Pulk der Roten.	Der König wurde vom Thron gestoßen.	stoßen	True
+„Koks gilt wegen des weltweit anhaltenden Stahlbooms als Mangelware und wird derzeit auf den internationalen Märkten zu Höchstpreisen gehandelt. Engagieren sollen sich hier vielmehr Stahlerzeuger, die - wie die luxemburgische Arcelor-Gruppe - große Probleme haben, ihre Stahlwerke in Bremen oder Eisenhüttenstadt (EKO) zu wenigstens halbwegs kalkulierbaren Preisen mit Koks zu versorgen.“	„Jetzt hat der Konsum erste Spuren hinterlassen im Gesicht, haben Alkohol und Koks es weich gezeichnet.“	Koks	False
+Der tapfere Soldat bekam für seinen Mut einen Orden verliehen.	Die Geiselnehmer drohten damit, eine Geisel hinzurichten, um ihrer Forderung Nachdruck zu verleihen.	verleihen	True
+Vor Angst, entdeckt zu werden, wagte er nicht einmal zu atmen.	Das enge Kleid war wohl zu gewagt für die Firma, da die Männer sich umdrehten und man mich fragte, was ich heute vorhabe.	wagen	True
+Lass uns Wasserball spielen!	Wirf mir mal den Wasserball zu.	Wasserball	False
+Einen Krieg zwischen Nord- und Südkorea schließe ich aus.	Ich habe den Hund jetzt ausgeschlossen.	ausschließen	False
+Sie schlugen ihr Zelt am Waldesrand auf.	Der Lehrer schlug hart mit dem Kopf auf der Tischkante auf, nachdem er über den Mülleimer gestolpert war.	aufschlagen	False
+Was bietest du mir dafür?	Nun bietet sich Ihnen die einmalige Gelegenheit, die neueste Entwicklung unseres Hauses, dieses völlig neuartige Reinigungsgerät, exklusiv und kostenlos in Ihrem Haushalt zu testen.	bieten	False
+Wir machen es so, wie es uns gefällt.	Du machst dich zum Gespött der Leute.	machen	False
+Hochseegängige Schiffe fluten zur besseren Stabilität ihre Ballasttanks.	Das einströmende Wasser hat bereits das gesamte Stadtgebiet geflutet.	fluten	True
+Mass - Einheiten können auch Kilogramm, Dekagramm, Milligramm, z.B. für das Gewicht eines Gegenstandes sein.	Tag der Deutschen Einheit, eine Einheit bilden,	Einheit	False
+Hasel, Erle, Weide und Pappel tragen Kätzchen.	Guck mal, wie die niedlichen Kätzchen spielen!	Kätzchen	False
+Michael Ballack setzt zum Schuss an, schießt und … leider Ecke.	Stauffacher: „Gott sei gelobt!“ Leuthold: „Das war ein Schuss! Davon / Wird man noch reden in den spätsten Zeiten.“	Schuss	False
+Die beiden schlagen sich schon wieder.	In hohen Tönen schlug er die Laute.	schlagen	False
+Disziplin, sagt Janet Jackson, sei Teil der Familien-Kultur gewesen, mit der sie geboren wurde.	Manche der Geisteswissenschaftler unter den Professoren hätten überhaupt zum ersten Mal mit den Kollegen anderer Disziplinen über Möglichkeiten der Zusammenarbeit gesprochen.	Disziplin	False
+Das Stilfser Joch verbindet das Veltlin mit dem Vinschgau.	Wie die beiden Ochsen mühselig den Karren hochzogen, schwankte ihr Joch wie eine Welle auf und ab.	Joch	False
+Der Fahrstuhl ist außer Betrieb.	Auf dem Jahrmarkt herrscht reger Betrieb.	Betrieb	False
+„Im nächsten Schritt wird sich die Vereinsführung nun intensiver mit der Frage beschäftigen, welche neuen Spieler zur nächsten Saison noch kommen sollen“.	„Natürlich wird die Frage, warum Dolly trotz aller Voraussagen überhaupt möglich war, die Wissenschaft noch beschäftigen.“	beschäftigen	False
+Diese Kamera hat keinen () /kein () Zoom.	Wavelength (1967) besteht aus einem wie besessenen Zoom, der 45 Minuten dauert und uns von einer Total-Einstellung eines ziemlich großen New Yorker Loft bis zur abschließenden Großaufnahme eines Fotos führt, das an der gegenüberliegenden Wand des großen Raumes hängt.	Zoom	False
+Zimmerer verarbeiten jede Menge Nägel.	Ihre Erfahrungen als UNICEF-Praktikantin in Panama verarbeitete die junge Lehrerin in dem Buch "Ana's Story" über das Schicksal einer jungen Aids-Kranken.	verarbeiten	False
+„Zugleich bemängelte der VIZK jedoch die Organisation, den Inhalt und die Besetzung der Islamkonferenz.“	„Die Besetzung von Häusern war oft ein ›politischer Protestakt gegen das politische System‹ des jeweiligen Staates.“	Besetzung	False
+Hinter der Tür erstreckte sich ein dunkler Gang.	Bis Kassel mussten wir auf dem Gang stehen, dann wurden endlich zwei Sitzplätze frei.	Gang	True
+Sperrholz wirft sich nicht.	Er wirft den Ball ziemlich weit.	werfen	False
+Die Zugabe nach dem Konzert der Band war richtig toll!	Die Zugabe von Salz ist verboten.	Zugabe	False
+Für das jüdische Volk ist Israel das „Heilige Land“.	Nicht die höheren Schichten der Bevölkerung, sondern das normale Volk wurde getroffen.	Volk	False
+„Merklich voneinander verschiedene Wörter, die nicht ohne weiteres als zusammengehörig erkannt werden können, sind getrennte Stichwörter in getrennten Artikeln...“	„Die richtigen Stellen können am Ende einer Rede sein, oder aber bei einzelnen Stichworten.“	Stichwort	False
+Er drückt sich nicht vor der Arbeit.	Ich brauche jemanden, der mich ganz fest drückt.	drücken	False
+Auf europäischer Ebene wird der rechtliche Rahmen für die Einführung der Top-Level-Domäne „.eu“ durch EU-Verordnungen abgesteckt.	Schach ist eine vorwiegend männliche Domäne.	Domäne	False
+Er pochte an die Tür und flüsterte:	„Die Möwen schrillen kläglich, es grollt und brandet die See; - Dein Herz pocht wildbeweglich, Du schöne Wasserfee!“	pochen	False
+Die Fische in meinem Aquarium sind sehr fruchtbar.	Von Kaninchen sagt man, sie seien sehr fruchtbar.	fruchtbar	True
+Es wurden Änderungen großen Umfangs vorgenommen.	ein Haushaltsloch im Umfang von 30 Milliarden	Umfang	True
+Vor allem beim Billard ist das Spiel über die Bande Standard.	In Los Angelos beherrschen Banden ganze Stadtviertel.	Bande	False
+Wie heißt das auf Kongo?	Wie kann ich mein Kongo verbessern?	Kongo	True
+Wenn ich zuviel getrunken hab, kann ich nicht mehr ordentlich denken.	, Denke nie, gedacht zu haben.	denken	True
+Ich habe die Bohrmaschine an meinen Arbeitskollegen verliehen.	Die Geiselnehmer drohten damit, eine Geisel hinzurichten, um ihrer Forderung Nachdruck zu verleihen.	verleihen	False
+Während der Rede machte er ein ernstes Gesicht.	Die Lage könnte nicht ernster sein.	ernst	False
+In der Diskussion um ein Rauchverbot haben sich 71 Prozent der Bundesbürger dafür ausgesprochen, die Entscheidung letztlich den Wirten selbst zu überlassen.	Ich überlasse dir die Koffer, um die Bahnkarten zu besorgen.	überlassen	False
+Die Diskussion zieht sich mal wieder.	Die Lok zieht 40 Güterwaggons.	ziehen	False
+Du kannst den Einkaufskorb dort abstellen.	Ich stellte mein Fahrrad am Bahnhof ab.	abstellen	True
+Pass auf das Teil da vorne auf!	Diese Aufgabe wird Teil der Prüfung am nächsten Dienstag sein.	Teil	False
+Im Deutschen weisen stimmlose Verschlusslaute vor Vokalen immer eine Aspiration auf. Also: in "Peter" hat eine starke Aspiration.	„Vergleicht man die Aussprache der englischen Wörter ‚nitrate‘ (deutsch ‚Nitrat‘) und ‚nightrate‘ (deutsch ‚Nachttarif‘), so kann man beim Übergang von /t/ zu /r/ gewisse Unterschiede ausmachen, die den Grad der Aspiration, also der Behauchung, und der Lautdauer betreffen.	Aspiration	True
+Zimmerer verarbeiten jede Menge Nägel.	Den ersten Schritt um die Vergewaltigung zu verarbeiten habe die Achtjährige getan, indem sie ihrer Mutter Bescheid gegeben habe. <	verarbeiten	False
+Die Saat war in Jutesäcken gelagert.	Der Gärtner verpflanzte die Saat ins Freiland.	Saat	True
+GLAST ('Gamma Ray Large Area Space Telescope) besteht aus zwei Instrumenten, dem Large-Area Telescope (LAT) und dem GLAST-Burstmonitor (GBM)	Ihr neues Instrument klingt wunderschön.	Instrument	False
+„Andere Banden präparieren den Automaten mit einer Schlinge im Kartenschacht.“	„Um Sprengstofffallen in Autos zu präparieren oder einen nicht von Bodyguards abgeschirmten Bürger hinterrücks zu töten, bedarf es weder großer Übung noch ausgeklügelter Logistik.“	präparieren	True
+Ruft man ein bestimmtes Portal auf. erhält man zum Thema gehörige Informationen.	„Das gewaltige Portal schloß eine mit Eisen bekleidete Türe, die, wenn sie verrammelt war, nicht leicht gesprengt werden konnte.“	Portal	False
+Entschuldigen Sie, wenn ich Sie so einfach anspreche, aber ich hätte da mal eine Frage.	Dieser Anzug hat mich sofort angesprochen.	ansprechen	False
+Es ist bewundernswert in einer Sache voll aufgehen zu können.	Die Sonne geht auf!	aufgehen	False
+Sie besitzt riesige Brüste.	Die weibliche Brust besteht zum größten Teil aus Fett- und Drüsengewebe.	Brust	True
+Zupfst du deine Augenbrauen nicht?	Vorsichtig zupfte er am Ärmel der Jacke, um die Aufmerksamkeit seiner Freundin zu erregen.	zupfen	False
+Angeklagte Männer beschrieben, dass Satan in Gestalt eines schönen Weibes erschienen sei.	Dunkle Gestalten betraten die Lichtung.	Gestalt	True
+„Er beschäftigt die Kinder mit einem Spiel.“	„Dieses Problem beschäftigte ihn so sehr, dass er kaum Zeit für andere Tätigkeiten hatte.“	beschäftigen	False
+Die schwarzen und die heitern Lose -	Amerika hat im Dezember 2008 seinen ersten schwarzen Präsidenten gewählt.	schwarz	False
+Die Äpfel wurden appetitlich auf einer Palette angeboten.	Die Palette an Waren ist überwältigend.	Palette	False
+Dem Marquis entspricht im Deutschen der Markgraf, im Italienischen der Marchese und im Englischen der Marquess.	„Die Tür flog auf, und der Marquis im reichsten goldbordierten Galakleide stand im Zimmer.“	Marquis	False
+Wir haben beschlossen, morgen eine Ausfahrt zu machen.	Bitte die Ausfahrt freihalten!	Ausfahrt	False
+„Du Ar****och!“ - Diese Nachricht wurde zensiert.	In dem Film hat man viele brutalen Szenen zensiert.	zensieren	True
+Meine Oma konnte besser kochen als meine Mutter.	Wir kochen uns eine Gemüsesuppe.	kochen	False
+Lass es dir gut gehen.	Es wurden keine Leute entlassen, ein paar sind freiwillig gegangen.	gehen	False
+Antwort unter Chiffre X1234Y5678 erbeten.	Der Pfeiler war mit seltsamen Chiffren übersät.	Chiffre	False
+Ich werde den Tisch etwas vorziehen.	Die zweite Prüfung wurde aus terminlichen Gründen vorgezogen.	vorziehen	False
+Wir ziehen morgen in unsere neue Wohnung ein.	Die Sportler zogen zur Eröffnungsfeier in das Stadion ein.	einziehen	False
+Über die hölzernen Bewegungen der eifrigen Hobby-Tanzgruppe mussten die Zuschauer schmunzeln.	Die Familie versammelte sich jeden Abend am hölzernen Esstisch.	hölzern	False
+Die Hilfsorganisation musste die Lebensmittelversorgung im Krisengebiet wegen der Kampfhandlungen kurzzeitig unterbrechen.	Gewerkschaft und Geschäftsleitung unterbrachen die Tarifgespräche.	unterbrechen	True
+„Schülern wird empfohlen, sich bei der Anti-G-8-Protestgruppe Attac zu informieren.“	„Der Sicherheitsrat kann in jedem Stadium einer Streitigkeit im Sinne des Artikels 33 oder einer Situation gleicher Art geeignete Verfahren oder Methoden für deren Bereinigung empfehlen.“	empfehlen	True
+Magier setzen ihre Magie mittels eigentümlicher Rituale ein.	Viele Menschen lassen sich von der Magie der Worte beeindrucken.	Magie	False
+Wie viel Geld kriegst du eigentlich?	Ich krieg’ dich schon noch!	kriegen	False
+Die Kolonien erhielten nach und nach fast alle ihre Souveränität.	Ihr Auftreten war von überzeugender Souveränität geprägt.	Souveränität	False
+Er pochte an die Tür und flüsterte:	Der Krankenhaus-Hauptausschuss pocht auf die Einhaltung des Vertrages.	pochen	False
+Wir verlassen nun die untern Räume und steigen vom Atrium aus treppauf, um den obern Zimmern unsern Besuch zu machen.	Die Frau trat an das Fenster des Schlafgemachs, schlug den rotbraunen Vorhang zurück und blickte in das Atrium hinab, dessen Estrich von pyrenäischem, weißem Marmor, von buntem Mosaik umrändert, in Hellem Mondlicht leuchtete.	Atrium	False
+Wer seid Ihr, daß Ihr eine züchtige Frau, die, weiß Gott, nicht ihr freier Wille mit Euch zusammenführte, in Eure Arme zu fassen, ihr Ohr mit den schamlosen Anträgen roher Sinnlichkeit zu entweihen wagt?	Mit „Antikorruptionskampagnen“ versuchen sie jene Kader in den Griff zu bekommen, die sich schamlos bereichert haben – auch am Olympia-Projekt.	schamlos	False
+Das steht ganz oben auf meiner Liste.	Eine Liste aufstellen, führen.	Liste	False
+„Hallo, kleines Fräulein, haben Sie heut’ Zeit … ?“ –	„Haben Sie den neuen Hut von Fräulein Molly schon geseh’n?“ –	Fräulein	False
+Eine Wendejacke kann man mit beiden Seiten nach außen tragen.	Diese Seite streichen wir am Nachmittag, wenn die Sonne nicht mehr darauf scheint.	Seite	False
+Der Pilot hat einen glänzenden Start hingelegt.	Start des deutschen Wiktionary war im Mai 2004.	Start	False
+Die Spuren waren im Schnee gut sichtbar.	Im Trinkwasser fanden sich Spuren von Schwermetallen.	Spur	False
+Als der Wanderer dem Räuber gegenüberstand, sah er drei Möglichkeiten: Kämpfen, Verhandeln oder Flüchten.	Wahrscheinlich wird heute den ganzen Tag die Sonne scheinen, aber es besteht die Möglichkeit, dass es gewittert.	Möglichkeit	False
+„Ich hatte Stereotype im Kopf. In den israelischen Medien werden gescheiterte Attentäterinnen als hässlich, harsch und grausam dargestellt. Im Gefängnis traf ich dagegen auf feminine, sanfte und schöne Frauen – und war völlig schockiert über diese Kluft zwischen ihrem Äußeren und ihrem Inneren.“	„Ich erkannte in dem älteren der Cantaores – zwei waschechte Gitanos, von denen der jüngere durch seine elegante Kluft auffiel – nach einem Foto in ‚A Way of Life‘, Anzonini del Puerto wieder.“	Kluft	False
+Sie nahm erst ab, nachdem es zehnmal geklingelt hatte.	Er litt daran, dass seine Popularität abnahm.	abnehmen	False
+Der Preis von Wertpapieren wird als Kurs bezeichnet.	Für ihren selbstlosen Einsatz bekam sie später einen Preis.	Preis	False
+Mein Geschmack täuscht mich nie!	Für meinen Geschmack ist das Schlagzeug zu laut.	Geschmack	False
+Mit einem lauten Knall schlug die Tür nach einem Windstoß auf.	Schlagt mal Seite 7 im Lesebuch auf.	aufschlagen	False
+Im Falle eines Autounfalls sollte man die Polizei benachrichtigen.	Aufgrund der neuen Erkenntnisse wird der Fall neu aufgerollt.	Fall	True
+Nach dem der Herr die Vorwürfe hörte, erwiderte er lachenden Blickes: „...“	Der Ankömmling ließ den Blick durch den Raum schweifen.	Blick	False
+Das weiß ein jeder, wer's auch sei, / gesund und stärkend ist das Ei.	Die Suppe wird mit geschlagenem Ei gebunden.	Ei	True
+Irgendwie hegt er schwarze Gedanken.	Ich habe richtig schwarze Nägel.	schwarz	False
+Der Henker hängte den Dieb.	Der Mörder hing am Galgen.	hängen	False
+Er mischte grüne und rote Farbe.	Der grüne Verbraucherminister ist nicht überall gern gesehen.	grün	False
+Kevin hat eine Sandburg gebaut.	Es ist der Geist, den sich der Körper baut.“	bauen	True
+Er gehörte bei diesem Spiel nur zur Reserve und musste auf der Auswechselbank Platz nehmen.	Sie versuchte alles, um ihn aus der Reserve zu locken.	Reserve	False
+Als junge Mädchen flochten wir uns gegenseitig lange Zöpfe.	Flicht dir endlich die Haare!	flechten	False
+Wir müssen die Wohnung erst noch einrichten.	Am Montag kommt der Verteidigungsminister, also richten' sie sich auf eine Stubenkontrolle ein.	einrichten	False
+Durch die Erdwärmung erhöht sich auch der Meeresspiegel.	Die Erdwärmung erhöht auch den Meeresspiegel.	erhöhen	False
+Der alte Wagen klapperte über das Kopfsteinpflaster.	Die Ventile am Auto klappern.	klappern	False
+Sie schlugen ihr Zelt am Waldesrand auf.	Nach einer schier endlosen Ohnmacht schlug Wolfgang die Augen auf.	aufschlagen	False
+Voll Freude summte sie eine wunderschöne Melodie.	Während der Sänger den Refrain sang, summte der Chor im Hintergrund den Text mit.	summen	False
+Um diese Grube auszuheben, müssen wir schon einen Bagger einsetzen.	Dem Patienten wurde ein neues Herz eingesetzt.	einsetzen	False
+Mit diesen Sandsäcken werden wir einen Schutzwall aufrichten.	Der Mast, der vom Sturm umgeknickt wurde, musste mühsam wieder aufgerichtet werden.	aufrichten	False
+zwei einzlich leut wir sind / und haben weder kegel noch kind. -	Irgendwie schaffte er es, dass der mittlere Kegel stehen blieb.	Kegel	False
+„Die offizielle Arbeitslosenrate hält sich zwar bei etwa 12,5 Prozent, doch hinter dieser Zahl verbergen sich tiefe soziale Klüfte.“	„Gelassen steht er im Foyer des Jüdischen Museums am Info-Counter, der ein bisschen so aussieht wie ein riesiger iPod. Er hat gleichmäßig zurückgekämmtes Haar und ein waches Gesicht. Mit seiner dunkel gerahmten Brille und dem Dreitagebart könnte man ihn für einen smarten Webdesigner halten. Er trägt die Kluft eines Guides: Ganz in schwarz, um den Hals ein rotes Tuch. Für diesen Tag stehen drei Führungen an - eine mehr als üblich. Sein Rekord sind vier.“	Kluft	False
+Der Posaunenchor besteht aus mehreren Tuben, Posaunen, Hörnern und Trompeten.	Im Chor befinden sich zu wenig Stühle.	Chor	False
+Ich begehrte schon lange, zu erfahren, was mein lieber Herr Sohn den ganzen Tag so trieb.	Ein jeder hier begehrt, dass der Krieg endlich ein Ende haben möge.	begehren	True
+Jetzt ist mir aber heiß.	Warte etwas ab, sonst verbrennst du dir mit der heißen Suppe noch den Mund.	heiß	True
+Wenn der Parteiführer zuwenig Rücksicht auf die Basis nimmt, wird er nicht wiedergewählt.	Die Entscheidung erfolgt auf Basis der letztjährigen Studie.	Basis	False
+Um weiter an Höhe zu Gewinnen, wirft der Ballonfahrer den Ballast ab.	Das Pferd warf seinen Reiter ab.	abwerfen	True
+Er brachte das Korn zur Mühle.	Spielen wir eine Partie Mühle?	Mühle	False
+Alkohol in Massen zu trinken ist ungesund.	Die Erde hat eine Masse von 5,9736 · 1024 kg.	Masse	False
+Du machst dich zum Gespött der Leute.	Was hast du nur aus mir gemacht!	machen	True
+Sein Stolz erlaubt es nicht, Spenden anzunehmen.	„Ein anderer stellt sich in überheblichem Stolz über alle anderen; er nützt seine Position aus und wird zum Tyrannen. Ein dritter schließlich verliert in falschem Vertrauen zu sich selbst das Vertrauen zu allem, auch zu Gott.“	Stolz	False
+Er gab mir die 8000 Euro in kleinen Scheinen.	Zum Abschluss der Vorlesung bekam der Student seinen Schein.	Schein	True
+Es ist zweifelhaft, ob der Gastredner noch erscheinen wird.	Die zweifelhafte Theorie hat erstaunlich viele Anhänger.	zweifelhaft	False
+Deine Gruppe war maßgeblich an der Aufklärung des Verbrechens beteiligt.	Eltern überlassen die sexuelle Aufklärung größtenteils immer noch der Schule.	Aufklärung	True
+Sein Angebot umfasst Lieferung und Wartung von Gasheizungen.	Das Angebot an Arbeitskräften ist gering.	Angebot	True
+Die Herberge wird den Bettler sicher aufnehmen. Ich nehme den Igel auf bis er wieder gesund ist.	Wann wirst du die Arbeit an dem Projekt aufnehmen?	aufnehmen	False
+Zimmerer verarbeiten jede Menge Nägel.	Bei den Entscheidungen für mehr Gerechtigkeit war besonders die Inselrinde im Großhirn aktiv: In dieser werden körperliche Empfindungen und Gefühle verarbeitet, sie ist z.B. bei Hunger und Entzugserscheinungen, aber auch bei Ekel oder Freude stark involviert.	verarbeiten	False
+Sie irren, Herr Bleibein!	Wäre ich blind, so irrte ich hilflos umher.	irren	False
+Genoveva hat es nicht verdient, dass auch nur ein einziger Jüngling ihrer begehrt.	Ein jeder hier begehrt, dass der Krieg endlich ein Ende haben möge.	begehren	False
+Wichtig ist daher Wissen und der sorgfältige Transfer des Wissens auf die örtlichen Gegebenheiten.	„Ich begreife ihn als den Teilbereich des Transfers gesellschaftlich mehr oder weniger relevanten Wissens.“	Transfer	True
+Verdient diese Gnade keinen Dank gegen den Schöpfer?	»... Dank und Lob stammelt meine Seele dir, du Schœpfer und Erhalter! deine Allgegenwart wachet yber uns mit segnendem Auge, wenn Nacht und Schlummer uns umhyllen. O – – mein Lob und mein Dank wallet empor mit dem Dank der ganzen erfrischeten Natur!«	Dank	True
+„Andere Banden präparieren den Automaten mit einer Schlinge im Kartenschacht.“	„Jeder in Kabul weiß, dass es den Taliban weder an Freiwilligen für Anschläge noch an Technikern mangelt, die Autos für ähnliche Attacken innerhalb weniger Minuten präparieren.“	präparieren	True
+Bei Puvogel & Co. wird man nach Strich und Faden ausgenommen.	Der Gebührenzahler wird durch die Ausweitung des Anwendungsbereichs der bestehenden Regelung und Schaffung neuer Tatbestände von einer Organisation ausgenommen, die keinem Rechenschaft schuldig ist.	ausnehmen	False
+Das Messer ist so scharf, dass es ein Seidentuch zerschneidet.	Wenn ich ehrlich bin, finde ich deinen Bruder ziemlich scharf.	scharf	False
+Das aus einer Badewanne ablaufende Wasser bildet am Abfluss einen Wirbel.	Er knotete einen Wirbel an die Hautschnur, um daran das Vorfach einzuschlaufen.	Wirbel	False
+Tu(’)s wieder dahin zurück, wo es vorher war!	Was tust du?	tun	False
+Sie legte sich einen modischen Schal um.	Er legte ihr eine teure Kette um.	umlegen	True
+Die Darstellung des Problems durch den Redner war nachvollziehbar.	Die Darstellung des Todes auf diesem Bild ist sehr gelungen.	Darstellung	False
+Die griechische Tragödie entstand, als zum Chor erst der Protagonist, dann auch noch der Antagonist hinzutrat.	Einige der Protagonisten von Attac (Verweis geht nach Wikipedia) stammen aus der Redaktion von ‚Le Monde diplomatique‘.	Protagonist	False
+Die Wohnung ist in einem traurigen Zustand: Schimmel an den Wänden, Unordnung und alles total versifft!	Die vielen kranken Kinder waren ein sehr trauriger Anblick.	traurig	True
+Zum Nähen braucht man eine Nadel.	Schneider nähen heutzutage mit einer Maschine.	nähen	False
+Kannst du mir den Editor der geplanten Veröffentlichung sagen?	Ich komme mit dem Editor nicht gut zurecht.	Editor	False
+„Zugleich bemängelte der VIZK jedoch die Organisation, den Inhalt und die Besetzung der Islamkonferenz.“	„Besetzungen können illegal sein, können sich aber auch in rechtlichen Grauzonen bewegen oder gar geduldet werden.“	Besetzung	False
+Dieser Strand gehört den Surfern.	Bei dieser Site kommt nur selten einmal ein Surfer vorbei.	Surfer	False
+Ach du Scheiße!	Verdammte Scheiße!	Scheiße	True
+Die zwei Parteien haben eine Annäherung gewagt.	Eine Annäherung an die Militärbasis ist nur bei Nacht möglich.	Annäherung	True
+Eine der wichtigsten Einrichtungen im Sommerzeltlager war das Brett mit den Programmaushängen.	„Holst du bitte das Brett, Dorothea. Wir wollen Halma spielen.“	Brett	True
+Später tastet sie die Räume ab und erfasst Pflanzen, Schrank, Gesichter, Kleider, Vasen, Brustwarzen, Stuhl, den Blick nach draußen und nackte Männer, die mit Fächern wedeln.	Der 29-jährige Pitztaler, Führender nach dem ersten Durchgang, bewies im zweiten Lauf Nerven aus Stahl, Raich wedelte unbeirrbar seinem insgesamt bereits 30. Weltcup-Sieg entgegen.	wedeln	False
+Die Stangen am Barren werden als Holme bezeichnet.	Der Holm an seiner Axt war so morsch, dass er ihm beim nächsten Schlag durchbrach.	Holm	True
+Das Prädikat setze ich lieber ans Ende.	Sie setzte ihren Teddybären aufs Sofa.	setzen	False
+Die Band spielte schnellen Punk.	Die Punks sitzen saufend auf den Bänken.	Punk	False
+Durch gute Pflege konnte das Gebäude lange erhalten werden.	Der Sklave erhielt Schläge für seinen Ungehorsam	erhalten	False
+Am sechsten Dezember bläst immer ein Trompeter Weihnachtslieder vom Kirchturm herunter.	Der Wind blies ihr kräftig ins Gesicht.	blasen	False
+„Womit kann ich Ihnen dienen?“	Seine emsigen Studien dienten seiner späteren Kariere.	dienen	True
+Auf dem Felde der Physik war er ein As.	ein Feld mit 10 Elementen	Feld	False
+Wie geht es dir? Gut.	Unser Garten geht bis zu den Bäumen da hinten.	gehen	False
+Darf ich euch kurz unterbrechen?	Ich wurde so krank, dass ich die Reise unterbrechen musste.	unterbrechen	False
+Wir fanden eine sehr angenehme Aufnahme bei unseren Freunden.	Hast du bei der Aufnahme erwartet, dass solch ein Foto herauskommt?	Aufnahme	False
+Die Klagen und Anfragen, die auf diesem Amtswege vorgebracht wurden, sind säuberlich in Kladden festgehalten.	Dass eine Kladde oder ein Entwurf vorgelegen haben muss, scheint von der Bemerkung »Nonnulla desunt« (lat., 'einiges fehlt') im ersten Teil des Briefes bestätigt zu werden.	Kladde	False
+Der Soldat wurde offiziell für tot erklärt.	Kannst du mir das nochmal erklären?	erklären	False
+Möchtest Du ein ein oder zwei Brote essen?	Er sitzt nur bei bei Wasser und Brot.	Brot	False
+Die Semantik dieses Wortes ist noch unklar.	Unter Semantik werden in der Linguistik unterschiedliche Ansätze verstanden.	Semantik	False
+Das Parkleitsystem zeigt an, in welchen Parkhäusern es freie Plätze gibt.	Das Opfer zeigte den Täter bei der Polizei an.	anzeigen	False
+Großbritannien muss sich Ende des 19. Jahrhunderts der wirtschaftlichen Konkurrenz des erstarkten europäischen Kontinents stellen, bevor die USA im 20. Jahrhundert mit einer eigenen Wirtschaftspolitik und Dank ihrer schieren Marktgröße Europas Nationen überholen.	Du musst das Ende der Geschichte abwarten!	Ende	True
+Der Kontrollwagen wird mehrmals die Autobahn abfahren.	Der Zug fährt am Hauptbahnhof ab.	abfahren	False
+Die Sammlung zählt hunderte Gemälde.	Horst zählt die leeren Bierflaschen auf seinem Küchentisch.	zählen	False
+Die Bedienung der Maschine wurde ihm nicht hinreichend erklärt.	Die Bedienung war heute sehr aufmerksam.	Bedienung	False
+Kevin hat eine Sandburg gebaut.	Die Firma baut Autos.	bauen	True
+Ich weiß nicht, welche Aussage dieses Gemälde hat.	Er widerrief seine Aussage.	Aussage	False
+Bube, Dame und König gelten jeweils zehn Punkte.	Sein Wort gilt nicht besonders viel, weil er schon viele Versprechen nicht gehalten hat.	gelten	True
+Eine Massage dauert 45 Minuten.	Bis alle Schäden des Erdbebens beseitig sind, wird es noch Jahre dauern.	dauern	True
+Am Samstag fasste der Rat den Beschluss.	Ich weiß nicht, aber dein Rat gefällt mir nicht.	Rat	False
+Ein bekanntes Gericht ist die „Leber Berliner Art“, die mit Zwiebeln und Äpfeln zubereitet wird.	Die Leber ist die größte Drüse des menschlichen Körpers.	Leber	False
+Erst im dritten Kapitel führt der Schriftsteller die eigentliche Hauptperson ein.	Jeder hätte illegal Drogen in das Land einführen können.	einführen	False
+Genoveva hat es nicht verdient, dass auch nur ein einziger Jüngling ihrer begehrt.	So, so, du begehrst also, in meinem Haus wie ein König bewirtet zu werden?	begehren	False
+Lass es dir gut gehen.	Die Hauptstraße geht bis zum Bahnhof.	gehen	False
+Topp, die Wette gilt!	Die Wette gilt zehn Euro.	gelten	False
+Eine Parabel entsteht unter anderem durch den Schnitt eines Kegels mit einer Ebene, die parallel zu einer Erzeugenden des Kegels ist.	Die Ringparabel aus Lessings "Nathan der Weise" ist unter den deutschen Schülern sehr bekannt.	Parabel	False
+„Aus diesem Anlass zeigt das Deutsche Historische Museum eine Ausstellung zum Holocaust, dem nationalsozialistischen Völkermord an sechs Millionen Juden.“	„Hamad schrieb weiter, dass der Holocaust nicht auf die Juden beschränkt ist, sondern das andere Holocausts an anderen Völkern und Rassen verübt werden.“	Holocaust	False
+„»Nun ja, ich bin dir nicht fein genug, ich kenne die Subtilitäten deiner Sprache nicht, ich weiß nicht, was man in englischer oder französischer Sprache den Frauen sagen muß, um sie zu trösten. Ein anderer hätte die Kunst besser verstanden dein Vertrauen zu gewinnen, und vielleicht wäre es ihm gelungen, dein Herz, das gegen mich kalt und verschlossen bleibt, zu beruhigen. «“	„Mehreren Wellen gleich hebt und senkt sich der Boden unter dem Mahnmal, während gegenläufig dazu die Betonquader von den Rändern zum Zentrum hin an Höhe gewinnen, wodurch die Anlage eine geradezu wogende Anmutung erhält.“	gewinnen	False
+Bitte überzeugen Sie sich selbst von der Richtigkeit!	Erst nach Vorlage der Beweise konnte ich ihn überzeugen.	überzeugen	False
+Mit Seifenwasser lässt sich Silikon leichter verarbeiten.	Zimmerer verarbeiten jede Menge Nägel.	verarbeiten	True
+Nachdem sich eine Zustimmung in London abzeichnete, sei „Irland für sie die letzte Möglichkeit gewesen“.	Auch bedurfte es bei Pedro Pino und anderen hervorragenden Persönlichkeiten des Stammes keines großen Zuredens, sie zu bewegen, im kriegerischen Schmuck bei uns zu erscheinen und sich abzeichnen zu lassen.	abzeichnen	False
+Der Stein ist wunderschön geschliffen.	Wer von euch ohne Sünde ist, der werfe den ersten Stein auf sie	Stein	False
+Der Most hat 25 Grad Öchsle.	Hamburg und Edmonton liegen beide ungefähr auf 53 Grad 30 Minuten nördlicher Breite.	Grad	False
+Komm, lieber Mai, und mache die Bäume wieder grün.	Er machte sie zu seiner engsten Vertrauten.	machen	True
+Entwicklungsländer führen meist einfache landwirtschaftliche Produkte aus.	Könnten Sie das noch genauer ausführen?	ausführen	False
+Das jüngste Beispiel lieferte die Deutsche Bahn AG. Ende September wurde die von angesehenen Historikern verfasste Bahnhistorie vorgestellt, doch das Thema Zwangsarbeiter bleibt so gut wie ausgeklammert.	Ob die Nachhaltigkeitsberichte einerseits kritische Fragen ausklammern und wie - andererseits - das Verhältnis zwischen Bericht und Wirklichkeit aussieht, seien zwei zentrale Knackpunkte des Rankings, sagte IÖW-Geschäftsführer Thomas Korbun.	ausklammern	True
+Der Stamm ist die Grundform eines Wortes, die flektiert werden kann.	Zur Wortfamilie mit dem Grundwort/Stamm „Tisch“ gehören Ausdrücke wie „Tisch“, „auftischen“, „Nachtisch“.	Stamm	True
+Ich hatte gestern einen schönen Traum. Wer kann schon meinen wirren Traum deuten?	Es ist sein großer Traum, einmal Pilot zu werden. Sie stand da, angetan mit einem Traum von einem Kleid.	Traum	False
+Tür' und Tor standen offen.	Obwohl der Ball die Linie nicht überschritten hatte, schrieen die Fans alle: Tor, Tor, Tor!	Tor	False
+Bei der geringsten Unachtsamkeit poltert er sofort los.	Der Marder polterte im Dachboden ganz schön herum.	poltern	False
+Der Damm gab nach und brach ein.	Da nachgegeben wird, bleiben am Ende jedes Unternehmens nur die ewig naiven Optimisten, die, die auf das Unternehmen angewiesen sind und die, die eigentliche Schuld am Untergang des Unternehmens tragen, übrig.	nachgeben	False
+Wir machen es so, wie es uns gefällt.	Er machte sie zu seiner engsten Vertrauten.	machen	False
+Das Museum wird von privaten Stiftern getragen.	Er trug schwer an dieser Last.	tragen	False
+„Der Tag, selbst der grauste, war dagegen erquicklich...“	Mein Mantel ist grau.	grau	False
+Der Dank eines durch Trinkgeld gerührten Dieners klang ihm nach.	Dabei ist die offizielle Presseerklärung, das Unternehmen sei ihm "zu großem Dank verpflichtet", keineswegs als die übliche Trennungsfloskel zu verstehen.	Dank	False
+Brütende Schwäne sind sehr angriffslustig.	Der Schwan ist schneeweiß und fliegt von Juni bis August.	Schwan	False
+Ich begehrte schon lange, zu erfahren, was mein lieber Herr Sohn den ganzen Tag so trieb.	Der berittene Bote begehrte Einlass an der Zugbrücke.	begehren	True
+Er erkannte an meiner Reaktion, dass ich die volle Bedeutung seiner Worte erfasst hatte.	Mit seinem Sinn fürs Praktische erkannte er schnell, was die Wirkung dieses eigentlich schönen Gartens beeinträchtigte.	erkennen	True
+„Der Kontrapunkt als Kompositionstechnik unterlag in der Musikgeschichte sich wandelnden Regeln, die von der wechselnden Bewertung von Konsonanzen und Dissonanzen abhingen.“	„Mit der Betonung des kompromisslosen Kampfes gegen Israel setzt er bewusst einen Kontrapunkt zu Mahmud Abbas.“	Kontrapunkt	False
+Bei der Zeremonie nahm der Verteidigungsminister persönlich den Eid der jungen Rekruten ab.	Wegen der großen Anzahl durch den Mieter verursachter Schäden weigerte sich der Vermieter, die Wohnung abzunehmen.	abnehmen	False
+Sie legte sich einen modischen Schal um.	Der Patient wird auf die Intensivstation umgelegt.	umlegen	False
+Eine Dame ist schwächer als zwei Türme.	Spielen wir eine Partie Dame?	Dame	False
+„Er hatte sich auf § 43 der Reichsgewerbeordnung verlassen und übersehen, daß das Preßgesetz vom Jahre 1851 vorschreibt, daß bei Veröffentlichung von Plakaten vorher die polizeiliche Erlaubnis eingeholt werden müsse.“	„Nach 600 Metern konnte die 24-jährige Besitzerin den Hund einholen.“	einholen	False
+Wenn Menschen noch jung sind, ist es manchmal schwer festzustellen, ob sie maskulin oder feminin sind.	Sie will einen maskulinen Freund, kein Weichei.	maskulin	False
+Die Funktion f(x) = x2 liefert für das Argument 3 den Wert 9.	Sein Argument war sehr leicht zu widerlegen.	Argument	False
+Brich mir bitte ein Stück Brot ab.	„Ich habe gleich drei Stück gekauft.“	Stück	False
+Der kleine Siegfried kann schon bis acht zählen.	Horst zählt die leeren Bierflaschen auf seinem Küchentisch.	zählen	False
+Koste doch mal meinen selbstgemachten Kuchen!	Das hat ihn einen großen Haufen Geld gekostet.	kosten	False
+Wir haben immer wieder mit dem Ast an deine Fensterscheibe gestoßen.	Selbst im hintersten Irak stieß ich auf Leute, die aus Flensburg kamen.	stoßen	False
+Der 360-Grad-Kurs führte durch den Wald.	Dieser Kurs ist freibleibend.	Kurs	False
+Da sie arbeiten muss, überlässt sie ihre Kinder der Schwiegermutter.	Ich überlasse dir die Koffer, um die Bahnkarten zu besorgen.	überlassen	True
+Was bietest du mir dafür?	Diesen Moment gilt es zu nutzen. Er bietet sich nie mehr wieder.	bieten	False
+Ich werde mir einen neuen Pass ausstellen lassen.	Die Galerie stellt private Gemälde aus.	ausstellen	False
+Sie strebt danach, ihr Examen möglichst erfolgreich zu bestehen.	Verärgert strebte sie zur Tür, um sie dann zuzuknallen.	streben	False
+Bitte geben Sie diesen Brief noch bei der Post auf.	Die Mathelehrerin gibt den Kindern viel zu viel auf.	aufgeben	True
+Du treibst mich noch in den Wahnsinn.	Was treibst du denn so den ganzen Tag?	treiben	False
+Mit ihren ungewohnt hohen Absätzen stolperte die Braut den Gang entlang.	Bis Kassel mussten wir auf dem Gang stehen, dann wurden endlich zwei Sitzplätze frei.	Gang	True
+Iris sind eine in den gemäßigten Zonen der Nordhalbkugel heimische Gattung der Schwertliliengewächse mit ca. 300 Arten, die nach ihren Überdauerungsorganen in Zwiebel- und Rhizom-Iris unterteilt werden.<ref name="Iris" />	Die Färbung der Iris ist ein wichtiges individuelles Erkennungsmerkmalen eines Menschen und ist sogar im Personalausweis vermerkt.	Iris	False
+Er hat sein Amt an jemand Unbekannten übertragen.	Die Originalfassung eines Musikstückes kann auf ein anderes Instrument übertragen werden.	übertragen	True
+Das Fahrzeug wurde auf dem Bahnübergang von einem Zug erfasst und mitgerissen.	Er erfasste die Situation sofort.	erfassen	False
+Wenn Du glaubst, dass ich diesen Vertrag unterschreibe, irrst Du Dich.	Verzeihung, da habe ich mich wohl geirrt.	irren	True
+In der Ferne erhob sich ein Gebirge.	Das Volk erhob sich gegen diesen Herrscher.	erheben	False
+Auch die neuesten Nachrichten erleichterten uns nicht.	Er hat sie um ihr ganzes Vermögen erleichtert.	erleichtern	False
+„Und sie tippte so erregt mit dem Zeigefinger auf den Tisch, daß die Tassen wackelten.“	„Als der Polizeidiener zu ihr kam, fand er sie mit sechs ihrer Kinder in einem kleinen Hinterstübchen buchstäblich zusammengedrängt, ohne Möbel, ausgenommen zwei alte Binsenstühle ohne Boden, einen kleinen Tisch mit zwei zerbrochenen Beinen, eine zerbrochene Tasse und eine kleine Schüssel.“	Tasse	True
+Wir möchten Sie als unseren Mitarbeiter behalten.	Behältst du den Hund?	behalten	False
+Bedenke die Folgen!	Wir müssen auch unsere Freunde ausreichend bedenken.	bedenken	False
+Vor dem Rathaus erstreckt sich ein großer, gepflasterter Platz, auf dem dienstags und freitags der Markt stattfindet.	Die Uhr stand seit Jahren auf dem selben Platz über dem Kamin.	Platz	False
+„Hier konterte Gemeinderat Hans-Peter Wich mit dem Argument, dass auch bei einer Kreditaufnahme letztlich noch ein gewisser Ertrag erwirtschaftet werden könne.“	„Der Gemeinderat kann zur Erleichterung seiner Aufgaben vorberatende Ausschüsse einsetzen.“	Gemeinderat	False
+Wir können eine neue Beobachtung mitteilen.	Beobachtung ist ein wesentlicher Teil wissenschaftlicher Arbeit.	Beobachtung	False
+Viele Schauspiele von Schiller werden auch heute noch aufgeführt.	Die Sonnenfinsternis war für alle ein unvergessliches Schauspiel.	Schauspiel	False
+Ich vermittelte ihm, dass Petra nicht kommen würde.	Er versuchte im Streit zwischen den verfeindeten Nachbarn zu vermitteln und eine gütliche Lösung zu finden.	vermitteln	False
+Robert reicht Johanna die Hand hin, um sie zu begrüßen.	Die Kellner reichen gleich den Nachtisch.	reichen	False
+Sie nahm erst ab, nachdem es zehnmal geklingelt hatte.	Der Anschluss muss von einem Fachmann abgenommen werden.	abnehmen	False
+„Da hat der Penner schon seine dreckige Pfote in meiner Plastiktüte, um die Nüsse rauszuholen.“	„Die Geißlein riefen: »Zeig uns zuerst deine Pfote, damit wir wissen, daß du unser liebes Mütterchen bist.« Da legte der Wolf die Pfote auf das Fensterbrett.“	Pfote	False
+Michaela ist das sportlichste Mädchen der Klasse.	Er betreibt so gut wie keine sportlichen Aktivitäten.	sportlich	False
+„Als wir nun so zusammen aneinandergelehnt beruhigt saßen, schien er zu langweilen und machte mich auf einen flachen Kies aufmerksam, der von unserer Seite sich in den Strom hinein erstreckte. Da sei die schönste Gelegenheit zu baden.“	„Das Ministerium suchte dagegen ernsthafte Maßregeln zu ergreifen: bloß die größeren Dummheiten durften noch gedruckt werden, die kleineren erlaubte man nur in Gesprächen, solche Erlaubnis erstreckte sich nur auf Professoren und hohe Staatsbeamte, geringere Leute durften ihre Dummheiten bloß im Verborgenen lautwerden lassen“.	erstrecken	False
+„Vier Bieter bekommen Einblick in die Bücher der Landesbank. Sie müssen bis Mitte Februar Angebote abgeben.“	Ich muss weg.	müssen	False
+Flechten gelten als Bioindikatoren für den Reinheitsgrad der Luft.	Flechten entstehen aus einer Symbiose von Algen und Pilzen.	Flechte	True
+Die neuesten Wetterdaten wurden noch nicht statistisch erfasst.	Er erfasste die Situation sofort.	erfassen	False
+Diese Mühle wurde schon vor Jahren aufgegeben.	Ich werde zur Zeitung gehen und ein Inserat aufgeben.	aufgeben	False
+Die Gewalt des Sturms deckte viele Dächer ab.	Er wurde mit Gewalt aus seinem Auto gezerrt und verprügelt.	Gewalt	False
+Streck mir doch nicht den Rücken zu, wenn du mit mir redest, sonst verstehe ich dich nicht.	Sie verstand sich schon von frühester Jugend an sehr gut mit ihrer Mutter, mit ihrem Vater aber immer sehr schlecht, mit ihm hatte sie meistens Streit.	verstehen	False
+Der junge Schriftsteller war ein würdiger Anwärter für den Literaturnobelpreis.	Der Präsident erhielt ein würdiges Begräbnis.	würdig	False
+Ein Kegel ist die Menge aller Punkte, die sich zwischen einer vorgegebenen Kreisfläche und einem ausgezeichneten Punkt (der Kegelspitze) auf der Senkrechten durch den Kreismittelpunkt befinden. Lässt man beliebige Lagen der Spitze außerhalb der Kreisebene zu, spricht man allgemeiner von einem Schiefkegel.	Der Kegel des Vulkans ist schon von weitem zu sehen.	Kegel	True
+Die Herberge wird den Bettler sicher aufnehmen. Ich nehme den Igel auf bis er wieder gesund ist.	Ich werde das Fussballspiel auf Video aufnehmen. Hast du ein Bild von mir aufgenommen?	aufnehmen	False
+Bakterienkulturen züchtet man auf Agargel.	Das Ökosystem des Menschen ist seine Kultur. nach Michael Tomasello: Die kulturelle Entwicklung des menschlichen Denkens, p. 249, Frankfurt am Main 2002, Suhrkamp; Originalzitat: "Wir sind, wie Wittgenstein und Vygotskij so deutlich gesehen haben, Fische im Wasser der Kultur. Als Erwachsene, die die menschliche Existenz erforschen und über sie nachdenken, können wir nicht einfach die kulturelle Brille abnehmen, um die Welt kulturunabhängig zu sehen ..." Vgl. hierzu auch den Aufsatz Fische im Wasser der Kultur	Kultur	False
+Der Goldschmied jagt vor allem Schnecken und Würmer.	Der Goldschmied fertigt die Hochzeitringe.	Goldschmied	False
+Der Efeu windet sich um den Baum.	Heute windet es nur mäßig.	winden	False
+Sie teilen das gleiche Schicksal.	Der Bug teilt das Wasser.	teilen	False
+Topp, die Wette gilt!	Sein Wort gilt nicht besonders viel, weil er schon viele Versprechen nicht gehalten hat.	gelten	False
+Zu unserer geplanten Reise muss ich dir leider eine Absage erteilen.	Der Sprecher gab sich mit der Absage keine besondere Mühe.	Absage	False
+Gabriele kann ihre Position einnehmen, sie aber nicht ersetzen.	Die Heldin des Films Solo Sunny hat einen provozierenden Charakter und nimmt trotzdem für sich ein.	einnehmen	False
+Er brach die Sitzung ab.	„Newsreader, also die Programme, mit denen man am Usenet teilnimmt, haben im allgemeinen eine Funktion namens "Nachricht abbrechen", "Cancel Usenet Message" etc., um eine Cancel-Message zu erzeugen und abzuschicken.“	abbrechen	False
+Schnell, wo ist das Klo? Ich muss brechen!	Mit dem Auffahren von Panzern war der Widerstand fürs Erste gebrochen.	brechen	False
+Der hermetisch abgeriegelte Stadtkern wurde zur Sperrzone ernannt.	„Solche Ausbrüche aus dem hermetischen Zirkel orthodoxen Lebens aber gibt es nicht.“	hermetisch	True
+Der Mechaniker ließ das Öl vom Auto in eine Wanne ab.	Im öffentlichen Schwimmbad ist das Wasser leider abgelassen worden.	ablassen	True
+Es werden ihm seine Sünden vergeben.	Der Bund wird den Bauauftrag unter den sich in der gesetzten Frist bewerbenden Unternehmern vergeben.	vergeben	False
+Die Flächen bilden zusammen einen Würfel.	Der Würfel zeigt vier Augen, deshalb darf ich vier Felder weiter ziehen.	Würfel	False
+Um Amerikaner zu werden, bedarf es der Überwindung einiger bürokratischer Hürden.	Woher die ersten Amerikaner kamen, ist wissenschaftlich umstritten.	Amerikaner	True
+„Aus diesem Anlass zeigt das Deutsche Historische Museum eine Ausstellung zum Holocaust, dem nationalsozialistischen Völkermord an sechs Millionen Juden.“	„Die Deutschen sind für den Holocaust, die industriell betriebene Massentötung der Juden, verantwortlich.“	Holocaust	True
+Das Prädikat setze ich lieber ans Ende.	Ich setze die Geranien in den Kübel.	setzen	False
+Die Saat ist aufgegangen.	Alle Maschinen waren für die Saat vorbereitet.	Saat	False
+Die Schürfwunde entzündete sich, weil Margot sie nicht desinfiziert hatte.	Weißer Phosphor entzündet sich bei Kontakt mit der Luft schon bei Raumtemperatur.	entzünden	False
+Der Spieler stieß den Spielball mit dem Queue mitten in den Pulk der Roten.	Bei unserem Stadtbummel sind wir auf eine Vielzahl alter Bekannter gestoßen.	stoßen	False
+Der Ruf „Feuer!“ hallte durch das Haus.	Weil er gerade hier versagte, litt sein Ruf erheblich.	Ruf	False
+Zum Hacken legt man das Holzscheit auf einen Bock.	Den Bock kann man nicht melken.	Bock	False
+„Liberté, Egalité, Fraternité!“ (Freiheit, Gleichheit, Brüderlichkeit) ist als Devise der Französischen Revolution bekannt.	Sie stellt dauernd irgendwelche verrückten Sachen an, immer nach der Devise: „Papa wird’s schon richten.“	Devise	True
+Gabriele kann ihre Position einnehmen, sie aber nicht ersetzen.	Wir nehmen mit dem Renner der Saison mehr ein als mit dem Rest des Sortiments.	einnehmen	False
+„Zudem bildet sich eine wachsende Zahl sogenannter Internationalismen heraus, die, weil sie die Kommunikation erleichtern können, eigentlich willkommen sein müßten.“	„Wörter, die in alle wichtigen Kultursprachen entlehnt worden sind, nennen wir Internationalismen (man sagt auch Europäismen) und ähnliches)...“	Internationalismus	True
+Beim Anbau und bei der Verarbeitung der Rohstoffe wie Mais oder Soja fallen jedoch andere Umweltbelastungen an und drücken so auf die Gesamt-Ökobilanz.	In dem modernen Anbau sollen Service-Einrichtungen wie Cafeteria und Bibliothek untergebracht werden, aber auch vorübergehende Ausstellungen zu sehen sein.	Anbau	False
+"Eigentlich hat's ja nicht viel auf sich mit dem besten Pessimismus. An dem Glücklichen gleitet er ab wie Wasser an der pomadisierten Ente, und der Unglückliche weiß ohne weiteres Bescheid."	Auf dem Teich schwimmen Enten.	Ente	True
+Der Blütenstand des Fingerhutes ist eine Traube.	Im Herbst werden die Trauben gelesen.	Traube	False
+Die Ausstattung der Bände, ihre Papier- und Bindequalität ermöglichen jahrzehntelange Haltbarkeit auch bei starkem Gebrauch.	Ein neues Gesetz soll ermöglichen, dass Betroffene finanziell entschädigt werden.	ermöglichen	True
+Dieses Wochenende muss ich Wache schieben.	Auf der Reeperbahn ist die Davidwache, die wohl berühmteste Wache einer Polizeidienststelle.	Wache	False
+Er schlug ihn brutal zu Boden.	In Georg Trakls Gedicht "Sebastian im Traum" schlagen die Ruder leise im Takt.	schlagen	False
+sie stützte sich auf harte Fakten	Hartes Wasser hat mehr als 12 Härtegrade. Je nachdem wie hart Süßwasser ist, eignet es sich gut zum Waschen oder führt zur Verkalkung von Leitungen oder Maschinen.	hart	False
+In den großen Palästen Roms stand die Pinatheca gewöhnlich mit dem Atrium in Verbindung.	Aber vorn im Atrium scholl Hymenäen-Gesang und Flötenspiel.	Atrium	True
+Jeden Samstag wäscht und poliert er seinen alten Golf.	Beim Golf kann ich immer sehr gut entspannen.	Golf	False
+Ich war jahrelang abhängig, doch nun bin ich auf Entzug.	Die Prämie ist abhängig vom Umfang und der Höhe der gewählten Versicherungsleistungen.	abhängig	False
+Den inneren Aufbau der Pyramide haben wir nicht sofort durchschaut.	Die Aufbauten wurden durch die Welle weggerissen.	Aufbau	False
+„Unser Land befindet sich momentan in einer Depression.“	„Er leidet an einer monopolaren Depression.“	Depression	False
+„Vor allem versuchte Vaca die im ganzen Lande arg zerrütteten Geldverhältnisse zu ordnen und zu stärken, sowie auf einen regelmäßigen Export von Landeserzeugnissen hinzuwirken.“	„Export gibt es in den traditionellen Dortmunder, Münchener und Wiener Brauarten.“	Export	False
+Ein erwachsener Mensch soll täglich zwei Liter Flüssigkeit trinken.	Wasser ist eine Flüssigkeit.	Flüssigkeit	False
+Ihr Blutdruck ist normal.	Das Verhalten dieser Braunbärmutter ihren Jungen gegenüber ist nicht normal.	normal	False
+„Eine Weiße mit 'nem Himbeerschuß“ –	Doch heut' sieht man statt Braune nur noch Weiße	Weiße	False
+Sie löste die Haarspange, um etwas wilder auszusehen.	Für die U-Bahn musst du noch eine Fahrkarte lösen.	lösen	False
+Die Besetzung des Ruhrgebietes in den 20er Jahren dauerte etwas mehr als zwei Jahre.	„Die Besetzung von Häusern war oft ein ›politischer Protestakt gegen das politische System‹ des jeweiligen Staates.“	Besetzung	True
+Es ist bewundernswert in einer Sache voll aufgehen zu können.	Mist, der Knoten geht nicht auf!	aufgehen	False
+Ton kann große Mengen Flüssigkeit absorbieren.	Der Stoßdämpfer absorbiert die meisten Stöße.	absorbieren	True
+Die konstitutionellen Bedingungen erlauben es, die Wahlen vorzuziehen.	Konstitutionell ist er wieder ganz der Alte.	konstitutionell	False
+Die Unternehmer und ihr Handeln lehren uns vieles über die Macht von Ideen, über Ausdauer und Führungskraft – aber auch über Brutalität und Sturheit in der Wirtschaft. Sie sind Schöpfer und Zerstörer im doppelten Sinn.	Hat ein intelligenter Designer die Welt erschaffen? Religiöse Fundamentalisten glauben das und suchen den Kulturkampf mit der Wissenschaft. Die aber ist längst einen Schritt weiter: In den USA diskutieren Physiker darüber, wo der Schöpfer eine Botschaft für uns versteckt haben könnte.	Schöpfer	False
+Die Dummheit des Menschen ist grenzenlos.	Das, was du da getan hast, war eine Dummheit.	Dummheit	False
+Wir machen es so, wie es uns gefällt.	Wieviel macht das?	machen	False
+Ich unterrichte viele Gymnasial-Fächer.	Sir, ich muss Sie unterrichten, dass unser Generalsanwärter sich ihrem Befehl widersetzt hat.	unterrichten	False
+Wir verlassen nun die untern Räume und steigen vom Atrium aus treppauf, um den obern Zimmern unsern Besuch zu machen.	In den großen Palästen Roms stand die Pinatheca gewöhnlich mit dem Atrium in Verbindung.	Atrium	False
+Stell' das Essen in den Kühlschrank, dann hält es sich länger.	Ich halte das Ganze für ausgemachten Schwachsinn.	halten	False
+Die beiden klagen immer, dass sich ihre Kinder für rein gar nichts interessieren.	Hast du es nicht bemerkt? Niko interessiert sich für meine Schwester!	interessieren	True
+»… Aber bitte, Monsieur Pontence, verschonen Sie uns mit Ihren Kugeln. Blei kann mein Magen schlecht verdauen.«	Ich überlasse es Ihnen, den Chart sowie die Schlagzeilen zu verdauen, um eigene Schlüsse zu ziehen, in welche Richtung sich die soziale Stimmung bewegen wird.	verdauen	False
+Ich mache mir keine Sorgen um unsere Ressourcen, denn die zusätzlichen Belastungen werden im Rauschen untergehen.	Als die Titanic einen Eisberg rammte, ging sie unter.	untergehen	False
+Das steht ganz oben auf meiner Liste.	Ihr Name steht leider nicht auf der Liste.	Liste	False
+Mit dem Tor in der 22. Minute konnte die Mannschaft glänzen.	Die goldenen Münzen glänzen in der Sonne.	glänzen	False
+politisch am rechten Rand stehen	Das kostet zehn Rand.	Rand	False
+Er war von großer Gestalt.	Ihr naht euch wieder, schwankende Gestalten, die früh sich einst dem trüben Blick gezeigt.	Gestalt	False
+Mein Arbeitskollege hat den Kontakt hergestellt.	Feuerzeuge stellen wir nicht mehr her.	herstellen	False
+Seine Freundin ist eine wahre Schönheit.	Ich bin heute Abend ja von lauter Schönheiten umgeben!	Schönheit	True
+Das Atrium, nach dem das Haus seinen Namen hat, ist ein künstlicher Freiraum, von dem die Zimmer des Hauses ihr Tageslicht bekommen. Das Atrium ist rundherum bis in zweieinhalb Meter Höhe von Gebautem umgeben und ohne Kontakt mit der Umgebung.	In den großen Palästen Roms stand die Pinatheca gewöhnlich mit dem Atrium in Verbindung.	Atrium	False
+Wo ist deine Schule?	Die Schule ist ein massiger Bau und überragt die meisten Häuser dieses Städtchens.	Schule	True
+Als Kind hatte er stark gestottert und war in logopädischer Behandlung.	Solche Lobreden hatte der Jubilar nicht erwartet; er war so ergriffen, dass er nur noch einige Dankesworte stottern konnte.	stottern	False
+Im Puppenspiel wiederum – so die Psychologin – könnten auch Probleme verarbeitet werden.	In Deutschland werden 70 Prozent der Milch in genossenschaftlichen Molkereien (die praktisch den Milchbauern selbst gehören) verarbeitet.	verarbeiten	False
+Er ist auf der Suche nach Arbeit.	Das Spannen einer Feder oder das Anheben eines Gewichts kann durch Arbeit bewirkt werden.	Arbeit	False
+Bei den orthodoxen Kirchen handelt es sich um eine Gruppe von Kirchen, die in Kirchenverständnis, Lehre und Kult weitgehend übereinstimmen.	„Solche Ausbrüche aus dem hermetischen Zirkel orthodoxen Lebens aber gibt es nicht.“	orthodox	True
+„Schrift muß also als Medium einer Kommunikationsform eigenen Rechts begriffen und untersucht werden und nicht nur als unzulängliches Instrument der Aufzeichnung der Rede.“	Devanagari, Hieroglyphen, Keilschrift und Tengwar sind weitere Schriften.	Schrift	True
+„Er hat sich bestens präpariert für seine Aussage vor dem Kundus-Untersuchungsausschuss.“	„Andere Banden präparieren den Automaten mit einer Schlinge im Kartenschacht.“	präparieren	False
+Die Negativschlagzeilen haben viele Leute abgeschreckt, das Produkt zu kaufen.	Es wurde ein Exempel statuiert, um Nachahmer abzuschrecken.	abschrecken	True
+Hasen werfen mehrere Male pro Jahr bis zu vier Junge.	Er wirft den Ball ziemlich weit.	werfen	False
+Diesen Massenmörder kann man nicht mehr als Mensch bezeichnen, er ist eine Bestie.	Der Dompteur traut sich sogar zu diesen Bestien in den Käfig.	Bestie	False
+Großflächige Verbrennungen der Haut können zum Tode führen.	Die Inquisition führte häufig zur Verbrennung von Frauen, die für Hexen gehalten wurden.	Verbrennung	False
+Die Niederlage stimmte ihn traurig.	Die Rechnung stimmt.	stimmen	False
+Die Banken mussten hohe Posten abschreiben.	Das alte Kraftwerk ist längst abgeschrieben und bringt immer noch Gewinn.	abschreiben	False
+Er hat seine Lage gründlich reflektiert.	Der Spiegel reflektiert einfallendes Licht.	reflektieren	False
+Man munkelt, dass der Chef schon seit Jahren eine Affäre mit der Sekretärin hat.	Bei der Gerichtsverhandlung wurde die Affäre in allen Einzelheiten nochmals aufgerollt.	Affäre	False
+„Auch Stalin war kein Anhänger der Moderne; seine Präferenzen in Kunst und Architektur lagen beim Sozialistischen Realismus.“	„Dienten in der Moderne die Metaerzählungen noch dazu, gesellschaftliche Institutionen, politische Praktiken, Ethik und Denkweisen zu legitimieren, so geht in der Postmoderne dieser Konsens verloren und löst sich auf in eine Vielzahl von nicht miteinander zu vereinbarenden Wahrheits- und Gerechtigkeitsbegriffen.“	Moderne	False
+Sei nicht so grob zu mir!	Du bist aber ganz schön grob zu deiner Schwester.	grob	True
+Ein Fräulein ist eine Frau, der zum Glück (oder zum Glück?) der Mann fehlt.	Hans im Glück	Glück	True
+Schade, dass sie das Loch in seiner Tasche nicht gestopft hatte.	Er stopfte die Geldscheine in seine Tasche.	stopfen	False
+Die Tür ging auf, und herein kam Elvira Puvogel.	Die Sonne geht auf!	aufgehen	False
+Zum Unglück Meister Daniels aber war gleich danach auch sein alter Brauer Petersen gestorben, und die Witwe hatte den Mut zur Fortsetzung des Geschäfts verloren.	Mut hat Perspektiven, während Tapferkeit allenfalls Hoffnung haben kann.	Mut	True
+Viele bunte Spielbälle standen zur Auswahl.	„Der Irak - Ein Spielball der Weltwirtschaftsmächte“	Spielball	False
+Zum Glück konnte ich Zeugen für den Unfall beibringen.	Wer bringt denn dem Jungen solche Kraftausdrücke bei?	beibringen	False
+Die Krankenstation wird nächstes Jahr in den Ostflügel verlegt.	Der Zahnarzttermin muss verlegt werden.	verlegen	False
+Der Entzug ist eine sehr schwere Zeit für den Patienten.	Der kalte Entzug ist die Entwöhnung von einer Droge ohne Ersatzstoffe und geht oft mit körperlichen Schmerzen einher.	Entzug	True
+Die Null-Promille-Grenze gilt vor allem in osteuropäischen Ländern: Estland, Rumänien, Ungarn, Tschechien und die Slowakei erlauben gar keinen Alkohol am Steuer.	Selbst wenn sich die Kanzlerin auf der internationalen Ebene für die Finanzmarktsteuer starkmachen würde – global hat die Idee kaum eine Chance. Und alle Staaten müssten mitmachen, damit die Steuer funktioniert.	Steuer	False
+„Die amplifizierten DNA-Fragmente verschiedener Geflügel können sich in der Schmelzkurve unterscheiden.“PRACTICAL:	„Mit der Bezeichnung "Vogelgrippe" wollte man allgemein verständlich machen, dass das Virus von Geflügeln auf den Menschen übertragen wurde.“	Geflügel	True
+Ich muss mich mal wieder frisieren, meine Haare sehen schon ganz wild aus.	Hans frisierte seinen Roller, bis er damit über 120 fahren konnte.	frisieren	False
+Die Brücke sollte nicht im Rhythmus der Benützer mitschwingen.	In seinen Worten spürte man immer die Angst mitschwingen.	mitschwingen	False
+Die Parteien unterhalten parteieigene Stiftungen.	Seine Stiftung soll einem gemeinnützigen Zweck dienen.	Stiftung	False
+Den letzten Prozess haben wir verloren.	Die Entwicklung des Rechtsstaates war historisch ein langer Prozess.	Prozess	False
+Er rollte den Einkaufswagen zur Kasse.	Der Stein rollte den Berg hinunter.	rollen	False
+Kannst du mal die Leiter wieder aufstellen?	Die Wache ist vor dem Haupteingang aufgestellt.	aufstellen	False
+Haste mal 'ne Mark?	Echter Sago wird aus dem Mark von Palmen gewonnen.	Mark	False
+»Wahrscheinlich bin ich Ihnen außerordentlich unbequem, denn den spanischen Priester hätten Sie über die Grenze nach Bayonne abschieben können, und dort hätten die spanischen Bajonette Sie von mir befreit«	Hier gibt es keine Arbeit und keinen Verdienst, und darum muß ich einen jeden wieder abschieben, der aufs Geratewohl hierher kommt.	abschieben	True
+Den Vorgang schließen.	Der Reißverschluss schließt nicht mehr	schließen	False
+Heute gibt's Ente.	Auf dem Teich schwimmen Enten.	Ente	False
+Willst du dein Gepäck nicht endlich absetzen?	Werbungskosten kann man bei der Steuererklärung absetzen.	absetzen	False
+„Ich muß einige Abmessungen vornehmen; ich muß dieses Bauwerk in seiner ganzen Bedeutung kennenlernen“.	Er will sich den Jungen gleich nachher vornehmen.	vornehmen	False
+Wegen einer Bombenentschärfung wurde ein Teilstück der Bahnhofstraße gesperrt.	Nach zwei Stunden wurde das Kaninchen wieder in den Käfig gesperrt.	sperren	False
+Die Verhandlungen sind noch in vollem Gange.	Die Verhandlung muss vertagt werden.	Verhandlung	False
+Lass uns mal auf der anderen Straßenseite gehen; da vorne wird an der Fassade gebaut.	Es ist der Geist, den sich der Körper baut.“	bauen	True
+Wegen mangender Aufträge mußte ich meinen Betrieb aufgeben, nachdem die Bank meine Kreditlinie nicht weiter erhöhen wollte.	Ab Morgen sind Ferien, deswegen gebe ich euch keine Hausaufgaben auf.	aufgeben	False
+Die Glocken schwingen hin und her.	Felder schwingen durch elektrische Ströme angeregt.	schwingen	True
+„»Nun ja, ich bin dir nicht fein genug, ich kenne die Subtilitäten deiner Sprache nicht, ich weiß nicht, was man in englischer oder französischer Sprache den Frauen sagen muß, um sie zu trösten. Ein anderer hätte die Kunst besser verstanden dein Vertrauen zu gewinnen, und vielleicht wäre es ihm gelungen, dein Herz, das gegen mich kalt und verschlossen bleibt, zu beruhigen. «“	Er gewann gegen den Titelverteidiger.	gewinnen	False
+Wir haben immer wieder mit dem Ast an deine Fensterscheibe gestoßen.	Wir haben lange Stangen in die Erde gestoßen, an denen die Pflanzen hochranken sollen.	stoßen	False
+Büromaterial wird verkauft und erhalten die Zahlung vom Kunden bar. So wird das Konto "Kasse" in die sogenannte w:T-Konto Tabelle im Soll aktiviert.	Kleingewässer werden Soll auch Söll genannt.	Soll	False
+Die Bewährung in der Probezeit ist die Voraussetzung für eine endgültige Anstellung.	Zur Bewährung gehört oft, dass der Betreffende sich regelmäßig bei der Polizei meldet.	Bewährung	False
+Zum Schluss gibt man gesiebten Puderzucker darüber.	Siebenmal sieben ergibt gaaaaaaanz feinen Sand.	sieben	True
+Wir werden rechtzeitig am Ziel anlangen.	Alles, was uns anlangt, ist erledigt.	anlangen	False
+Die russische Botschaft befindet sich gleich hinter der nächsten Kreuzung.	Die Botschaft hör’ ich wohl, allein mir fehlt der Glaube	Botschaft	False
+So wurden sie noch nie missachtet - eine echte Beleidigung!	Sie hat das Gesetz missachtet.	missachten	False
+Wir verlassen nun die untern Räume und steigen vom Atrium aus treppauf, um den obern Zimmern unsern Besuch zu machen.	Aber vorn im Atrium scholl Hymenäen-Gesang und Flötenspiel.	Atrium	False
+Mädchen, brenn dir Locken / sonst bleibst du hocken	„Ich brenne darauf, ihn zu besuchen!“, „Mein Herz brennt für ihn!“	brennen	False
+Während das Wasser in die Wanne rauscht, freue ich mich bereits auf das Bad.	Ich habe leider die Sender im Radio verstellt und jetzt rauscht es nur noch.	rauschen	False
+Das steht sinngemäß bei Matthäus I. Vers 5-19.	Dieser Vers ist rhythmisch nicht ganz gelungen.	Vers	False
+Deine Gruppe war maßgeblich an der Aufklärung des Verbrechens beteiligt.	Um mehr über die militärischen Stellung zu erfahren, sollten wir eine Drohne zur Aufklärung hinschicken.	Aufklärung	True
+Nun kann jeder in der Wahlversammlung, also auch die Opposition, Kandidaten aufstellen. Die Opposition ist nur in einer prekären Situation, wenn sie nicht genügend Kandidaten benennen kann oder will.	Wenn ein Forscher eine neue Tier- oder Pflanzenart entdeckt, darf er sie auch nach sich selbst benennen.	benennen	False
+Mein Freund hielt um eine Stelle im Rathaus an.	Bei roten Ampeln sollte man im Straßenverkehr anhalten.	anhalten	False
+Im Harz finden sich viele Buchen.	Nimm doch das Parkett in Buche!	Buche	False
+Ein Stausee ist dazu da, Wasser für trockene Zeiten zu speichern.	Den Text müssen wir für spätere Verwendungen speichern.	speichern	False
+Das Ritzen ist eine der am weitesten verbreiteten Arten der Selbstverletzung.	„Ich glaube, meine Tochter ritzt.“	ritzen	True
+Ist mir gar nicht aufgefallen, dass du deine Haare getönt hast.	Es tönt wieder von allen Kirchturmspitzen.	tönen	False
+Das Paket war eine große Last für die Frau.	Sie hatte an der Last schwer zu tragen.	Last	True
+Die Firma eröffnet ein neues Werk in Klein Zschutzschnitz.	Dieses Bild ist das letzte Werk des Meisters.	Werk	False
+Der Stein ist bisher nur grob behauen.	Sei nicht so grob zu mir!	grob	False
+Als sie dies hörte, schossen ihr sofort Tränen in die Augen. Pfeilschnell schoss das Auto an uns vorbei. Warum schießt dir immer wieder derselbe Gedanke durch den Kopf?	Man hatte ihm ins Bein geschossen. Er hat sich eine Kugel in den Kopf geschossen.	schießen	False
+Wenn man an der Schnur zieht, hampelt der Hampelmann.	Der Hampelmann hat ja keine eigene Meinung - es gilt immer, was sie sagt.	Hampelmann	False
+„Nach Einbruch eines solchen Ensembles hat in einer Hotelhalle kein anderer Reisender mehr eine Chance.“	„Das futuristische Ensemble aus schöner Frau und kraftvollem Wagen erinnert stark an den Stil der angesagten Manga-Comics.“	Ensemble	False
+„Nur für Experten - der Hinweis soll ahnungslose Wanderer bremsen, denn die scheinbar endlose Wandquerung verlangt Kondition, eine solide Klettersteigerfahrung und vor allem die volle Ausrüstung mit Klettergurt, Seilstück, Karabiner und Helm.“	„Der M4A1 Karabiner wird von der US-Armee und in bestimmten taktischen Situationen auch von verschiedenen zivilen polizeilichen Einheiten wie FBI oder SWAT verwendet.“	Karabiner	False
+Bei unserem Nachbarn ist ein Pferd ausgebrochen, es lief dann in unseren Garten und zerstampfte den ganzen Rasen und die Beete.	Das Furchtbare, vor dem die Völker Europas zittern, ist Ereignis geworden. Der Krieg soll Menschenleiber, Wohnstätten und Felder zerstampfen.	zerstampfen	True
+Ich trinke ein Glas Wasser.	Gestern habe ich zu viel getrunken.	trinken	False
+Hose, Kleid, Mantel auf den Bügel hängen.	der eine Bügel meiner Brille ist abgebrochen.	Bügel	False
+„Ich muß einige Abmessungen vornehmen; ich muß dieses Bauwerk in seiner ganzen Bedeutung kennenlernen“.	„Nun will man sich Saddam vornehmen, nicht weil er die nächstgrößere Gefahr ist, sondern weil man glaubt, mit diesem schon eingeführten Feindbild auf siegerprobtem Terrain am besten klarzukommen“.	vornehmen	False
+Die Wildschweine richten große Flurschäden an.	Heute gibt's Wildschwein.	Wildschwein	False
+„Allerdings hatten Hacker viele dieser Fotos mit kunstvoll programmierten Datenanhängen präpariert.“	„Die Geldschein-Kopien waren mit Chemikalien präpariert und verursachten Farbflecken, die tagelang an den Händen haften bleiben.“	präparieren	True
+Melissa hat einen Hang zur Theatralik.	Der alte Senner rutschte den Hang herab.	Hang	False
+„Schülern wird empfohlen, sich bei der Anti-G-8-Protestgruppe Attac zu informieren.“	„» dann nach zehn Minuten – wenn abermals Besuchsverstärkung kommt, womöglich eine Mama mit vier heiratsfähigen Töchtern, für die nicht genug Sessel mehr frei wären – im Verein mit einigen anderen aufstehen, von der Hausfrau sich empfehlen und gehen ... nein, Gräfin, so etwas übersteigt meine ohnehin nur schwachen geselligen Fähigkeiten.«“	empfehlen	False
+Giacomo hat sich während seines Musikstudiums lange mit Funk beschäftigt.	Der einzige Mensch, den ich kenne, der Funk spielt, ist der fahle Johannes.	Funk	True
+Wahr ist vielmehr, dass viele höhere (verheiratete) NS-Funktionäre die Heime schätzten, um eine schwangere Geliebte dorthin abschieben zu können.	Diese sozialen Probleme werden aber von der Politik gerne ethnisiert. Damit kann die Politik leicht die Verantwortung abschieben.	abschieben	False
+Es kommt darauf an, wie man die Fragestellung wählt.	Meine Verbesserungsvorschläge kamen gut an.	ankommen	False
+Die Hauptstadt von Australien ist Canberra.	Im Australien des 19. Jahrhunderts gab es einen Goldrausch.	Australien	True
+„Was bildet dieser Penner sich eigentlich ein? Der hat doch keine Ahnung!“	„Da bist du ja, du blöder Penner. Ich werde dir deine Unfähigkeit schon austreiben.“	Penner	True
+Als er auch noch den Heizlüfter anschloss, brannte die Leitung durch und die Sicherung flog raus.	Udo ist seine Frau durchgebrannt.	durchbrennen	False
+Der kundige Leser kann hier noch weitere Chiffren entdecken.	Antwort unter Chiffre X1234Y5678 erbeten.	Chiffre	False
+an Kabeln hängen	Kabel verlegen	Kabel	False
+Das Flugzeug hebt ab, wenn es die nötige Geschwindigkeit erreicht hat.	Ich will einmal besonders darauf abheben, welche Verdienste sie sich bei und erworben hat.	abheben	False
+Sie wünscht sich ein Kind.	Er wünschte ihm ein frohes neues Jahr.	wünschen	False
+Es weht ein starker Wind.	Eine starke Sache!	stark	False
+Wer hat sich denn dabei als Akteur besonders hervorgetan?	Wer waren die Akteure auf der Bühne?	Akteur	False
+Im Puppenspiel wiederum – so die Psychologin – könnten auch Probleme verarbeitet werden.	Den ersten Schritt um die Vergewaltigung zu verarbeiten habe die Achtjährige getan, indem sie ihrer Mutter Bescheid gegeben habe. <	verarbeiten	True
+Frau Schmidt hat einen Liebhaber nach dem anderen.	Was du brauchst, ist ein erfahrener Liebhaber.	Liebhaber	True
+Sie versuchte so gut wie möglich die Mutter zu ersetzen.	Mike hat seine alte Freundin ganz einfach durch eine jüngere ersetzt.	ersetzen	False
+Dabei werden von einem Motor an der Erdoberfläche Bohrstangen in drehende Bewegung versetzt; am unteren Ende dieses Gestänges ist ein Meißel angeschraubt. Der Druck des Gestänges und die Drehbewegungen des Meißels zerkleinern das Gestein im Bohrloch, wodurch der Meißel immer weiter nach unten dringen kann.	In der riesigen Maschinenhalle drehen sich zwei gewaltige Wasserräder. Ober Zahnräder und Gestänge treiben sie zehn Solepumpen.	Gestänge	True
+Der Wal ist kein Fisch.	Fisch auf jeden Tisch.	Fisch	False
+Lass es dir gut gehen.	Ich gehe mich waschen.	gehen	False
+Der Teig muss noch gehen.	Es wurden keine Leute entlassen, ein paar sind freiwillig gegangen.	gehen	False
+„Ein Geschlecht vergehet, das andere kommt; die Erde aber bleibet ewiglich.“	das julisch-claudische Geschlecht; das Geschlecht der Merowinger, Karolinger, Ottonen, Staufer, Welfen, Habsburger, Bourbonen, ...	Geschlecht	True
+Genoveva hat es nicht verdient, dass auch nur ein einziger Jüngling ihrer begehrt.	Es polterten drei gestiefelte Kerle in die Herberge und begehrten ein Quartier für die Nacht.	begehren	False
+frei von Konservierungsstoffen	Der Weg ist frei.	frei	False
+Das Abendessen gibt es heute später, bis dahin müßt ihr hungern.	In einigen Gegenden Afrikas müssen Menschen aufgrund von Dürren hungern.	hungern	True
+Erst im dritten Kapitel führt der Schriftsteller die eigentliche Hauptperson ein.	Auch der Walnußbaum wurde schon früh nach Deutschland eingeführt.	einführen	False
+Ich studiere Medizin.	Nimm deine Medizin!	Medizin	False
+Der Dank eines durch Trinkgeld gerührten Dieners klang ihm nach.	Ich versammelte sie um mich und sprach zu ihnen wie zu Brüdern, denen ich immer noch Dank schuldig sei.	Dank	False
+Aus Angst klapperte er mit den Zähnen.	Es klappert die Mühle am rauschenden Bach.	klappern	True
+Bestimmen Sie das Intervall von C zu A!	„Daraufhin schlossen sich auch Aziza und Ahmet der kleinen Besuchergruppe an, wobei Ahmet mir in regelmäßigen Intervallen nonverbale Zeichen der Missbilligung sendete.“	Intervall	False
+Jedes Ding hat sein Maß und schließlich seine Grenzen.	Sechs Maß an diesen Tisch!	Maß	False
+Beim nächsten Oktoberfest werden sicher die Bierpreise wieder angehoben.	Kannst du bitte deinen Stuhl etwas anheben, ein Fuß steht auf meiner Jacke.	anheben	False
+So eine Scheiße! So ein verdammter Mist aber auch!	Mist ist als Dünger auch im ökologischen Landbau gestattet.	Mist	False
+Eine Rohrzange hat runde Backen.	Der Kleine hat so schöne rote Backen!	Backe	False
+Beim Stubbenroden gestern hat er sich völlig verausgabt.	Beim Einkaufen gestern hat sie sich völlig verausgabt.	verausgaben	True
+Der ins Wasser fallende Stein verursachte einige kleinere Wellen.	Rotes Licht hat längere Wellen als blaues.	Welle	False
+Du musst den Ball mit den Füßen treffen.	Sie am Wochenende zu treffen ist schwierig.	treffen	False
+„So ist zum Beispiel über die eine ein Netzwerk gemacht, und in jede Masche des Netzes ist eine Kugel eingelegt, glänzend himmelblau wie der schönste Türkis – vermutlich glasierter Ton.“	„Rund 100.000 Maschen zählt ein Pullover für einen Erwachsenen.“	Masche	True
+Um diese Grube auszuheben, müssen wir schon einen Bagger einsetzen.	Er setzte den Zünder in die Mine ein; damit war sie scharf.	einsetzen	False
+Beim Anbau und bei der Verarbeitung der Rohstoffe wie Mais oder Soja fallen jedoch andere Umweltbelastungen an und drücken so auf die Gesamt-Ökobilanz.	Diese Stube, die wie die ganze eine Hälfte des Hauses ein Anbau war, war größer und vornehmer.	Anbau	False
+Der technologische Vorsprung Deutschlands gegenüber China wird allmählich kleiner.	Er hatte einen so großen Vorsprung, das Rennen konnte er kaum noch verlieren.	Vorsprung	True
+Ich begehrte schon lange, zu erfahren, was mein lieber Herr Sohn den ganzen Tag so trieb.	Es polterten drei gestiefelte Kerle in die Herberge und begehrten ein Quartier für die Nacht.	begehren	True
+Du hast mir wieder keine Postkarte geschrieben!	Ich schreibe gerade an meiner Doktorarbeit.	schreiben	False
+Die Kapelle spielte einen Marsch.	Die wohl schönste gotische Kapelle der Welt ist die Sainte Chapelle in Paris.	Kapelle	False
+Genoveva hat es nicht verdient, dass auch nur ein einziger Jüngling ihrer begehrt.	Ich begehre, dass du das Lyzeum besuchest.	begehren	False
+„Aus diesem Anlass zeigt das Deutsche Historische Museum eine Ausstellung zum Holocaust, dem nationalsozialistischen Völkermord an sechs Millionen Juden.“	„In einem Urteil vom 15.3.1994 betrachtet der BGH die Leugnung der Holocausts als eine Verletzung des Schutzbereichs des § 189 StGB.“	Holocaust	False
+Jedem ist das Plot des Dramas bekannt.	Mit mehreren Stiften sind auch bunte Plots darstellbar.	Plot	False
+Günstig wäre eine Lage der Wohnung in der Nähe einer Bushaltestelle.	Wie sieht die wirtschaftliche Lage aus?	Lage	False
+Die Montage erfolgte im Studio in Hintertupfing.	So groß wie auf dem Bild ist der Mond niemals hinter dem Kirchturm zu sehen - ich denke, das ist eine Montage.	Montage	False
+Sie schlugen ihr Zelt am Waldesrand auf.	Lukas hat sich beim Spielen heute beide Knie aufgeschlagen.	aufschlagen	False
+Es empfiehlt sich wiederaufladbare Batterien (Akkumulatoren) zu verwenden.	Um die Addition vollziehen zu können muss der Wert in den Akkumulator geschrieben werden, das Ergebnis steht wiederum im Akkumulator.	Akkumulator	False
+Beim Telefon sollte man immer einen Block bereitliegen haben.	Ich wohne zwei Blocks weiter.	Block	False
+Der Einbruch der Aktienkurse war nicht vorhersehbar.	Der Einbruch konnte trotz Warnanlage nicht verhindert werden.	Einbruch	False
+Ich habe darauf gebaut, dass Du diese Woche Zeit hast, mir zu helfen.	Susanne baut Modellflugzeuge.	bauen	False
+„Vier Bieter bekommen Einblick in die Bücher der Landesbank. Sie müssen bis Mitte Februar Angebote abgeben.“	Nächsten Montag muss ich für ein Seminar nach Düsseldorf.	müssen	False
+Komm, lieber Mai, und mache die Bäume wieder grün.	Sie machte ihn zu ihrem Verlobten.	machen	True
+Stand der Dinge, niedrigster Stand, Stand der Arbeit, finanzieller Stand, auf niedrigem Stand, auf hohem Stand, auf dem neuesten Stand, mit Stand vom 11. 11.	er suchte sich einen geschützten Stand.	Stand	False
+Die Vereinbarung bildet die Grundlage für die weitere Zusammenarbeit.	Wenn die erforderliche Vereinbarung mit einer Behörde fehlt, ist der Antrag nichtig.	Vereinbarung	False
+Die Kurse sind wieder gefallen.	Der HTML-Kurs ist online abrufbar.	Kurs	False
+Aufgrund einer Entscheidung des Bundesinnenministers Wolfgang Schäuble bleiben die Akten im Mordfall Buback auch weiterhin gesperrt.	Der Personalratsvorsitzende sperrte sich gegen die Einführung weiterer Kontrollen.	sperren	False
+Zur Nachspeise gab es einen Auflauf mit Kompott.	Nach dem Unfall gab es schnell einen Auflauf Neugieriger.	Auflauf	False
+Die neue Fräsmaschine wurde in ihre Einzelteile zerlegt.	Der Koch zerlegte die gebratene Gans fachmännisch.	zerlegen	False
+Der Nahe Osten kommt nicht zur Ruhe.	Im Osten geht die Sonne auf.	Osten	False
+Erst im dritten Kapitel führt der Schriftsteller die eigentliche Hauptperson ein.	Der Importeur war darauf spezialisiert, Unterhaltungselektronik aus Asien einzuführen.	einführen	False
+Die Sache wurde bekannt und begann über die Studentenkreise hinaus Anstoß zu erregen; sogar ein Anschlag am Schwarzen Brett erschien, welcher den Studenten unter Androhung der Relegation den Besuch einer Reihe näher bezeichneter Häuser untersagte; natürlich nur ein Sporn zu noch heldenhafteren Taten.	Dass man in Spanien den Umweg der Relegation überhaupt nicht einkalkuliert hat, zeigt diese Panne.	Relegation	False
+Die wohl schönste gotische Kapelle der Welt ist die Sainte Chapelle in Paris.	Wo Gott eine Kirche hat, baut der Teufel seine Kapelle daneben.	Kapelle	True
+Wir ziehen hier verschiedene Obstsorten.	Die 13 wird mit am häufigsten gezogen.	ziehen	False
+„Bis 1872 nehmen die Setzer ihre Typen (Lettern) stets aus Kästen und stellen sie in Winkelhaken zu Zeilen zusammen.“	„Gutenbergs Erfindung der beweglichen Lettern, die er durch eine für die damalige Zeit sehr fortschrittliche Drucktechnik komplettierte, war ein kommerzielles Unternehmen, das ungeahnte Auswirkungen auf die weitere Entwicklung des Geisteslebens haben sollte.“	Letter	True
+Der Sicherheit am Arbeitsplatz wird oft eine zu geringe Priorität eingeräumt.	Wer eine Wohnung mietet, muss meist eine Monatsmiete als Sicherheit hinterlegen.	Sicherheit	False
+Gibt es noch Leute, die die Welt verbessern wollen?	Die Lehrerin hat die Klausuren noch nicht verbessert.	verbessern	False
+Die Lobby meines Hausarztes ist montags immer überfüllt.	Der Einfluss der Lobby der Automobilindustrie auf die Politik verhinderte strengere Klimaschutzgesetze.	Lobby	False
+Als die Lieferung endlich eintraf, wurde sofort mit der Montage begonnen.	Die Montage erfolgte im Studio in Hintertupfing.	Montage	False
+Der Afghane wurde 1910 geboren und verstarb 1999.	„Der Raubüberfall und die Ermordung von acht ausländischen Helfern und zwei Afghanen erfüllte die Allianz mit großer Betroffenheit und tiefer Trauer.“	Afghane	True
+Die Wellen bewegen das Schiff.	Sie bewegte nur den kleinen Finger.	bewegen	True
+Der Kamillentee schwappt über den Rand.	an den Rand der Verzweiflung bringen	Rand	True
+Er war bei einer Tochterfirma angestellt.	„Das war aber ein übles Foul!“ – „Ach was, der stellt sich bloß an!“	anstellen	False
+Er bewahrte seine Brille in einer Kapsel auf.	Früchte mit Kapseln gehören zu den Streufrüchten.	Kapsel	True
+Wir mussten die Nach unter freiem Himmel verbringen.	"Wer den Himmel auf Erden sucht, hat im Erdkundeunterricht geschlafen."	Himmel	False
+Der alte Wagen klapperte über das Kopfsteinpflaster.	Es klappert die Mühle am rauschenden Bach.	klappern	False
+Nun kann jeder in der Wahlversammlung, also auch die Opposition, Kandidaten aufstellen. Die Opposition ist nur in einer prekären Situation, wenn sie nicht genügend Kandidaten benennen kann oder will.	Viele Straßennamen wurden nach Persönlichkeiten der Stadt benannt.	benennen	False
+Ein Körper hat die Dimensionen Breite, Höhe und Länge.	Die Ausgaben haben Dimensionen angenommen, die nicht mehr zu verkraften sind.	Dimension	True
+Am Strand von Tanger, in der glühendheißen Sonne liegen sie, am Rande der Wüste (Ideal: „Sex in der Wüste“)	politisch am rechten Rand stehen	Rand	True
+Marie spielt seit zwei Jahren Klavier.	Kinder lernen am besten spielend.	spielen	False
+Ich stelle mir vor, dass wir in Zukunft eine andere Strategie verfolgen.	Darf ich Euch unser neues Projekt vorstellen?	vorstellen	False
+Die Waschmaschine läuft gerade.	Ja, äh... Läuft!	laufen	True
+Wartet auf mich, ich schließe mich euch an!	Deiner Meinung kann ich mich nur anschließen	anschließen	False
+„Sie manövrierten in Reih und Glied, und mit Hülfe ihrer Taucherkünste den See auch in seinen verschiedenen Tiefen, sozusagen in all seinen Etagen beherrschend, glückte es ihnen, überall da, wo sie Stand nahmen, ein lebendiges Netz durch den See zu ziehen: jede Masche ein geöffneter Kormoranschnabel.“	im übertragenen Sinne: „»Man ist eine Masche, man ist erbärmlich in die Welt verstrickt,« tönte es von den Lippen des Vaters zurück.“	Masche	True
+Im Internet werden möglichst sichere Kennwörter benötigt.	Zuschriften auf Kleinanzeigen an eine Zeitung werden oft unter einem Kennwort erbeten.	Kennwort	False
+Ich biete dir einen mehr als adäquaten Ersatz für dein altes Fahrrad.	Dieses Gebäude bietet dem Auge wenig Ergötzliches.	bieten	False
+Der Server ist schon wieder abgestürzt.	Wenn die Server von Wikimedia nicht funktionieren, wird es unruhig im Chat.	Server	True
+Darum musst du dich überhaupt nicht scheren.	Ludmilla hat sich nie um irgendwelche Vorschriften geschert.	scheren	True
+Er ist ein Meister seiner Zunft.	Er ist mein Herr und Meister.	Meister	False
+Der Importeur war darauf spezialisiert, Unterhaltungselektronik aus Asien einzuführen.	Auch der Walnußbaum wurde schon früh nach Deutschland eingeführt.	einführen	True
+Sie stutzt die Hecke mit einer Gartenschere.	Bei dieser Bemerkung stutzte er.	stutzen	False
+Die Rede des Betriebsrates wurde zur Pflichtübung.	Die offiziellen Feste verloren ihre Volkstümlichkeit und wurden eher als republikanische Pflichtübung absolviert.	Pflichtübung	True
+Jahrelang haben sie nun nach einem Erretter begehrt.	Begehrt Ihr, noch mehr meiner Kunstfertigkeiten präsentiert zu bekommen, Hoheit?	begehren	False
+Sie zieht zum Studium nach Freiberg.	Das Studium der Mathematik dauert 9 Semester.	Studium	True
+Susi trocknet ihre Haare mit dem Fön, toupiert sie und fixiert die ganze Frisur mit sehr viel Haarlack.	Die Früchte trocknen auf großen Gestellen in der Sonne und werden anschließend verpackt und verkauft.	trocknen	False
+"Die Bezeichnung Tenor bildete sich mit der beginnenden Mehrstimmigkeit heraus, als man die Stimme, die den Cantus firmus hielt, Tenor nannte, während die umspielenden Gegenstimmen Contratenor hießen."	Beniamino Gigli war einer der größten Tenöre seiner Zeit und galt als legitimer Nachfolger von Enrico Caruso.	Tenor	False
+Evangelikale Christen wollen die Wissenschaft aus der Schule verbannen.	In Diktaturen wird alle Kritik am Regime aus den Zeitungen verbannt.	verbannen	True
+Wer sich einen guten Steuerberater leistet, zahlt mitunter gar keine Steuern.	Die »unteren« Einkommen, die von der Steuer entlastet werden sollen, sind de facto mittlere, denn die Armen zahlen keine Einkommensteuer.	Steuer	True
+Das Mikrofon ist kaputt, deswegen ist die Aufnahme auf die Kassette gar nicht so gut wie wir hofften.	Die Kriterien zur Aufnahme von Elementen in das Verzeichnis unseres Betriebs finden Sie in den allgemeinen Bedingungen.	Aufnahme	False
+„Im nächsten Schritt wird sich die Vereinsführung nun intensiver mit der Frage beschäftigen, welche neuen Spieler zur nächsten Saison noch kommen sollen“.	„Dieses Problem beschäftigte ihn so sehr, dass er kaum Zeit für andere Tätigkeiten hatte.“	beschäftigen	False
+Deutschlands Verhältnis zu England, das seine Weltmachtsstellung auf See in Gefahr sah, war ohnehin durch den forcierten Ausbau der deutschen Kriegsflotte belastet.	Der Angeklagte wurde durch die Zeugen schwer belastet.	belasten	False
+Auf der Flucht vor der Polizei stießen die Täter eine Leiter beiseite, auf der ein Maler stand.	Mehmet begriff lange Zeit nicht, dass Melanie ein Kind von ihm erwartete. Man musste ihn regelrecht darauf stoßen.	stoßen	True
+Der Teig muss noch gehen.	Die Hauptstraße geht bis zum Bahnhof.	gehen	False
+Ein Vier-Zylinder- oder Sechs-Zylinder-Motor?	Eine Dose hat die Form eines Zylinders.	Zylinder	False
+Er gab den Befehl zum Auslaufen.	Der Befehl lautete: print X.	Befehl	False
+Ich bitte um ein Glas Wasser.	Ich bitte dich um einen Gefallen, kannst du mir das Buch herunterreichen.	bitten	True
+Der hochwürdige Herr Prälat wollte ihm durch diese Berufung zum Lehrer sein Vertrauen erweisen, wollte ihn dadurch auszeichnen.	Als er wieder zu sich kam, war er gebunden und mußte, trotz seines Passes und seiner Berufung auf Theopompus, den Häschern folgen.	Berufung	False
+in eine Klause zurückziehen	eine gemütliche Klause haben	Klause	False
+Ich habe mir gestern drei Angebote eingeholt.	Angebot und Nachfrage regeln den Preis in der Marktwirtschaft.	Angebot	False
+Hans im Glück	„Ich habe Glück in der Lotterie gehabt.“	Glück	False
+Irgendwie hegt er schwarze Gedanken.	Amerika hat im Dezember 2008 seinen ersten schwarzen Präsidenten gewählt.	schwarz	False
+Meine Versicherung weigert sich, für den Schaden aufzukommen.	Deinen Versicherungen traue ich nicht mehr.	Versicherung	False
+Ich bin im höchsten Grade konsterniert.	Der Most hat 25 Grad Öchsle.	Grad	True
+Das ist bei denen schon zur Macke geworden.	„Mit dicken Strichen zeichnet sie das Bild einer deutschen Groteske: Ob Bürger oder Penner, Türke oder Neonazi, alle hängen nur rum und nehmen achselzuckend zur Kenntnis, dass Menschen auf perverse Art umgebracht werden. Asozial sind sie alle, und wenn nicht, dann haben sei ' eine Macke.“	Macke	True
+Das Essen hat zwar nicht geschmeckt, dafür war die Garnitur sehr liebevoll angerichtet.	Ich habe mir eine neue Garnitur Bettwäsche geleistet.	Garnitur	False
+Er hatte sich Verletzungen am Rückgrat zugezogen.	Damit hat er wieder einmal Rückgrat bewiesen.	Rückgrat	False
+er macht eine gute Figur	im Roman treten verschiedene Figuren auf	Figur	False
+Ich möchte mal ein Spiel aussetzen.	Um den Tätern auf die Spur zu kommen, wurde eine Belohnung ausgesetzt.	aussetzen	False
+Ich werde den Tisch etwas vorziehen.	Es wurden schon immer die Knaben gegenüber den Mädchen vorgezogen.	vorziehen	False
+Ihre gesellschaftliche Stellung sollte man nicht unterschätzen.	Welche Stellung hast du genau?	Stellung	False
+Darauf werde ich hier nicht genauer eingehen.	Das wird in die Geschichte eingehen.	eingehen	False
+Bei einer Führung konnten die Besucher einen Blick in die alte Brauerei mit ihren großen kupfernen Sudkesseln werfen.	Es gibt verschiedene Typen von Brauereien, die unterschiedliche Sorten Bier nach verschiedenen Verfahren mit unterschiedlichem Automatisierungsgrad herstellen.	Brauerei	False
+Das Schwarzpulver explodierte schon beim Zubereiten.	Du darfst ihn nicht so reizen, sonst explodiert er.	explodieren	False
+Er hängt wirtschaftlich von seinen reichen Eltern ab.	Ich habe die Bilder abgehängt.	abhängen	False
+„Im nächsten Schritt wird sich die Vereinsführung nun intensiver mit der Frage beschäftigen, welche neuen Spieler zur nächsten Saison noch kommen sollen“.	„Aber auch die Schüsse auf Journalisten beschäftigen die Medien.“	beschäftigen	False
+Dieses Mal lasse ich dich davon kommen.	Er wurde schon mehrere Male erwischt.	Mal	True
+Wir bauen in unserem Garten Gemüse für den Eigenbedarf an.	Jetzt da wir noch ein Kind erwarten, werden wir wohl anbauen müssen.	anbauen	False
+Sie hat den Unfall nicht vorhersehen können.	Wer nur tut, was er kann, der bleibt, was er ist.	können	False
+Er war ein Mensch voller Bosheit, viele sind ihm aus dem Weg gegangen.	Das war eine Bosheit von ihr, mich so vor der Versammlung bloßzustellen.	Bosheit	False
+Die Kompanie wurde zeitweilig einer anderen Division unterstellt.	Unterstell mir nicht andauernd Sachen, die ich gar nicht gesagt habe!	unterstellen	False
+Der Ausgang des Spieles ist aus unserer Sicht gut.	Der Ausgang führt auf den Hof.	Ausgang	False
+Das ist ein Frack mit langen Schößen.	Der Schoß ist fruchtbar noch, aus dem dies kroch!	Schoß	False
+Ich habe Probleme mit meinem Kreuz.	Ah, mein Kreuz!	Kreuz	True
+Abgebrochene Zweige lagen am Boden.	In welchem Zweig sind Sie tätig?	Zweig	False
+Er hat eine Schwäche für dunkle Schokolade.	Mich überkam plötzlich eine unerklärliche Schwäche in den Beinen.	Schwäche	False
+„Bus“ ist eine Abkürzung von „Autobus“.	Weil er eine Abkürzung nahm, war er schneller am Ziel.	Abkürzung	False
+Auf einem Schachbrett stand der Steine bunte Schar / Nach Stand und Würden hingepflanzt; / Der hölzerne Monarch und seine Dame war / Von Reisigen und Türmen rund umschanzt.	Das weibliche Schachbrett ist größer als das männliche.	Schachbrett	False
+Die schwarzen und die heitern Lose -	Warum fährt er immer wieder schwarz?	schwarz	False
+Bitte noch zwei Korn!	Der schüttet die Körner nur so in sich rein!	Korn	True
+Bitte verleih deinem Bruder nicht wieder unsere Filme, denn er benutzt die DVDs immer als Untersetzer.	Für ihre herausragende Leistung beabsichtigt die Universität, Ihnen die Ehrendoktorwürde zu verleihen.	verleihen	False
+Ich hatte Ihnen doch aufgegeben, den Rasen zu mähen!	Ab Morgen sind Ferien, deswegen gebe ich euch keine Hausaufgaben auf.	aufgeben	True
+Die Kugel erreichte den fliehenden Schurken nicht.	Wir erreichen mit einem weiteren Gespräch nichts.	erreichen	False
+„Eine Aspiration kann vom Körper durch Heraushusten der aspirierten Substanz oder des Fremdkörpers selbst behoben werden („Sich verschlucken“).“	Ich schätze deine Aspiration, deine Russischkenntnisse zu perfektionieren.	Aspiration	False
+Er war bei einer Tochterfirma angestellt.	„Puh, den gestank hält ja kein Mensch aus!“ – „Ach komm, stell dich nicht so an!“	anstellen	False
+Der Vogel bewegt seine Flügel und schwingt sich in die Lüfte.	Dieser Flügel des Schlosses wurde 1789 erbaut.	Flügel	False
+Gerade biegen die Marathonläufer in einem auseinander gezogenen Feld ins Stadion und gehen in die letzte Runde.	Der Schlosser konnte das Rohr erst biegen, nachdem er es heiß gemacht hatte.	biegen	False
+In ihren Augen malt sich ihr Anmut.	Sie versteht es, Situationen mit einigen wenigen Worten zu malen.	malen	False
+Der Ausbruch des Vulkans könnte jeden Moment stattfinden.	Nach dem Ausbruch aus dem Gefängnis wurden die Sicherheitsvorkehrungen verstärkt.	Ausbruch	False
+Erst im dritten Kapitel führt der Schriftsteller die eigentliche Hauptperson ein.	Es führte ein paarmal den Löffel in die große Schüssel ein, aus dem alle die saure Milch schöpften.	einführen	False
+Die goldenen Heugarben verliehen den Feldern eine merkwürdige Schönheit im Sommer.	Unsicher, ob ein Feind hinter der Tür lauere, feuerte der Soldat eine kurze Garbe in sie hinein.	Garbe	False
+Die kranke Frau Klein wurde heute von Herrn Gross vertreten.	Beim Aufstehen habe ich mich vertreten und kann jetzt nur vorsichtig gehen.	vertreten	False
+Der Holzfäller fällt den Baum für die Weiterverarbeitung im Sägewerk.	Ein Urteil fällen	fällen	False
+Er steckte sich erst einmal eine Pfeife an.	Bei der Orgel mussten einige Pfeifen ersetzt werden.	Pfeife	False
+Sie betrachtet ihren Sohn, wie er ahnungslos weiter schreibt, und nur ihre zitternden Hände geben von ihrer inneren Bewegung Zeugnis. Aber sie sind sehr beredt, sehr, sehr beredt.	Da saß er schuldbewußt vor mir, mit beredter Körpersprache an mein Mitleid appellierend; da saß er — und ich. empfand Erbarmen: mein Freund, ein Stasi-Spitzel, einer von vielen.	beredt	False
+Rings leuchtete der Frühling in üppigem Flor. Damals stand die Universität von Helmstedt noch in vollem Flor.	Ihr Schleier war von feinstem Flor.	Flor	False
+Vor Wut stieß Lydia ihren Mann von sich.	Der Täter stieß seinem Opfer ein Messer in den Rücken.	stoßen	False
+Der Dank eines durch Trinkgeld gerührten Dieners klang ihm nach.	»... Dank und Lob stammelt meine Seele dir, du Schœpfer und Erhalter! deine Allgegenwart wachet yber uns mit segnendem Auge, wenn Nacht und Schlummer uns umhyllen. O – – mein Lob und mein Dank wallet empor mit dem Dank der ganzen erfrischeten Natur!«	Dank	False
+„Seine Herstellung untersteht in Deutschland der Kontrolle des staatlichen Instituts für experimentelle Therapie in Frankfurt a.M. , die auf dem bisher einzigen Wege des Tierexperiments vorgenommen wird.“	Er will sich den Jungen gleich nachher vornehmen.	vornehmen	False
+„Aus diesem Anlass zeigt das Deutsche Historische Museum eine Ausstellung zum Holocaust, dem nationalsozialistischen Völkermord an sechs Millionen Juden.“	„Für die meisten von uns ist die Judenverfolgung der Nationalsozialisten ein durch Medien vermittelter Teil der Geschichte. Wenn wir uns ‚erinnern,‘ haben wir Medienbilder vor Augen, ja sogar die Bezeichnung ‚Holocaust‘ hat sich nach der Sendung der amerikanischen Miniserie als Standardbezeichnung für den Massenmord am europäischen Judentum etabliert.“	Holocaust	False
+Tu(’)s wieder dahin zurück, wo es vorher war!	Was ihr sagt oder tut, ist mir egal.	tun	False
+„Der Henker stieß ihn unsanft von hinten auf dieses Gefährt zu und deutete an, dass er darauf steigen sollte, er hatte sich zur Feier des Tages in seine schönste Kluft geschwungen und schien den Rummel sehr zu genießen.“	„Von seiner zweiten Thronbesteigung (für knapp zwei Wochen Regierungszeit nur) im Jahre 1917, dem neuerlichen „inneren Exil" bis 1924, als er in der Kluft eines Kulis vor den anrückenden Truppen des Generals Feng Yu-hsiang in die japanische Konzession zu Tientsin floh.“	Kluft	True
+»Es wundert mich nicht, daß du dich dieser Dinge so lebhaft erinnerst: denn du nahmst gleich den größten Anteil daran. …«	Auch Jürgen Flimm wundert der Erfolg seines früheren Schützlings an der Oper nicht: „Er hat ein großes Rhythmusgefühl, er kann grafisch denken. Und er ist sehr fleißig.“	wundern	True
+Wir können die Proteste nicht mehr steuern!	Ich steuere das Raumschiff bis ans Ende der Galaxis.	steuern	False
+„Da hat der Penner schon seine dreckige Pfote in meiner Plastiktüte, um die Nüsse rauszuholen.“	„Auch das Weiß kommt in dieser Geschichte vor, denn der Wolf läßt sich beim Bäcker die Pfote weiß machen, nachdem ihn die Geißlein bei seinem ersten Besuch an der grauen Pfote erkannt haben.“	Pfote	False
+Das Unwetter versetzte uns in Angst und Schrecken.	Er hat sie versetzt, hatte aber triftige Gründe dafür.	versetzen	False
+Die Wissenschaftler vermuten daher, dass der geistige Verfall des weiblichen Gehirns schneller abläuft und Männer sich länger in einer Vorstufe zur Demenz befinden.	In Zeiten, in denen viele den Verfall der Sprach- und Lesefähigkeit von Kindern und Jugendlichen beklagen, setzt ´Tatort Bodensee´ gerade auf die Entwicklung und Förderung dieser Fähigkeiten	Verfall	True
+Er stürzte in Sekundenschnelle ab.	Heute stürzte nur der Server ab.	abstürzen	False
+Sie rückte an die Stelle des verstorbenen Chefs.	Er rückte den Stuhl in die Ecke.	rücken	False
+Kommt ihr mit ins Bad?	So, ich gehe ins Bad.	Bad	False
+„Hier soll unter Wort verstanden werden ein selbständiges Element einer sprachlichen Äußerung, das nicht aus anderen selbständigen Elementen besteht.“	Ich werde Dir gleich das Wort erteilen.	Wort	False
+Ein negatives Ergebnis sagt aus, dass kein Virus nachweisbar ist.	„Das Gesetz von Boyle-Mariotte sagt aus, dass der Druck idealer Gase bei gleichbleibender Temperatur und gleichbleibender Stoffmenge umgekehrt proportional zum Volumen ist“.	aussagen	False
+Er war schon immer ein brutaler Mensch.	Er war bekannt für seine brutalen Methoden.	brutal	False
+Mach die Beine breit!	Der Tisch hat vier Beine.	Bein	False
+Bei der Verbrechensbekämpfung besteht oft das große Problem, an die Hintermänner heranzukommen.	Der Hintermann, der hinter dem Mittelfeldspieler steht, sollte auch überwunden werden.	Hintermann	False
+Seine Arbeit macht ihm Spaß.	Er hat keine Arbeit.	Arbeit	False
+Ach, ist das ein süßes Plüschtier, das du da hast!	Süßer die Glocken nie klingen, als zu der Weihnachtszeit.	süß	True
+Ich kletterte an einem Vorsprung entlang, der guten Halt gab.	Er hatte einen so großen Vorsprung, das Rennen konnte er kaum noch verlieren.	Vorsprung	False
+Zur sicheren Aufbewahrung sticht man Nadeln am besten in ein Nadelkissen.	Lass uns nach drinne gehen. Überall sind Mücken und die Sonne sticht unbarmherzig.	stechen	False
+Der Pilot muss nach dem Start das Fahrwerk einziehen.	Wir sollten besser noch eine Zwischenwand einziehen.	einziehen	False
+Die Investition müsste sich in zwei Jahren amortisiert haben.	Sie amortisiert das Studiendarlehen (durch monatliche Ratenzahlungen).	amortisieren	False
+Den Anfang der französischen Revolution bildete der Sturm auf die Bastille.	Ein Sturm ist ein Wind der Stärke 9 bis 11 auf der Beaufort-Skala.	Sturm	False
+„Auch das Weiß kommt in dieser Geschichte vor, denn der Wolf läßt sich beim Bäcker die Pfote weiß machen, nachdem ihn die Geißlein bei seinem ersten Besuch an der grauen Pfote erkannt haben.“	„Die Hasentappe, die Pfote des Hasen, wurden vielfach dazu verwendet, um Staub und Unrat auszukehren.“	Pfote	True
+Ich möchte mich erst versichern, dass ich den neuen Job wirklich bekommen, bevor ich meine jetzige Stelle kündige.	Ich versichere dich meiner Hilfe. In dieser Angelegenheit werde ich dich nicht allein lassen.	versichern	False
+„Geben wir zu, wir sind auf jede Überraschung vorbereitet, nur die alltäglichen Dinge brechen über uns herein wie Katastrophen.“	„Wir haben eine kleine Überraschung für dich vorbereitet.“	Überraschung	True
+Wenn man sich nicht abspricht, muss man damit rechnen, dass nichts klappt.	Du sprichst nie mit mir ab, wann du nach Hause kommst.	absprechen	True
+Der Antiquitätenhändler erkannte, dass es sich um einen echten Rembrandt handelte.	Er erkannte an meiner Reaktion, dass ich die volle Bedeutung seiner Worte erfasst hatte.	erkennen	False
+Ein absolutistischer Herrscher war selbst schon eine Macht.	Der Staat hat die Macht, Gesetze zu erlassen.	Macht	False
+Kannst du mir die Dose aufmachen?	Ich gehe ohne Schlüssel joggen. Mach mir dann auf wenn ich zurückkomme.	aufmachen	True
+Im Editorial der Erstausgabe veröffentlicht der Herausgeber einen Brief in eigener Sache.	"In angelsächsischen, besonders amerikanischen Medien gibt das Editorial meist dezidiert die Meinung der oder des Herausgeber(s) und/oder der Chefredaktion wieder, was bei einem europäischen Leitartikel in der Regel auch der Fall ist – allerdings gibt es einige bemerkenswerte Unterschiede. So werden dort in Editorials seit jeher auch Wahlempfehlungen abgegeben, ..."	Editorial	False
+Prinzipiell lässt sich jede digitale Schaltung ausschließlich mit NAND-Gattern zusammenstellen.	Die Kinder klettern immer über das Gatter zum Nachbarn in den Garten.	Gatter	False
+Grundsatz der Produktionslehre: Nur die Produktion am technologischen Rand ist wirtschaftlich.	Investitionen müssen wirtschaftlich sein.	wirtschaftlich	False
+Der Spieler stieß den Spielball mit dem Queue mitten in den Pulk der Roten.	Selbst im hintersten Irak stieß ich auf Leute, die aus Flensburg kamen.	stoßen	False
+Deine Äußerungen sind wirklich geschmacklos!	Sauberes Wasser ist normalerweise geschmacklos.	geschmacklos	True
+Was für ein grauer Tag heute!	„Der Tag, selbst der grauste, war dagegen erquicklich...“	grau	True
+Dem Patienten wurde ein neues Herz eingesetzt.	Den Setzling wollen wir lieber im Gewächshaus einsetzen, es ist noch kalt.	einsetzen	True
+Vor Wut stieß Lydia ihren Mann von sich.	Selbst im hintersten Irak stieß ich auf Leute, die aus Flensburg kamen.	stoßen	False
+Grenzmann dessen Gedichte einen genauso hohen Stellenwert einnehmen wie die Gedichte Pöschkes starb jung.	Gabriele kann ihre Position einnehmen, sie aber nicht ersetzen.	einnehmen	True
+Leider sieht es auf unserem Konto etwas mau aus.	Der Anblick flößte mir ein maues Gefühl ein.	mau	False
+Sie sah attraktiv aus.	Er konnte sich keinen für ihn attraktiveren Job vorstellen.	attraktiv	False
+Ich spreche zwei Fremdsprachen fließend und ohne Akzent.	Du sprichst das falsch aus. Der Akzent liegt auf dem A.	Akzent	False
+Die Polizei war vorbereitet: Mit einem massiven Aufgebot sind Sicherheitskräfte in Sachsen-Anhalt landesweit gegen Sonnenwendfeiern von Rechtsextremisten vorgegangen.	„In dem Aufgebot ist der unbekannte Berechtigte aufzufordern, sein Recht innerhalb der Aufgebotsfrist anzumelden, widrigenfalls seine Ausschließung von der Befriedigung aus dem zugeteilten Betrag erfolgen werde.“	Aufgebot	False
+Wenn alles klappte war eine Belohnung vorgesehen.	Die Zeit ist um und der Gesetzgeber hat keine Fristverlängerung vorgesehen; Sie können ihr Geld also nicht mehr umtauschen.	vorsehen	True
+Und, bist Du gestern nacht noch zum Höhepunkt gekommen?	Das war der Höhepunkt seiner Karriere.	Höhepunkt	False
+Mit hängenden Zungen hecheln die zwölf Hunde etliche Minuten lang, bevor sie langsam abgekühlt sind und sich gemütlich in den Schnee kuscheln.	Intimer, das soll heißen Frau Streisand wird nicht mehr hechelnd treppauf und treppab hasten und pausenlos die Bühne auf und ab laufen.	hecheln	True
+„Mit Selbstverständlichkeit erlernt der Sprecher das Wort als Grundeinheit der Sprache, als Benennungseinheit, Bedeutungseinheit und Träger zusätzlicher Informationen.“	Spar dir deine Worte!	Wort	False
+Du musst nicht immer so vieles schelten.	Dass wir schelten, heißt nur, dass wir die reine Wahrheit sagen.	schelten	True
+Proxima Centauri ist der nächste Stern.	Die Sterne leuchten heute besonders hell.	Stern	True
+Das ist ein Frack mit langen Schößen.	Komm auf meinen Schoß!	Schoß	False
+Liane hat einen wunderschönen Alt, wenn sie spricht und singt.	Alt+1	Alt	False
+Lass es dir gut gehen.	Unser Garten geht bis zu den Bäumen da hinten.	gehen	False
+Der Knappe führt das Pferd in den Stall.	Der Manager führt das Unternehmen zum Erfolg.	führen	False
+Wir ritten auf Eseln zur Wartburg hinauf.	Mein Nachbar ist ein störrischer Esel.	Esel	False
+Der Stromverbrauch in den Haushalten wird durch Zähler ermittelt.	Jede Bruchzahl besteht aus Zähler und Nenner.	Zähler	False
+„Dabei war die Fahrtschnelligkeit natürlich nicht immer die gleiche. Wenn auf einzelnen Plätzen infolge allzu großen Andrangs von den Seiten große Umstellungen vorgenommen werden mußten, stockten die ganzen Reihen und fuhren nur Schritt für Schritt, dann aber kam es auch wieder vor, daß für ein Weilchen alles blitzschnell vorbeijagte, bis es, wie von einer einzigen Bremse regiert, sich wieder besänftigte.“	„Deshalb rasen sie in ihrer Feindschaft gegen jeden, welcher gleich Schopenhauer ihr Bedürfniss erkennt und wie eine Bremse auf ihrem Nacken sitzt; da zeigen sie Gebärden und Mienen, so roh und unbändig, dass ihnen oft genug die Larve der ‚Eleganz‘ und der ‚schönen Form‘ abfällt. Kommt aber gar ein ganzes Heer von solchen Bremsen über sie, so ist es mit ihrer ‚Cultur‘ völlig vorbei: denn sobald sie sich nicht mehr im Zaume halten und die künstliche Selbstbeherrschung verlieren, hört überhaupt ihre Macht auf: weil sie, sobald der hässliche Inhalt entblösst wird, Niemanden mehr belügen können.“	Bremse	False
+Sie löste die Haarspange, um etwas wilder auszusehen.	Erst mit einem Alter von dreißig Jahren konnte er sich so richtig von seinem Elternhaus lösen.	lösen	False
+Für die Reise benötigen wir einen Pass.	Den Pass kann man nicht bei jedem Wetter befahren.	Pass	False
+Hinter der frommen Fassade verbirgt sich ein kleines Teufelchen.	Die Fassaden wurden zur 100 Jahrfeier des Ortes alle erneuert.	Fassade	False
+Die Kürze der Röcke steigt mit der Länge der Tage.	In der Kürze der Zeit hat er Gewaltiges geleistet.	Kürze	False
+Der Chor sucht neue Sänger.	Im Chor befinden sich zu wenig Stühle.	Chor	False
+Er hat einfach keinen Geschmack und richtet sich immer nur in Glas und Edelstahl ein.	Ich werde mich auf deinen Besuch einrichten.	einrichten	False
+Eine 1,5 km lange Seilbahn verkehrt zwischen San Marino und Borgo Maggiore.	„In San Marino herrscht mediterranes Klima, das durch die Höhenlage etwas kühler ausgeprägt ist als an der nahe gelegenen Küste.“	San Marino	False
+Seine Haut war übersät mit rötlichen Punkten.	Die Ortschaft ist auf der Landkarte nur als winziger Punkt abgebildet.	Punkt	True
+„Zugleich bemängelte der VIZK jedoch die Organisation, den Inhalt und die Besetzung der Islamkonferenz.“	„Die anhaltende Besetzung des Irak, für die in der öffentlichen Meinung in den Vereinigten Staaten die Unterstützung schwindet, war ein beherrschendes Thema auf der politischen Agenda der Bush-Regierung.“	Besetzung	False
+Durch unablässiges Piesacken erfuhr sie starke seelische Schmerzen.	Der Täter fügte seinem Opfer mit einem Stock erhebliche Schmerzen zu.	Schmerz	False
+Nach dem Hors-d'œuvre folgte als nächster Gang die Suppe.	Bis Kassel mussten wir auf dem Gang stehen, dann wurden endlich zwei Sitzplätze frei.	Gang	False
+Für dieses Produkt müssen geeignete Verfahren noch entwickelt werden.	Das Verfahren dauerte wegen Überlastung des Gerrichts ungewöhnlich lange.	Verfahren	False
+Menschen mit Arachnophobie sollten den ersten Stock mit seinen fetten Vogelspinnen auslassen…	Während sich das ältere Personal mürrisch und in sarkastischen Andeutungen über die neuen Öffnungszeiten auslässt, zeigen sich die Jüngeren flexibler.	auslassen	False
+Ich habe die Lösung!	Die Lösung ist 3.	Lösung	True
+Sie haben das Recht auf freie Meinungsäußerung.	Das Recht der Bundesrepublik Deutschland ist mustergültig.	Recht	False
+Die Zelle teilt sich.	"Im Jahrzent zwischen 1830 und 1840 war die Erkenntnis von der Zelle als dem universellen Baustein aller Organismen gereift. JOHANN EVANGELISTA PURKINJE (1787 - 1869), ROBERT BROWN (1773 - 1858), MATTHIAS JAKOB SCHLEIDEN (1804 - 1881) und THEODOR SCHWANN (1810 - 1882) können als die Begründer der "Zellentheorie" angesehen werden. ... Erst RUDOLF VIRCHOW (1821 - 1902) verhalf der Erkenntnis zum Durchbruch, daß Zellen immer wieder nur aus Zellen hervorgehen können. Sein berühmter Satz "omnis cellula e cellula" erschien zum erste Male im Jahre 1855 in einem Aufsatz über "Cellularpathologie" "	Zelle	True
+Zusammen mit einer Bank verlieh er Geld an Beamte, die als Sicherheit eine Lebensversicherung in doppelter Höhe des genehmigten Kredits abschließen und dazu noch hohe Zinsen zahlen mußten. Als die Ermittlungen bis zu diesem Punkt vorgestoßen waren, mußte der Komplex Beamtenhilfe völlig ausgeklammert werden. Er wurde einer Sondergruppe übertragen, denn die langen Fragebogen der Kreditanträge, die von den Bedrängten ausgefüllt werden mußten, enthielten für die Nachrichtenleute sehr viel Interessantes.	Huleileh verteidigt nach wie vor den Inhalt seines Vertragswerks, das eine Zusammenarbeit in den Bereichen Zoll und Steuern sowie Industrie, Handel, Landwirtschaft und Tourismus vorsieht. Doch leider sei das Thema Abriegelung damals völlig ausgeklammert worden. Mit Sicherheitsfragen habe man sich allein in den politischen Verhandlungen auseinandergesetzt.	ausklammern	False
+Die Restauratorin trägt sehr vorsichtig die obersten Farbschichten ab.	Der Arzt musste die Warze abtragen.	abtragen	True
+Der Computer läuft wieder!	Das Wasser läuft den Boden entlang.	laufen	False
+Über einen milden Sommer würde ich mich freuen.	Die Speise ist nur mild gewürzt.	mild	False
+Sein Drang nach Geltung war übermächtig.	Nach ihrer Aufhebung im Jahr 1934, wurden die österreichischen Landesverfassungen 1946 wieder in Geltung versetzt.	Geltung	False
+Das ist mein letztes Wort!	Spar dir deine Worte!	Wort	True
+Jedes Pferd hat ein Mal auf dem Rücken.	Er hat ein kleines Mal an der Nase.	Mal	True
+Wir machen es so, wie es uns gefällt.	Was hast du nur aus mir gemacht!	machen	False
+Es wird sich erst in der nächsten Woche entscheiden, ob ich weiterhin hier wohnen werde.	Ich habe entschieden, ab nächster Woche nicht mehr zu rauchen.	entscheiden	False
+Das Model stellte sich in Positur.	Der Boxer stellte sich der Titelverteidigung.	stellen	False
+„Bradley sprach sich demgegenüber für einen Vorstoß der 3. US-Armee unter Generalleutnant George S. Patton durch Lothringen und ins Saarland aus.“,	„Diesbezügliche Vorschläge oder Vorstöße gingen möglicherweise von Goldmann aus, der mit Adenauer ein freundschaftliches Verhältnis unterhielt.“	Vorstoß	False
+In den Zeiten geringeren Wohlstandes wurden die 'Löcher' in den Socken noch gestopft.	Die Sandwespen benutzen Löcher in der Uferböschung als Behausung	Loch	False
+Durch den Einsatz von Wäschestärke war der Kragen ganz steif.	Sein steifes Verhalten machen ihn nicht geeignet als Portier zu arbeiten.	steif	False
+Ihr privater Hintergrund hat niemandem zu interessieren.	Was im Hintergrund geschieht, fällt niemandem auf.	Hintergrund	False
+Der Gürtel an der Hose spannt mir zu sehr.	Die Leine muss etwas mehr gespannt werden.	spannen	False
+Mit dem Clavichord, einem frühen Vorgänger des Klaviers, tourte er durch Deutschland und genoss die Gunst des Augenblicks, wenn auch hin und wieder nur vor drei Zuhörern.	1864 errang er die Gunst des bayrischen Königs Ludwig II., der seine Schulden bezahlte und ihn auch weiterhin unterstützte.	Gunst	False
+Für diese Arbeit reicht mein Vermögen nicht aus.	Sie hat ein Vermögen geerbt. Ob sie mit so viel Geld überhaupt umgehen kann?	Vermögen	False
+Ich mach' schon mal Feuer.	Sie warteten, bis der Feind das Feuer eröffnete.	Feuer	False
+Das Wort ergreifen.	Spar dir deine Worte!	Wort	True
+„Ich finde es sehr sportlich von dir, dass du deine Niederlage zugibst.“	Er betreibt so gut wie keine sportlichen Aktivitäten.	sportlich	False
+sich laut kreischender Groupies erwehren müssen	Die Eltern kreischten in Panik nach einem Arzt	kreischen	False
+Nur der bußfertige Mann wird bestehen.	Sein Aufsatz besteht aus Einleitung, Hauptteil und Schluss	bestehen	False
+Begehrt Ihr, noch mehr meiner Kunstfertigkeiten präsentiert zu bekommen, Hoheit?	So, so, du begehrst also, in meinem Haus wie ein König bewirtet zu werden?	begehren	True
+Verdaut sind diese Expansionsschritte nach Meinung von Experten allerdings noch lange nicht.	Es war kaum Zeit, all das Wissen zu verdauen: kein Studium für Leute, die sich nur mal umschauen wollen.	verdauen	True
+Der Teig muss noch gehen.	Der Schrank geht nicht durch die Tür. Es gehen nicht acht Leute in diesen Aufzug. Geht das nicht in deinen Kopf?	gehen	False
+„Ausführliche Statistiken zur Häufigkeit der Wortarten und bestimmter Unterklassen finden sich in einer weiteren Arbeit der gleichen Autorin (...).“	„Die Amerikaner lieben Statistiken.“	Statistik	True
+Jetzt wird Trumpf bedient!	Er bediente sich ihrer Kontakte, um eine Machtposition zu erlangen.	bedienen	False
+Du hast noch eine Menge zu lernen!	Eine Wassermenge von 37 Litern.	Menge	False
+Sehr geehrte Frau Müller,	Versteh einer die Frauen!	Frau	False
+„Der Ausflug in den Zoo war der Höhepunkt meiner Herbstferien.“	Das war der Höhepunkt seiner Karriere.	Höhepunkt	True
+Wir könnten den Urlaub noch um eine Woche verlängern.	Die Schneiderin verlängert die Hosenbeine mit viel Aufwand und Können.	verlängern	False
+Dieser Drucker ist unser neuestes Produkt.	Das Produkt der beiden Faktoren 4 und 6 ist 24.	Produkt	False
+Schreiben Sie bitte ihren Namen aus.	Obwohl das sonst so beliebte Seminar schon seit Wochen ausgeschrieben war, hatten sich noch nicht genügend Teilnehmer gemeldet.	ausschreiben	False
+Die Maske eine Viertelstunde einwirken lassen und dann mit lauwarmem Wasser abwaschen.	Wir müssen auf die Kontrahenten einwirken, damit sie etwas friedlicher werden.	einwirken	False
+Auf der Flucht vor der Polizei stießen die Täter eine Leiter beiseite, auf der ein Maler stand.	Der Täter stieß seinem Opfer ein Messer in den Rücken.	stoßen	False
+Da, voll guten Mutes, setzten sie bei der frischen Brise das Segel wieder, das sie jetzt in vollem Flug nach Westen der Heimat entgegentrug.	Also der Bringer des Heils, und ins Rossegeschirr sich erhebend, Faßt' er die Geißel geschwind' und das schöne Gezäum in die Hände, Und gab edelen Mut den Rossen zugleich und den Mäulern.	Mut	False
+Nach mehreren Stunden Aufstieg gelangten wir zur Schutzhütte.	Nach der Reparatur gelangte die Maschine doch noch zum Einsatz.	gelangen	False
+Menschen mit Arachnophobie sollten den ersten Stock mit seinen fetten Vogelspinnen auslassen…	"Gewiß wird der Mahdi zurückkehren", hatte sich der Ayatollah Sharietmadari 1978 über die mögliche Rolle Khomeinis ausgelassen, "aber bestimmt nicht in einer Boeing 747."	auslassen	False
+Das Display auf meinem Telefonapparat zeigt mir an, dass du versucht hast, mich anzurufen.	Das Opfer zeigte den Täter bei der Polizei an.	anzeigen	False
+Ich wiege mich täglich.	Der Kürbis wog zwei Kilogramm.	wiegen	False
+Das Kind kam zu Fall.	Aufgrund der neuen Erkenntnisse wird der Fall neu aufgerollt.	Fall	False
+Was ist die schnellste Verbindung nach Itzehoe?	Ich sehe keine Verbindung zwischen den beiden Morden.	Verbindung	False
+Die Anfahrt hat den Kindern viel zu lange gedauert.	Die Anfahrt zum Krankenhaus ist leider nicht ganz einfach zu finden.	Anfahrt	False
+sie stützte sich auf harte Fakten	Ein harter Aufprall	hart	False
+Es ist zweifelhaft, ob der Gastredner noch erscheinen wird.	Die blonde Dame hat einen zweifelhaften Ruf.	zweifelhaft	False
+Das Fleisch gart nun schon seit mehreren Stunden.	Die Kartoffeln gare man bei 180 Grad im Ofen.	garen	False
+In ihrem Bemühen, den Kaller Jugendlichen einen geeigneten Raum für regelmäßige Treffen bereitzustellen, ziehen alle Fraktionen an einem Strang.	Weiter ist geplant, einen Strang auf dem Meeresgrund über Griechenland nach Süditalien und einen zweiten über Serbien und Ungarn nach Österreich hinzuzufügen.	Strang	False
+Wegen der Schnecken pflanzen wir keinen Salat.	Ich mache den Salat mit Zitrone an.	Salat	False
+Die Kapelle spielte einen Marsch.	Wo Gott eine Kirche hat, baut der Teufel seine Kapelle daneben.	Kapelle	False
+Wir möchten Sie als unseren Mitarbeiter behalten.	Ich behalte alle Geburtstage meiner Freunde im Gedächtnis.	behalten	False
+Es gab nur einen Kandidaten; die Wahl erfolgte einfachheitshalber per Akklamation.	Bei Akademikern erfolgt Akklamation meist durch Klopfen auf den Tisch.	Akklamation	False
+Heute ist er nicht bei der Sache, er ist ganz zersteut.	Die Menschenmenge zerstreute sich sofort nach der Vorstellung.	zerstreuen	False
+Zuerst hörte er sich den Vortrag an und dann kritisierte er ihn.	Man hört es dir an, dass du Raucher bist.	anhören	False
+Das Schicksal dieser Leute interessiert doch keinen!	Claudia interessiert sich für holländische Architektur.	interessieren	False
+Bitterlinge gehören zu den Enziangewächsen.	Der Bitterling legt seine Eier in Muscheln ab.	Bitterling	False
+Das Feuer glüht so stark, dass man kaum hinsehen kann.	Das Rennen war so spannend, dass die Zuschauer vor Begeisterung glühten.	glühen	False
+Hast du den Tisch schon gedeckt?	Dieser Rüde hat schon tausend Hündinnen gedeckt.	decken	False
+Dem Brief haben wir noch ein weiteres Schreiben beigelegt.	Dank seiner Vermittlung konnte der Streit endlich beigelegt werden.	beilegen	False
+Ich halte dich fest im Arm.	Wie kann ein Zeppelin es schaffen, sich in der Luft zu halten?	halten	True
+Hier ist die Garderobe, wo ihr eure Sachen aufhängen könnt.	Er war ein Strolch durch und durch und wurde am Ende aufgehängt.	aufhängen	False
+Hänsel und Gretel haben sich im Wald verlaufen.	Nach der „Entente Cordiale“ waren die deutsche Bündnisverhandlungen mit England ergebnislos verlaufen.	verlaufen	False
+einen Schlüssel verlegt haben	Der Zahnarzttermin muss verlegt werden.	verlegen	False
+Der Autohändler hat Dich gefoppt.	Du willst mich wohl foppen?	foppen	True
+Dunkle Steine speichern die Sonnenwärme besser als helle.	Den Text müssen wir für spätere Verwendungen speichern.	speichern	False
+Klinsis Elf ist beseelt von Leidenschaft, sie strotzt vor Kraft und Neugierde, weil sie eigene Grenzen nicht kennt. Dies alles führt zu einer sportlichen Explosion, da wird hemmungslos und unbeschwert gestürmt, mitunter auch glücklich.	In Texas-City, 56 Kilometer südöstlich von Houston, sind mindestens 14 Menschen bei einer Explosion in der drittgrößten Ölraffinerie der Vereinigten Staaten ums Leben gekommen. Die Explosion riss ein tiefes Loch in die Erde, in direkter Umgebung wurden Bürogebäude zerstört, Autos explodierten und Flammen schossen mehr als siebzig Meter in die Höhe.	Explosion	False
+Ich kann mehrere Sprachen.	Mein Schüler kann das Gedicht noch immer nicht auswendig.	können	True
+Die Mutter gab nach und ließ ihrem Sohn ein Lutscher nehmen, als er einen Dackelblick aufsetzte.	Da nachgegeben wird, bleiben am Ende jedes Unternehmens nur die ewig naiven Optimisten, die, die auf das Unternehmen angewiesen sind und die, die eigentliche Schuld am Untergang des Unternehmens tragen, übrig.	nachgeben	False
+Also sie bauen weiter an dem neuen Damm im nordwestlichen Ende der Devils Bay.	Hinter dem Damm stauten sich gewaltige Wassermassen, deren Energie sich in den 200 Meter tiefergelegenen Turbinen entlud, um weite Teile des Landes mit Elektrizität zu versorgen.	Damm	True
+„Im arabischen und islamischen Kulturraum jedenfalls ist bis heute die Einschätzung weit verbreitet, letztendlich seien die Palästinenser über die Staatsgründung Israels, die als eine Konsequenz des Holocaust gedeutet wird, Folgeopfer des europäischen Antisemitismus und speziell des nationalsozialistischen Rassenwahns geworden; eine These, die freilich nicht nur dort vertreten wird.“	„Während und nach der Eskalation im Gazastreifen benutzten die palästinensischen und arabischen Medien den Ausdruck ‚Holocaust‘ in unterschiedlichen Zusammenhängen: ‚der Holocaust im Gazastreifen‘, ‚der israelische Holocaust‘ (um ihn gegen den Holocaust an den Juden abzugrenzen), ‚der zionistische Holocaust‘, ‚die Shaheeden des Holocausts‘, sie behaupteten, Israel drohe mit einem ‚Holocaust‘ an den Palästinensern, ‚Opfer des Holocaust‘, eine Ausstellung im Andenken an die palästinensischen Kinder, die im ‚Holocaust‘ getötet worden waren usw. usw. Der Palästinensische Islamische Dschihad drohte mit einem ‚Holocaust für jeden Holocaust‘ …. Angesichts des Erfolgs dieser Medienkampagne, rief Dr. Hassan Abu Hashish, Staatssekretär in der Informationsabteilung der Regierung von Ismail Haniya, zu einem verstärkten Einsatz des Ausdrucks ‚Holocaust, als Ausdruck, der das andauernde zionistische Massaker von Palästina beschreibt‘ (Felesteen, 18. März 2008).“	Holocaust	False
+Das Schiff kann 2.000 Passagiere aufnehmen.	Wer nur tut, was er kann, der bleibt, was er ist.	können	False
+Leg immer genug Holz nach, damit das Feuer nicht ausgeht.	Bei dem Ansturm ging uns schon nach einer Stunde das Gemüse aus.	ausgehen	False
+Das Model stellte sich in Positur.	Der Dieb stellte sich der Polizei.	stellen	False
+Er schnaubte in sein Taschentuch.	Der Chef kam herein und schnaubte mich an.	schnauben	False
+Wir haben immer wieder mit dem Ast an deine Fensterscheibe gestoßen.	Der Täter stieß seinem Opfer ein Messer in den Rücken.	stoßen	False
+Eine Kammer der Ärzte ist wie z.B. die der Steuerberater eine Berufsvertretung.	Die Kammer war sehr klein.	Kammer	False
+Die Gruppe befand sich in schlechter Gesellschaft.	Das Auto befindet sich in einem schlechten Zustand.	befinden	True
+Die hermetischen Nachrichten konnte niemand entschlüsseln.	„Solche Ausbrüche aus dem hermetischen Zirkel orthodoxen Lebens aber gibt es nicht.“	hermetisch	False
+Wartet auf mich, ich schließe mich euch an!	Nach seiner zehrenden Krankheit schloss sich eine langwierige Phase der Genesung an.	anschließen	False
+Manche alten Leute gehen freiwillig in ein Heim, wenn sie sich selbst nicht mehr versorgen können.	Sie sind stolz auf ihr neues Heim.	Heim	False
+Auf der Flucht vor der Polizei stießen die Täter eine Leiter beiseite, auf der ein Maler stand.	Wir haben lange Stangen in die Erde gestoßen, an denen die Pflanzen hochranken sollen.	stoßen	False
+Auf der Flucht vor der Polizei stießen die Täter eine Leiter beiseite, auf der ein Maler stand.	Selbst im hintersten Irak stieß ich auf Leute, die aus Flensburg kamen.	stoßen	False
+Lass es dir gut gehen.	Der Teig muss noch gehen.	gehen	False
+Was denkst du?	Sabine denkt immer viel zu kompliziert.	denken	False
+Peters Finger waren so kalt, dass er sie kaum regen konnte.	Das Kind regte sich im Schlaf.	regen	True
+Das Unwetter versetzte uns in Angst und Schrecken.	Die Uhr mussten wir leider versetzen.	versetzen	False
+„Er hat sich bestens präpariert für seine Aussage vor dem Kundus-Untersuchungsausschuss.“	„Allerdings hatten Hacker viele dieser Fotos mit kunstvoll programmierten Datenanhängen präpariert.“	präparieren	False
+Es gibt Bücher von Autoren, die wussten und billigten, was los war, und die heute noch immer keinen Johnny Walker trinken wollen (Büchnerpreisträger).	Hauptvorstand und Tarifvorstand der GDL billigten die Einigung einstimmig.	billigen	False
+Durch die Ausscheidung von Sauerstoff ermöglichen uns die Pflanzen das Atmen.	Nach der Ausscheidung Uruguays standen Brasilien und Italien im Fußballfinale.	Ausscheidung	False
+Wir mussten die Nach unter freiem Himmel verbringen.	Mit dem neuen Teleskop können sie weit in den Himmel sehen.	Himmel	True
+Der Tänzer geht ja richtig ab.	Die Tapeten brauchen mehr Leim, sonst werden sie von der Wand abgehen.	abgehen	False
+Vor jeder Wahl wird die Senkung der Steuern versprochen.	In der Senkung dort vorne habe ich gestern Rehe beobachtet.	Senkung	False
+Der neue Lehrling lässt sich gut an.	Die Sache, die wir neulich besprochen haben, lässt sich nicht so besonders an.	anlassen	True
+Das Schiff kann 2.000 Passagiere aufnehmen.	Mein Schüler kann das Gedicht noch immer nicht auswendig.	können	False
+Der Ausgang führt auf den Hof.	Wir befinden uns wieder am Ausgang des Tales.	Ausgang	True
+Sie werden die Verantwortung für diesen Vorfall übernehmen.	Übernimm du die linke Seite, ich sichere den rechten Flügel!	übernehmen	True
+Nun bietet sich Ihnen die einmalige Gelegenheit, die neueste Entwicklung unseres Hauses, dieses völlig neuartige Reinigungsgerät, exklusiv und kostenlos in Ihrem Haushalt zu testen.	So eine Chance wird sich mir nie wieder bieten.	bieten	True
+Erst im dritten Kapitel führt der Schriftsteller die eigentliche Hauptperson ein.	Das Fieberthermometer wird rektal eingeführt.	einführen	False
+Trotz der vielen Tatverdächtigen kam es nur in zwei Fällen zu Anklagen.	In seinem Buch formuliert er eine bittere Anklage gegen die öffentlich rechtlichen Sendeanstalten.	Anklage	False
+Die Proteste haben mittlerweile eine eigene Dynamik entwickelt.	Die Newtonsche Axiome sind die Grundgesetze der Dynamik.	Dynamik	False
+Obwohl Sandra vierzig Jahre in einem Vorort von München gewohnt hat, ist sie den Bayern immer eine Fremde geblieben.	Peter ist sehr reisefreudig, es zieht ihn immer wieder in die Fremde.	Fremde	False
+Auch im Provinzstädtchen Leninsk, wo sich der Verfall der UdSSR als Panorama einer von innen verrotteten Gesellschaft spiegelt.	Der körperliche und psychische Verfall des Vaters löst bei den Geschwistern unterschiedliche Gefühle aus, von Unbehagen über Aggression bis hin zu Schuldgefühlen und Scham.	Verfall	False
+Viele alte Eisenbahnbrücken sind inzwischen stark vom Rost angegriffen.	Lichtschächte im Kellergeschoss werden meist mit eisernen Rosten abgedeckt.	Rost	False
+Nach dem das Fußballspiel in der ersten Halbzeit eher langweilig war, gewann es in der zweiten an Bewegung.	Es gelang dem Judoka, mit einer komplizierten Bewegung dem Angriff auszuweichen und den Gegner zu Boden zu werfen.	Bewegung	False
+Wir machen es so, wie es uns gefällt.	Sie machte ihn zu ihrem Verlobten.	machen	False
+Wir liebten uns die ganze Nacht.	Sie lieben Nudeln, sie essen sie dreimal die Woche.	lieben	False
+Die Mohammed-Karikaturen in einer dänischen Tageszeitung empörten viele Muslime weltweit.	Die Kunden empören sich ob der schlechten Beratung durch den neuen Verkäufer.	empören	False
+Er schlug ihn brutal zu Boden.	Dein Herz schlägt.	schlagen	False
+Nach seiner Einstellung erhielt der Page eine Einführung in sein Aufgabengebiet	Die Einführung der Prohibition stieß auf Widerstand.	Einführung	False
+Ehemals lebte in Nordamerika eine Vielzahl von Stämmen, die zu den Indianern zählten.	Max klettert schnell den Stamm hinauf.	Stamm	False
+Bei Wiederkäuern ist die Gaumenhöhle eine selbstständige Bildung.	Eva erweitert ihre Bildung.	Bildung	False
+Wir müssen heute noch unbedingt buttern.	Derzeit werden viele Milliarden in die Banken gebuttert.	buttern	False
+Der Fall wird vor Gericht verhandelt.	Aufgrund der neuen Erkenntnisse wird der Fall neu aufgerollt.	Fall	True
+Das Ökosystem des Menschen ist seine Kultur. nach Michael Tomasello: Die kulturelle Entwicklung des menschlichen Denkens, p. 249, Frankfurt am Main 2002, Suhrkamp; Originalzitat: "Wir sind, wie Wittgenstein und Vygotskij so deutlich gesehen haben, Fische im Wasser der Kultur. Als Erwachsene, die die menschliche Existenz erforschen und über sie nachdenken, können wir nicht einfach die kulturelle Brille abnehmen, um die Welt kulturunabhängig zu sehen ..." Vgl. hierzu auch den Aufsatz Fische im Wasser der Kultur	Was ist nicht alles Kultur?	Kultur	True
+Auf der Flucht vor der Polizei stießen die Täter eine Leiter beiseite, auf der ein Maler stand.	Bei unserem Stadtbummel sind wir auf eine Vielzahl alter Bekannter gestoßen.	stoßen	False
+Die Präposition „ab“ ist eine Partikel.	„Über die Adverbien ist hier nichts besonderes zu sagen; dagegen seien die Partikeln (nicht flektierende Wörter) besonders erwähnt.“	Partikel	True
+In der Ferne erhob sich ein Gebirge.	Er wurde in den Adelsstand erhoben.	erheben	False
+„US-Notenbankchef Ben Bernanke hatte gesagt, die Fed sei willens und bereit, bei einer Erholung der Konjunktur die überschüssige Liquidität abzuschöpfen, um einer Inflation vorzubeugen.“	Du schöpfst nun zuerst einmal das Fett von der Suppe ab.	abschöpfen	False
+Der Einschlag des Blitzes hinterließ ein gewaltiges Loch.	Der Einschlag betraf vor allem windgeschädigte Bäume.	Einschlag	False
+Meerwasser enthält viele gelöste Stoffe.	Auf dieser Reise bot sich reichlich Stoff für ihren neuen Roman.	Stoff	False
+Patagonien wird oft als sehr raues Land beschrieben.	Die rauen Stellen müssen noch geglättet werden.	rau	False
+Ein schier endloser Strang aus Nerven, glänzend wie Seidenbast, teilt sich und teilt sich in millimeterdünne Nervenwurzeln und feinste Faszikel: das menschliche Hauptkabel.	Darauf in die Mitte einen dicken Strang Creme spritzen.	Strang	True
+Der Pilot muss nach dem Start das Fahrwerk einziehen.	Die Sportler zogen zur Eröffnungsfeier in das Stadion ein.	einziehen	False
+Der Blütenstand des Fingerhutes ist eine Traube.	Der Weinstock hängt voller Trauben.	Traube	False
+Es macht mir überhaupt nichts aus, dass es heute regnet.	Es war ausgemacht, im Anzug zu erscheinen.	ausmachen	False
+Es gibt sehr viele unentdeckte Talente auf dieser Welt.	Man muss sein Talent für das Musizieren unbedingt fördern.	Talent	False
+Nach Angaben des Touringclubs blieben Dienstag früh zahlreiche Lkw auf der schneeglatten Fahrbahn auf der Westautobahn vor der Abfahrt Salzburg Mitte und bei Salzburg Nord hängen.	Abfahrt 9.52 Uhr, Hamburg-Hauptbahnhof, Gleis 5	Abfahrt	False
+Zwischen den Häusern gibt es eine unterirdische Verbindung.	Was ist die schnellste Verbindung nach Itzehoe?	Verbindung	True
+Die Klasse „Baum“ könnte eine Unterklasse „Eiche“ haben.	Meine Kollegin hat dieses Jahr eine wilde Klasse.	Klasse	False
+ein guter Ort, am angegebenen Ort	Im nächsten Ort gibt es bestimmt ein Gasthaus.	Ort	False
+Jetzt, wo sich Überkapazitäten abzeichnen, möchte man sich offensichtlich aus der Gemeinschaft verabschieden.	Eine Systemkrise - die sich derzeit hierzulande aber nicht abzeichnet - würde die finanziellen Ressourcen des Staates und der Finanzinstitute also extrem strapazieren.	abzeichnen	True
+An der nächsten Station müssen wir aussteigen.	Auf welcher Station liegt Frau Schnarrenberg?	Station	False
+einen Bruch erweitern	Ich habe diese Tabelle um eine Spalte erweitert.	erweitern	True
+Allmählich vollzog sich die Verwandlung von der Raupe in den Schmetterling.	Er vollzog alle ausgesprochenen Urteile.	vollziehen	False
+Der Kamillentee schwappt über den Rand.	an den Rand des Abgrunds bringen	Rand	True
+Teile der Schnellstraßen-Brücke waren am 1. August während des Feierabendverkehrs eingebrochen und in den Mississippi sowie auf eine andere Fahrbahn gestürzt.	Mississippi ist ein Bundesstaat im Süden der Vereinigten Staaten von Amerika am Golf von Mexiko.	Mississippi	False
+Die Brühe durch ein feines Sieb passieren, die Flüssigkeit vorsichtig auffangen!	Das darf nicht noch mal passieren!	passieren	False
+Sie trank ihre Tasse hastig aus, bevor sie zur Arbeit eilte.	„Als der Polizeidiener zu ihr kam, fand er sie mit sechs ihrer Kinder in einem kleinen Hinterstübchen buchstäblich zusammengedrängt, ohne Möbel, ausgenommen zwei alte Binsenstühle ohne Boden, einen kleinen Tisch mit zwei zerbrochenen Beinen, eine zerbrochene Tasse und eine kleine Schüssel.“	Tasse	False
+Zimmerer verarbeiten jede Menge Nägel.	Das entspricht zwar der halben Fläche Österreichs, doch derzeit bebauen die Vereinigten Staaten siebenmal so große Flächen mit Mais, der zum überwiegenden Teil ebenfalls zu Biosprit verarbeitet wird. Bis zu 70 Prozent einer Alge kann zu Öl verarbeitet werden.	verarbeiten	False
+In der ersten Klasse wird den Kindern das Lesen beigebracht.	Wer bringt denn dem Jungen solche Kraftausdrücke bei?	beibringen	True
+Die Annahme des Vorschlags war an Bedingungen geknüpft.	Annahme verweigert!	Annahme	False
+und sie werden sein ein Fleisch.	Während der kirchlichen Fastenzeit ist man angehalten, den Verzehr von Fleisch zu vermeiden.	Fleisch	False
+Bitte geben Sie diesen Brief noch bei der Post auf.	Ihr Verschwinden gab uns viele Rätsel auf.	aufgeben	True
+Vor Wut stieß Lydia ihren Mann von sich.	Bei unserem Stadtbummel sind wir auf eine Vielzahl alter Bekannter gestoßen.	stoßen	False
+Die Hefeklöße dämpft man bei starker Hitze 10 bis 20 Minuten.	Die Nachricht vom Abstieg seiner Lieblingsmannschaft dämpfte Karls Freude über das schöne Wetter.	dämpfen	False
+Die Mitgliederversammlung ist das höchste Organ des Vereins.	Wie eine Maschinerie begannen die Organe zu arbeiten.	Organ	True
+Auf Anfrage erhielten Sie Einsicht in die Akten.	Durch Einsicht können Menschen lernen vieles besser zu verstehen.	Einsicht	False
+Die Meise landete auf einem dünnen Zweig.	Kolumbus landete zuerst auf Hispaniola.	landen	False
+Fast alle Länder der Erde sind Mitglied der UNO.	Einige Schildkröten leben nur auf dem Land.	Land	False
+Die Sammlung zählt hunderte Gemälde.	Man zählt Picasso zu den bekanntesten Künstlern seiner Zeit.	zählen	False
+Sie schlugen ihr Zelt am Waldesrand auf.	Ich habe dir in der Zeitung die Kleinanzeigen aufgeschlagen.	aufschlagen	False
+Welches Filter benutzt du um dein Objektiv zu schützen?	Hast du auch Zigaretten ohne Filter?	Filter	False
+Dem Boden fehlte entschieden Wasser, und die angeschnittenen Tannen gaben Harz von sich, ihren Lebensbalsam.	Im Harz finden sich viele Buchen.	Harz	False
+„Mit der Bezeichnung "Vogelgrippe" wollte man allgemein verständlich machen, dass das Virus von Geflügeln auf den Menschen übertragen wurde.“	„Gemeldet sind 44 Aussteller mit 413 Tieren verschiedener Geflügel, deren ursprüngliche Abstammung und Herkunft sich vom fränkischen über den deutschen Raum, sowie weit darüber hinaus erstreckt.“	Geflügel	False
+Kannst du mal die Leiter wieder aufstellen?	Nur der Trainer darf die Mannschaft aufstellen.	aufstellen	False
+Er hat ihn absichtlich umgerissen.	Gebt mir klar umrissene Pläne ein.	umreißen	False
+Bei großen sozialen Einschnitten werden viele Leute arm.	„Armes Häschen bist du krank, dass du nicht mehr hüpfen kannst?“	arm	True
+„Der Kontrapunkt als Kompositionstechnik unterlag in der Musikgeschichte sich wandelnden Regeln, die von der wechselnden Bewertung von Konsonanzen und Dissonanzen abhingen.“	Man „nennt die Stimme, die in einer Fuge gleichzeitig mit dem Thema bzw. Soggetto erklingt, dessen Kontrapunkt.“	Kontrapunkt	True
+Die Medizin wirkt bei mir nicht.	Wir wirken für den Frieden und den Schutz der Umwelt.	wirken	False
+Sehr geehrte Frau Müller,	Sie erwacht zur Frau. (Sie wird vom Mädchen zur Frau.)	Frau	False
+Mein Schwiegervater ist ein Liebhaber der Tafelmusik.	Du solltest dir endlich einen Liebhaber zulegen.	Liebhaber	False
+Der Herr der sieben Weltmeere.	Gehet hin im Frieden des Herren!	Herr	False
+Wieviel Uhr ist es?	Es ist kurz vor vier Uhr.	Uhr	True
+Er möchte sein Geld in Immobilien anlegen.	Das Schiff wird morgen in Hamburg anlegen.	anlegen	False
+„Im arabischen und islamischen Kulturraum jedenfalls ist bis heute die Einschätzung weit verbreitet, letztendlich seien die Palästinenser über die Staatsgründung Israels, die als eine Konsequenz des Holocaust gedeutet wird, Folgeopfer des europäischen Antisemitismus und speziell des nationalsozialistischen Rassenwahns geworden; eine These, die freilich nicht nur dort vertreten wird.“	„Die Deutschen sind für den Holocaust, die industriell betriebene Massentötung der Juden, verantwortlich.“	Holocaust	True
+Meine Versicherung weigert sich, für den Schaden aufzukommen.	Ich habe eine Versicherung gegen Diebstahl abgeschlossen.	Versicherung	False
+Du treibst mich noch in den Wahnsinn.	Unter blauem Himmel am Elbestrand / trieb einst ein kleinder Fisch an Land - (Anti-AKW-Lied)	treiben	False
+Jede Zeit hat ihre Art, sich zu bewegen: In den Sechzigern wedelten die Deutschen selbstbewusst und zielstrebig auf Skiern ins Tal.	Vor gut zehn Jahren begannen die Zyprioten, Lifte zu bauen — Skifahren als Zeitvertreib für die auf der Insel stationierten Soldaten, als Spaß für die Einheimischen, als Hobby für die Kinder, die seitdem klassenweise wedeln lernen.	wedeln	True
+Dieses Jahr ist es anders: Aufmerksame Spaziergänger bemerken, dass die Eicheln im Vergleich zu den vergangenen Jahren einige Wochen zu früh von den Bäumen fallen.	Im unerigierten und unbeschnittenen Zustand wird die Eichel zumindest teilweise von der Vorhaut verdeckt.	Eichel	False
+Zum Schwimmen benötigt man die dazugehörige Ausstattung (Badehaube, Taucherbrille,...).	Die Expedition in den Regenwald hatte eine umfangreiche Ausstattung.	Ausstattung	True
+Sie nannten ihren Sohn Klaus-Dieter.	Das nenne ich schlau!	nennen	False
+„Dennoch verschlimmerte sich ihr Zustand weiter; nichts half.“	Wenn wir jetzt eingreifen, können wir die Sutiation nur noch weiter verschlimmern.	verschlimmern	False
+Wir sind ganz dicke Freunde.	Nimm den dicken Schal mit, denn es ist sehr kalt! Ich werde schon nicht erfrieren; der Mantel ist dick gefüttert.	dick	False
+Der Geschmack erinnert etwas an Lollis.	Für meinen Geschmack ist das Schlagzeug zu laut.	Geschmack	False
+Wegen mangender Aufträge mußte ich meinen Betrieb aufgeben, nachdem die Bank meine Kreditlinie nicht weiter erhöhen wollte.	Ihr Verschwinden gab uns viele Rätsel auf.	aufgeben	False
+Viele Firmen, politische Organisationen, Hochschulen etc. betreiben ein eigenes Archiv.	In der Karlsstraße liegt das Archiv der Stadt.	Archiv	True
+„Ich muß einige Abmessungen vornehmen; ich muß dieses Bauwerk in seiner ganzen Bedeutung kennenlernen“.	„Ob dann, wenn die Verkaufstätigkeit für das zweite Semester 1914 beginnt, Preiserhöhungen vorgenommen werden können, wird in der Hauptsache von der Gesamtentwicklung des Inlandsgeschäftes, dann aber auch sehr wesentlich von der Lage des Exportgeschäftes abhängen.“	vornehmen	True
+Der Motor kam auf Touren.	Nach der eintägigen Tour kamen die Touristen abends wieder im Hotel an.	Tour	False
+Während unserer Wanderung erquickten wir uns an einem kleinen Quell.	Der Quell des Lebens ist Gegenstand heißer Debatten.	Quell	False
+Die Menschenmenge zerstreute sich sofort nach der Vorstellung.	Sie ist schrecklich unordentlich und zerstreut ihre Akten immer im ganzen Büro.	zerstreuen	True
+Der Kamillentee schwappt über den Rand.	politisch am rechten Rand stehen	Rand	True
+Ich habe einen Diaprojektor, aber keine Leinwand.	einen Film auf die Leinwand bringen	Leinwand	True
+Er hängt wirtschaftlich von seinen reichen Eltern ab.	Häng schon mal den Wochnwagen ab!	abhängen	False
+f(x) = x² beschreibt eine quadratische Funktion.	Die konkrete Rückgabe einer Funktion wird meist durch ein ‚return‘ gekennzeichnet.	Funktion	False
+Dies ist der Zug nach nirgendwo.	Wo können wir am besten den Zug anschauen?	Zug	False
+Jahrelang haben sie nun nach einem Erretter begehrt.	Ich begehre, dass du das Lyzeum besuchest.	begehren	False
+Der dritte Gang wird soeben aufgetragen.	Der Arzt trägt eine Wundsalbe auf.	auftragen	False
+Mit einem Pylon kann man Bereiche, die vorübergehend nicht befahren werden sollen, markieren.	„Der Tempel wächst zuerst auf einer West-Ost-Achse im Wechsel von Höfen , reliefgeschmückten Festhallen und sechs Pylonen, doppeltürmigen Torbauten mit schrägen Außenmauern; .“	Pylon	False
+Er bewahrte seine Brille in einer Kapsel auf.	Sie nimmt drei Kapseln am Tag ein.	Kapsel	False
+Sie wird natürlich am Gewinn entsprechend beteiligt werden.	Musiker sollten bei der Gestaltung des Abends beteiligt werden.	beteiligen	True
+Der Papst bedauerte die Resonanz auf seine, den Islam betreffenden, Äußerungen.	Die Resonanz auf den Vortrag kann bestenfalls als zurückhaltend bezeichnet werden.	Resonanz	True
+Der neue Chef ist bei der Vergabe von Investitionen leider orthodoxer als sein Vorgänger.	„Solche Ausbrüche aus dem hermetischen Zirkel orthodoxen Lebens aber gibt es nicht.“	orthodox	False
+Nach ein paar Augenblicken schon hatte er die Gesellschaft vergessen, die schnell hinter dem Vorgebirge verschwunden war, als er in seiner Nähe das Rascheln eines Kleides und leichte Tritte hörte.	Als Günther Koch am letzten Spieltag der Saison 1998/99 sich vergaß und schrie: »Ich pack das nicht, ich halt das nicht mehr aus!«, da war das aus dem Augenblick heraus geboren.	vergessen	False
+Jahrelang haben sie nun nach einem Erretter begehrt.	So, so, du begehrst also, in meinem Haus wie ein König bewirtet zu werden?	begehren	False
+„Am 27. Juni 1993 um 15.15 Uhr in der Bahnhofsunterführung von Bad Kleinen hielt ein GSG-9-Beamter seine Pistole an Hogefelds Hinterkopf und warf die Terroristin zu Boden. ‚Dieser Bulle‘, erinnert sich Hogefeld, habe sie ‚ziemlich sofort angesprungen‘.“	„‚Wer Bulle ist, der kennt sich aus. Der weiß, wo er wen anrufen muss. Man spricht die gleiche Sprache‘, sagt ein Ermittler.“	Bulle	True
+Ohne die Bereitschaft, auch mal am Wochenende zu arbeiten, brauchst du dich dort nicht zu bewerben.	Ich bin in Bereitschaft umzuziehen, sobald ich die Gelegenheit bekomme.	Bereitschaft	True
+Mit einem lauten Knall schlug die Tür nach einem Windstoß auf.	Ich habe dir in der Zeitung die Kleinanzeigen aufgeschlagen.	aufschlagen	False
+Die Panama-Passage ist eine Landenge, die im Norden von der Karibischen See und im Süden vom Pazifischen Ozean begrenzt wird.	Die Passage in den Musikstück sollte erhalten bleiben.	Passage	False
+Der Verlag gibt jedes Jahr ungefähr 80 neue Bücher heraus.	Gib sofort die gestohlenen Teetassen wieder heraus!	herausgeben	False
+Der Gärtner verpflanzte die Saat ins Freiland.	Die Saat ist aufgegangen.	Saat	True
+Der Aufstieg der Wirtschaft verbesserte die Lage der Bevölkerung.	Der fleißige Industriearbeiter hatte einen großen Aufstieg gemacht.	Aufstieg	True
+Es war ihm furchtbar peinlich, dass er seinen Geldbeutel verloren hatte.	Sie achtete stets peinlich genau auf den richtigen Sitz ihrer Frisur.	peinlich	False
+Das Schiff kann 2.000 Passagiere aufnehmen.	Ich kann mehrere Sprachen.	können	False
+Sein Schicksal bewegt mich.	Die Finanzlage bewog ihn zu einer raschen Entscheidung.	bewegen	False
+Man „nennt die Stimme, die in einer Fuge gleichzeitig mit dem Thema bzw. Soggetto erklingt, dessen Kontrapunkt.“	„Mit der Betonung des kompromisslosen Kampfes gegen Israel setzt er bewusst einen Kontrapunkt zu Mahmud Abbas.“	Kontrapunkt	False
+Der Aufstand wurde brutal niedergeworfen.	Er war bekannt für seine brutalen Methoden.	brutal	True
+Für die Abfuhr des Sperrmülls müssen wir 40 Euro bezahlen.	Mit einem riesigen Blumenstrauß erschien er bei seiner Angebeteten, aber er erhielt nur eine Abfuhr.	Abfuhr	False
+Kevin hat eine Sandburg gebaut.	Susanne baut Modellflugzeuge.	bauen	True
+Schon nach kurzer Zeit warf das Unternehmen wieder Gewinn ab.	Das Pferd warf seinen Reiter ab.	abwerfen	False
+Importwaren werden mit hohem Zoll belegt.	Ich belege einen Platz.	belegen	False
+Die Banken mussten hohe Posten abschreiben.	Schreiben Sie den folgenden Text ab.	abschreiben	False
+Peter gilt als guter Weinkenner.	Bube, Dame und König gelten jeweils zehn Punkte.	gelten	False
+„Die Exposition vermittelt, idealtypisch am Anfang des Dramas, vor dem ersten situationsverändernden Handlungsmoment, das Wissen um die in der Vergangenheit liegenden und die Gegenwart bestimmenden Voraussetzungen und Gegebenheiten, auf denen die folgende konflikthafte Handlung beruht.“	Eine erste Exposition für das Buch liegt schon vor.	Exposition	False
+Stell' das Essen in den Kühlschrank, dann hält es sich länger.	Diesen Zustand müssen wir unbedingt halten.	halten	False
+Ich versichere dich meiner Hilfe. In dieser Angelegenheit werde ich dich nicht allein lassen.	Ich sollte mich gegen Unfall versichern.	versichern	False
+Was denkst du?	Wenn ich zuviel getrunken hab, kann ich nicht mehr ordentlich denken.	denken	False
+Der Mensch muss sein Gehirn gebrauchen, sonst verblödet er.	Mami, ich muss mal!	müssen	False
+Meine vordringlichste Aufgabe ist es jetzt, mich um die Kinder zu kümmern.	Ein Bänderriss zwang ihn zur Aufgabe.	Aufgabe	False
+Dem Text kann ich nicht ganz folgen.	Der Junge war fleißig und folgte immer.	folgen	False
+Ohne Freunde und Unterhaltung ist es hier öde.	Im öden Karst wachsen keine Bäume.	öde	False
+auf die schiefe Bahn geraten	Deutsche Bahn AG	Bahn	False
+Komm, lieber Mai, und mache die Bäume wieder grün.	Was hast du nur aus mir gemacht!	machen	True
+Es war schon hart gefroren.	Er lehnte hart alle Gnadengesuche ab.	hart	False
+Was bietest du mir dafür?	So eine Chance wird sich mir nie wieder bieten.	bieten	False
+Es werden ihm seine Sünden vergeben.	Das Forstamt vergibt Flächenlose.	vergeben	False
+Es entsteht ein Regenbogen, wenn die Sonnenstrahlen durch Regentropfen gebrochen werden.	Straftäter sind Leute, die das Gesetz brechen.	brechen	False
+„Wieder andere halten „Mastschweine“ oder verschiedene Geflügel in der Nähe von Häfen, wo Futtermittel aus importierten Produkten günstig hergestellt werden.“CEJA:	„Derzeit bereits verboten ist die Einfuhr von Geflügel, anderen Vögeln, Geflügelfleisch, Eiern und anderen Produkten von Geflügeln sowie Federn und unbehandelten Jagdtrophäen aus Kambodscha, Indonesien, Japan, Laos, Malaysia, Pakistan, Südkorea, Thailand, Vietnam sowie China und Hongkong.“Ministerium für Ernährung und Ländlichen Raum Baden-Württemberg:	Geflügel	True
+Ich studiere seit drei Semester Psychiatrie.	Du Psycho musst in die Psychiatrie.	Psychiatrie	False
+Der Täter bekam vom Gericht die Auflage, sich alle zwei Tage bei der Polizei zu melden.	Die verkaufte Auflage von „Der SPIEGEL“ kletterte von 1950 (knapp 87 000 Exemplare) bis heute über eine Million.	Auflage	False
+„Sie pflegt ihre Nägel.“	„Er pflegt gute Kontakte zur Mafia.“	pflegen	False
+Vor allem beim Billard ist das Spiel über die Bande Standard.	Wenn Peter mit seiner Bande unterwegs ist, machen die vier Lausbuben nur Unsinn.	Bande	False
+In der S-Bahn skizzierte sie Menschen, die ihr gegenüber saßen.	„Von acht bis elf Uhr arbeiten wir in der Zeichenschule, dann bis eins Modellieren, nachmittags noch zwei Stunden zeichnen und dann der Abendakt. Außerdem skizzieren, soviel es | geht.	skizzieren	True
+Das Hauptthema der Plastik ist die Darstellung des Menschen in Wachs, Gips, Ton oder anderen geeigneten Materialien.	Das Campingbesteck ist aus Plastik.	Plastik	False
+Lass es dir gut gehen.	Der Schrank geht nicht durch die Tür. Es gehen nicht acht Leute in diesen Aufzug. Geht das nicht in deinen Kopf?	gehen	False
+Eine Wendejacke kann man mit beiden Seiten nach außen tragen.	eine Seite umblättern	Seite	False
+Verdient diese Gnade keinen Dank gegen den Schöpfer?	Ich versammelte sie um mich und sprach zu ihnen wie zu Brüdern, denen ich immer noch Dank schuldig sei.	Dank	True
+Das Abendkleid ist mit Pailletten besetzt.	Der Regisseur besetzte die Hauptrolle mit Boris Bleibein.	besetzen	True
+Das Werk hat einen Umfang von 20 Bänden.	ein Haushaltsloch im Umfang von 30 Milliarden	Umfang	True
+Am Brunnen vor dem Tore, da steht ein Lindenbaum.	Der Ball ging gegen den Pfosten des Tores.	Tor	False
+Schnell riss er das Steuer herum.	Ab einem bestimmten Punkt reißt jeder Strick.	reißen	False
+Dieser Held rettete seine Frau und Kinder aus dem brennenden Haus.	„Harry Potter“ ist der Held der gleichnamigen Bücherreihe.	Held	False
+„Die amplifizierten DNA-Fragmente verschiedener Geflügel können sich in der Schmelzkurve unterscheiden.“PRACTICAL:	Martin isst am liebsten Geflügel. Rindfleisch oder Schweinefleisch kommt bei uns deswegen nie auf den Tisch.	Geflügel	False
+Der Effekt verstärkt sich mit jeder Anwendung.	Nach der Ankündigung des US-Präsidenten Barack Obama, die US-Truppenpräsenz in Afghanistan um 17.000 Soldaten zu verstärken, wurde heute bekannt, dass auch die Bundeswehr ihre Militärpräsenz in dem Land am Hindukusch ausbauen will.	verstärken	False
+Die Wahl im Kongo 2006 wurde auch von UNO-Soldaten überwacht.	Wie heißt das auf Kongo?	Kongo	False
+Er möchte sein Geld in Immobilien anlegen.	Die Mutter legt dem Kind ein Lätzchen an.	anlegen	False
+Der Auslöser der Unruhen war ein Zwischenfall zwischen der Polizei und den Studenten.	Glücklicherweise hatte der Auslöser versagt, sonst hätte man mit Verletzen oder Toden rechnen können.	Auslöser	False
+Die Ausschnitte für Arme und Beine sind etwas groß geraten.	Er blicke ihr tief in den Ausschnitt.	Ausschnitt	True
+Die Betonung dient in manchen Fällen der Unterscheidung von Wörtern, zum Beispiel bei dem Verb übersetzen: {{Lautschrift|ˈyːbɐˌzɛʦn̩}} „ans andere Ufer bringen“ - {{Lautschrift|‌ˌyːbɐˈzɛʦn̩}} „in eine andere Sprache übertragen“.Formatierung stimmt nicht	„Als Kennzeichen des Lehnwortes gegenüber dem Fremdwort sieht man meist seine Anpassung an deutsche Sprachgewohnheiten hinsichtlich Lautgebung, Betonung und Beugung, daneben sein Eindringen in die allgemeine Umgangssprache an.“	Betonung	True
+Auf dem Felde der Physik war er ein As.	Wir reiten geschwinde durch Feld und Wald	Feld	False
+„Mit Selbstverständlichkeit erlernt der Sprecher das Wort als Grundeinheit der Sprache, als Benennungseinheit, Bedeutungseinheit und Träger zusätzlicher Informationen.“	Das war ein „Geflügeltes Wort“.	Wort	False
+Jetzt muss der Installateur nur noch die Kabel legen.	Ich lege ein Buch auf den Tisch.	legen	False
+Ich gehe zur Schule.	Die Schule ist ein massiger Bau und überragt die meisten Häuser dieses Städtchens.	Schule	False
+Die Mönche teilen die Nahrungsmittel mit den Hungrigen.	Sie teilen das gleiche Schicksal.	teilen	True
+Wir müssen die Toten begraben.	Ich begrub die Leiche in der Erde.	begraben	True
+Der Redner erhob seine Stimme.	Der Sänger hat eine Tenor Stimme.	Stimme	False
+Die Bank ist frisch gestrichen!	Sie strich ihm sanft übers Haar.	streichen	False
+„Am zweiten und dritten Tag kam dasselbige Kind wieder; da fragte der Fremde den Vater, wem das schöne Kind gehöre, das alle Mittag in die Kammer gehe.“	Zu einem Feuerwehrmann gehört Mut und Tapferkeit.	gehören	False
+Wir sollten ihn als Leiter der Kommission einsetzen.	Der Fischereiverein setzte am Oberlauf des Flusses junge Forellen ein.	einsetzen	False
+Um diese Grube auszuheben, müssen wir schon einen Bagger einsetzen.	Den Setzling wollen wir lieber im Gewächshaus einsetzen, es ist noch kalt.	einsetzen	False
+Bei der bloßen Vorstellung wird mir übel.	Nach der Vorstellung gehen wir einen trinken.	Vorstellung	False
+„Es war doch eine Schweinerei, träumte er weiter. Da hatte man ein Gehalt von ein paar hundert Franken im Monat, es langte wohl, es langte ganz gut. Und für das lumpige Gehalt war man verpflichtet, den Kanalräumer zu spielen. Ärger als das. Man mußte schnüffeln, anderer Leute Missetaten aufdecken, man mußte sich überall hineinmischen, keinen Augenblick hatte man Ruhe .“	Kürzlich ist mir in der Küche eine Dose Tomaten auf den Boden gefallen und aufgeplatzt – das war vielleicht eine Schweinerei!	Schweinerei	False
+„Wieder andere halten „Mastschweine“ oder verschiedene Geflügel in der Nähe von Häfen, wo Futtermittel aus importierten Produkten günstig hergestellt werden.“CEJA:	„Mit der Bezeichnung "Vogelgrippe" wollte man allgemein verständlich machen, dass das Virus von Geflügeln auf den Menschen übertragen wurde.“	Geflügel	True
+Die Banken mussten hohe Posten abschreiben.	In der Abschlussklausur haben viele abgeschrieben.	abschreiben	False
+Der Friseur schneidet die Haare mit der Schere.	Die Kleine hat sich an einer Kante Papier in den Finger geschnitten.	schneiden	False
+Er zog die Arme dicht an den Leib.	Dein Leib ist größer geworden, hast Du gut gegessen im Urlaub?	Leib	True
+Der Herr der sieben Weltmeere.	Dieser Herr hier wollte mit Ihnen reden.	Herr	False
+Heute haben drei Vertreter an der Haustür geklingelt; einer bot Zeitschriften, einer einen Telefonvertrag und der dritte bot Seife an.	Charles Fourier war ein bedeutender Vertreter des Frühsozialismus	Vertreter	False
+„Für die meisten von uns ist die Judenverfolgung der Nationalsozialisten ein durch Medien vermittelter Teil der Geschichte. Wenn wir uns ‚erinnern,‘ haben wir Medienbilder vor Augen, ja sogar die Bezeichnung ‚Holocaust‘ hat sich nach der Sendung der amerikanischen Miniserie als Standardbezeichnung für den Massenmord am europäischen Judentum etabliert.“	„In einem Urteil vom 15.3.1994 betrachtet der BGH die Leugnung der Holocausts als eine Verletzung des Schutzbereichs des § 189 StGB.“	Holocaust	True
+Ich habe die Bohrmaschine an meinen Arbeitskollegen verliehen.	Der eine Ring verlieh Sauron die Macht über alle Anderen zu herrschen.	verleihen	False
+Wegen mangender Aufträge mußte ich meinen Betrieb aufgeben, nachdem die Bank meine Kreditlinie nicht weiter erhöhen wollte.	Die Mathelehrerin gibt den Kindern viel zu viel auf.	aufgeben	False
+Im Puppenspiel wiederum – so die Psychologin – könnten auch Probleme verarbeitet werden.	Bei den Entscheidungen für mehr Gerechtigkeit war besonders die Inselrinde im Großhirn aktiv: In dieser werden körperliche Empfindungen und Gefühle verarbeitet, sie ist z.B. bei Hunger und Entzugserscheinungen, aber auch bei Ekel oder Freude stark involviert.	verarbeiten	True
+„Bei den finiten Formen sind besonders die Diathesen zu erwähnen (die Unterscheidung zwischen Aktiv und Passiv; in der früheren Zeit gab es auch noch eine dritte, die funktionell häufig unserem Reflexivum entspricht, die mediale Diathese) sowie die Unterscheidung nach Tempus (Zeit) und Modus (Aussageart).“	Der Computer startet jetzt im sicheren Modus.	Modus	False
+Begehrt Ihr, noch mehr meiner Kunstfertigkeiten präsentiert zu bekommen, Hoheit?	Der berittene Bote begehrte Einlass an der Zugbrücke.	begehren	True
+» … Schwaben besitzt Männer genug, die hinlänglich unterrichtet, wohlmeinend, tüchtig und beredt sind, um Mitglied der Stände zu sein, aber es hat nur einen Dichter der Art wie Uhland.«	Da saß er schuldbewußt vor mir, mit beredter Körpersprache an mein Mitleid appellierend; da saß er — und ich. empfand Erbarmen: mein Freund, ein Stasi-Spitzel, einer von vielen.	beredt	True
+Auf der grünen Wiese sitzt ein Krokodil, / das wedelt mit dem Schwanze und weiß nicht was es will –	Ich habe noch nie einen echten Schwanz gesehen.	Schwanz	False
+Die Bewegung für vernunftgemäßes Denken, gegen Vorurteile und religiösen Aberglauben sowie zur Verbreitung von Wissenschaft und Bildung im 18. Jahrhundert wird auch als Aufklärung bezeichnet.	Um mehr über die militärischen Stellung zu erfahren, sollten wir eine Drohne zur Aufklärung hinschicken.	Aufklärung	False
+In dem Schloss gehen Gespenster um.	So gehen zivilisierte Menschen doch nicht miteinander um!	umgehen	False
+Sie wollen sich andererseits betrinken, um zu vergessen, daß alles nicht so weiter geht, in infinitum.	Das Geld genügt, um Maria die Zukunft zu sichern, ihr späterhin ein Geschäft einzurichten und sie die Vergangenheit vergessen zu lassen.	vergessen	True
+Nach dem Unfall musste er eine dreimonatige Rehabilitation über sich ergehen lassen.	Einige politische Gefangene der DDR warten bis heute auf ihre Rehabilitation.	Rehabilitation	False
+Bei Boppard macht der Rhein eine große Schleife.	Im Kindesalter lernt man Schleifen binden.	Schleife	False
+Er sagte wörtlich: „Sie sind doch ein selten dämlicher Hund“.	„Senat“ bedeutet wörtlich übersetzt „Ältestenrat“.	wörtlich	False
+Wir machen es so, wie es uns gefällt.	Das macht mich wütend.	machen	False
+Herr Doktor, ich fühle mich immer so matt!	Ein matter Schlussapplaus beendete die peinliche Vorstellung.	matt	True
+„Mit Selbstverständlichkeit erlernt der Sprecher das Wort als Grundeinheit der Sprache, als Benennungseinheit, Bedeutungseinheit und Träger zusätzlicher Informationen.“	Mir fehlen die Worte.	Wort	False
+„Für das Ackergrundstück von drei Morgen und ist eine jährliche Pacht von 12 Thaler Courant zu entrichten“, sagte er und zog von dannen.	Da ward aus Abend und Morgen der erste Tag.	Morgen	False
+Dieser besteht aus Sämling und Sauvignon Blanc, hat eine absolut spannenden exotischen Duft, Zitrus-Töne, ist spritzig und leicht am Gaumen.	Fast 40.000 Sämlinge zieht Klaus Olbricht in Dresden jährlich aus Kreuzungen heran.	Sämling	False
+Professor Klein las über „Das Verhalten der Goten mit Schuhgröße 45“ und übersah, dass alle Studenten eingeschlafen waren.	Bevor ich schlafe, muss ich immer ein paar Seiten aus einem guten Buch lesen.	lesen	False
+Sie legte sich einen modischen Schal um.	Sie können Ihren Urlaub auch auf den Sommer umlegen.	umlegen	False
+Die weiße Kutsche im Innenhof verlieh der Szenerie den Glanz alter Zeiten.	Verleihen sie die Auszeichnung für den besten Schauspieler dieses Jahr an mich?	verleihen	True
+Der Stachel der Stechmücke kann auch durch die Hornhaut stechen.	Die Stacheln des jungen Igels sind ganz weich.	Stachel	True
+die Schuppen des Fisches	Manche haben Probleme mit trockener Haut und Schuppen.	Schuppe	False
+Nach der hitzigen Diskussion mussten sie sich erst einmal sammeln.	Das Eichhörnchen sammelt einen Vorrat an Nahrung, um den Winter zu überstehen.	sammeln	False
+Wir machen es so, wie es uns gefällt.	Komm, lieber Mai, und mache die Bäume wieder grün.	machen	False
+Stellen Sie jetzt bitte das Rauchen ein!	Um sich auf die anstehenden Verhandlungen einzustellen, ist er noch einmal alle Unterlagen durchgegangen.	einstellen	False
+Das Kind stellte sich auf den Stuhl.	Das Model stellte sich in Positur.	stellen	True
+Der Tänzer geht ja richtig ab.	Die Klasse geht nächste Woche von der Schule ab, denn alle haben die Prüfungen bestanden.	abgehen	False
+Ich bekam ein Sandkorn ins Auge.	Bitte noch zwei Korn!	Korn	False
+Der Entzug ist eine sehr schwere Zeit für den Patienten.	Nach dem Entzug seiner Lizenz stand er vor dem Nichts.	Entzug	False
+Genoveva hat es nicht verdient, dass auch nur ein einziger Jüngling ihrer begehrt.	Der berittene Bote begehrte Einlass an der Zugbrücke.	begehren	False
+Die Araber betreiben, wie die Chinesen, die Kunst der Kalligrafie.	„Im Zuge der islamischen Expansion breiteten sich die Araber im 7. und 8. Jahrhundert von ihrem ursprünglichen Gebiet auf der arabischen Halbinsel nach Nordafrika, Spanien, Palästina, Syrien und Persien aus.“	Araber	True
+„»Nun ja, ich bin dir nicht fein genug, ich kenne die Subtilitäten deiner Sprache nicht, ich weiß nicht, was man in englischer oder französischer Sprache den Frauen sagen muß, um sie zu trösten. Ein anderer hätte die Kunst besser verstanden dein Vertrauen zu gewinnen, und vielleicht wäre es ihm gelungen, dein Herz, das gegen mich kalt und verschlossen bleibt, zu beruhigen. «“	Möge der Bessere gewinnen!	gewinnen	False
+Ich muss vier Uhr die Kinder von der Schule abholen.	Nachdem ich die Kleider aus der Reinigung abgeholt hatte, fuhr ich zum Geburtstag meiner Mutter.	abholen	True
+Wir bieten Ihnen den Service, Ihre Anrufe rund um die Uhr zu beantworten.	Hier ist es zwar etwas teurer, dafür ist der Service um Längen besser.	Service	True
+Er ist ein zäher Kämpfer.	Der Teig ist zu zäh.	zäh	False
+Je größer der Cw-Wert eines Fahrzeugs ist, desto höher ist sein (Luft-)Widerstand.	Die Streikenden leisteten den Ordnungsbehörden Widerstand.	Widerstand	False
+Das Angebot wurde freundlich, aber mit bestimmten Worten abgelehnt.	Weißt du das bestimmt?	bestimmt	False
+Der Herr der sieben Weltmeere.	Meine Damen und Herren…	Herr	False
+Die Polizei konnte endlich abziehen.	Wenn man zwei von drei abzieht, bleibt eins übrig.	abziehen	False
+Aribert verhält sich wie ein Außenseiter, er möchte sich gar nicht der Gruppe anschließen.	Das Pferd mit der Nummer 10 ist ein totaler Außenseiter, es hat noch nie ein Rennen gewonnen.	Außenseiter	False
+Messen heißt eine zu messende Größe mit einer festgelegten Maßeinheit vergleichen.	Er misst sich mit dem Gegner.	messen	False
+„Gemeinsam ist vielen modernen Fantasywelten, dass die Elfen spitze Ohren besitzen, oft zierlich sind, musikbegabt, in vielen Fällen Magie wirken können, auf Menschen sehr attraktiv wirken und mit Zwergen verfeindet sind.“	Die Hamburger Elf feierte ein großes Comeback.	Elf	False
+Irgendwie hegt er schwarze Gedanken.	Schwarz hören und sehen kommt teuer zu stehen.	schwarz	False
+Scher dir doch mal den Bart, Roderich!	Du scherst dich einen Teufel um uns und unsere Not!	scheren	False
+Der Ausschuss des Bundestags befasste sich mit der Spendenaffäre und befragte dazu den amtierenden Innenminister.	Die Maschine war kaputt und produzierte nur noch Ausschuss.	Ausschuss	False
+Die weiße Kutsche im Innenhof verlieh der Szenerie den Glanz alter Zeiten.	Der eine Ring verlieh Sauron die Macht über alle Anderen zu herrschen.	verleihen	True
+Begehrt Ihr, noch mehr meiner Kunstfertigkeiten präsentiert zu bekommen, Hoheit?	Es polterten drei gestiefelte Kerle in die Herberge und begehrten ein Quartier für die Nacht.	begehren	True
+Begehrt Ihr, noch mehr meiner Kunstfertigkeiten präsentiert zu bekommen, Hoheit?	Ein jeder hier begehrt, dass der Krieg endlich ein Ende haben möge.	begehren	True
+"Die Welt ist schon oft mit einem Narrenhause verglichen worden."	Die Welt der Ureinwohner Amerikas ist uns noch weitgehend unbekannt.	Welt	False
+Pétain war eine Marionette der deutschen Besatzer.	Die Herstellung von Marionetten ist Teil der sizilianischen Volkskunst.	Marionette	False
+Von Ultramarinblau gibt es hellere und dunklere Sorten.	ein helles Gewand, im hellen Sonnenlicht	hell	True
+Wir müssen die Wohnung erst noch einrichten.	Ich werde mich auf deinen Besuch einrichten.	einrichten	False
+Das Fass fasst fünfhundert Liter.	Fassen Sie sich, gnädige Frau!	fassen	False
+Die Wolken deuten auf Regen in den nächsten Stunden.	Wir konnten das Schild nicht richtig deuten.	deuten	False
+auf die schiefe Bahn geraten	mit der Bahn kommen	Bahn	False
+Er diente 3 Jahre bei der Armee.	Seit wir Löcher im Dach haben, dienen unsere Eimer und Schüsseln als Regenfänger.	dienen	False
+Die Indios bauen eine Grube, um Tapire einzufangen.	Die Grube wurde wegen wiederholter Wassereinbrüche geschlossen.	Grube	False
+Mir wird hier jegliche Fachkompetenz abgesprochen.	Wir haben bis ins letzte Detail abgesprochen, wann du Klara besuchen darfst.	absprechen	False
+Der Baum war mit Kugeln und Lichtern geschmückt.	Bitte zwei Kugeln Erdbeer und eine Stracciatella!	Kugel	True
+Ihre Regel ist ausgeblieben.	Ein Feldspieler, der beim Fußball den Ball mit der Hand spielt, verstößt gegen die Regeln.	Regel	False
+Die Festlichkeit der Weihnachtstage wurde die letzten Jahre durch den geringen Schneefall geschmälert.	Die Festlichkeiten zu Ehren des 10-jährigen Bestehens der Schule waren ein voller Erfolg.	Festlichkeit	False
+An diesem Brauch möchten wir festhalten.	Ich brauche doch sicher beide Hände, um mich festzuhalten.	festhalten	False
+Der Minister hat einen großen Apparat zur Verfügung.	Mit diesem Apparat misst man die Stromstärke.	Apparat	False
+Der Teig muss noch gehen.	Ich gehe mich waschen.	gehen	False
+Ich steuere das Raumschiff bis ans Ende der Galaxis.	Er war so betrunken, dass er sein Auto in den Graben gesteuert hat.	steuern	True
+Die schwarzen und die heitern Lose -	Schwarz hören und sehen kommt teuer zu stehen.	schwarz	False
+Der Tod der alten Dame dauert ihn sehr.	Bis alle Schäden des Erdbebens beseitig sind, wird es noch Jahre dauern.	dauern	False
+Übernimm du die linke Seite, ich sichere den rechten Flügel!	Mit dieser Arbeit habe ich mich übernommen.	übernehmen	False
+seinen Horizont erweitern	einen Bruch erweitern	erweitern	False
+Die Hornhaut leistet den größten Teil der Lichtbrechung im Auge.	Hornhaut bildet sich am häufigsten an den Füßen, da diese den ganzen Tag über belastet werden.	Hornhaut	False
+Man kann den Gummi noch etwas dehnen, bevor er reißt.	Die Zeit dehnte sich gestern auf der Zugfahrt. Ich wollte nur noch zu Hause ankommen.	dehnen	False
+Er knotete einen Wirbel an die Hautschnur, um daran das Vorfach einzuschlaufen.	Auch der Hals der Giraffe besitzt nur sieben Wirbel.	Wirbel	False
+Meine Schwester geht in die 8. Klasse.	Rufen Sie bitte die Schwester!	Schwester	False
+„Und schließlich hatte auch er seine Macken: Die Aufnahme zum Beispiel funktionierte nur, wenn man den Aufnahmekopf zweimal hintereinander in einem ganz bestimmten Winkel drückte und dann eine Weile festhielt, manchen Sender bekam ich nur dann ohne Rauschen, wenn ich die Antenne manipulierte, das Kassettendeck war mehrfach geklebt, der Tonkopf musste mit einer Schraube immer wieder in der Höhe nachreguliert werden.“	„Seit der Immobilienhändler Lunkewitz vor genau zehn Jahren den renommiertesten Verlag der DDR, den Aufbau-Verlag, gekauft hat, ergießt sich immer wieder die bewährte Philisterschelte über ihn. Meist beginnt man, wenn man ihn beschreibt, mit seiner markantesten Macke: dem Zigarrenrauchen.“	Macke	False
+Das Schiff kann 2.000 Passagiere aufnehmen.	Bastian, kann ich auch mal auf dein Moped?	können	False
+Der Teig muss noch gehen.	Ich gehe einkaufen.	gehen	False
+Humor ist, wenn man trotzdem lacht.	Er gab eine Kostprobe seines Humors.	Humor	False
+„Man kennt über 43.000 Arten, das heißt, 78% aller bekannten Weichtiere sind Schnecken. Schnecken leben an Land und im Wasser.“	Die Schnecke befindet sich im Labyrinth und enthält das Corti-Organ.	Schnecke	False
+Der Stiefelschaft wurde durch einen kleinen Riemen zusammengehalten.	Die Schwungscheibe wird über einen Riemen angetrieben.	Riemen	True
+Entzünde das Feuer mit der Fackel!	Weißer Phosphor entzündet sich bei Kontakt mit der Luft schon bei Raumtemperatur.	entzünden	True
+Ich musste mit dem Turnen zwei Wochen aussetzen, da ich mich am Schienbein schmerzlich geprellt hatte.	Als der Gast die Zeche prellte, rief der Wirt die Polizei.	prellen	False
+Jahrhundertelang wurden unschuldige Frauen, welche angeblich Hexen waren, auf dem Scheiterhaufen verbrannt.	Er hat alle Reste des Mülls verbrannt, um keine Entsorgungskosten zu bezahlen.	verbrennen	False
+Schnell, wo ist das Klo? Ich muss brechen!	Er brach das Brot und verteilte es unter den Armen.	brechen	False
+Hatte man als Kind die Masern, folgt in der Regel nach der Erholung eine lebenslang anhaltende Immunität.	„Schwere Schlappe für Silvio Berlusconi: Ein Gesetz, das ihm Immunität gewährte, wurde vom italienischen Verfassungsgericht gekippt“	Immunität	False
+Vor Wut stieß Lydia ihren Mann von sich.	Wir haben lange Stangen in die Erde gestoßen, an denen die Pflanzen hochranken sollen.	stoßen	False
+Stell' das Essen in den Kühlschrank, dann hält es sich länger.	Der Bus hält hier nicht.	halten	False
+2^3 = 2 \times 2 \times 2 ist die dritte Potenz der Zahl 2 und ist gleich acht.	Eine Potenz, zum Beispiel 2^3, besteht aus einer Basis (hier 2) und einem Exponenten (hier 3).	Potenz	True
+Das ist mein letztes Wort!	Das war ein „Geflügeltes Wort“.	Wort	True
+Im Andrang von Zärtlichkeit, mit thränenerstickter Stimme überschüttete er sie mit Kosenamen, einer zärtlicher als der andere und sagte zu ihr jetzt schon du, wie zu seiner Frau, seiner Geliebten.	Die Veranstalter der Fanmeile empfehlen, die Bahnhöfe Unter den Linden und Potsdamer Platz zu meiden, da der Andrang dort für ein Chaos sorgen könnte.	Andrang	False
+Nach dem Hors-d'œuvre folgte als nächster Gang die Suppe.	Mit ihren ungewohnt hohen Absätzen stolperte die Braut den Gang entlang.	Gang	False
+Was bietest du mir dafür?	Dieses Gebäude bietet dem Auge wenig Ergötzliches.	bieten	False
+„Erotik ist Überwindung von Hindernissen. Das verlockendste und populärste Hindernis ist die Moral.“	Sie sollen die Hindernisse umfahren, nicht umfahren!	Hindernis	True
+„Die Bahncard 25 kostet einmalig 50 Euro für die 2. Klasse.“	Die Erstellung der Website verursachte einmalige Kosten von 700 Euro.	einmalig	True
+Das Gebiss liegt auf dem Nachttisch.	Das menschliche Gebiss umfasst 32 Zähne.	Gebiss	False

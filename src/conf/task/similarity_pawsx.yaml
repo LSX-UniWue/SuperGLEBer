@@ -1,0 +1,4 @@
+task_name: similarity_pawsx
+framework: "sentence_transformer"
+corpus_args:
+  data_folder: "Similarity_Pawsx"

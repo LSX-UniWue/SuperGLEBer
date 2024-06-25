@@ -1,0 +1,7 @@
+# please don't do it, it's slow as feck
+learning_rate: 5.0e-5
+batch_size: 128
+gradient_accumulation_steps: 1
+epochs: 5
+precision: "fp16"
+data_dir: "/localdir/data/raw"

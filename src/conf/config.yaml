@@ -1,0 +1,5 @@
+data_base_dir: data/
+seed: 42
+debug: False
+
+hydra.job.chdir: True

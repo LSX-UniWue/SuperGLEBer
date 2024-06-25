@@ -1,0 +1,14 @@
+task_name: offensive_lang
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: CSVClassificationCorpus
+corpus_args:
+  data_folder: "Germeval/Offensive_Lang"
+  column_name_map: { 0: "text", 2: "label" }
+  label_type: *label_type
+  delimiter: "\t"
+  skip_header: False

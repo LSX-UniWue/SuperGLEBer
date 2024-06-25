@@ -1,0 +1,13 @@
+task_name: engaging_comments
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: CSVClassificationCorpus
+corpus_args:
+  data_folder: "Germeval/2021"
+  column_name_map: { 1: "text", 3: "label" }
+  label_type: *label_type
+  skip_header: True

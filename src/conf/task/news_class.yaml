@@ -1,0 +1,14 @@
+task_name: news_class
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextPairClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: DataPairCorpus
+corpus_args:
+  data_folder: "XGlue/News_Class"
+  columns: [0, 1, 2]
+  label_type: *label_type
+  skip_first_line: False
+

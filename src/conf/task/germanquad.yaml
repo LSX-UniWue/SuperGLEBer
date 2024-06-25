@@ -1,0 +1,4 @@
+task_name: germanquad
+framework: "hf_qa"
+corpus_args:
+  data_folder: "GermanQuAD"
