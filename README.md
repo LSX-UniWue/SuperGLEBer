@@ -17,7 +17,7 @@ create all relevant files necessary to schedule runs on a k8s/slurm cluster:
 python src/template_k8s.py
 ```
 
-running all tasks once in sequence:
+running a model on a task:
 
 ```bash
 python src/train.py +model=gbert_base +train_args=a100 +task=news_class
@@ -28,3 +28,5 @@ override config keys via CLI:
 ```bash
 python src/train.py +model=gbert_base +train_args=a100 +task=news_class train_args.batch_size=1
 ```
+
+you can find valid parameters in the provided yaml configs: https://github.com/LSX-UniWue/SuperGLEBer/tree/paper/src/conf
