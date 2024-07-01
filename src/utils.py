@@ -45,8 +45,8 @@ bnb_config = {
 def get_LORA_model(model, cfg: DictConfig):
     from transformers.models.auto.configuration_auto import AutoConfig
 
+    model_conf = AutoConfig.from_pretrained(cfg["model"]["model_name"])
     if peft_config.task_type == "???":
-        model_conf = AutoConfig.from_pretrained(cfg["model"]["model_name"])
         if cfg["task"]["framework"] in ["sentence_transformer", "flair"]:
             peft_config.task_type = TaskType.FEATURE_EXTRACTION
         elif cfg["task"]["framework"] == "hf_qa":
