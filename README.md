@@ -20,7 +20,7 @@ python src/template_k8s.py
 running all tasks once in sequence:
 
 ```bash
-python src/train.py +train_args=a100 +model=gbert-base +task='glob(*)' -m
+python src/train.py +model=gbert_base +train_args=a100 +task=news_class
 ```
 
 override config keys via CLI:
