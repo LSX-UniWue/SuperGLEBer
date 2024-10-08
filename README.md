@@ -1,4 +1,4 @@
-# ✨SuperGLEBer ✨
+# ✨SuperGLEBer v0.9✨
 
 SuperGLEBer (German Language Understanding Evaluation Benchmark) is a broad Natural Language Understanding benchmark suite for the German language in order to create a better understanding of the current state of German LLMs.
 Our benchmark consists of 29 different tasks ranging over different types like document classification, sequence tagging, sentence similarity, and question answering.
