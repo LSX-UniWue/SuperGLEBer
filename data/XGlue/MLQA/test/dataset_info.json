@@ -1,0 +1,64 @@
+{
+  "builder_name": "mlqa",
+  "citation": "@article{lewis2019mlqa,\n  title={MLQA: Evaluating Cross-lingual Extractive Question Answering},\n  author={Lewis, Patrick and Oguz, Barlas and Rinott, Ruty and Riedel, Sebastian and Schwenk, Holger},\n  journal={arXiv preprint arXiv:1910.07475},\n  year={2019}\n}\n",
+  "config_name": "mlqa.de.de",
+  "dataset_size": 4746153,
+  "description": "    MLQA (MultiLingual Question Answering) is a benchmark dataset for evaluating cross-lingual question answering performance.\n    MLQA consists of over 5K extractive QA instances (12K in English) in SQuAD format in seven languages - English, Arabic,\n    German, Spanish, Hindi, Vietnamese and Simplified Chinese. MLQA is highly parallel, with QA instances parallel between\n    4 different languages on average.\n",
+  "download_checksums": {
+    "https://dl.fbaipublicfiles.com/MLQA/MLQA_V1.zip": {
+      "num_bytes": 75719050,
+      "checksum": null
+    }
+  },
+  "download_size": 75719050,
+  "features": {
+    "context": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answers": {
+      "feature": {
+        "answer_start": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "text": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "Sequence"
+    },
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://github.com/facebookresearch/MLQA",
+  "license": "",
+  "size_in_bytes": 80465203,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 4269387,
+      "num_examples": 4517,
+      "dataset_name": "mlqa"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 476766,
+      "num_examples": 512,
+      "dataset_name": "mlqa"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

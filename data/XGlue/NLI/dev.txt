@@ -1,0 +1,250 @@
+und er hat gesagt, Mama ich bin daheim.	Er rief seine Mutter an, sobald er aus dem Schulbus stieg.	neutral
+Ich wusste nicht was ich vorhatte oder so, ich musste mich an einen bestimmten Ort in Washington melden.	Ich war noch nie in Washington, deshalb habe ich mich auf der Suche nach dem Ort verirrt, als ich dahin entsandt wurde.	neutral
+Ich wusste nicht was ich vorhatte oder so, ich musste mich an einen bestimmten Ort in Washington melden.	Ich wusste genau, was ich tun musste, als ich nach Washington marschierte.	contradiction
+Und ich dachte OK und das war es dann!	Nachdem ich ja gesagt hatte, endete es.	entailment
+Und ich dachte OK und das war es dann!	Ich sagte nein und es zog sich immer weiter hin.	contradiction
+Und, ähm, sie hörten tatsächlich auf, die Familie zu besuchen, weil sie gerade waren, nur bestimmt, dass sie weiß werden würden.	Sie hörten auf, die Familie zu besuchen, als die Rassenunruhen begannen.	neutral
+Und Oma erzählte uns immer die Geschichte in der Ihre Schwester und deren Mann entschieden das sie in die Stadt Augusta ziehen würden und als Weiß durchgehen würden.	Omas Schwester war nicht weiß.	entailment
+So, äh, ich bleibe dran.	Das ist genau wie Ich unabhängig wurde.	contradiction
+Es war hmm, was wir hmm, wir hatten Rudolph Anderson in einer, einer Entwicklung von drei U2s	Wir waren gesegnet mit der Hilfe von Rudolph Anderson mit den U2.	neutral
+Äh, du musst Ramona in Concord anrufen, allerdings ist sie in einem Büro, eigentlich ist sie in einem Unternehmen, quer durch die Stadt, wir sind in Monroe, sie ist in Concord.	Ramona hat ihr ganzes Leben in Concord gelebt.	neutral
+Das war, das war ein ziemlich beängstigender Tag.	Dieser Tag machte mir wirklich Angst.	entailment
+Bevor du mir den Hintern versohlst, wieso lässt du mich nicht erst ein großes Glas Schokoladenmilch trinken?	Ich kann keine Milch trinken.	contradiction
+Bevor du mir den Hintern versohlst, wieso lässt du mich nicht erst ein großes Glas Schokoladenmilch trinken?	Ich hätte gerne ein Glas Kakao.	entailment
+Die Sachel war, es gab 158 Teile dazu und wir mussten es auseinanderbrechen, es wieder zusammenbauen, es kaputt machen und niemals einen Fehler machen.	Wir mussten es auseinander nehmen und neu zusammensetzen.	entailment
+Die Sachel war, es gab 158 Teile dazu und wir mussten es auseinanderbrechen, es wieder zusammenbauen, es kaputt machen und niemals einen Fehler machen.	Wir durften es überhaupt nicht berühren.	contradiction
+Es gab nichts außer einer Wüste; dort war ein Salbeistrauch draußen auf dem Rollfeld.	Da waren Steppenläufer, die über die Piste wehten.	neutral
+Ich habe ihm schon gesagt, ich habe versucht ihm zu erklären, dass ich enttäuscht war, weil ich nicht die ganze Information hatte die ich brauchte.	Ich sagte ihm, dass ich mehr Informationen bräuchte.	entailment
+Ähm, sie haben also gerade die Stadt verlassen und sie, sie hat ihre Schwester nie wieder gesehen, ihre Schwester nie wieder gesehen.	Sie zog nach Texas und sah ihre Schwester nie wieder.	neutral
+Und unser Vater sagte uns immer, wir sollten nicht sagen, dass sie Tiere sind.	Unser Vater sagte, sie seien Tiere.	contradiction
+Es ist mir egal, wenn Sie darüber nichts wissen.	Ich weiß, dass du nicht davno besessen bist.	neutral
+Obwohl ich nicht sehe, wie er von mir erwartet haben könnte, es getan zu haben.	Ich verstehe nicht, warum er erwartete, dass ich die Zeichnung heute fertigstelle	neutral
+Ich habe es nie gesehen und weiß noch nicht warum, außer wenn es nur die, die, die Notwendigkeit aus, aus, ausdrückt, zu wissen, was du tust und was auch immer.	Ich sah jeden Teil davon!	contradiction
+Wir wollten herausfinden, dass es sich um ein U2 Flugzeug handelte, aber das wir konnten nicht, wir konnten kein Wort darüber verlieren was es war; nichts zu unseren Frauen, Kindern oder irgendjemand anderem.	Wir konnten niemandem sagen, dass das U2 gelandet war.	neutral
+Wir wollten herausfinden, dass es sich um ein U2 Flugzeug handelte, aber das wir konnten nicht, wir konnten kein Wort darüber verlieren was es war; nichts zu unseren Frauen, Kindern oder irgendjemand anderem.	Wir haben jedem davon erzählt.	contradiction
+Sie hatten beschlossen, nach New York zu fahren, um Verwandte dieses, dieses Cousins zu besuchen, und sie blieben einfach und er wusste nicht, wie er zurück kommen würde, also blieb er einfach bei ihnen.	Er blieb bei ihnen in New York.	entailment
+Meine Großmutter wurde 1910 geboren, sie war ein kleines Mädchen.	Meine Oma wurde 10 Jahre nach der Jahrhundertwende geboren.	entailment
+Wie auch immer, Ich habe also schluss gemacht und bin um 6.30 heim gekommen, das war mein Tag.	Ich habe den größten Teil des Tages damit verbracht, mich um ein kompliziertes Problem bei der Kundenabrechnung zu kümmern.	neutral
+Und, ähm, wenn es anschwoll und einfach weiter schwoll, machte es 'whish' als würde es dir den Kopf abziehen.	Wenn es zu einem Stromstoß kommt, ist das für alle in der Nähe sehr gefährlich.	neutral
+Und, ähm, wenn es anschwoll und einfach weiter schwoll, machte es 'whish' als würde es dir den Kopf abziehen.	Es wird nur einmal hochgehen.	contradiction
+Sie wollten nicht gefangen bleiben.	Sie wurden an einem Punkt gefangen, doch sie wollten entkommen.	entailment
+und sie können auch sehr nett sein nachdem sie trainiert werden	Sie ändern sich schnell während sie an einem Training teilnehmen.	neutral
+Ja du musst ein kabelloses gehabt haben	Korrekt, das, dass Sie hatten war schnurlos.	entailment
+Ja du musst ein kabelloses gehabt haben	Sie hatten vielleicht eines mit einer optionalen Schnur.	neutral
+Meinst du die Lehrer oder die Eltern	Behaupten Sie, dass die Studenten oder die Hilfslehrkraft es getan haben?	contradiction
+sich darum kümmern, wie die nationalen Nachrichten das Gebiet beeinflussen	Es ist mir egal, was die nationalen Nachrichten für Sorgen über unsere lokalen Gebiete abdecken.	contradiction
+und ähm, irgendwie mag ich die Black Eyed Peas, aber ich glaube nicht, dass es eine Kette ist	Ich kann die Black Eyed Peas nicht ausstehen.	contradiction
+einer der Vorteile, die wir genießen ist natürlich Reisen	Reisen ist ein Vorzug, den wir bekommen.	entailment
+einer der Vorteile, die wir genießen ist natürlich Reisen	Wir bekommen keine Vorteile.	contradiction
+genau und ich war sehr geschmeichelt, bis sie mir sagte, für welche Firma sie arbeitete	Sie schmeichelte mir überhaupt nicht.	contradiction
+Ähm ja sie ist großartig, sie hat Charakter, sie setzt sich neben jeden und sie spielt auch mit jedem.	Sie weigert sich, neben jemandem zu sitzen, den sie noch nicht kennt.	contradiction
+Natürlich kann es die Kriminalität steigern, weisst du und Leute gehen hin und klauen deinen Fernseher und verkaufen ihn wieder, nur weil sie nicht mehr arbeiten können, weisst du	Das könnte die Kriminalitätsrate erhöhen.	entailment
+Natürlich kann es die Kriminalität steigern, weisst du und Leute gehen hin und klauen deinen Fernseher und verkaufen ihn wieder, nur weil sie nicht mehr arbeiten können, weisst du	Das wird einen Rückgang der Kriminalität hervorrufen.	contradiction
+um-hum finden Sie, dass Sie uh uh enttäuscht oder zufrieden sind mit uh äh der Leistung sowie Netzabdeckung von Nachrichten	Ich denke, die Netzwerke drehen die Nachrichten so, damit du denkst, was sie wollen, dass du denkst.	neutral
+Es fallen zwanzig Prozent Zinsen an	Ist der Zinssatz 20 Prozent?	entailment
+Ich weiß es nicht, okay, es war gut mit dir zu reden und einen schönen Abend zu haben	Ich hoffe, du hast einen schönen Morgen! Es war schön, online mit dir zu reden.	contradiction
+Ich weiß es nicht, okay, es war gut mit dir zu reden und einen schönen Abend zu haben	Ich glaube ich weiss warum ich spüre mich nicht wohl, aber ich wollte dir nicht erzählen.	neutral
+und ich hasse es wirklich, sie zu verlieren, aber das ist eine der Risiken, wenn man einen Innenhof hat, schätze ich, da ich	Ich würde mir nicht wünschen es zu verlieren, aber das ist es was passieren kann wenn du einen Hof besitzt.	entailment
+Vor ein paar Jahren war ich dort ein Student und verbrachte ein Semester im Ausland um in London zu studieren	Londoner Schulen sind die besten.	neutral
+Ich konnte niemals etwas mit Kuchen machen	Ich könnten nie die Ideen für Kuchen ausgehen!	contradiction
+huh naja, das ist schon gut, ähm, es war wirklich lustig, ich ging zu einem Seminar, das war nur, es war ein Satellitenseminar, es war wirklich klasse und es war nur für Frauen	Ich mochte das Seminar, das per Satellit getätigt wurde, wirklich nicht.	contradiction
+Nun, oh, nun, das ist interessant. Hast du, äh, hast du das in einem Kurs gelernt?	Wo hast du gelernt, das zu tun?	entailment
+Wissen wir was wir sagen wollen.	Was machen wir zu sagen?	entailment
+ja, sie haben nicht, natürlich haben sie nicht darüber gesprochen, äh, wo du weißt, dass du absolut unfähig bist um auf sie auf zu passen, aber es war das, wo du weisst, sie kommen aus großen vielköpfigen Familien	Jeder kümmert sich um seine eigene Familie, egal was passiert.	contradiction
+Nee, okay dann tschüß	Es war schön mit dir zu sprechen und wir werden morgen wieder reden.	neutral
+Texas hatte nur fünfundfünfzigtausend als ich dort war.	Ich war in Texas.	entailment
+Manchmal ist es schön essen zu gehen und einen Salat zu essen.	Ich esse nie Salat-ekelhaft!	contradiction
+Espinosa hat viele Romanzen von Californios gesammelt in den 1920er Jahren.	Espinosa hat diese Romanzen in Frankreich mit einem guten Gewinn weiterverkauft.	neutral
+Espinosa hat viele Romanzen von Californios gesammelt in den 1920er Jahren.	Espinosa war am sammeln von Romanzen interessiert.	entailment
+Diese Komplexe höherer Ordnung von molekularen Vorrichtungen entstehen, weil die natürliche Selektion in der Lage ist, auf die kollektiven Eigenschaften solcher molekularer Aggregate einzuwirken, wenn diese kollektiven Eigenschaften die Anpassungsfähigkeit erhöhen.	Unter bestimmten Bedingungen können komplexere molekulare Vorrichtungen entstehen.	entailment
+Im letzten Kapitel gehe ich über das zentrale Anliegen autonomer Agenten hinaus, das Universum selbst zu betrachten.	Im letzten Kapitel frage ich mich, wie sehr das Universum für die Exzentrizitäten menschlichen Verhaltens verantwortlich ist.	neutral
+Und deshalb war der Staat nicht dafür verantwortlich, dass diese Privatpersonen den schwarzen Bürgern soziale Rechte verweigerten.	Die privaten Personen waren weiß.	neutral
+Zwei amerikanische Ideen das Schützen der Flagge und das Zelebrieren der Redefreiheit rücken schliesslich als gegensätzliche Arten, Amerikaner zu sein, ins Blickfeld.	Amerikaner wollen die Flagge schützen.	entailment
+Wir haben anfängliche mathematische Modelle, welche einiges über diese hierarchische Organisation verdeutlichen. Doch auch die aktuellsten Modelle sind trotz ihrer Brillanz beschränkt.	Die jetzigen Modelle sind hervorragend aber begrenzt.	entailment
+Wenn der Sand sich anhäuft, erreicht er schließlich den Ruhewinkel für Sand und erstreckt sich auch bis zu den Grenzen des Tisches.	Der Sand häuft sich auf zu einen Haufen.	entailment
+Wenn der Sand sich anhäuft, erreicht er schließlich den Ruhewinkel für Sand und erstreckt sich auch bis zu den Grenzen des Tisches.	Der Sand ist immer flach und glatt.	contradiction
+Das Ende des Plantagenkapitalismus hätte ebenso sicher sein können wie der Niedergang des Kommunismus in Europa.	Es gab kein Ende des Kommunismus in Europa.	contradiction
+Dein Herz war zufälligerweise darauf vorangepasst, Vorbeben von Erdbeben aufzufangen.	Erdbebenvorläufer können von jedem gefühlt werden.	neutral
+Für die anerkannte Staatengemeinschaft wird, sagen wir, Gleichberechtigung mit Bezug auf die Stimmrechte in der Generalversammlung der Vereinten Nationen eine Norm, die ohne weiteres durchgesetzt werden kann.	Jede Nation hat das Recht zu wählen.	neutral
+Während dies geschieht, werden Gebete rezitiert	Niemand betet.	contradiction
+Umgekehrt, wenn neue Präzedenzfälle niemals Wellen aussenden, könnte das Gewohnheitsrecht sich kaum entwickeln.	Neue Gesetze sind originell.	contradiction
+Ein bekannter Verfechter der Mexikanischen Spanischen Folklore im Südwesten und Kalifornien war Charles F. Lummis (1859-1928), ein Autodidakt Fotograf, Ethnologe, Musikwissenschaftler, Journalist und der Gründer des Southwest Museum in Los Angeles.	Charles F. Lummis war ein Fotograf.	entailment
+Limpiar bedeutet zu reinigen und eine Limpia ist ähnlich wie eine Barrida.	Das Wort für Putzen heißt Limpiar.	entailment
+Am Weihnachtstag gingen die Kinder von Tür zu Tür, klopften und fragten nach Süßigkeiten oder kleinen Spielzeugen.	Die Kinder sind an Weihnachten nicht drinnen geblieben.	entailment
+Es ist offensichtlich, dass Kinder heutzutage viel zu viele Stunden vor dem Fernseher verbringen.  Dieser Umstand verringert die Zeit, die sonst für gemeinsame Eltern-Kind-Aktivitäten, zum spielen, lesen und für andere lohnenswerte Aktivitäten zur Verfügung stehen würde.	Heutzutage verbringen Kinder mehr Zeit vor dem Fernseher, als mit lesen.	neutral
+Deborah Lipstadt schrieb in ihrem Buch Denying the Holocaust, dass wir nicht inakzeptabel und offensichtlich falsche Behauptungen öffentlich debattieren sollten, und so entwickelte sie ein Mittel, das so mächtig ist wie die staatliche Zensur.	Lipstadt schrieb ein Buch, das excellente Beurteilungen bekam.	neutral
+Sobald sie etabliert sind, beginnen Neuronen, einzigartige Funktionen zu übernehmen, indem sie Verzweigungen aussenden, die komplizierte Verbindungen mit anderen Neuronen bilden.	Etablierte Neuronen verzweigen sich um neue Verbindungen zu formen, was sie ermöglicht verschiedene Funktionen zu erfüllen.	entailment
+Relajo beschreibt außerdem eine Spottbeziehung, ein gegenseitiges Necken, welches durch Gelächter Anspannung beseitigt und den Grund für die Spannungen in Luft auflöst.	Relajo macht sich über die Wirtschaft lustig.	neutral
+Diejenigen mit geringer Nachfrage (im Durchschnitt 1300 Einheiten pro Woche) und hohe Nachfrage Variation (Cv = 1,3).	Der Gruppen Mindest durchschnitt beträgt dreihundert.	contradiction
+Soll ich ihr bei den Hausaufgaben helfen und falls ja, wie soll ich es machen?	Ich sollte nicht in Versuchung kommen ihr mit den Hausaufgaben zu helfen.	contradiction
+Sehen Sie Wallis und Varjabedian für zeitgenössische Fotografien von alten Moradas, die man noch immer im nördlichen New Mexico finden kann.	Im nördlichen Teil von New Mexico kann man historische Wohnstätten finden.	entailment
+Die Streitigkeiten nahmen den Ton des Klassenkampfes an.	Sie kämpften um das Wetter.	contradiction
+Was wir sehen, sind Details.	Die Details sind sichtbar.	entailment
+Er wandte sich an Lord Julian.	Er wollte Lord Julian bitten, seine Frau zu schonen.	neutral
+Der Oberst akzeptierte es, verbeugte sich verspätet und setzte seinen breiten Hut ab	Der Oberst lehnte ab, was ihm gegeben wurde, und behielt zum Zeichen der Missachtung seinen Hut auf.	contradiction
+Ihm wurde einfach erlaubt wahrzunehmen, dass es der anmutige, elegante junge trifler von St. James, Herr Julian Wade war, dem sie jeden Moment gewidmet wurde.	Sie ist vernarrt in Lord Julian Wade, trotz seiner tapsigen Art.	contradiction
+Aber ... aber ... an Bord dieses Schiffes ...? Der Offizier machte eine hilflose Geste und fiel, seiner Verwirrung ergeben, plötzlich still.	Der Beamte war von dem was auf dem Schiff passierte irritiert.	entailment
+In den letzten zwei Wochen seit er den Auftrag des Königs angenommen hatte, liefen die Dinge nicht so gut für ihn.	Er hat nachts ruhig geschlafen, weil er wusste, dass er den Auftrag des Königs abgelehnt hatte.	contradiction
+Warum rennst du dann? Sie fragte ihn gleichgültig, stand schlank und gerade vor ihm, ganz in weiß und sehr jungfräulich außer ihrer unnatürlichen Fassung.	Sie war weiß gekleidet, als sie fragte: „Warum laufen Sie dann?“.	entailment
+Nun, nun, vielleicht bin ich für ihn doch nicht so einfach zu verstehen, wie er glaubt.	Ich bin nicht so einfach zu fangen, wie er glaubt.	entailment
+Ein Mörder - ich? sagte er endlich.	Sofort gestand er, er sei ein Mörder.	contradiction
+Wolverstone wurde seinem Kapitän gegenüber aufsässig: Ich werde Oberst Bishop in der Hölle sehen oder jedes Mal, wenn wir vor Anker gehen. Und er spuckte, vermutlich um das Gesagte zu betonen.	Wolverstone und Colonel Bishop waren enge Freunde.	contradiction
+Ihre Entschlossenheit hat mich von einer schrecklichen Gefahr befreit, gab sie zu.	Sie hatte ihm gesagt, dass es Entschlossenheit erforderte, sie von Gefahr fernzuhalten.	entailment
+Sie sind nicht sehr höflich, Herr, wie ich bereits bemerkt habe.	Der Mann verhält sich unzivilisiert.	entailment
+Ihre Anwesenheit in diesem Augenblick und die Art seiner Auseinandersetzung mit Wolverstone waren peinlich.	Wolverstone hatte nie einen Streit mit ihr.	contradiction
+Kälter, stiller und weiter als je zuvor, wuchs die Stimme seiner Lordschaft.	Die Stimme des Lords war zugleich distanziert und kühl.	entailment
+Aus dem Augenwinkel erspähte er eine schlanke Figur in grauer Seide, die sich begang von ihrem Begleiter abzuheben.	Er hat drei Augen.	contradiction
+Er sah sich selbst als der Hund in der Fabel, der die Substanz fallen gelassen hatte, um einen trügerischen Schatten zu schnappen.	Es gab einmal eine Geschichte über einen Hund und einen trügerischen Schatten	entailment
+I denke nicht das es den geringsten Unterschied machen würde wenn er es tut, sagte seine Gräfliche Herrschaft.	Seine Lordschaft glaubte, dass jede Entscheidung einen wesentlichen Einfluss gehabt hätte.	contradiction
+Deine Worte haben ihm zu schaffen gemacht.	Er wird dich für diese Worte bestrafen.	neutral
+Wenn überhaupt steigert es seine Aufregung.	Es verringerte seine Aufregung.	contradiction
+Wenn überhaupt steigert es seine Aufregung.	Es machte ihn mehr aufgeregt.	entailment
+Ich kann mir nicht vorstellen, warum du dir Mühe geben solltest, dich selbst zu verteidigen, sie entmutige him	Der eingebrachte Einspruch war nicht ausreichend.	neutral
+Sie werden nicht hingehen? fragte er zwischen Frage und Behauptung.	Bitte geh nicht! Bettelte er.	contradiction
+Sie werden nicht hingehen? fragte er zwischen Frage und Behauptung.	Warum gehen wir nicht jetzt? Grunzte er.	neutral
+Nachdem Sie sich diese Sammlungen angeschaut haben, steigen Sie auf den Hügel zum Commissioner's House, von wo Sie eine schöne Aussicht auf die umliegende Küste und den Rest der Werftanlage haben.	Sie können Boote an der Spitze des Hügels sehen.	neutral
+Hinter der südamerikanischen Region befindet sich die Parfümfabrik, wo Sie Ihren persönlichen Duft kreieren können.	Die Parfümfabrik ist vor der südafrikanischen Region.	contradiction
+Gehen Sie über diese Sehenswürdigkeiten hinaus zum Nathaniel Hawthorne Haus der sieben Giebel.	Die Seven Gables sind die beste Sehenswürdigkeit zu sehen.	neutral
+Ywischen 1936 und 1940 war Griechenland unter der Militärdiktatur von Ioannis Metaxas, an den man sich dafür erinnert, dass er ein dröhendes Echo als Antwort auf Mussolinis Ultimatum sich zu ergeben in Jahre 1940.	Griechenland ist eines der Länder in der Welt, die einen Diktator hatten.	entailment
+Singel war einst die äußere Barriere für die mittelalterliche Stadt, aber als die Stadt sich ausdehnte, vergrößerten Herengracht (Herren-Kanal), Keizersgracht (Kaiser-Kanal) und Prinsengracht (Prinzen-Kanal)  das Netz.	Singel war eine Innenstadt.	contradiction
+Die schroffen Berge der Serra de Tramuntana fallen hier so steil zum Meer hin ab, dass es nur wenige Einstiegspunkte und nur einen einzigen Hafen entlang der Küste gibt.	Die Berge machen es schwer Häfen zu bauen.	entailment
+Die schroffen Berge der Serra de Tramuntana fallen hier so steil zum Meer hin ab, dass es nur wenige Einstiegspunkte und nur einen einzigen Hafen entlang der Küste gibt.	Es gibt 27 Häfen entlang der Berge	contradiction
+Die bröckelnden Fassaden von Wohnungen, Hotels und Schnäppchengeschäften säumen die Karl-Marx-Allee, die von Alex nach Südosten führt.	Die Karl-Marx-Allee fällt auseinander.	entailment
+Culebra war bis zur Amerikanischen Übernahme als die Spanische Virgin Island bekannt und liegt auf halber Strecke zwischen Puerto Rico und St. Thomas bei den US Virgin Islands.	Culebra liegt auf halber Strecke zwischen Puerto Rico und St. Thomas auf den US Virgin Islands.	entailment
+Culebra war bis zur Amerikanischen Übernahme als die Spanische Virgin Island bekannt und liegt auf halber Strecke zwischen Puerto Rico und St. Thomas bei den US Virgin Islands.	Culebra liegt nirgends in der Nähe von Puerto Rico und St. Thomas auf den US Virgin Islands.	contradiction
+Umeda ist das nördliche Ende des Geschäfts- und Unterhaltungsbezirks, das allgemein als Kita (was einfach Norden bedeutet) bekannt und das Wesen des modernen Trubels von Osaka ist.	Umeda ist der nördliche Teil des Vergnügungsviertels.	entailment
+Cete de Charlevoix ist Teil der Laurentiner Höhen, und reicht bis zum Fluss Saguenay, wo die coureurs de bois auf der Suche nach Pelzen aufhörten.	Der Saguenay River war bedeutend für den Pelzhandel der Franzosen mit den Spaniern.	neutral
+Ein kleines Stück entfernt von Boot finden Sie die Endhaltestelle der Ravenglass und Eskdale Eisenbahn, oder La'al Ratty, wie sie liebevoll genannt wird.	Das Boot befindet sich in der Nähe der La'al Ratty.	entailment
+702/369-1544) das älteste Kaffeehaus in Las Vegas und nach Meinung einiger, in seiner böhmischen Herrlichkeit immer noch das beste.	In Vegas gibt es keine Cafés.	contradiction
+Wenn du da durch kommst siehst du vielleicht einen alten Schornstein über den Bäumen, ein sicheres Zeichen das das Dorf Mal Teil einer Hazienda war.	Der Schornstein weist unter anderem darauf hin, dass das Dorf früher Teil einer Hazienda war.	neutral
+Schieße nicht, solange nicht auf dich geschossen wird!	Schieße nur wenn jemand in deiner nähe eine Waffe hat und in dein Gesicht schießt	neutral
+Bei Ausbruch des Krieges wurde Kanadas Ruf, Einwanderer und Flüchtlinge aus der ganzen Welt aufzunehmen, durch die Blockade von Kommunisten und Juden aus Hitlers Deutschland getrübt.	Kanada war dafür bekannt, Einwanderer und Flüchtlinge willkommen zu heißen.	entailment
+Eine moderne achteckige Kirche im Osten und eine Kapelle und ein sechseckiger Turm im Westen bilden die Nachkriegs-Wiedergeburt der Stadt.	Diese Strukturen wurden vom größten Architekten der Welt gebaut.	neutral
+Sie finden das Brehan Museum (der Art Deco und Art Nouveau gewidmet) in einer ehemaligen Infanteriebarracke, gegenüber des Ägyptischen Museum.	Das Museum befindet sich in der Nähe des Ägyptischen Museums.	entailment
+Der Fund, der die Fantasie der ganzen Welt beflügelt hat, wurde von James Wilson Marshall gemacht, einem Zimmermann im Sägewerk John Sutter's Mill am American River bei Coloma, der zwischen Sacramento und Lake Tahoe liegt.	James Wilson Marshall hat nichts Besonderes gemacht.	contradiction
+Nur solange Sie sich nicht dagegen wehren bei den zehn Jahre alten Experten übertroffen zu werden.	Die Zehnjährigen sind Idioten.	contradiction
+Für Filmfans ist die Sammlung von alten Nickelodeons, Autoskopen und Movieola-Maschinen, die die allerersten bewegten Bilder projizierten, das interessanteste Display.	Alte Nickelodeons sind langweilig für Filmliebhaber.	contradiction
+Für Filmfans ist die Sammlung von alten Nickelodeons, Autoskopen und Movieola-Maschinen, die die allerersten bewegten Bilder projizierten, das interessanteste Display.	Alte Nickelodeons sollten im Besitz von Filmliebhabern sein.	neutral
+Falls Sie eine Alternative am Abend zum Harvard Square suchen, besuchen Sie den Inman Square in der Cambridge Street	Harvard Square ist nachts nicht gut.	entailment
+Eine weitere wichtige Niederlage fand 1643 in Rocroi in Flandern statt, als die spanischen Truppen, die ihren früheren Glanz niemals wiedererlangen sollten, von den Franzosen geschlagen wurden.	In Rocroi gewannen die Spanier.	contradiction
+Frag deine Reisegesellschaft oder das Berliner Touristenzentrum über Einzelheiten bevorstehender Programme und buche im Voraus wenn möglich.	Am besten ist es frühzeitig zu buchen.	entailment
+Östlich des Star-Ferry-Hafens kommen Sie zum Rathaus.	Das Rathaus ist in der Nähe des Fährterminals.	entailment
+189 und die Benutzerkosten werden auf der gleichen Weise geschätzt.	Sie haben die Nutzerkosten geraten.	entailment
+Im Unterklassen-Ansatz werden den grundlegenden und Arbeitsanteil-Kategorien ein prozentueller Aufschlag auf die Kosten erteilt, um die durchschnittliche Rate zu erhalten.	Der Preis ist immer weniger als Kosten.	contradiction
+Die technischen Kosteneffekte aufgrund der Arbeit einer Partei, die dies zu höheren Kosten erledigen könnte, werden ebenfalls auf die gleiche Weise berechnet wie zuvor.	Sie haben nicht herausgefunden, wie man technische Kosteneffekte berechnet.	contradiction
+Zum Beispiel könnte von Mitarbeitern verlangt werden, dass sie die für den Hotelbetrieb bestimmte Gebührenkarte für Hotel- und bestimmte andere Kosten verwenden.	Mitarbeiter hatten keine Kundenkreditkarte, die sie nutzen konnten.	contradiction
+Zum Beispiel könnte von Mitarbeitern verlangt werden, dass sie die für den Hotelbetrieb bestimmte Gebührenkarte für Hotel- und bestimmte andere Kosten verwenden.	Mitarbeiter müssten die Gebührenkarte für das Hotel verwenden.	entailment
+Zum Beispiel, in 1983 hat der Fonds der Alters- und Hinterbliebenenversicherung  von der Invalidenversicherung und dem Krankenhausversicherungstreuhandfonds geborgt.	Der Treuhandfond musste Geld leihen.	entailment
+TABELLE A. GESAMTQUECKSILBER-ZERTIFIKATE ALLOZIERT ODER VERSTEIGERT FÜR EGUS	Merkur hat Berechtigungen, die festgelegt sind.	entailment
+TABELLE A. GESAMTQUECKSILBER-ZERTIFIKATE ALLOZIERT ODER VERSTEIGERT FÜR EGUS	Es gibt keine Regeln zu Quacksilber.	contradiction
+Außerdem zahlen nur wenige Postverwaltungen ihren Angestellten ein so hohes Gehalt wie die USA.	Postangestellte in den USA verdienen viel weniger als Postangestellte in anderen Ländern.	contradiction
+Dies ist eine Nachfragekurve die von der Bedingung abhängt dass der Rabatt gleich  bleibt, unter der Bedingung, das keiner Mailer zu Arbeitsgemeinschaft wechselt.	Die Nachfragekurve wird sich diesen Monat nicht ändern.	neutral
+Arbeitgeberbeiträge zu Sozialversicherungsprogrammen.	Arbeitgeber spenden für Ernährungssicherungsprogramme.	neutral
+Für Kunden, die in jeder Sprache Analphabeten sind, müssen Materialien sorgfältig erklärt werden.	Analphabeten würden die Materialien nicht verstehen.	entailment
+Für die Entwicklung des Aktionsplans ist normalerweise zusätzliche Zeit erforderlich.	Sie brauchen normalerweise nochmal ein Jahr um den Plan umzusetzen.	neutral
+Sie beinhalten eine stabile Bundesbudgetzukunft, technologische Innovation und Verbesserungen der Vorgänge und Serviceprovision von Staatsämtern.	Verbesserungen in den Operationen der Regierungsagenturen wurden eingeschlossen.	entailment
+Abbildung 6 zeigt die durchschnittlichen Stückkosten, die mit der Kostenfunktion für den USPS generiert wurden.	Die durchschnittlichen Kosten für USPS sind in Abbildung 6 dargestellt und zeigen alle Gewinne.	neutral
+Es wird angenommen, dass Luftverschmutzungswerte, die unter den Grenzwerten für den jeweiligen Gesundheitseffekt liegen, diesen nicht verursachen.	Luftverschmutzung hat, unabhängig des Levels, keine Auswirkungen auf die Gesundheit.	contradiction
+Die islamistische Bewegung, geboren ungefähr 1940, ist ein Produkt der modernen Welt, beeinflusst von marxistisch-leninistischen Konzepten über revolutionäre Organisation.	Die islamistische Bewegung wurde im sechsten Jahrhundert begonnen.	contradiction
+Wir haben keinen Hinweis darüber gefunden, dass die neue Administration von der Idee unterrichtet wurde oder dass Clark ihnen die Papiere gegeben hat, obwohl dieselbe Mannschaft von Karrierebeamten in beiden Administrationen tätig waren.	Wir können keine Beweise dafür finden, dass Clarke ihm seine Arbeit gegeben hat.	entailment
+Wir haben keinen Hinweis darüber gefunden, dass die neue Administration von der Idee unterrichtet wurde oder dass Clark ihnen die Papiere gegeben hat, obwohl dieselbe Mannschaft von Karrierebeamten in beiden Administrationen tätig waren.	Wir wissen mit Sicherheit, dass Clarke ihnen am 2. Juli seine Papiere gegeben hat.	contradiction
+Nachdem Mihdhar gegangen ist, zogen andere Studenten in das Haus ein.	Die Schüler gingen ins Haus nachdem Mihdhar gegangen war.	entailment
+Die Einwohner der USA hofften auf eine Friedensdividende, da die Ausgaben der USA für die nationale Sicherheit nach dem Ende der militärischen Bedrohung durch die Sowjetunion gekürzt wurden.	Verteidigungsetats wurden um mehr als 50 Billionen Dollar pro Jahr gekürzt.	neutral
+Lokale Zeitungen und die wenigen einflussreichen Satelliten-Radiosender, wie zum Beispiel al Jazeera bestätigen oft die Ansichten der Djihadisten, welches die Vereinigten Staaten von Amerika als anti-muslimisch darstellt.	Alle amerikanischen Zeitungen müssen pro-muslimisch klingen.	contradiction
+Der stellvertretende Direktor des Zentralen Geheimdienstes, John McLaughlin, sagte aus, dass er einige Tage vor der Anweisung von Tenet über Moussaoui informiert wurde, obwohl er sich nicht an das genaue Datum der Anweisung erinnern konnte.	McLaughlin ist der stellvertretende Direktor der CIA.	entailment
+Es gibt keine Anzeichen dafür, dass Atta oder Shehhi irgendeine zusätzliche Flugausbildung im Juni bekommen haben.	Atta und Shehhi erhielten im Mai ihre Flugzeugzertifizierungen.	neutral
+Es gibt keine Anzeichen dafür, dass Atta oder Shehhi irgendeine zusätzliche Flugausbildung im Juni bekommen haben.	Wir vermuten nicht, dass Atta und Shehi im Juni das Flugtraining fortgesetzt haben.	entailment
+Mihdhar gab seine beabsichtigte Adresse als Marriott Hotel in New York City, aber stattdessen verbrachte er eine Nacht in einem anderen New Yorker Hotel.	Mihdhar übernachte nicht im dem Hotel, das er angedeutet hatte.	entailment
+Mihdhar gab seine beabsichtigte Adresse als Marriott Hotel in New York City, aber stattdessen verbrachte er eine Nacht in einem anderen New Yorker Hotel.	Mihdhar hatte einen wundervollen Aufenthalt im Marriott Hotel in NYC.	contradiction
+Er glaubte, dass es einen wahrscheinlichen aureichenden Grund für einen Strafbefehl zu der Zeit gab.	Er vermutete, dass das Grundstück benutzt wurde, um einen illegalen Bombenbau zu verbergen.	neutral
+Er glaubte, dass es einen wahrscheinlichen aureichenden Grund für einen Strafbefehl zu der Zeit gab.	Es gab Gründe für den Verdacht, dass ein Verbrechen begangen wurde.	entailment
+Sichere Identifikation sollte in den Vereinigten Staaten beginnen.	Sichere Identifikation sollte niemals in den USA verwendet werden.	contradiction
+Das engagierte Fachpersonal unter der Leitung von Philip Zelikow hat unzählige Stunden zur Fertigstellung dieses Berichts beigetragen und andere wichtige Aufgaben aufseite gestellt, um diese alles ergreifende Aufgabe zu übernehmen.	Philip Zelikow und seine Mitarbeiter haben viele Stunden damit verbracht, den Bericht vorzubereiten.	entailment
+Geheimdienstbericht, Vernehmung des Gefangenen, 2. Dezember 2001.	Der Geheimdienstbericht wurde am 3. Dezember 2001 verfasst.	neutral
+Wie vorher bereits besprochen, ist der Grund warum Jane entschieden hat die Informationen nicht weiterzugeben, dass die ursprünglichen Information über Mihdhar von der Nationalen Sicherheitsbehörde analysiert worden waren.	Jane wollte die Informationen niemals teilen.	neutral
+Einige der umstrittensten Bestimmungen der Patriot Act werden Ende 2005 verfallen.	Manche umstrittenen Maßnahmen des Patriotic Acts werden wahrscheinlich vom Kongress erneuert, bevor er ausläuft.	neutral
+Die Vereinigten Staaten verteidigten und verteidigen immer noch Muslime gegen Tyrannen und Kriminelle in Somalia, Bosnien, Kosovo, Afghanistan und im Irak.	Muslime in Somalia werden manchmal von Tyrannen bedroht.	entailment
+Die Vereinigten Staaten verteidigten und verteidigen immer noch Muslime gegen Tyrannen und Kriminelle in Somalia, Bosnien, Kosovo, Afghanistan und im Irak.	Diese Tyrannen tragen normalerweise gerne grüne Hüte.	neutral
+Hazmi's Mitbewohner hat sich daran erinnert das er um diese Zeit unerklärte reisen zum San Diego Flughafen gemacht hat.	Hazmis Mitbewohner war misstrauisch.	neutral
+Wir werden es hier kurz zusammenfassen.	Diese Zusammenfassung wird nicht viel Zeit benötigen.	entailment
+Infolgedessen wurde sein Gehalt erhöht und seine sonstigen Zuschüsse stiegen von ca. 465 Dollar auf 3925 Dollar pro Monat und blieben auf diesem Niveau bis Dezember 2000.	Sein monatliches Einkommen ist gesunken.	contradiction
+Für die Reaktion des Ausbilders der Academy siehe den FBI-Ermittlungsbericht, Befragung von James Milton, Apr.	Das FBI war interessiert an der Reaktion des Ausbilders auf ein Video von zwei Kätzchen, die mit einem Ball spielen.	neutral
+Dein Geschenk ist wichtig für die Feier unserer 85. Saison.	Uns kümmert dein Geschenk nicht im geringsten.	contradiction
+Damit unsere juristische Fakultät mehr Ansehen und Einfluss gewinnen kann, brauchen wir eine Mischung aus privater Unterstützung und Finanzierung durch die Universität.	Unsere juristische Fakultät braucht Geld, um weiter zu wachsen.	entailment
+Danke, dass Sie das Kunstmuseum in Indianapolis 1999 unterstützt haben.	Danke, aber nein danke, dass du 1999 auf deine Spenden verzichtet hast.	contradiction
+Diejenigen die teilnehmen, bekommen die Namen, Adressen und Telefonnummern von potenziellen Kandidaten sowie Hintergrundinformationen über die Bedürfnisse der Schule.	Die Teilnehmer können nur die Namen von Interessenten kennen, aber nicht ihre Adressen.	contradiction
+Deine Unterstützung von Gutmütigkeit wird Jobtraining und Stellenvermittlung bringen um den Härtesten zu helfen in Zentral-Indiana sinvolle Arbeit zu finden.	Die Unterstützung von Goodwill wird den Leuten in Indien zugutekommen.	entailment
+Als Mitglied der juristischen Fakultät __ weiß ich, dass Sie sich unserer Fortschritte bewusst sind.	Niemand gehört der juristischen Fakultät an.	contradiction
+Ihre Unterstützung hilft der Gesellschaft, die Qualität von der Versorgung der Tiere und Sammlungen von Pflanzen zu bewahren und die Durchführung von wichtiger Forschung an seltenen Arten, einschließlich die, die im Plan für das Überleben der Art sind.	Der Verein kümmert sich um Tiere.	entailment
+Was 1973 als tourende Gruppe von Schauspielern begann, spielte heute in Städten wie Gary, Elkhart und Terre Haute, dem IRT-Bildungsprogramm	Einige Schauspieler waren 1973 in Indiana auf Tournee.	entailment
+Lorbeerkränze, die für Triumpf stehen und Olivenzweige, welche Frieden symbolisieren, zieren auch den Rand des Teppich zusammen mit Blättern des Bärenklaus.	Der Teppich ist beige.	neutral
+Vorsitzender des Kuratoriums.	Der Vorsitzende des Stiftungsrates.	entailment
+Letztes Jahr haben Sie großzügigerweise ... $ gespendet.	Du hast letzten Monat kein Geld gespendet.	contradiction
+Wenn Sie Hilfe bei Ihrer Spende benötigen, können Sie sich gerne an die Entwicklungsleiterin Kathy Dannels wenden, unter 924-6770 ext.	Kathy Dannels beantwortet Anrufe umgehend.	neutral
+Wenn Sie Hilfe bei Ihrer Spende benötigen, können Sie sich gerne an die Entwicklungsleiterin Kathy Dannels wenden, unter 924-6770 ext.	Bitte wenden Sie sich an Kathy Dannels, wenn Sie Ihren Beitrag besprechen möchten.	entailment
+Städtische Einnahmen generieren sich aus vollen Stadien, Seminaren und Unterrichtsgebühren, Vermietung von Anlagen, Stiftungen, Firmensponsoren und individuellen Beiträgen von Unterstützern wie Ihnen.	Die Leute geben uns Geld, damit unsere Organisation am Laufen bleibt.	entailment
+Studentenbeiträge wurden für 1992-92 12% gesteigert, eine großer Anstieg.	Die Studiengebühren sind viel teurer geworden.	entailment
+Wenn das rote Schild der Salvation Army sprechen könnte, würde es dir vielleicht erzählen, wie wir einen Mann mit diabetes geholfen haben das Insulin zu bekommen, das er brauchte.	Die Heilsarmee hilft jedem, der es benötigt.	neutral
+Sehr bald wird dich ein Freund der IRT anrufen um deine Bürgschaft telefonisch annehmen.	Du musst 100 $ übers Telefon spenden, wenn du ein Mitglied sein möchtest.	neutral
+Lerne, in die Fußstapfen eines anderen zu treten	Leben Sie unter den Bedingungen, die jemand hat.	neutral
+Besucher werden die Möglichkeit haben wechselnde Sendunge im Hilbert Conservatory zu sehen. Schmetterlinge sind Frei, Zauberer von Oz, Spielzeugland und Flüge der Fantasie.	Besucher werden West Side Story nur im Hilbert-Konservatorium sehen können.	contradiction
+Ein ganz professionalles und voll produziertes  Theaterstück hat ein Unterschied für Kinder wie Becky, Stephanie, Markus, Emily und deren Klassenkameraden, aus ganz Indiana weit, gemacht.	Wir wünschten, wir könnten es uns leisten, voll professionelle Theaterproduktionen zu schaffen, aber wir hatten nie die Mittel dazu hier in Indiana.	contradiction
+Wenn Sie Fragen oder Vorschläge haben, rufen Sie heute bitte entweder mich (924-5471) oder Bob Lovell (274-0622) an.	Bob Lovell wird damit nicht mehr in Verbindung gebracht.	contradiction
+Die wunderbaren Verbindungen, die sich jeden Tag bilden, werden durch die Unterstützung der Gesellschaft ermöglicht.	Die Gesellschaft hat nichts mit den Leuten zu tun.	contradiction
+Technologie, obwohl scheinbar unverzichtbar, hat uns dazu gebracht, in Hypergeschwindigkeit zu gehen.	Technologie hat uns keineswegs geholfen.	contradiction
+Das Hauptpunkt, jedoch, ist es, dass es eigentlich nicht all zu viele Milosevics in der Welt gibt.	Es gibt weniger als 1000 Milosevics auf der Welt.	neutral
+Time's Titelgeschichte ist der 12-Stufen Programm über den Erfolg in der Digitalzeit von Bill Gates.	Time Magazine bringt einen Artikel über Bill Gates und Erfolg im digitalen Zeitalter.	entailment
+Die Nerds, die sich in den Klassen für Wirtschaft und Computer einfinden, haben eine noch hoffnungslosere Position.	Die Nerds haben eine Zukunft.	contradiction
+Foto von Bill Clinton auf dem Schiefer Inhaltsverzeichnis von Kevin Lamarque / Reuters.	Foto von Bill Clinton auf dem Vanity Fair Table of Contents von Ralph Emerson / AP News.	contradiction
+Das ist mehr, als das, was das Nachrichten Quiz über Fox verspricht.	Es ist wahrscheinlich mehr als News Quiz über Fox sagen kann/	neutral
+Sabol sagte er müsse einen gelegentlichen Boxenstopp einlegen, aber selbst das ist bequem arrangiert.	Sabol merkte an, dass er keine Pausen einlegen muss.	contradiction
+Warum gilt das nicht für das Web?	Dies gilt für das Web.	contradiction
+Warum gilt das nicht für das Web?	Das ist eventuell für einige Fälle im Internet zutreffend.	neutral
+Du bist dir nicht sicher, ob du dir im Klaren warst, auf welcher Seite du stehst.	Wir wissen nicht, wen Sie unterstützen.	entailment
+Eines Tages wird die Technologie, die heute Märkte für Visionäre schafft, so alltäglich wie eine Glühbirne sein.	Technologie macht immer Spaß!	contradiction
+Vielen Dank der Herr, könnte ich noch eine andere Antwort haben	Vielen Dank; Das ist die einzige Antwort, die ich brauchte.	contradiction
+Fertiggerichte die vor dem Fernseher gegessen werden, sind ein furchtbares Stigma.	Frühstück und Mittagessen sind die einzigen Mahlzeiten, die im Fernsehen erscheinen.	contradiction
+Pynchon: Wie es sich für einen Mann gehört, der seine Privatsphäre schützt, hat Pynchon sein Privatleben privat gehalten.	Es gibt eine populäre Fernsehshow über Pynchons Privatleben mit Pynchon selbst.	contradiction
+Auch wenn dieser Ansatz für Rationalisten sehr vernünftig klingen mag, ist er doch einer der kontroverseren Ansätze die sich mit der Annäherung von Vertrauen und Vernunft beschäftigen.	Man kann Glauben und Vernunft nicht miteinander vereinen.	contradiction
+In Bezug auf die Berater des Weißen Hauses Zeit veröffentlicht Henry Kissinger's Bericht über seine Jahre als Nixons Außenminister.	Henry Kissinger war Nixons Staatssekretär.	entailment
+Die Reise war es wert, zumindest was das Verständnis der Republikaner von Texas betrifft.	Es hat Spaß gemacht, auf dem Ausflug nach Texas über Christliche Glauben und Motivationen zu lernen.	neutral
+Die vernünftige und sensible Sache die gemacht werden soll, ist es dem Presidenten zu sagen.	Es wäre menschlich, den Präsidenten zu informieren.	entailment
+Soderbergh ist einer dieser seltenen Filmemacher, die während der Arbeit lernen.	Soderbergh ist ein Filmemacher mit der Fähigkeit durch die Arbeit zu lernen.	entailment
+Die Aufgabe welchen Aspekts unserer Außenpolitik fürchtet Richard Clarke am meisten--herumstehen, während Zivilisten in Ruanda abgeschlachtet werden oder herumstehen, während Zivilisten im Kosovo abgeschlachtet werden?	Clarke weiß, dass alles gut wird.	contradiction
+Dank des II. Vatikanischen Konzils (und einer seiner wenig beachteten Folgen, ein Abklingen des amerikanischen Antikatholizismus) kommunizieren Katholiken unbewusst mit anderen Christen und nehmen an ihren Taufen, Hochzeiten und Beerdigungen teil.	Es gibt ein paar ausschließlich katholische Traditionen.	neutral
+Die Anspielung, dass Hillary Rodham Clinton von Prinzessin Diana etwas lernen könnte, war so faszinierend, dass ich auf Margaret Carlsons Hillary und Di klicken musste.	Prinzessin Diana war eine viel bessere Person als Hillary Clinton.	neutral
+Es gibt keinen Grund sich für unser Verhalten als Leiter zu entschuldigen.	Unsere einzige Möglichkeit besteht darin, den Anweisungen unserer Vorgesetzten zu folgen.	contradiction
+Mehr Nutzen aus den ausgefransten Beziehungen zwischen British Telecom und MCI: WorldCom überbietet BT, indem es 30 Milliarden Dollar für MCI anbietet.	BT bot 20 Milliarden für MCT.	neutral
+Mehr Nutzen aus den ausgefransten Beziehungen zwischen British Telecom und MCI: WorldCom überbietet BT, indem es 30 Milliarden Dollar für MCI anbietet.	WorldCom hat nie gegen BT geboten.	contradiction
+Die Antwort zu der Feminisierung der Kultur	Kultur wurde verweiblicht.	entailment
+Das Beste was man von Podhoretz und Decter sagen könnte ist,dass ihre biologischen Uhren nicht mehr sehr viele Minuten übrig haben.	Decter ist 85 Jahre alt.	neutral
+Heute bleiben diese Germanisms nicht einmal in den Vereinigten Staaten.	Diese Germanismen werden in den Vereinigten Staaten nicht mehr verwendet.	contradiction
+Gemäss Informationen enthält der Erstgenannte 2.000 Einträge und der Letztgenannte 2.700; aber der ODNW enthält mehr Informationen -- mindestens 30 Prozent mehr, nach meinen Berechnungen.	Nach meinen Berechnungen hat die ODNW mehr Informationen, als die Klappentexte vermuten lassen.	neutral
+Was die Herausforderungen betrifft, suche ich derzeit nach einem Wort, das in zwei aufeinanderfolgende kleinere Formen geschnitten werden kann.	Ich habe drei Wörter gefunden, die in zwei aufeinanderfolgende kleinere Formen unterteilt werden können.	contradiction
+Was die Herausforderungen betrifft, suche ich derzeit nach einem Wort, das in zwei aufeinanderfolgende kleinere Formen geschnitten werden kann.	Seit ich an einem Einführungslehrgang im letzten Jahr teilgenommen habe, habe ich mein Interesse für die Linguistik entdeckt.	neutral
+Um die Sache anders zu formulieren, ich könnte einen Aufsatz schreiben mit dem Titel, Gefahren der Lese- und Schreibfähigkeit oder Eine kleines bisschen Kenntnis ist eine Gefährliche Sache.	Ich konnte mir keinen Titel eines Buches vorstellen, das ich über Alphabetisierung schreiben würde	contradiction
+Doch sie haben einen privaten, geheimen Namen, der ein Familiengeheimnis bleibt.	Ein Familienmitglied veröffentlichte ein Buch und enthüllte alle Familiengeheimnisse.	contradiction
+Konsistenz ist eine Form von Ritualismus.	Konsequent zu sein ist wie Rituale durchzuführen.	entailment
+Konsistenz ist eine Form von Ritualismus.	Ritualismus wird geschätzt, weil er zu einem einheitlichen Ergebnis führt.	neutral
+sagte meine Frau mit einer hochgezogenen Augebraue.	Meine Frau blinzelte mit den Augen, als sie sprach.	contradiction
+Dennoch andere werden einfach den Gebrauch der Sprache bewundern und sich fragen wo unsere analytische Seite endet und unsere emotionale Seite beginnt.	Es kann schwierig sein, genau zu entscheiden, wo emotionale Appelle beginnen.	entailment
+Dennoch andere werden einfach den Gebrauch der Sprache bewundern und sich fragen wo unsere analytische Seite endet und unsere emotionale Seite beginnt.	Dieses Stück ist nichts als eine trockene analytische Analyse.	contradiction
+Worte sind, im Allgemeinen, alt.	Nahezu alle Wörter sind sehr neue Erfindungen.	contradiction
+Die gleichermaßen skurrile Natur der Definitionen trotzt jeder Beschreibung.	Es gibt siebzehn verschiedene Definitionen.	neutral
+Es sei daran erinnert, dass sie keine Erklärungen abgeben.	Ihre geschriebene Erklärung wurde heute morgen in der Zeitung gedruckt.	contradiction
+Aufgrund der fünf Seiten voller Danksagungen (im Gegensatz zu dem nur zwei Seiten umfassenden Quellenverzeichnis) sollte ersichtlich sein, dass das Lexikon hauptsächlich auf eigenen Forschungen basiert.	Dieses Wörterbuch scheint aus einem bereits vorhandenen Wörterbuch eines Mitbewerbers zu plagiieren.	contradiction
+Personen, die mit den beteiligten Sprachen nicht vertraut sind, werden wahrscheinlich keine Antworten auf diese rhetorischen Fragen haben, aber ich bin sicher, dass sie es vorziehen werden, die unausstehliche Wahrheit zu vermeiden.	Leute, die die Sprache nicht sprechen, werden es schwer haben zu antworten.	entailment
+buscarle la quinta pata al gato - 'nach dem fünften Bein der Katze suchen' ist sehr verbreitet mit der Bedeutung 'nach Ärger suchen'	Das Sprichwort ist über Katzen mit drei Beinen.	contradiction
+buscarle la quinta pata al gato - 'nach dem fünften Bein der Katze suchen' ist sehr verbreitet mit der Bedeutung 'nach Ärger suchen'	Es gibt eine Redewendung über das fünfte Bein einer Katze.	entailment
+Es fegt auch Wörter in seiner Passage.	Wenn es vorbeigeht, streicht es nichts	contradiction
+Viele Sprachen haben diese Mehrdeutigkeit.	Das macht es schwieriger, die Sprache zu erlernen.	neutral
+Aber die Frage kann nicht einmal gestellt werden, wenn die Details verlegt werden.	Es sollte trotz der irreführenden Details möglich sein die Frage zu beantworten.	contradiction
+Aber die Frage kann nicht einmal gestellt werden, wenn die Details verlegt werden.	Sie können die Frage nicht beantworten, wenn die Details nicht richtig angelegt sind.	entailment
+Die Übersetzer_innen der King James Bibel haben die Bibel für eine christliche Leserschaft übersetzt; für sie bestand die Bibel aus dem Alten und dem Neuen Testament.	Die King James Bibel enthält nur das Alte Testament.	contradiction
+In diesem Zusammenhang kann die jüngste Veröffentlichung des Omni Gazetteer der Vereinigten Staaten von Amerika trotz seiner 1 500 000 Einträge nur als ein erster, wenn auch ehrgeiziger Schritt angesehen werden.	Der Omni Gazetteer der Vereinigten Staaten ist über Tiere.	neutral
+In der Tat steht das Wort Quark in dem OED als ein Verb, das krächzen bedeutet, mit Verweisen aus dem 19. Jahrhundert auf Frösche, Saatkrähen und Reiher.	Das Wort Quark ist ein neuzeitliches Wort, das zuerst in den 1960er Jahren von Wissenschaftlern erfunden wurde.	contradiction
+Ich hab noch platz für sechs Schotch's	Ich habe nur Platz für ein weiteres Glas Scotch.	contradiction
+Ich hab noch platz für sechs Schotch's	Noch sechs Whisky auf Eis werden genügen.	neutral
+Meine Schwester war mal mit einem stämmigen jungen Mann zusammen, der ein zäher Verstärker der Universität von Iowa war, deren Sportteam die Hawkeyes genannt wird.	Meine Schwester ist eine Nonne und ist noch nie mit einem Mann ausgegangen.	contradiction
+Meine Schwester war mal mit einem stämmigen jungen Mann zusammen, der ein zäher Verstärker der Universität von Iowa war, deren Sportteam die Hawkeyes genannt wird.	Meine Schwester war früher mit einem Fan der Sportmannschaften der Universität von Iowa zusammen, die Hawkeyes heißen.	entailment
+Es ist bereits ein Monat seit der Wahl vergangen und Republikaner und Demokraten klatschen sich immer noch ab.	Es war nur eine Woche seit der Wahl.	contradiction

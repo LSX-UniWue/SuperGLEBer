@@ -1,0 +1,2 @@
+model_name: dbmdz/german-gpt2
+set_pad_token_to_eos_token_id: True

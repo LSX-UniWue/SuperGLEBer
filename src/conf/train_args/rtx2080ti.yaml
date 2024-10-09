@@ -1,0 +1,4 @@
+learning_rate: 5.0e-5
+batch_size: 8
+gradient_accumulation_steps: 1
+epochs: 5

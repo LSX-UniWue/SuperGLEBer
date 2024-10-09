@@ -1,0 +1,18 @@
+task_name: massive_intents
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: CSVClassificationCorpus
+corpus_args:
+  data_folder: "Massive/Intents"
+  column_name_map: { 0: "text", 1: "label" }
+  label_type: *label_type
+  delimiter: "\t"
+  skip_header: False
+
+
+
+

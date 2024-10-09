@@ -1,0 +1,2 @@
+model_name: bigscience/bloomz-560m
+set_padding_right: True

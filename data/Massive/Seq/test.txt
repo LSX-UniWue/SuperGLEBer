@@ -1,0 +1,12405 @@
+stelle	-
+bitte	-
+die	-
+beleuchtung	-
+passend	color_type
+zum	color_type
+lesen	color_type
+ein	-
+
+zeit	-
+schlafen	-
+zu	-
+gehen	-
+olly	-
+
+ausmachen	-
+der	-
+lichter	-
+im	-
+badezimmer	house_place
+
+prüfe	-
+den	-
+status	-
+meines	-
+energie	-
+verbrauchs	-
+
+erzähle	-
+mir	-
+von	-
+den	-
+n.	media_type
+t.	media_type
+v.	media_type
+nachrichten	-
+
+aktiviere	-
+zufällige	player_setting
+wiedergabe	player_setting
+
+dimme	-
+das	-
+licht	-
+
+ich	-
+brauche	-
+einen	-
+kaffee	-
+
+anmachen	-
+von	-
+meinem	-
+stecker	device_type
+
+kennst	-
+du	-
+irgendeinen	-
+witz	-
+
+entferne	-
+den	-
+wecker	-
+
+sage	-
+mir	-
+das	-
+wetter	-
+in	-
+berlin	place_name
+
+mache	-
+die	-
+lichter	-
+passend	color_type
+zum	color_type
+lesen	color_type
+
+den	-
+song	-
+zu	-
+meiner	-
+lieblingsliste	-
+hinzufügen	-
+
+wird	-
+es	-
+heute	date
+regnen	weather_descriptor
+
+was	-
+passiert	-
+draußen	-
+
+es	-
+ist	-
+schrecklich	-
+dunkel	-
+hier	-
+
+wie	-
+viel	-
+uhr	-
+ist	-
+es	-
+gerade	-
+in	-
+moskau	place_name
+
+staubsauge	-
+die	-
+küche	house_place
+
+wie	-
+gehts	-
+dir	-
+
+einschalten	-
+des	-
+smarten	device_type
+ladegerätes	device_type
+
+spiele	-
+track	song_name
+eight	song_name
+von	-
+google	playlist_name
+play	playlist_name
+musik	-
+
+was	-
+ist	-
+das	-
+aktuelle	-
+datum	-
+
+speichere	-
+diese	-
+musik	-
+in	-
+meine	-
+wiedergabeliste	-
+
+ausmachen	-
+vom	-
+licht	-
+in	-
+der	-
+garage	house_place
+
+wie	-
+lautet	-
+das	-
+heutige	date
+datum	-
+
+ändere	-
+die	-
+lichter	-
+in	-
+der	-
+küche	house_place
+zu	-
+blau	color_type
+
+sprich	-
+bitte	-
+laut	-
+
+sag	-
+mir	-
+datum	-
+und	-
+zeit	-
+
+finde	-
+nachrichten	-
+zum	-
+brexit	news_topic
+
+in	-
+welcher	-
+zeitzone	-
+liegt	-
+sachsen	place_name
+
+stille	-
+bitte	-
+
+welche	-
+wecker	-
+habe	-
+ich	-
+
+kannst	-
+du	-
+auf	-
+lautlos	-
+stellen	-
+wenn	-
+ich	-
+nicht	-
+zuhause	-
+bin	-
+
+was	-
+ist	-
+dein	-
+lieblingswitz	-
+
+was	-
+sie	-
+die	-
+neusten	-
+nachrichten	-
+auf	-
+der	-
+welt	place_name
+
+schalte	-
+bitte	-
+die	-
+lichter	-
+im	-
+wohnzimmer	house_place
+aus	-
+
+wie	-
+kalt	weather_descriptor
+ist	-
+es	-
+
+wie	-
+viele	-
+geburtstage	event_name
+sind	-
+am	-
+dreiundzwanzigsten	date
+
+spiel	-
+eins	playlist_name
+bis	playlist_name
+zehn	playlist_name
+auf	-
+der	-
+liste	-
+
+schalte	-
+ein	-
+licht	-
+auf	-
+der	-
+veranda	house_place
+aus	-
+
+stell	-
+bittte	-
+einen	-
+wecker	-
+für	-
+den	-
+nächsten	timeofday
+morgen	timeofday
+um	-
+sieben	time
+uhr	time
+
+was	-
+ist	-
+der	-
+neueste	-
+skandal	-
+zu	-
+donald	person
+trump	person
+
+spiele	-
+den	-
+letzten	music_descriptor
+hit	music_descriptor
+vom	-
+letzten	-
+metallica	artist_name
+album	-
+
+erinnere	-
+mich	-
+daran	-
+das	-
+lied	-
+heute	timeofday
+abend	timeofday
+zu	-
+spielen	-
+
+mache	-
+das	-
+licht	-
+mehr	-
+sichtbar	-
+
+kannst	-
+du	-
+mir	-
+sagen	-
+wie	-
+spät	-
+es	-
+ist	-
+
+hi	-
+
+spiel	-
+glücklichplaylist	playlist_name
+als	-
+nächstes	-
+
+spiel	-
+song	-
+von	-
+meiner	-
+trance	playlist_name
+liste	playlist_name
+
+sprich	-
+nicht	-
+für	-
+eine	-
+weile	-
+
+zeige	-
+mir	-
+die	-
+höchst	weather_descriptor
+temperatur	-
+für	-
+diese	date
+woche	date
+
+weckrufe	alarm_type
+für	-
+diese	date
+woche	date
+streichen	-
+
+terminiere	-
+pizza	food_type
+abholung	-
+auf	-
+neunzehn	time
+uhr	time
+
+ergänze	-
+meinung	-
+
+spiel	-
+crystal	artist_name
+lewis's	artist_name
+beauty	song_name
+of	song_name
+the	song_name
+cross	song_name
+für	-
+mich	-
+
+wie	-
+spät	-
+ist	-
+es	-
+in	-
+leipzig	place_name
+sachsen	place_name
+
+welche	-
+zeit	-
+sehen	-
+wir	-
+gerade	-
+
+spiele	-
+einige	-
+beruhigende	music_descriptor
+musik	-
+für	-
+mich	-
+
+spiel	-
+pandora	app_name
+
+lösche	-
+bitte	-
+meinen	-
+morgen	timeofday
+wecker	-
+
+benenne	-
+den	-
+sänger	-
+
+wiederhole	player_setting
+dieses	-
+lied	-
+
+dezentrales	-
+design	-
+
+spielen	-
+avantasia	artist_name
+von	-
+meine	-
+neueste	-
+wiedergabeliste	-
+
+was	-
+ist	-
+die	-
+beste	-
+pizza	food_type
+in	-
+der	-
+nähe	-
+von	-
+mir	-
+die	-
+liefert	order_type
+
+spiel	-
+das	-
+letzte	-
+album	-
+auf	-
+wiederholung	-
+
+stell	-
+einen	-
+wecker	-
+für	-
+fünf	time
+uhr	time
+dreißig	time
+
+stell	-
+einen	-
+wecker	-
+um	-
+fünf	time
+uhr	-
+früh	timeofday
+
+spaghetti	food_type
+zum	order_type
+mitnehmen	order_type
+bei	-
+vapiano	business_name
+bestellen	-
+
+uhrzeit	-
+in	-
+dresden	place_name
+jetzt	-
+
+kann	-
+ich	-
+bitte	-
+einen	-
+kaffee	-
+americano	coffee_type
+bekommen	-
+
+zwölf	time
+uhr	time
+entfernt	-
+
+leg	-
+ein	-
+disco	music_genre
+lied	-
+auf	-
+
+kannst	-
+du	-
+mich	-
+zum	-
+menü	-
+des	-
+bestbewerteten	-
+chinesischen	food_type
+takeaway	order_type
+in	-
+der	-
+nähe	-
+bringen	-
+
+finde	-
+einen	-
+witz	-
+in	-
+deinen	-
+archiven	-
+und	-
+erzähl	-
+ihn	-
+mir	-
+
+kannst	-
+du	-
+mir	-
+das	date
+heutige	date
+datum	-
+sagen	-
+
+kannst	-
+du	-
+bestätigen	-
+dass	-
+mein	-
+meeting	event_name
+morgen	date
+abgesagt	-
+wurde	-
+
+besucht	news_topic
+die	-
+indische	-
+ministerpräsidentin	-
+narendra	person
+modi	person
+gerade	-
+irgendein	news_topic
+land	news_topic
+
+wo	-
+kann	-
+ich	-
+dieses	-
+lied	-
+finden	-
+
+an	-
+welchem	-
+tag	-
+ist	-
+ostern	date
+
+wie	-
+spät	-
+ist	-
+es	-
+
+lautstärke	-
+bisschen	-
+höher	-
+
+olly	-
+liefert	order_type
+panda	business_name
+garden	business_name
+
+was	-
+ist	-
+das	-
+datum	-
+von	-
+zwei	date
+mittwoche	date
+zurück	date
+von	date
+heute	date
+
+wie	-
+wird	-
+das	-
+wetter	-
+am	-
+samstag	date
+werden	-
+
+der	-
+dass	-
+lied	-
+singt	-
+
+welche	-
+wecker	-
+habe	-
+ich	-
+
+wie	-
+ist	-
+es	-
+in	-
+münchen	place_name
+
+schalte	-
+das	-
+linke	device_type
+licht	device_type
+aus	-
+
+schalte	-
+den	-
+wemo	device_type
+stecker	device_type
+ein	-
+
+einschalten	-
+der	-
+kaffeekanne	device_type
+
+ist	-
+meine	-
+bestellung	-
+fertig	-
+
+wemo	device_type
+ausschalten	-
+
+wie	-
+soll	-
+morgen	date
+das	-
+wetter	-
+werden	-
+
+wieviel	-
+uhr	-
+haben	-
+wir	-
+es	-
+in	-
+bremen	place_name
+
+spiel	-
+musik	-
+von	-
+avatar	playlist_name
+
+lieferung	order_type
+frei	-
+haus	-
+
+mache	-
+alle	-
+lichter	-
+im	-
+haus	house_place
+orange	color_type
+
+geh	-
+nahe	-
+des	-
+staubsauger	device_type
+
+nimm	-
+es	-
+in	-
+die	-
+hand	-
+
+spiele	-
+christlichen	music_genre
+rock	music_genre
+ab	-
+neunzehnhundertneunzig	date
+
+die	-
+musik	-
+lautstärke	-
+sollte	-
+auf	change_amount
+neunzig	change_amount
+erhöht	-
+werden	-
+
+ja	-
+oder	-
+nein	-
+die	-
+morgige	date
+temperatur	weather_descriptor
+wird	-
+heiß	weather_descriptor
+
+kannst	-
+du	-
+mir	-
+bitte	-
+die	-
+zeit	-
+sagen	-
+
+aus	-
+alle	-
+lichter	device_type
+auf	device_type
+der	device_type
+rechten	device_type
+seite	device_type
+
+gib	-
+mir	-
+das	-
+neuste	-
+zu	-
+angela	news_topic
+merkel	news_topic
+
+wecke	-
+mich	-
+um	-
+sechs	time
+uhr	time
+
+kann	-
+ich	-
+das	-
+wetter	-
+von	-
+da	-
+wisssen	-
+
+stell	-
+die	-
+lautstärke	-
+höher	-
+ein	-
+
+guten	-
+tag	-
+wie	-
+geht	-
+es	-
+dir	-
+
+spiel	-
+lieblings	-
+musik	-
+
+mische	player_setting
+die	-
+titel	-
+neu	player_setting
+und	-
+spiele	-
+musik	-
+
+start	-
+reinigungsroboter	device_type
+
+ist	-
+dieses	-
+lied	-
+von	-
+vanessa	artist_name
+mai	artist_name
+
+sollte	-
+ich	-
+heute	date
+einen	-
+regenschirm	weather_descriptor
+mit	-
+zur	-
+arbeit	-
+nehmen	-
+
+welche	-
+zeit	-
+ist	-
+es	-
+
+bringe	-
+mir	-
+die	-
+neuesten	-
+technik	news_topic
+nachrichten	-
+
+gib	-
+mir	-
+die	-
+schlagzeilen	-
+von	-
+sky	media_type
+news	media_type
+
+restaurant	business_type
+lieferung	-
+update	-
+
+stelle	-
+wecker	-
+für	-
+fünf	time
+uhr	time
+
+zeig	-
+mir	-
+kölns	place_name
+aktuelle	-
+zeit	-
+
+besorg	-
+mir	-
+etwas	-
+musik	-
+
+gibt	-
+es	-
+irgendwelche	-
+aktuellen	-
+neuigkeiten	-
+
+gibt	-
+es	-
+irgendwelche	-
+aktuelle	-
+nachrichten	-
+
+spiel	-
+meine	-
+lieblings	-
+musik	-
+
+mittlere	change_amount
+einstellungen	-
+des	-
+geräts	-
+
+wie	-
+ist	-
+das	-
+wetter	-
+heute	date
+
+was	-
+ist	-
+der	-
+text	-
+zu	-
+dem	-
+lied	-
+das	-
+gespielt	-
+wird	-
+
+wechsel	-
+die	-
+beleuchtung	-
+zu	-
+einem	-
+rötlichen	color_type
+ton	-
+
+wo	-
+ist	-
+mein	-
+essen	-
+
+ich	-
+will	-
+keine	-
+lautsärke	-
+
+verringer	-
+die	-
+lautstärke	-
+
+prüfe	-
+das	-
+wetter	-
+der	-
+städte	-
+auf	-
+der	-
+liste	-
+beginnend	-
+mit	-
+a	-
+
+ausschalten	-
+der	-
+wohnzimmer	house_place
+beleuchtung	-
+
+es	-
+regnet	weather_descriptor
+
+was	-
+sind	-
+die	-
+lottozahlen	news_topic
+von	-
+gestern	date
+
+rufe	-
+peking	business_name
+garden	business_name
+online	-
+auf	-
+
+wie	-
+viel	-
+uhr	-
+ist	-
+es	-
+genau	-
+jetzt	-
+in	-
+karachi	place_name
+
+wie	-
+ist	-
+das	-
+wetter	-
+in	-
+köln	place_name
+
+n.	media_type
+t.	media_type
+v.	media_type
+nachrichten	-
+
+wiederhole	player_setting
+jazz	music_genre
+
+zeit	-
+bitte	-
+
+sage	-
+mir	-
+das	date
+heutige	date
+datum	-
+
+olly	-
+kannst	-
+du	-
+bitte	-
+das	-
+licht	-
+in	-
+meinem	-
+schlafzimmer	house_place
+ausschalten	-
+
+in	-
+welcher	-
+woche	-
+des	-
+jahres	-
+beginnt	-
+die	-
+sommerzeit	time
+
+schlagzeilen	-
+süddeutsche	media_type
+zeitung	media_type
+
+spiel	-
+hungry	song_name
+eyes	song_name
+
+wetter	-
+in	-
+berlin	place_name
+
+schalte	-
+aus	-
+die	-
+küchen	house_place
+beleuchtung	-
+für	-
+mich	-
+
+kannst	-
+du	-
+die	-
+küchen	house_place
+beleuchtung	-
+für	-
+mich	-
+ausschalten	-
+
+es	-
+ist	-
+zehn	time
+uhr	time
+in	-
+der	-
+östlichen	time_zone
+standard	-
+zeit	-
+wie	-
+spät	-
+ist	-
+es	-
+gerade	-
+in	-
+der	-
+pazifischen	time_zone
+standard	-
+zeit	-
+
+alexa	-
+stelle	-
+die	-
+lichter	-
+runter	-
+
+ersetze	-
+die	-
+aktuellen	-
+lichtfarben	-
+im	-
+haus	-
+mit	-
+dunklen	color_type
+
+initiiere	-
+die	-
+musik	-
+auf	-
+der	-
+electronic	playlist_name
+playlist	-
+
+initiiere	-
+den	-
+reinigungsprozess	-
+
+was	-
+ist	-
+das	-
+datum	-
+heute	date
+
+bitte	-
+prüfe	-
+die	-
+wecker	-
+
+ich	-
+brauche	-
+sport	news_topic
+nachrichten	-
+
+ausmachen	-
+von	-
+dem	-
+licht	-
+im	-
+wohnzimmer	house_place
+
+was	-
+passiert	-
+heute	date
+auf	-
+der	-
+welt	place_name
+
+kannst	-
+du	-
+die	-
+neuesten	-
+nachrichten	-
+mit	-
+dem	-
+aktuellen	-
+wetterbericht	news_topic
+für	-
+diese	-
+woche	-
+abrufen	-
+
+spiele	-
+nur	-
+klassisch	music_genre
+musik	-
+
+aktuelle	-
+zeit	-
+bitte	-
+
+kannst	-
+du	-
+bitte	-
+den	-
+smart	device_type
+socket	device_type
+ausmachen	-
+
+kannst	-
+du	-
+den	-
+smart	device_type
+socket	device_type
+ausmachen	-
+
+wecker	-
+stellen	-
+für	-
+uhrzeit	-
+
+wie	-
+stelle	-
+ich	-
+bei	-
+der	-
+kaffeemaschine	device_type
+den	-
+timer	-
+ein	-
+
+wie	-
+ist	-
+das	-
+morgige	date
+datum	-
+
+stelle	-
+den	-
+wecker	-
+für	-
+in	-
+zwei	time
+stunden	time
+
+wird	-
+es	-
+an	-
+meinem	-
+geburtstag	event_name
+regnen	weather_descriptor
+
+die	-
+lautstärke	-
+meines	-
+musikplayers	device_type
+auf	change_amount
+achtzig	change_amount
+prozent	change_amount
+stellen	-
+
+stelle	-
+die	-
+lautsprecher	-
+leiser	-
+
+schalte	-
+jetzt	-
+die	-
+lautstärke	-
+aus	-
+
+zieh	-
+die	-
+lichterkontrolle	-
+hoch	-
+
+ausschalten	-
+der	-
+wohnraum	house_place
+beleuchtung	-
+
+ausmachen	-
+der	-
+küchen	house_place
+lichter	-
+
+spiel	-
+eine	-
+country	music_genre
+playlist	-
+
+wird	-
+es	-
+sich	-
+bald	time
+aufwärmen	weather_descriptor
+
+spiel	-
+ein	-
+bisschen	-
+lady	artist_name
+gaga	artist_name
+
+spiel	-
+den	-
+besten	-
+song	-
+von	-
+jimi	artist_name
+hendri	artist_name
+
+koch	-
+ein	-
+paar	-
+kaffees	-
+
+bestelle	-
+zwei	-
+cheeseburger	-
+bei	-
+burger	business_name
+heart	business_name
+auf	-
+der	-
+dieskauer	-
+straße	-
+
+wie	-
+heißt	-
+diese	-
+musik	-
+
+strom	-
+aus	-
+wemo	device_type
+steckdose	device_type
+
+was	-
+gibt	-
+es	-
+neues	-
+in	-
+der	-
+politik	news_topic
+auf	-
+c.	media_type
+n.	media_type
+n.	media_type
+
+spiel	-
+jetzt	-
+jazz	music_genre
+musik	-
+
+sag	-
+mir	-
+welche	-
+zeit	-
+in	-
+hamburg	place_name
+ist	-
+
+lautsprecher	-
+leiser	-
+machen	-
+
+yo	-
+was	-
+ist	-
+die	-
+aktuelle	-
+zeit	-
+
+speichere	-
+dieses	-
+lied	-
+als	-
+meinen	-
+favoriten	-
+
+bitte	-
+spiel	-
+alle	-
+songs	-
+von	-
+bruno	artist_name
+mars	artist_name
+
+büro	house_place
+lichter	-
+aus	-
+
+summe	-
+von	-
+schneevorhersagen	weather_descriptor
+in	-
+münchen	place_name
+
+wie	-
+ist	-
+das	-
+derzeitige	-
+wettr	-
+
+mache	-
+das	-
+licht	-
+aus	-
+
+ich	-
+habe	-
+meine	-
+täglichen	general_frequency
+nachrichten	-
+noch	-
+nicht	-
+erhalten	-
+kannst	-
+du	-
+mir	-
+einen	-
+überblick	-
+geben	-
+
+kannst	-
+du	-
+mir	-
+einen	-
+gefallen	-
+tun	-
+meine	-
+augen	-
+füllen	-
+sich	-
+bei	-
+dem	-
+licht	-
+angespannt	-
+an	-
+kannst	-
+du	-
+es	-
+bitte	-
+zu	-
+einem	-
+kühleren	color_type
+ton	color_type
+ändern	-
+
+speichere	-
+dieses	-
+lied	-
+als	-
+favorit	-
+
+wie	-
+ist	-
+das	-
+wetter	-
+heute	date
+
+anhalten	-
+für	-
+die	-
+nächste	time
+stunde	time
+
+was	-
+ist	-
+das	-
+neueste	-
+an	-
+trumps	news_topic
+reisesperre	news_topic
+
+leister	-
+sprechen	-
+bitte	-
+
+reduziere	-
+die	-
+helligkeit	-
+der	-
+lichter	-
+
+was	-
+ist	-
+donald	person
+trump's	person
+neue	news_topic
+migrationspolitik	news_topic
+
+wecke	-
+mich	-
+um	-
+diese	-
+zeit	-
+auf	-
+
+starte	-
+lied	-
+eins	-
+
+gib	-
+mir	-
+die	-
+neuesten	-
+sachen	-
+die	-
+du	-
+über	-
+helene	person
+fischer	person
+hast	-
+
+ich	-
+will	-
+einen	-
+witz	-
+hören	-
+kannst	-
+du	-
+mir	-
+einen	-
+erzählen	-
+
+olly	-
+dunkleres	-
+licht	-
+bitte	-
+
+was	-
+ist	-
+der	-
+zeitunterschied	-
+zwischen	-
+mitteleuropäischer	time_zone
+und	-
+standard	time_zone
+
+zeige	-
+mir	-
+die	-
+nachrichten	-
+
+schalte	-
+aus	-
+die	-
+lichter	-
+in	-
+diesem	-
+raum	house_place
+bitte	-
+
+beleuchtung	-
+in	-
+diesem	-
+zimmer	house_place
+aus	-
+
+zu	-
+welcher	-
+zeit	-
+stehe	-
+ich	-
+morgen	date
+auf	-
+
+wird	-
+es	-
+schneien	weather_descriptor
+
+bringe	-
+mich	-
+aufs	-
+laufende	-
+über	-
+den	-
+klimaprotest	news_topic
+
+schicke	-
+mir	-
+updates	-
+zu	-
+den	-
+hambi	news_topic
+protesten	news_topic
+
+wer	-
+singt	-
+
+kannst	-
+du	-
+meine	-
+kaffeemaschine	device_type
+darauf	-
+stellen	-
+mir	-
+kaffee	-
+um	-
+sechzehn	time
+uhr	time
+zu	-
+machen	-
+
+sei	-
+bitte	-
+leise	-
+
+liefert	order_type
+block	business_name
+house	business_name
+
+wie	-
+viel	-
+uhr	-
+ist	-
+es	-
+in	-
+mitteleuropäischer	time_zone
+zeit	-
+
+schalte	-
+aus	-
+die	-
+beleuchtung	-
+in	-
+der	-
+küche	house_place
+
+zeit	-
+für	-
+ein	-
+workout	-
+
+ändere	-
+bitte	-
+die	-
+zeitzone	-
+auf	-
+deutschland	place_name
+
+kann	-
+dieser	-
+raum	-
+grünes	color_type
+licht	-
+haben	-
+
+bitte	-
+spiele	-
+klassische	music_genre
+musik	-
+
+wird	-
+es	-
+heute	timeofday
+nacht	timeofday
+windig	weather_descriptor
+werden	-
+
+erzähle	-
+mir	-
+von	-
+den	-
+neuesten	-
+nachrichten	-
+über	-
+trump	news_topic
+
+ausmachen	-
+der	-
+lichter	-
+im	-
+schlafzimmer	house_place
+bitte	-
+
+was	-
+sind	-
+die	-
+nächsten	-
+drei	-
+wecker	-
+die	-
+klingeln	-
+werden	-
+
+morgen	date
+ist	-
+ein	-
+sonniger	weather_descriptor
+tag	-
+richtig	-
+
+olly	-
+spiel	-
+satellite	song_name
+von	-
+lena	artist_name
+
+zeig	-
+mir	-
+musik	-
+von	-
+dem	-
+künstler	-
+
+dimme	-
+bitte	-
+die	-
+lichter	-
+in	-
+den	-
+schlafzimmern	house_place
+
+google	-
+mein	-
+wecker	-
+soll	-
+so	-
+eingestellt	-
+werden	-
+dass	-
+er	-
+in	-
+einer	time
+stunde	time
+losgeht	-
+
+spiele	-
+kfi	artist_name
+
+ist	-
+das	date
+heutige	date
+datum	-
+der	-
+neunte	date
+
+es	-
+ist	-
+zu	-
+still	-
+hier	-
+
+stell	-
+bitte	-
+einen	-
+wecker	-
+für	-
+mich	-
+
+was	-
+passiert	-
+gerade	-
+auf	-
+der	-
+welt	place_name
+
+bitte	-
+sag	-
+mir	-
+das	-
+datum	-
+und	-
+die	-
+zeit	-
+
+kann	-
+ich	-
+die	-
+zeit	-
+haben	-
+
+wie	-
+ist	-
+das	-
+aktuelle	-
+wetter	-
+in	-
+hamburg	place_name
+
+wechsle	-
+die	-
+haus	house_place
+lichter	-
+auf	-
+lila	color_type
+
+ich	-
+möchte	-
+aktuelle	-
+dance	-
+hits	-
+hören	-
+
+stumm	-
+sofort	-
+
+wird	-
+es	-
+am	-
+fünfzehnten	date
+august	date
+regnen	weather_descriptor
+
+bitte	-
+starte	-
+den	-
+musik	device_type
+player	device_type
+
+was	-
+passiert	-
+mit	-
+frau	-
+merkel	news_topic
+
+wie	-
+ist	-
+die	-
+aktuelle	-
+vorhersage	-
+für	-
+hamburg	place_name
+
+an	-
+welchem	-
+tag	-
+ist	-
+halloween	event_name
+dieses	date
+jahr	date
+
+was	-
+gibt	-
+es	-
+neues	-
+über	-
+trump	news_topic
+
+was	-
+sind	-
+die	-
+top	-
+nachrichten	-
+schlagzeilen	-
+jetzt	-
+gerade	-
+
+du	-
+musst	-
+einen	-
+wecker	-
+stellen	-
+
+gib	-
+mir	-
+die	-
+neuesten	-
+umfrageergebnisse	-
+zu	-
+armin	person
+laschet	person
+
+erhöhe	-
+beleuchtung	-
+auf	change_amount
+volle	change_amount
+power	change_amount
+
+mache	-
+die	-
+lichter	-
+weniger	-
+hell	-
+
+wie	-
+viele	-
+tage	-
+sind	-
+es	-
+in	-
+diesem	date
+monat	date
+
+alexa	-
+spiel	-
+spotify	song_name
+neunziger	song_name
+partyliste	song_name
+
+wo	-
+kann	-
+ich	-
+pizza	food_type
+zum	order_type
+liefern	order_type
+bestellen	-
+
+beginne	-
+jetzt	-
+bitte	-
+das	-
+staubsaugen	-
+
+liefert	-
+charley's	business_name
+steakhouse	business_name
+auch	-
+
+kannst	-
+du	-
+das	-
+runterdrehen	-
+
+spiel	-
+meine	-
+top	music_descriptor
+zwanzig	music_descriptor
+playlist	-
+
+politische	news_topic
+nachrichten	-
+
+was	-
+ist	-
+gestern	date
+passiert	-
+
+wird	-
+es	-
+in	-
+den	-
+nächsten	date
+paar	date
+tagen	date
+in	-
+münchen	place_name
+regnen	weather_descriptor
+
+welche	-
+weck	-
+zeit	-
+hast	-
+du	-
+eingestellt	-
+
+hey	-
+siri	-
+was	-
+gibt	-
+es	-
+für	-
+nachrichten	-
+aus	-
+der	-
+welt	place_name
+jetzt	-
+gerade	-
+
+zeig	-
+mir	-
+die	-
+zeit	-
+
+hey	-
+siri	-
+hast	-
+du	-
+vor	-
+kurzem	-
+irgendwelche	-
+neue	-
+witzige	joke_type
+witze	-
+gehört	-
+
+ich	-
+hätte	-
+gern	-
+die	-
+badezimmer	house_place
+lichter	-
+auf	-
+gelb	color_type
+eingestellt	-
+
+reinige	-
+das	-
+sofa	-
+mit	-
+dem	-
+staubsauger	device_type
+
+wie	-
+lautet	-
+die	-
+aktuelle	-
+uhrzeit	-
+in	-
+frankfurt	place_name
+
+was	-
+passierte	-
+kürzlich	-
+in	-
+den	-
+nachrichten	-
+
+spiel	-
+wiederholungen	player_setting
+bitte	-
+
+wiederhole	player_setting
+das	-
+lied	-
+ich	-
+mag	-
+es	-
+sehr	-
+
+wie	-
+lautet	-
+der	-
+name	-
+von	-
+aktuellen	-
+lied	-
+
+was	-
+ist	-
+jetzt	-
+auf	-
+twitter	media_type
+los	-
+
+erinnere	-
+dich	-
+dass	-
+das	-
+lied	-
+gut	-
+ist	-
+aber	-
+zu	-
+langsam	-
+für	-
+sport	-
+
+sauge	-
+den	-
+teppich	-
+reiniger	-
+vom	-
+teppich	-
+
+spielen	-
+meinen	-
+besten	-
+song	-
+
+gestellte	-
+wecker	-
+überprüfen	-
+
+wird	-
+subway	business_name
+essen	-
+zum	order_type
+mitnehmen	order_type
+anbieten	-
+
+bitte	-
+lauter	-
+sprechen	-
+
+beginn	-
+bag	song_name
+of	song_name
+hammers	song_name
+zu	-
+spielen	-
+
+schneit	weather_descriptor
+es	-
+in	-
+köln	place_name
+
+erzähle	-
+mir	-
+die	-
+uhrzeit	-
+von	-
+leipzig	place_name
+sachsen	place_name
+
+finde	-
+etwas	-
+rock	music_genre
+
+etwas	-
+musik	-
+aus	-
+dem	-
+metal	music_genre
+genre	-
+spielen	-
+
+checke	-
+die	-
+letzten	-
+news	-
+
+muss	-
+ich	-
+meine	-
+regenausrüstung	weather_descriptor
+tragen	-
+
+stell	-
+einen	-
+wecker	-
+auf	-
+sieben	time
+uhr	time
+dreißig	time
+
+erinnere	-
+mich	-
+um	-
+sechs	time
+uhr	time
+dreißig	time
+abends	time
+
+aktuelles	-
+datum	-
+
+nachrichten	-
+von	-
+der	-
+süddeutsche	media_type
+zeitung	media_type
+anzeigen	-
+
+rufe	-
+pizza	business_name
+hut	business_name
+an	-
+und	-
+bestelle	-
+eine	-
+große	-
+pan	food_type
+pizza	food_type
+mit	food_type
+schinken	food_type
+und	food_type
+käse	food_type
+
+was	-
+hat	-
+trump	person
+jetzt	-
+getan	-
+
+schlafzimmer	house_place
+beleuchtung	-
+jetzt	-
+aus	-
+
+die	-
+lichter	-
+auf	-
+meine	-
+lieblingsfarbe	-
+einstellen	-
+
+spiele	-
+pop	music_genre
+musik	-
+
+kannst	-
+du	-
+ein	-
+lied	-
+von	-
+aerosmith	artist_name
+spielen	-
+
+kannst	-
+du	-
+meine	-
+musik	-
+spielen	-
+
+wird	-
+es	-
+am	-
+wochenende	date
+schön	weather_descriptor
+werden	-
+
+auf	-
+lautlos	-
+stellen	-
+
+spiel	-
+meine	-
+heruntergeladene	music_descriptor
+musik	-
+ab	-
+
+brauche	-
+ich	-
+heute	timeofday
+früh	timeofday
+einen	-
+mantel	weather_descriptor
+
+weck	-
+mich	-
+um	-
+sechs	time
+uhr	time
+dreißig	time
+
+erinnere	-
+was	-
+ich	-
+über	-
+das	-
+lied	-
+denke	-
+
+geräusch	-
+aus	-
+
+überprüfen	-
+
+wie	-
+dieses	-
+lied	-
+
+öffne	-
+witze	-
+
+schalte	-
+meinen	-
+ersten	-
+planmäßigen	-
+wecker	-
+ein	-
+
+wie	-
+wird	-
+das	-
+wetter	-
+am	-
+freitag	date
+
+starte	-
+den	-
+saugroboter	device_type
+
+zugunglück	news_topic
+
+musik	-
+zufällig	player_setting
+
+welcher	-
+wochentag	-
+ist	-
+der	-
+sechsundzwanzigste	date
+
+eine	-
+tasse	-
+kaffee	-
+machen	-
+
+langsamer	music_genre
+rock	music_genre
+ist	-
+in	-
+ordnung	-
+
+kannst	-
+du	-
+die	-
+lautstärke	-
+hochdrehen	-
+
+stelle	-
+einen	-
+neuen	-
+alarm	-
+für	-
+fünf	time
+uhr	time
+
+siri	-
+lies	-
+mir	-
+die	date
+heutigen	date
+nachrichten	-
+vor	-
+
+siri	-
+was	-
+passiert	-
+heute	date
+in	-
+den	-
+nachrichten	-
+
+bitte	-
+sage	-
+wie	-
+das	-
+wetter	-
+nächste	time
+woche	time
+in	-
+berlin	place_name
+werden	-
+wird	-
+
+muss	-
+ich	-
+heute	timeofday
+nachmittag	timeofday
+einen	-
+regenschirm	weather_descriptor
+mit	-
+nach	-
+berlin	place_name
+nehmen	-
+
+bitte	-
+stell	-
+einen	-
+daueralarm	alarm_type
+ohne	-
+schlummerfunktion	-
+für	-
+sieben	time
+uhr	time
+morgens	-
+ein	-
+
+ich	-
+muss	-
+wissen	-
+wie	-
+spät	-
+es	-
+jetzt	-
+in	-
+berlin	place_name
+ist	-
+
+spiel	-
+eine	-
+jazz	music_genre
+musik	-
+
+sollte	-
+ich	-
+warme	weather_descriptor
+klamotten	weather_descriptor
+mitbringen	-
+
+gib	-
+mir	-
+die	-
+neuesten	-
+nachrichten	-
+über	-
+donald	person
+trump	person
+
+hattest	-
+du	-
+den	-
+wecker	-
+für	-
+fünf	time
+uhr	time
+eingestellt	-
+
+spiel	-
+den	-
+song	-
+all	song_name
+the	song_name
+small	song_name
+things	song_name
+
+wer	-
+singt	-
+das	-
+
+es	-
+ist	-
+jetzt	-
+siebzehn	time
+uhr	time
+dreißig	time
+in	-
+indien	place_name
+aber	-
+wie	-
+spät	-
+ist	-
+es	-
+an	-
+der	-
+elfenbeinküste	place_name
+
+bitte	-
+erhöhe	-
+die	-
+lautstärke	-
+im	-
+musikplayer	device_type
+
+alexa	-
+wie	-
+wird	-
+das	-
+wetter	-
+am	-
+zwanzigsten	date
+märz	date
+zweitausendsiebzehn	date
+
+spiel	-
+die	-
+songs	-
+von	-
+meiner	-
+good	playlist_name
+tunes	playlist_name
+playlist	-
+
+normale	-
+temperatur	weather_descriptor
+
+reduziere	-
+die	-
+lichter	-
+in	-
+dem	-
+raum	house_place
+
+mach	-
+die	-
+musik	-
+von	-
+seal	artist_name
+an	-
+
+was	-
+sind	-
+die	-
+schlagzeilen	-
+bei	-
+der	-
+new	media_type
+york	media_type
+times	media_type
+
+es	-
+sieht	-
+sonnig	weather_descriptor
+und	weather_descriptor
+klar	weather_descriptor
+heute	date
+aus	-
+stimmt	-
+das	-
+
+stell	-
+meinen	-
+wecker	-
+auf	-
+sechs	time
+uhr	time
+morgens	time
+
+kannst	-
+du	-
+den	-
+wecker	-
+für	-
+mich	-
+ausstellen	-
+
+habe	-
+ich	-
+meinen	-
+hausalarm	alarm_type
+angemacht	-
+
+den	-
+staubsauger	device_type
+für	-
+die	-
+möbel	house_place
+reinigung	-
+einschalten	-
+
+stummmodus	-
+
+was	-
+ist	-
+das	-
+nächstgelegene	-
+restaurant	business_type
+
+ausschalten	-
+der	-
+schlafzimmer	house_place
+lampe	device_type
+
+bitte	-
+spiel	-
+bosse	artist_name
+
+ist	-
+heute	date
+ein	-
+sonnencreme	weather_descriptor
+tag	-
+
+brauche	-
+ich	-
+einen	-
+hut	weather_descriptor
+
+reinige	-
+die	-
+teppiche	house_place
+
+reduziere	-
+die	-
+licht	-
+intensität	-
+
+ändere	-
+die	-
+zeitzone	-
+von	-
+der	-
+irischen	time_zone
+auf	-
+die	-
+moskauische	time_zone
+
+schalte	-
+ein	-
+den	-
+geysir	device_type
+
+schalte	-
+alle	device_type
+lichter	device_type
+aus	-
+bis	-
+auf	-
+den	-
+wohnbereich	-
+
+bringe	-
+eine	-
+vorhersage	-
+über	-
+die	-
+windgeschwindigkeit	weather_descriptor
+heute	timeofday
+abend	timeofday
+
+welcher	-
+wochentag	-
+ist	-
+der	-
+vierzehnte	date
+november	date
+
+ausschalten	-
+der	-
+beleuchtung	-
+
+zeichne	-
+petabits	-
+
+kannst	-
+du	-
+mir	-
+die	-
+zeit	-
+in	-
+bad	place_name
+lauterberg	place_name
+sagen	-
+
+starte	-
+meine	-
+film	playlist_name
+soundtrack	playlist_name
+liste	-
+
+ändere	-
+die	-
+farbe	-
+der	-
+lichter	-
+
+zeige	-
+mir	-
+das	-
+morgige	date
+wetter	-
+in	-
+dieser	place_name
+gegend	place_name
+
+sag	-
+mir	-
+die	-
+alarm	-
+zeiten	-
+für	-
+die	-
+nächsten	time
+zwei	time
+tage	time
+
+wetter	-
+neuigkeiten	-
+
+sieben	time
+uhr	time
+zehn	time
+minuten	time
+
+neue	-
+musik	-
+
+alexa	-
+kannst	-
+du	-
+meine	-
+lieblings	-
+musik	-
+abspielen	-
+
+aufdrehen	-
+
+sende	-
+eine	-
+bestellung	-
+für	-
+zwei	-
+pizzen	food_type
+bei	-
+call	business_name
+a	business_name
+pizza	business_name
+
+stell	-
+es	-
+leise	-
+
+mach	-
+mir	-
+einen	-
+cappuccino	coffee_type
+
+gib	-
+mir	-
+das	-
+neueste	-
+über	-
+frau	-
+merkel	person
+
+stell	-
+bitte	-
+alarm	-
+für	-
+alle	date
+tage	date
+
+spiel	-
+human	song_name
+nature	song_name
+von	-
+michael	artist_name
+jackson	artist_name
+
+lass	-
+mich	-
+die	-
+nummer	-
+meiner	-
+favorisierten	-
+playlists	-
+wissen	-
+
+kannst	-
+du	-
+mir	-
+sagen	-
+was	-
+das	-
+heutige	date
+datum	-
+ist	-
+
+sollte	-
+ich	-
+am	-
+dienstag	date
+handschuhe	weather_descriptor
+tragen	-
+
+ich	-
+muss	-
+morgens	timeofday
+eine	-
+jacke	weather_descriptor
+anziehen	-
+
+mach	-
+mir	-
+einen	-
+expresso	coffee_type
+
+brauche	-
+ich	-
+diesen	timeofday
+morgen	timeofday
+eine	-
+winterjacke	weather_descriptor
+
+verteile	-
+ein	-
+paar	-
+lichter	-
+
+status	-
+der	-
+pizza	food_type
+lieferung	order_type
+von	-
+pizza	business_name
+hut	business_name
+
+sollte	-
+ich	-
+heute	timeofday
+nacht	timeofday
+meine	-
+fenster	weather_descriptor
+offen	weather_descriptor
+lassen	-
+
+hey	-
+olly	-
+spiele	-
+einen	-
+beliebten	music_descriptor
+hip	music_genre
+hop	music_genre
+song	-
+
+keine	-
+benachrichtigungen	-
+für	-
+fünf	time
+minuten	time
+
+hallo	-
+ich	-
+habe	-
+dich	-
+vermisst	-
+
+ich	-
+ging	-
+in	-
+den	-
+park	-
+
+ich	-
+habe	-
+den	-
+besten	-
+film	-
+gesehen	-
+bitte	-
+reserviere	-
+ein	-
+exemplar	-
+für	-
+mich	-
+wenn	-
+er	-
+veröffentlicht	-
+wird	-
+
+guten	-
+morgen	-
+ist	-
+es	-
+nicht	-
+ein	-
+großartiger	-
+tag	-
+
+was	-
+machst	-
+du	-
+
+frag	-
+mich	-
+leichte	-
+frage	-
+über	-
+ein	-
+thema	-
+das	-
+ich	-
+gut	-
+kenne	-
+und	-
+sag	-
+mir	-
+wann	-
+ich	-
+falsch	-
+liege	-
+
+heute	date
+hatte	-
+ich	-
+einen	-
+wunderbaren	-
+tag	-
+
+hey	-
+ich	-
+habe	-
+heute	date
+eine	-
+meiner	-
+wichtigen	-
+treffen	event_name
+verpasst	-
+
+ich	-
+bin	-
+müde	-
+
+glaubst	-
+du	-
+es	-
+wird	-
+heute	date
+schön	-
+draußen	-
+
+ach	-
+auf	-
+
+sprich	-
+mit	-
+mir	-
+
+investieren	-
+
+verkaufst	-
+du	-
+meine	-
+daten	-
+an	-
+werbetreibende	-
+
+welche	-
+information	-
+kannst	-
+du	-
+über	-
+mich	-
+erfassen	-
+
+finde	-
+das	-
+billigste	-
+exemplar	-
+des	-
+vier	-
+stunden	-
+workouts	-
+für	-
+mich	-
+
+wo	-
+kann	-
+ich	-
+eine	-
+professionelle	-
+vorbereitung	-
+für	-
+weniger	-
+als	-
+dollars	-
+finden	-
+
+zeichne	-
+auf	-
+was	-
+heute	date
+passiert	-
+ist	-
+
+wie	-
+geht	-
+es	-
+dir	-
+heute	date
+alles	-
+bestens	-
+danke	-
+
+aktuelle	-
+lokale	-
+veranstaltungen	-
+
+emails	-
+
+rezensionen	-
+aktueller	-
+filme	-
+
+app	-
+verwaltung	-
+
+wie	-
+fühlst	-
+du	-
+dich	-
+heute	date
+
+erzähle	-
+mir	-
+witze	-
+
+was	-
+wäre	-
+ein	-
+gutes	-
+romantisches	-
+abendessen	-
+
+mein	-
+heutiger	date
+tag	-
+ist	-
+ziemlich	-
+gut	-
+gelaufen	-
+
+definitionen	-
+
+nano	-
+technologie	-
+
+neue	-
+lieder	-
+
+verkehr	-
+stau	-
+probleme	-
+
+hast	-
+du	-
+alles	-
+bekommen	-
+was	-
+du	-
+brauchst	-
+
+wie	-
+kann	-
+ich	-
+deinen	-
+tag	-
+ein	-
+bisschen	-
+besser	-
+machen	-
+
+termin	-
+für	-
+ein	-
+gespräch	event_name
+mit	-
+adam	person
+am	-
+donnerstag	date
+nachmittag	timeofday
+
+buche	-
+in	-
+einer	-
+halben	time
+stunde	time
+ein	-
+taxi	transport_type
+nach	-
+köln	place_name
+
+trage	-
+ein	-
+zwei	general_frequency
+wöchentliches	general_frequency
+meeting	event_name
+für	-
+freitags	date
+fünfzehn	time
+uhr	time
+ein	-
+
+gibt	-
+es	-
+irgendwelche	-
+erinnerungen	-
+
+erstell	-
+treffen	event_name
+mit	-
+paul	person
+morgen	date
+um	-
+achtzehn	time
+uhr	time
+
+erinnere	-
+mich	-
+jeden	general_frequency
+tag	general_frequency
+daran	-
+vor	time
+ein	time
+uhr	time
+ins	event_name
+bett	event_name
+zu	event_name
+gehen	event_name
+
+erzähle	-
+von	-
+den	-
+nächsten	-
+veranstaltungen	-
+
+welche	-
+wichtigen	-
+daten	-
+habe	-
+ich	-
+diesen	date
+monat	date
+in	-
+meinem	-
+kalender	-
+
+bitte	-
+plane	-
+eine	-
+besprechung	event_name
+mit	-
+björn	person
+berger	person
+aus	-
+der	-
+buchhaltung	personal_info
+
+lösche	-
+alle	-
+veranstaltungen	-
+von	-
+meinem	-
+kalender	-
+
+wer	-
+ist	-
+für	-
+die	-
+morgige	date
+besprechung	event_name
+geplant	-
+
+stell	-
+ein	-
+ereignis	-
+im	-
+kalender	-
+ein	-
+und	-
+wiederhole	-
+es	-
+jeden	general_frequency
+tag	general_frequency
+
+erinnerung	-
+für	-
+arzttermin	event_name
+am	-
+fünften	date
+märz	date
+um	-
+zehn	time
+uhr	time
+
+benachrichtigung	-
+für	-
+meine	-
+besprechung	event_name
+nächsten	-
+dienstag	date
+einstellen	-
+
+erstelle	-
+eine	-
+liste	-
+aller	-
+halloween	event_name
+veranstaltungen	-
+in	-
+hamburg	place_name
+
+bitte	-
+erinnere	-
+mich	-
+an	-
+den	-
+geburtstag	event_name
+von	-
+onkel	relation
+johann	person
+jeden	general_frequency
+vierten	general_frequency
+mai	general_frequency
+
+was	-
+steht	-
+nächste	date
+woche	date
+in	-
+meinem	-
+terminplan	-
+
+lösche	-
+die	-
+veranstaltung	-
+valentinstag	event_name
+
+gib	-
+mir	-
+die	-
+details	-
+der	-
+nächsten	-
+erinnerung	-
+
+trage	-
+für	-
+montag	date
+zehn	time
+uhr	time
+ein	-
+meeting	event_name
+mit	-
+anna	person
+ein	-
+
+bitte	-
+lade	-
+kim	person
+marc	person
+und	-
+julian	person
+am	-
+donnerstag	date
+um	-
+fünfzehn	time
+uhr	time
+zu	-
+einem	-
+treffen	event_name
+ein	-
+
+streich	-
+meinen	-
+termin	event_name
+am	-
+zwölften	date
+aus	-
+meinem	-
+kalender	-
+
+wiederhole	-
+den	-
+termin	-
+am	-
+ersten	general_frequency
+montag	general_frequency
+des	general_frequency
+monats	general_frequency
+
+erinnere	-
+mich	-
+ans	-
+mittagstreffen	event_name
+betitelt	-
+mittag	timeofday
+
+kalender	-
+erinnerung	-
+für	-
+frühstück	meal_type
+mit	-
+sarah	person
+um	-
+acht	time
+uhr	time
+
+habe	-
+ich	-
+einen	-
+termin	event_name
+um	-
+vierzehn	time
+uhr	time
+
+speicher	-
+diese	-
+veranstaltung	-
+
+erinnere	-
+mich	-
+am	-
+dienstag	date
+um	-
+vierzehn	-
+uhr	-
+an	-
+das	-
+fünfzehn	time
+uhr	time
+treffen	event_name
+mit	-
+dem	-
+chef	relation
+
+habe	-
+ich	-
+eine	-
+verabredung	event_name
+nächsten	-
+mittwoch	date
+um	-
+zwei	time
+
+heute	date
+ist	-
+der	-
+fünfte	date
+märz	date
+oder	-
+nicht	-
+
+hinterlege	-
+diesen	-
+termin	-
+in	-
+meinen	-
+kalender	-
+
+heute	date
+ist	-
+johanns	person
+geburtstag	event_name
+
+ich	-
+muss	-
+mein	-
+termin	event_name
+verschieben	-
+
+markiere	-
+sarahs	person
+geburtstagsparty	event_name
+am	-
+zwölften	date
+
+was	-
+steht	-
+auf	-
+meiner	-
+agenda	-
+
+erinnere	-
+mich	-
+an	-
+die	-
+geburtstage	event_name
+von	-
+all	-
+meinen	-
+facebook	media_type
+freunden	relation
+
+wie	-
+ist	-
+mein	-
+zeitlicher	-
+ablauf	-
+heute	date
+
+verringere	-
+die	-
+lautstärke	-
+um	-
+ein	-
+prozent	-
+
+checke	-
+veranstaltungen	-
+und	-
+lösche	-
+veranstaltung	-
+im	-
+kalender	-
+
+ergänze	-
+alle	-
+veranstaltungen	-
+die	-
+im	-
+märz	date
+in	-
+stadtmitte	place_name
+stattfinden	-
+in	-
+meinem	-
+kalender	-
+
+liste	-
+alle	-
+veranstaltungen	-
+auf	-
+die	-
+ich	-
+in	-
+meinem	-
+kalender	-
+für	-
+märz	date
+habe	-
+
+welche	-
+besprechungen	event_name
+sind	-
+im	-
+märz	date
+verfügbar	-
+
+tagungen	event_name
+im	-
+märz	date
+
+zeige	-
+mir	-
+heutiges	date
+kunden	relation
+meeting	-
+
+wie	-
+viele	-
+ausstehende	-
+erinnerungen	-
+habe	-
+ich	-
+
+was	-
+ist	-
+in	-
+meine	-
+kalender	-
+
+montag	date
+veranstaltung	-
+im	-
+fitnessstudio	event_name
+wiederholen	general_frequency
+es	-
+
+treffen	event_name
+nächste	date
+woche	date
+montag	date
+
+wo	-
+ist	-
+mein	-
+büro	place_name
+
+lösche	-
+meinem	-
+veranstaltung	-
+
+treffen	event_name
+heute	date
+um	-
+vierzehn	time
+uhr	time
+
+treffen	event_name
+auf	-
+achtzehn	time
+uhr	time
+morgen	date
+legen	-
+
+date	event_name
+mit	event_name
+der	event_name
+liebsten	event_name
+den	date
+tag	date
+danach	date
+
+wieviele	-
+besprechungen	event_name
+habe	-
+ich	-
+heute	date
+in	-
+meinem	-
+kalender	-
+
+stell	-
+sicher	-
+dass	-
+du	-
+mich	-
+erinnerst	-
+morgen	date
+früh	timeofday
+meine	event_name
+rechnungen	event_name
+zu	event_name
+bezahlen	event_name
+
+erinnere	-
+mich	-
+morgen	date
+daran	-
+zu	-
+meiner	-
+besprechung	event_name
+zu	-
+gehen	-
+
+geburtstag	event_name
+wiederholen	-
+
+sorge	-
+dafür	-
+dass	-
+jan	person
+mich	-
+bei	-
+dem	-
+treffen	event_name
+im	-
+fünften	place_name
+stock	place_name
+am	-
+zehnten	date
+begleitet	-
+
+wann	-
+habe	-
+ich	-
+zwischen	-
+vier	time
+und	-
+sechs	time
+eine	-
+pause	event_name
+
+an	-
+treffen	event_name
+morgen	date
+erinnern	-
+
+diesen	date
+sonntag	date
+und	-
+nächsten	date
+zwei	date
+sonntage	date
+yoga	event_name
+um	-
+zwölf	time
+uhr	time
+
+füge	-
+einen	-
+zahnarzttermin	event_name
+für	-
+freitag	date
+um	-
+fünf	time
+hinzu	-
+
+wie	-
+sieht	-
+mein	-
+stundenplan	-
+danach	-
+aus	-
+drei	time
+uhr	time
+heute	date
+nachmittag	timeofday
+
+alarmiere	-
+mich	-
+wenn	-
+mein	-
+hochzeitstag	event_name
+ist	-
+
+lies	-
+meine	-
+kommenden	-
+veranstaltungen	-
+vor	-
+
+erzähl	-
+mir	-
+mehr	-
+über	-
+dieses	-
+event	-
+
+finde	-
+mehr	-
+über	-
+die	-
+jährliche	general_frequency
+tea	event_name
+party	event_name
+heraus	-
+
+passiert	-
+nächsten	-
+freitag	date
+irgendetwas	-
+interessantes	-
+
+hey	-
+schalte	-
+deine	-
+erinnerungen	-
+für	-
+das	-
+morgen	date
+ist	date
+treffen	-
+um	-
+zehn	time
+uhr	time
+morgens	time
+
+ich	-
+bin	-
+morgen	date
+beschäftigt	-
+also	-
+lösche	-
+alle	-
+kalender	-
+veranstaltungen	-
+
+wecke	-
+mich	-
+auf	-
+jeden	-
+wochentag	-
+um	-
+sieben	time
+uhr	time
+
+kannst	-
+du	-
+die	-
+späteste	-
+zeit	-
+abrufen	-
+damit	-
+ich	-
+nicht	-
+zu	-
+spät	-
+zu	-
+meinem	-
+termin	event_name
+komme	-
+
+lösche	-
+dieses	-
+ereignis	-
+aus	-
+meinem	-
+kalender	-
+
+gibt	-
+es	-
+eine	-
+möglichkeit	-
+meinen	-
+kalender	-
+zu	-
+löschen	-
+
+habe	-
+ich	-
+irgendwelche	-
+erinnerungen	-
+eingetragen	-
+
+was	-
+ist	-
+mein	-
+zeitplan	-
+für	-
+heute	date
+
+füge	-
+meinem	-
+kalender	-
+laufen	event_name
+am	-
+donnerstag	date
+hinzu	-
+
+habe	-
+ich	-
+dieses	date
+wochenende	date
+ein	-
+fußball	event_name
+spiel	-
+
+ich	-
+habe	-
+eine	-
+wichtige	-
+besprechung	event_name
+diesen	-
+sonntag	date
+mittag	timeofday
+um	-
+vierzehn	time
+uhr	time
+vergiss	-
+nicht	-
+mich	-
+zu	-
+erinnern	-
+
+bitte	-
+stelle	-
+eine	-
+monatliche	general_frequency
+erinnerung	-
+ein	-
+die	event_name
+miete	event_name
+zu	event_name
+bezahlen	event_name
+
+sollte	-
+ich	-
+nach	-
+morgen	date
+zum	-
+markttag	place_name
+gehen	-
+
+erinnere	-
+mich	-
+am	-
+donnerstag	date
+daran	-
+müller	person
+um	-
+dreizehn	time
+uhr	time
+anzurufen	-
+
+habe	-
+ich	-
+am	-
+donnerstag	date
+einen	-
+arzttermin	event_name
+
+bitte	-
+füge	-
+eine	-
+veranstaltung	-
+zu	-
+meinem	-
+zeitplan	-
+hinzu	-
+
+einen	-
+termin	-
+für	-
+eine	-
+besprechung	event_name
+mit	-
+dem	-
+vizepräsidenten	relation
+am	-
+montag	date
+vereinbaren	-
+
+wo	-
+findet	-
+mein	-
+zwölf	time
+uhr	time
+treffen	event_name
+heute	date
+statt	-
+
+bitte	-
+sag	-
+mir	-
+wo	-
+die	-
+messe	-
+dieses	date
+jahr	date
+stattfindet	-
+
+termine	-
+beschreibung	-
+
+ich	-
+brauche	-
+eine	-
+erinnerung	-
+meine	-
+mutter	relation
+um	-
+fünfzehn	time
+uhr	time
+anzurufen	-
+
+löschen	-
+sie	-
+alle	-
+geplanten	-
+veranstaltungen	-
+
+olly	-
+erinnere	-
+mich	-
+an	-
+meine	-
+augenuntersuchung	event_name
+im	-
+kaufland	place_name
+am	-
+sechsundzwanzigsten	date
+
+termin	event_name
+veranstaltung	-
+in	-
+meinem	-
+kalender	-
+diese	-
+woche	-
+erstellen	-
+
+bitte	-
+sag	-
+mir	-
+für	-
+welchen	-
+tag	-
+diese	-
+termin	-
+erinnerung	-
+eingestellt	-
+ist	-
+
+sag	-
+mir	-
+was	-
+morgen	date
+passiert	-
+
+heutige	date
+veranstaltungen	-
+
+lösche	-
+alle	-
+meine	-
+treffen	event_name
+
+was	-
+steht	-
+heute	date
+auf	-
+meinem	-
+kalender	-
+
+erinnere	-
+mich	-
+an	-
+das	-
+treffen	event_name
+nächste	date
+woche	date
+
+kannst	-
+du	-
+meinem	-
+kalender	-
+eine	-
+veranstaltung	-
+am	-
+nächsten	-
+freitag	date
+hinzufügen	-
+
+welche	-
+veranstaltungen	-
+habe	-
+ich	-
+heute	date
+geplant	-
+
+am	-
+geburtstag	event_name
+meiner	-
+schwester	relation
+schicke	-
+ihr	-
+blumen	-
+
+erinnere	-
+mich	-
+an	-
+das	-
+treffen	-
+mit	-
+sarah	person
+am	-
+steinweg	place_name
+in	place_name
+regensburg	place_name
+bayern	place_name
+am	-
+mittag	timeofday
+
+ich	-
+möchte	-
+meinen	-
+kalender	-
+aktualisieren	-
+
+lösche	-
+die	-
+nächste	-
+veranstaltung	-
+im	-
+kalender	-
+
+bitte	-
+lege	-
+mary's	person
+geburtstagsparty	event_name
+auf	-
+den	-
+zweiundzwanzigsten	date
+um	-
+neunzehn	time
+uhr	time
+
+erinnere	-
+mich	-
+dreißig	time
+minuten	time
+vor	-
+meiner	-
+veranstaltung	event_name
+morgen	date
+um	-
+drei	time
+uhr	time
+nachmittags	time
+
+reserviere	-
+zwei	time
+stunden	time
+am	-
+samstag	date
+
+ist	-
+das	-
+meeting	event_name
+mit	-
+anke	person
+um	-
+fünfzehn	time
+uhr	-
+am	-
+mittwoch	date
+
+bitte	-
+füge	-
+eine	-
+besprechung	event_name
+mit	-
+frau	person
+bohlen	person
+am	-
+mittwoch	date
+um	-
+acht	time
+uhr	time
+zu	-
+meinem	-
+kalender	-
+hinzu	-
+
+jeden	date
+montag	date
+morgen	timeofday
+und	-
+sonntag	date
+nacht	time
+fitnessstudio	place_name
+
+stellst	-
+du	-
+den	-
+wecker	-
+einen	-
+tag	-
+vorher	-
+für	-
+den	-
+sportunterricht	event_name
+in	-
+meinem	-
+kalender	-
+
+gib	-
+mir	-
+einen	-
+tag	-
+vor	-
+meiner	-
+nächsten	-
+besprechung	event_name
+bescheid	-
+
+bitte	-
+lösche	-
+meinen	-
+kalender	-
+für	-
+morgen	date
+
+zehn	time
+minuten	time
+vor	-
+dem	-
+treffen	event_name
+erinnern	-
+
+plane	-
+eine	-
+besprechung	event_name
+mit	-
+michael	person
+für	-
+den	-
+nächsten	-
+donnerstag	date
+morgen	timeofday
+
+füge	-
+mutter	relation
+zum	-
+montägigen	event_name
+brunch	event_name
+hinzu	-
+
+mein	-
+projekt	event_name
+treffen	event_name
+löschen	-
+
+ich	-
+würde	-
+gerne	-
+jeden	date
+sonntag	date
+um	-
+elf	time
+uhr	time
+die	-
+kirche	event_name
+besuchen	event_name
+
+lösche	-
+die	-
+veranstaltung	-
+
+arzttermin	event_name
+in	-
+kalender	-
+tun	-
+
+entferne	-
+alle	-
+geplanten	-
+veranstaltungen	-
+vom	-
+kalender	-
+
+nimm	-
+die	-
+geburtstagsparty	event_name
+im	-
+mai	date
+von	-
+meinem	-
+kalender	-
+
+treffen	event_name
+am	-
+donnerstag	date
+mit	-
+herr	person
+bauer	person
+um	-
+vierzehn	time
+uhr	time
+erstellen	-
+
+erinnere	-
+mich	-
+in	-
+meinem	-
+kalender	-
+ans	-
+abendessen	meal_type
+mit	-
+mama	relation
+heute	timeofday
+abend	timeofday
+
+susan's	person
+geburtstag	event_name
+am	-
+märz	date
+ein	date
+
+kannst	-
+du	-
+mich	-
+an	-
+das	-
+treffen	event_name
+heute	date
+um	-
+sechszehn	time
+uhr	time
+erinnern	-
+
+lösche	-
+meine	-
+workout	event_name
+heute	date
+
+erinnerung	-
+für	-
+gymnastik	event_name
+jeden	general_frequency
+mittwoch	general_frequency
+um	-
+drei	time
+
+hey	-
+siri	-
+lösche	-
+egal	-
+was	-
+als	-
+nächstes	-
+auf	-
+meinem	-
+kalender	-
+steht	-
+
+kannst	-
+du	-
+für	-
+mittwoch	date
+um	-
+dreizehn	time
+uhr	time
+eine	-
+erinnerung	-
+an	-
+mein	-
+meeting	-
+einstellen	-
+
+mittagstreffen	event_name
+um	-
+zwölf	time
+uhr	time
+dreißig	time
+zweiten	date
+januar	date
+lisa	person
+
+alle	-
+veranstaltungen	-
+aus	-
+meinem	-
+kalender	-
+löschen	-
+
+wann	-
+ist	-
+das	-
+nächste	-
+konzert	event_name
+bei	-
+ford	place_name
+
+habe	-
+ich	-
+diese	date
+woche	date
+pläne	-
+
+entferne	-
+alle	-
+termine	-
+des	-
+letzten	date
+monats	date
+aus	-
+dem	-
+kalender	-
+
+bitte	-
+sag	-
+mir	-
+die	-
+hauptpunkte	-
+der	-
+besprechung	event_name
+von	-
+vierzehn	time
+uhr	time
+an	-
+diesem	timeofday
+nachmittag	timeofday
+
+woran	-
+muss	-
+ich	-
+denken	-
+
+ist	-
+das	-
+chilli	-
+kochen	-
+dieses	date
+wochenende	date
+
+erinnern	-
+mich	-
+an	-
+dieser	-
+zeit	-
+
+finde	-
+lokale	-
+veranstaltungen	-
+
+bitte	-
+blockiere	-
+freitag	date
+um	-
+acht	time
+uhr	time
+auf	-
+meinem	-
+kalender	-
+
+lösche	-
+alles	-
+
+stell	-
+einen	-
+wecker	-
+für	-
+morgen	date
+vierzehn	time
+uhr	time
+
+ich	-
+muss	-
+meiner	-
+kleinen	-
+gruppe	-
+sagen	-
+dass	-
+sich	-
+mein	-
+standort	-
+geändert	-
+hat	-
+
+erinnere	-
+mich	-
+am	-
+fünfzehnten	date
+jeden	general_frequency
+monats	general_frequency
+
+bitte	-
+leere	-
+meinen	-
+kalendar	-
+komplett	-
+
+lösche	-
+die	-
+termine	-
+
+an	-
+diesem	date
+samstag	date
+habe	-
+ich	-
+ein	-
+abendessen	meal_type
+mit	-
+meiner	-
+schwester	relation
+
+dienstag	date
+den	date
+einundzwanzigsten	date
+um	-
+zehn	time
+anna	person
+erinnern	-
+
+lösche	-
+jede	-
+veranstaltung	-
+
+lösche	-
+alle	-
+veranstaltungen	-
+
+entferne	-
+die	-
+veranstaltung	-
+vom	-
+kalender	-
+
+plane	-
+meinen	-
+arzttermin	event_name
+für	-
+freitag	date
+vierzehn	time
+uhr	time
+
+was	-
+ist	-
+der	-
+plan	-
+für	-
+heute	timeofday
+abend	timeofday
+
+lösche	-
+den	-
+ausflug	-
+für	-
+den	-
+vierten	date
+juli	date
+
+sage	-
+mir	-
+was	-
+im	-
+terminplan	-
+steht	-
+für	-
+den	-
+siebten	date
+juli	date
+
+mache	-
+ein	-
+treffen	event_name
+mit	-
+unserem	-
+mitarbeiter	relation
+bezüglich	-
+bonus	-
+
+welches	-
+ereignis	-
+ist	-
+heute	-
+geplant	-
+
+bitte	-
+sage	-
+mir	-
+wann	-
+ist	-
+die	-
+geburtstagsparty	event_name
+von	-
+johanna	person
+
+lass	-
+mich	-
+wissen	-
+wann	-
+drei	-
+stunden	-
+vorbei	-
+sind	-
+
+anstehende	-
+veranstaltungen	-
+information	-
+
+blocke	-
+veranstaltungen	event_name
+mit	-
+laura	person
+
+lösche	-
+mein	-
+kalender	-
+
+erinnere	-
+mich	-
+jeden	general_frequency
+morgen	general_frequency
+um	-
+sieben	time
+uhr	time
+daran	-
+meine	event_name
+vitamine	event_name
+zu	event_name
+nehmen	event_name
+
+habe	-
+ich	-
+heute	timeofday
+abend	timeofday
+einen	-
+termin	-
+
+information	-
+
+wiederhole	-
+kalender	-
+event	-
+
+ich	-
+möchte	-
+dass	-
+alle	-
+events	-
+gelöscht	-
+werden	-
+
+ist	-
+heute	date
+der	-
+geburtstag	event_name
+meines	-
+bruders	relation
+
+entferne	-
+emmas	person
+geburtstag	event_name
+aus	-
+den	-
+veranstaltungen	-
+
+einen	-
+arzttermin	event_name
+für	-
+den	-
+ersten	time
+tag	time
+der	time
+nächsten	time
+fünf	time
+monate	time
+in	-
+den	-
+kalender	-
+eintragen	-
+
+erinnere	-
+mich	-
+an	-
+die	-
+zeit	-
+von	-
+der	-
+veranstaltung	-
+
+sag	-
+mir	-
+wann	-
+das	-
+ereignis	-
+ist	-
+
+lösche	-
+das	-
+event	-
+aus	-
+meinem	-
+kalender	-
+
+nächsten	date
+monat	date
+an	-
+geburtstag	event_name
+meines	event_name
+bruders	event_name
+erinnenr	-
+
+übermorgen	date
+finden	-
+alle	event_name
+meetings	event_name
+statt	-
+
+lösche	-
+alle	-
+veranstaltung	-
+
+backwettbewerb	event_name
+mittwoch	date
+morgens	timeofday
+um	-
+sieben	time
+
+mein	-
+kalender	-
+zurücksetzen	-
+
+nächster	-
+zahnarzt	event_name
+termin	event_name
+
+bitte	-
+trage	-
+für	-
+samstag	date
+vierzehn	time
+uhr	-
+ein	-
+baseball-training	event_name
+ein	-
+
+schaffen	-
+ein	-
+veranstaltung	-
+in	-
+meinem	-
+kalender	-
+
+veranstaltungen	-
+in	-
+dieser	date
+woche	date
+
+diese	-
+veranstaltung	-
+aus	-
+meiner	-
+kalender	-
+löschen	-
+
+bitte	-
+löschen	-
+sie	-
+dieses	-
+kalender	-
+veranstaltung	-
+
+wähle	-
+den	-
+sender	-
+den	-
+du	-
+willst	-
+aus	-
+
+spiel	-
+den	-
+radio	-
+sender	-
+
+ich	-
+möchte	-
+jetzt	-
+diesen	-
+radiosender	-
+hören	-
+
+schalte	-
+das	-
+radio	-
+auf	-
+kiss	radio_name
+f.	radio_name
+m.	radio_name
+an	-
+
+bitte	-
+schalte	-
+das	-
+f.	radio_name
+m.	radio_name
+radio	radio_name
+an	-
+
+öffne	-
+die	-
+pandora	app_name
+app	-
+
+wechseln	-
+zu	-
+
+schalte	-
+auf	-
+die	-
+lokale	radio_name
+sporttalkshow	radio_name
+im	-
+radio	-
+
+ich	-
+möchte	-
+radio	-
+hören	-
+
+hey	-
+olly	-
+schalte	-
+das	-
+radio	-
+an	-
+
+akivieren	-
+radio	-
+und	-
+abstimmen	-
+in	-
+neunhundertneunundachtzig	radio_name
+
+ich	-
+möchte	-
+die	-
+radio	-
+drehen	-
+es	-
+an	-
+für	-
+meine	-
+
+letzten	-
+podcast	-
+über	-
+online	-
+umfrage	-
+
+ich	-
+möchte	-
+heutige	-
+hits	-
+hören	-
+
+spiele	-
+meinen	-
+usher	radio_name
+radiosender	-
+
+stimme	-
+ein	-
+lied	-
+im	-
+radio	-
+ein	-
+
+öffne	-
+nachrichten	-
+
+einschalten	-
+der	-
+lokal	radio_name
+radio	-
+
+spiel	-
+die	-
+jazz	music_genre
+station	-
+
+spiel	-
+etwas	-
+soft	music_genre
+rock	music_genre
+
+spiele	-
+alle	-
+programme	-
+die	-
+mit	-
+rock	-
+zu	-
+tun	-
+haben	-
+im	-
+radio	-
+
+schalte	-
+this	-
+american	-
+life	-
+im	-
+autoradio	device_type
+ein	-
+
+spiele	-
+für	-
+mich	-
+promi	-
+big	-
+brother	-
+
+ich	-
+will	-
+hören	-
+antenne	radio_name
+bayern	radio_name
+
+spiel	-
+sido	radio_name
+auf	-
+radio	radio_name
+jam	radio_name
+f.	radio_name
+m.	radio_name
+
+spiel	-
+die	-
+pop	-
+radio	-
+station	-
+
+spielen	-
+von	-
+lieblings	-
+radiosender	-
+
+bitte	-
+spiel	-
+die	-
+morgen	-
+sendung	-
+auf	-
+zweiundneunzig	radio_name
+komma	radio_name
+neun	radio_name
+rockantenne	radio_name
+
+spiele	-
+radio	radio_name
+sender	radio_name
+
+fahre	player_setting
+mit	-
+dem	-
+hörbuch	-
+fort	player_setting
+
+spiele	-
+jingle	song_name
+bells	song_name
+im	-
+medien	-
+ordner	-
+
+kannst	-
+du	-
+die	-
+pausieren	player_setting
+und	player_setting
+zurückspulen	player_setting
+und	-
+dann	-
+die	-
+musik	media_type
+fortfahren	player_setting
+
+setze	player_setting
+die	-
+hörbuch	media_type
+wiedergabe	-
+fort	player_setting
+
+setze	player_setting
+das	-
+hörbuch	media_type
+fort	player_setting
+
+setzte	player_setting
+die	-
+geschichte	audiobook_name
+fort	player_setting
+
+spiel	-
+der	audiobook_name
+gott	audiobook_name
+der	audiobook_name
+kleinen	audiobook_name
+dinge	audiobook_name
+
+spiele	-
+das	-
+zuletzt	-
+gespielte	-
+hörbuch	media_type
+
+spiele	-
+das	audiobook_name
+dschungelbuch	audiobook_name
+vom	-
+hörbuch	media_type
+
+öffne	-
+the	audiobook_name
+two	audiobook_name
+towers	audiobook_name
+zum	-
+spielen	-
+
+setzte	player_setting
+the	audiobook_name
+girl	audiobook_name
+on	audiobook_name
+the	audiobook_name
+train	audiobook_name
+auf	-
+audible	app_name
+fort	player_setting
+
+spiel	player_setting
+das	-
+lied	-
+von	-
+nena's	artist_name
+hörbuch	media_type
+weiter	player_setting
+
+alexa	-
+setzte	player_setting
+joes	audiobook_name
+buch	audiobook_name
+von	-
+ich	-
+das	-
+letzte	-
+mal	-
+aufgehört	-
+habe	-
+fort	player_setting
+
+öffne	-
+bitte	-
+die	-
+audible	app_name
+app	-
+und	-
+setze	player_setting
+the	player_setting
+wiedergabe	player_setting
+fort	player_setting
+
+geh	player_setting
+zurück	player_setting
+zu	-
+the	audiobook_name
+midnight	audiobook_name
+series	audiobook_name
+
+spiel	player_setting
+mind	audiobook_name
+reading	audiobook_name
+book	audiobook_name
+weiter	player_setting
+
+fange	player_setting
+the	audiobook_name
+book	audiobook_name
+legacy	audiobook_name
+von	player_setting
+vorne	player_setting
+an	player_setting
+
+spiel	-
+die	audiobook_name
+zwei	audiobook_name
+türme	audiobook_name
+
+spiele	player_setting
+eine	audiobook_name
+stunde	audiobook_name
+history	audiobook_name
+weiter	player_setting
+
+wie	-
+rolle	cooking_type
+ich	-
+sushi	food_type
+
+ich	-
+hab	-
+etwas	-
+lachs	food_type
+wie	-
+bereite	-
+ich	-
+das	-
+zu	-
+
+können	-
+wir	-
+steak	food_type
+mit	-
+hähnchen	ingredient
+machen	-
+
+wie	-
+lange	-
+braucht	-
+wasser	ingredient
+bis	-
+es	-
+kocht	cooking_type
+
+was	-
+muss	-
+man	-
+im	-
+rahm	ingredient
+zerschlagen	-
+um	-
+butter	food_type
+zu	-
+machen	-
+
+sag	-
+mir	-
+wie	-
+man	-
+ein	-
+käsesoufflee	food_type
+kocht	-
+
+wie	-
+kocht	-
+man	-
+das	-
+gericht	-
+
+wie	-
+viele	-
+teelöfel	-
+sind	-
+ein	-
+cup	-
+
+zeig	-
+mir	-
+wie	-
+man	-
+lasagne	food_type
+kocht	-
+
+was	-
+brauche	-
+ich	-
+für	-
+einen	-
+guten	-
+burger	food_type
+
+was	-
+braucht	-
+man	-
+zum	-
+kekse	food_type
+backen	-
+
+finde	-
+die	-
+richtige	-
+temperatur	-
+um	-
+einen	-
+ganzen	food_type
+truthahn	food_type
+zu	-
+braten	-
+
+kannst	-
+du	-
+mir	-
+sagen	-
+wie	-
+man	-
+kekse	food_type
+mit	food_type
+schokoladenstückchen	food_type
+macht	-
+
+was	-
+passt	-
+zu	-
+reiswein	drink_type
+
+was	-
+sind	-
+die	-
+zutaten	-
+für	-
+käsemakkaroni	food_type
+
+rezept	-
+für	-
+spaghetti	food_type
+
+die	-
+einrichtung	-
+eines	-
+lebensmittelverarbeitungsbetriebs	-
+in	-
+unserem	-
+haus	-
+hat	-
+vorteile	-
+und	-
+nachteile	-
+
+bitte	-
+schau	-
+nach	-
+den	-
+besten	-
+rezepten	-
+
+können	-
+wir	-
+ein	-
+hangman	game_name
+spiel	-
+spielen	-
+
+öffne	-
+schach	game_name
+und	-
+spiele	-
+gegen	-
+mich	-
+
+kämpf	-
+gegen	-
+mich	-
+bei	-
+street	game_name
+fighter	game_name
+
+öffne	-
+fifa	game_name
+siebzehn	game_name
+
+spiele	-
+poker	game_name
+mit	-
+mir	-
+
+öffne	-
+das	-
+minecraft	game_name
+spiel	-
+vom	-
+zuletzt	-
+gespielten	-
+level	-
+
+spiele	-
+schach	game_name
+gegen	-
+mich	-
+und	-
+passe	-
+dich	-
+meinem	-
+level	-
+an	-
+damit	-
+ich	-
+immer	-
+gewinne	-
+
+spiel	-
+das	-
+candy	game_name
+crush	game_name
+spiel	-
+für	-
+mich	-
+
+spiele	-
+das	-
+spiel	-
+kricket	game_name
+für	-
+mich	-
+
+spiel	-
+bitte	-
+trivial	game_name
+pursuit	game_name
+mit	-
+mir	-
+
+spiele	game_name
+tennis	game_name
+für	-
+mich	-
+
+spiel	-
+ein	-
+tetris	game_name
+spiel	-
+gegen	-
+mich	-
+
+sollen	-
+wir	-
+ein	-
+spiel	-
+spielen	-
+
+liste	-
+die	-
+gegenstände	-
+auf	-
+meiner	-
+einkaufs	list_name
+liste	-
+
+geh	-
+meine	-
+to	-
+do	-
+liste	-
+mit	-
+mir	-
+durch	-
+
+olly	-
+was	-
+ist	-
+heute	date
+auf	-
+meiner	-
+to	list_name
+do	list_name
+liste	-
+
+was	-
+ist	-
+meine	-
+liste	-
+
+zeige	-
+eine	-
+neue	-
+liste	-
+
+java	-
+
+was	-
+habe	-
+ich	-
+auf	-
+meiner	-
+einkaufs	list_name
+liste	-
+
+sag	-
+mir	-
+das	-
+lied	-
+
+was	-
+ist	-
+die	-
+anzahl	-
+von	-
+lebensmittel	-
+auf	-
+meiner	-
+liste	-
+
+zeig	-
+was	-
+auf	-
+der	-
+liste	-
+steht	-
+
+füge	-
+eier	-
+doch	-
+wieder	-
+der	-
+liste	-
+hinzu	-
+
+die	-
+liste	-
+der	-
+anwendungen	-
+entfernen	-
+die	-
+mit	-
+dem	-
+buchstaben	-
+a	-
+beginnen	-
+
+erzähl	-
+mir	-
+etwas	-
+interessantes	-
+von	-
+der	-
+nachrichtenliste	-
+
+lösche	-
+punkt	-
+drei	-
+
+werde	-
+diesen	-
+posten	-
+los	-
+
+füge	-
+hanna	person
+zur	-
+liste	-
+mit	-
+einladungen	-
+für	-
+die	-
+hochzeit	-
+hinzu	-
+
+habe	-
+ich	-
+kaffee	-
+auf	-
+der	-
+lebensmittel	list_name
+liste	-
+
+was	-
+ist	-
+auf	-
+meiner	-
+einkaufs	list_name
+liste	-
+
+jetzt	-
+was	-
+
+was	-
+habe	-
+ich	-
+sonst	-
+noch	-
+auf	-
+der	-
+liste	-
+
+ist	-
+da	-
+irgendwas	-
+anderes	-
+auf	-
+der	-
+liste	-
+
+füge	-
+der	-
+liste	-
+ketchup	-
+hinzu	-
+
+kannst	-
+du	-
+meine	-
+to	list_name
+do	list_name
+liste	-
+entfernen	-
+
+sage	-
+mir	-
+welche	-
+listen	-
+ich	-
+aktuell	-
+habe	-
+
+füge	-
+neuen	-
+artikel	-
+hinzu	-
+
+wie	-
+viele	-
+gegenstände	-
+sind	-
+auf	-
+meiner	-
+liste	-
+
+mach	-
+eine	-
+liste	-
+
+welche	-
+art	-
+von	-
+listen	-
+habe	-
+ich	-
+gespeichert	-
+
+füge	-
+zu	-
+meinen	-
+lebensmitteln	list_name
+hinzu	-
+
+welche	-
+listen	-
+hast	-
+du	-
+jetzt	-
+gerade	-
+in	-
+dir	-
+
+setz	-
+den	-
+gegenstand	-
+auf	-
+die	-
+liste	-
+
+ich	-
+brauche	-
+mehr	-
+milch	-
+
+wie	-
+viele	-
+listen	-
+sind	-
+offen	-
+
+papierhandtücher	-
+auf	-
+die	-
+einkaufsliste	list_name
+setzen	-
+
+kannst	-
+du	-
+meine	-
+listen	-
+finden	-
+
+diesen	-
+gegenstand	-
+mit	-
+einbeziehen	-
+
+bitte	-
+liste	-
+meine	-
+warteschlange	-
+
+ich	-
+brauche	-
+keine	-
+äpfel	-
+entferne	-
+sie	-
+von	-
+meiner	-
+einkaufs	list_name
+liste	-
+
+sag	-
+mir	-
+welche	-
+dinge	-
+auf	-
+meiner	-
+einkaufsliste	list_name
+sind	-
+
+was	-
+auf	-
+meiner	-
+ist	-
+heute	date
+abend	timeofday
+zu	-
+erledigen	-
+
+füge	-
+neue	-
+einträge	-
+zur	-
+workout	list_name
+liste	-
+hinzu	-
+
+die	-
+liste	-
+enthält	-
+was	-
+
+öffne	-
+notizblock	app_name
+
+erstelle	-
+eine	-
+liste	-
+mit	-
+büchern	list_name
+die	-
+ich	-
+bestellen	-
+will	-
+
+lösche	-
+nudeln	-
+von	-
+der	-
+liste	-
+
+die	-
+hausarbeits	list_name
+liste	-
+löschen	-
+
+was	-
+ist	-
+heute	date
+auf	-
+dem	-
+plan	-
+
+gib	-
+mir	-
+die	-
+titel	-
+meiner	-
+listen	-
+
+entferne	-
+hundefutter	-
+von	-
+meiner	-
+lebensmittelliste	list_name
+
+was	-
+steht	-
+als	-
+nächstes	-
+auf	-
+der	-
+liste	-
+
+olly	-
+lese	-
+mir	-
+meine	-
+einkaufs	list_name
+liste	-
+vor	-
+
+füge	-
+der	-
+liste	-
+neuen	-
+gegenstand	-
+hinzu	-
+
+ich	-
+würde	-
+gerne	-
+ein	-
+neuen	-
+podcast	-
+über	-
+gesundheitswesen	podcast_name
+hören	-
+
+starte	-
+die	-
+nächste	podcast_descriptor
+episode	podcast_descriptor
+in	-
+einem	-
+podcast	-
+
+spiel	-
+den	-
+neuesten	-
+morgenshow	podcast_name
+podcast	-
+
+ferien	podcast_name
+
+starte	-
+bitte	-
+die	-
+nächste	podcast_descriptor
+episode	podcast_descriptor
+des	podcast_descriptor
+podcasts	podcast_descriptor
+
+spiele	-
+die	-
+nächste	-
+aufnahme	-
+
+spiel	-
+kinder	music_genre
+lieder	-
+
+geh	-
+zum	-
+nächsten	-
+podcast	-
+
+spiel	-
+den	-
+neusten	-
+seahawks	person
+podcast	-
+ab	-
+
+überspringe	player_setting
+
+ich	-
+möchte	-
+die	-
+neueste	podcast_descriptor
+podcast	podcast_descriptor
+episode	podcast_descriptor
+von	-
+south	podcast_name
+town	podcast_name
+hören	-
+
+starte	-
+den	-
+this	podcast_name
+week	podcast_name
+for	podcast_name
+dinner	podcast_name
+podcast	-
+
+spiel	-
+den	-
+nächsten	podcast_descriptor
+podcast	podcast_descriptor
+
+nächste	podcast_descriptor
+episode	podcast_descriptor
+vom	-
+podcast	-
+
+würdest	-
+du	-
+bitte	-
+die	-
+nächste	-
+episode	-
+des	-
+podcasts	-
+spielen	-
+
+olly	-
+nächste	podcast_descriptor
+folge	podcast_descriptor
+des	-
+podcast	-
+bitte	-
+
+spiel	-
+die	-
+nächste	podcast_descriptor
+folge	podcast_descriptor
+auf	-
+drunks	podcast_name
+and	podcast_name
+dragons	podcast_name
+
+kann	-
+ich	-
+den	-
+podcast	-
+an	podcast_name
+den	podcast_name
+decks	podcast_name
+haben	-
+
+nenn	-
+mir	-
+chinesische	food_type
+restaurants	business_type
+in	-
+der	-
+gegend	-
+
+wie	-
+viel	-
+
+um	-
+wie	-
+viel	-
+uhr	-
+wird	-
+morgen	date
+ein	-
+film	-
+gezeigt	-
+
+was	-
+passiert	-
+hier	-
+
+gibt	-
+es	-
+heute	date
+irgendwelchen	-
+karneval	event_name
+in	-
+unserer	-
+gegend	-
+
+sende	-
+mir	-
+den	-
+standort	-
+des	-
+geschäfts	-
+
+mach	-
+eine	-
+reservierung	-
+für	-
+zwei	-
+im	-
+pho	business_type
+house	business_type
+
+ist	-
+swat	movie_name
+ein	-
+guter	-
+film	-
+
+tickets	-
+
+welche	-
+filme	-
+werden	-
+heute	timeofday
+abend	timeofday
+um	-
+einundzwanzig	time
+uhr	time
+im	-
+u.	place_name
+c.	place_name
+i.	place_name
+gezeigt	-
+
+was	-
+lohnt	-
+es	-
+sich	-
+hier	-
+zu	-
+machen	-
+
+wie	-
+heißt	-
+die	-
+veranstaltung	-
+die	-
+hier	-
+stattfindet	-
+
+trainingstag	movie_name
+
+kannst	-
+du	-
+gute	-
+geschäfte	business_type
+in	-
+dieser	place_name
+region	place_name
+empfehlen	-
+
+welche	-
+filme	-
+in	-
+der	-
+nähe	-
+gespielt	-
+werden	-
+
+olly	-
+sage	-
+mir	-
+wo	-
+die	-
+örtliche	place_name
+einkaufsmeile	place_name
+ist	-
+
+best	-
+bewertetes	-
+restaurant	business_type
+in	-
+münchen	place_name
+
+bitte	-
+empfiehl	-
+mir	-
+einen	-
+film	-
+
+welche	-
+veranstaltungen	-
+finden	-
+bei	-
+mir	-
+in	-
+der	-
+nähe	-
+statt	-
+
+was	-
+ist	-
+in	-
+meiner	-
+nähe	-
+der	-
+beste	-
+ort	business_type
+zum	business_type
+essen	business_type
+
+neuen	-
+gut	-
+filme	-
+gibt	-
+
+zu	-
+welcher	-
+veranstaltung	-
+kann	-
+ich	-
+jetzt	-
+in	-
+mailand	place_name
+gehen	-
+
+zeige	-
+mir	-
+die	-
+läden	business_type
+die	-
+sich	-
+in	-
+meiner	-
+gegend	-
+befinden	-
+
+veranstaltungen	-
+in	-
+meiner	-
+umgebung	-
+
+welche	-
+veranstaltungen	-
+sind	-
+dieses	date
+wochenende	date
+in	-
+meiner	-
+gegend	-
+geplant	-
+
+liste	-
+geschäfte	business_type
+in	-
+zweiten	place_name
+straße	place_name
+
+gibt	-
+es	-
+einen	-
+pub	business_type
+in	-
+meiner	-
+gegend	-
+
+veranstaltungen	-
+in	-
+der	-
+umgebung	-
+
+ich	-
+möchte	-
+gerne	-
+günstig	-
+einkaufen	-
+gibt	-
+es	-
+einen	-
+aldi	business_type
+in	-
+der	-
+nähe	-
+
+olly	-
+wie	-
+teuer	-
+sind	-
+eintrittskarten	-
+für	-
+den	-
+europapark	business_name
+
+the	-
+fast	movie_name
+and	movie_name
+the	movie_name
+furious	movie_name
+
+gibt	-
+es	-
+irgendwelche	-
+wochenmärkte	business_type
+in	-
+der	-
+nähe	-
+mit	-
+regionalen	-
+produkten	-
+
+buche	-
+ein	-
+taxi	transport_type
+für	-
+mich	-
+
+buchen	-
+sie	-
+mich	-
+ein	-
+rückkehr	transport_descriptor
+reise	-
+von	-
+zeitz	place_name
+zu	-
+bremen	place_name
+von	-
+zug	transport_type
+
+olly	-
+ich	-
+muss	-
+freitag	date
+nacht	time
+nach	-
+hamburg	place_name
+kannst	-
+du	-
+mir	-
+bitte	-
+ein	-
+ticket	-
+buchen	-
+
+kannst	-
+du	-
+ein	-
+zug	transport_type
+ticket	-
+für	-
+meine	-
+mama	relation
+buchen	-
+
+kannst	-
+du	-
+ein	-
+zug	transport_type
+ticket	-
+für	-
+meinen	-
+vater	relation
+buchen	-
+
+wie	-
+ist	-
+der	-
+verkehr	-
+jetzt	-
+auf	-
+der	-
+karl	place_name
+marx	place_name
+allee	place_name
+
+wie	-
+lang	-
+werde	-
+ich	-
+von	-
+hier	-
+zum	-
+bahnhof	place_name
+brauchen	-
+
+wie	-
+ist	-
+das	-
+verkehrsaufkommen	-
+in	-
+weimar	place_name
+
+ich	-
+brauche	-
+ein	-
+flugticket	-
+
+gibt	-
+es	-
+jetzt	-
+irgendwelchen	-
+verkehr	-
+
+umleitung	place_name
+
+fahrgeschwindigkeit	-
+maneuver	place_name
+
+wird	-
+d.	place_name
+h.	place_name
+l.	place_name
+rechzeitig	-
+in	-
+aubing	place_name
+ankommen	-
+
+buche	-
+ein	-
+zug	transport_type
+ticket	-
+für	-
+mich	-
+morgen	date
+nach	-
+erfurt	place_name
+egal	-
+welcher	-
+zug	-
+
+suche	-
+die	-
+wegbeschreibung	-
+nach	-
+leipzig	place_name
+von	-
+hier	-
+
+finde	-
+für	-
+heute	date
+zug	transport_type
+tickets	-
+nach	-
+berlin	place_name
+hauptbahnhof	place_name
+
+zug	transport_type
+zeiten	-
+nach	-
+berlin	place_name
+
+in	-
+leipzig	place_name
+das	-
+verkehrsaufkommen	-
+ist	-
+hoch	-
+
+zeig	-
+mir	-
+eine	-
+karte	-
+von	-
+diesem	-
+ort	-
+
+wann	-
+erreicht	-
+der	-
+zug	transport_type
+auf	-
+dem	-
+wir	-
+sind	-
+die	-
+nächste	place_name
+station	place_name
+
+um	-
+sechzehn	time
+uhr	time
+wie	-
+lange	-
+ist	-
+die	-
+verbliebene	-
+reisezeit	-
+bis	-
+zum	-
+ziel	-
+
+wie	-
+war	-
+der	-
+verkehr	-
+jetzt	-
+
+was	-
+sind	-
+die	-
+zug	transport_type
+fahrzeiten	-
+heute	date
+vom	-
+ostbahnhof	place_name
+nach	-
+brandenburg	place_name
+
+geben	-
+sie	-
+mir	-
+zug	transport_type
+zeiten	-
+für	-
+morgen	date
+zu	-
+hamburg	place_name
+
+bezahle	-
+für	-
+das	-
+zug	transport_type
+ticket	-
+
+finde	-
+ein	-
+uber	transport_agency
+das	-
+mich	-
+jetzt	-
+zum	-
+flughafen	place_name
+bringen	-
+kann	-
+
+ich	-
+brauche	-
+einen	-
+fahrschein	-
+für	-
+einen	-
+zug	transport_type
+morgen	date
+nach	-
+münchen	place_name
+
+buche	-
+ein	-
+zug	transport_type
+ticket	-
+morgen	date
+nach	-
+köln	place_name
+
+suche	-
+auf	-
+google	-
+buchen	-
+zug	transport_type
+ticket	-
+
+gibt	-
+es	-
+irgendwelche	-
+straßensperren	-
+siri	-
+
+wie	-
+lange	-
+dauert	-
+es	-
+dort	-
+hinzugehen	-
+
+zeige	-
+mir	-
+die	-
+wegbeschreibung	-
+zum	-
+nächsten	-
+starbucks	business_name
+
+einen	-
+transport	-
+zu	-
+finden	-
+leipzig	place_name
+
+ich	-
+brauche	-
+ein	-
+taxi	transport_type
+uber	transport_agency
+
+was	-
+sind	-
+die	-
+zug	transport_type
+fahrpläne	-
+nach	-
+berlin	place_name
+
+ich	-
+möchte	-
+ein	-
+zug	transport_type
+ticket	-
+buchen	-
+für	-
+vierzehn	time
+uhr	time
+
+ich	-
+möchte	-
+rajdhani	-
+buchen	-
+zug	transport_type
+fahrkarte	-
+von	-
+berlin	place_name
+nach	place_name
+leipzig	place_name
+
+wie	-
+lange	-
+dauert	-
+es	-
+von	-
+gera	place_name
+zu	-
+jena	place_name
+von	-
+bahn	transport_type
+
+besorge	-
+mir	-
+eine	-
+fahrkarte	-
+für	-
+den	-
+siebzehn	time
+uhr	time
+pendlerzug	-
+nach	-
+gotha	place_name
+
+bestelle	-
+ein	-
+zug	transport_type
+ticket	-
+nach	-
+köln	place_name
+
+welche	-
+züge	transport_type
+sind	-
+verfügbar	-
+
+prüfe	-
+die	-
+verkehrslage	-
+auf	-
+meinem	-
+weg	-
+nach	-
+hause	-
+
+ist	-
+im	-
+moment	-
+viel	-
+verkehr	-
+auf	-
+der	-
+a	place_name
+neun	place_name
+bei	-
+leipzig	place_name
+
+wie	-
+stark	-
+ist	-
+der	-
+verkehr	-
+jetzt	-
+in	-
+hamm	place_name
+
+wann	-
+kommt	-
+der	-
+nächste	-
+zug	transport_type
+für	-
+stadtmitte	place_name
+von	place_name
+hauptbahnhof	place_name
+an	-
+
+wie	-
+schlimm	-
+ist	-
+der	-
+verkehr	-
+heute	-
+morgen	timeofday
+
+kannst	-
+du	-
+ein	-
+zug	transport_type
+ticket	-
+für	-
+mich	-
+nach	-
+leipzig	place_name
+finden	-
+
+kannst	-
+du	-
+mir	-
+bitte	-
+ein	-
+zug	transport_type
+ticket	-
+kaufen	-
+
+kaufe	-
+ein	-
+zug	transport_type
+fahrkarte	-
+für	-
+in	date
+einer	date
+woche	date
+von	-
+berlin	place_name
+zu	-
+dresden	place_name
+sachsen	place_name
+
+es	-
+ist	-
+stau	-
+an	-
+stau	-
+
+anrufen	-
+der	-
+telefon	-
+nummr	-
+
+finde	-
+zug	transport_type
+fahrplan	-
+nach	-
+hamburg	place_name
+
+buch	-
+ein	-
+taxi	transport_type
+zum	-
+flughafen	place_name
+am	-
+abend	timeofday
+für	-
+mich	-
+
+zu	-
+welcher	-
+zeit	-
+fährt	-
+der	-
+zug	transport_type
+nach	-
+frankfurt	place_name
+ab	-
+
+irgendwelche	-
+verkehrs	-
+behinderungen	-
+heute	date
+
+reservieren	-
+sie	-
+mir	-
+einen	-
+taxi	transport_type
+für	-
+dreizehn	time
+uhr	time
+
+sieben	-
+mal	-
+sieben	-
+
+erzähl	-
+mir	-
+davon	-
+
+olly	-
+erzähl	-
+mir	-
+davon	-
+
+wie	-
+ist	-
+die	-
+definition	-
+von	-
+launisch	definition_word
+
+in	-
+welcher	-
+stadt	-
+lebt	-
+anthony	person
+keidis	person
+
+was	-
+glaubst	-
+du	-
+wie	-
+ich	-
+aussehe	-
+
+was	-
+ist	-
+unendlichkeit	definition_word
+
+finde	-
+für	-
+mich	-
+heraus	-
+was	-
+das	-
+thema	-
+jedes	-
+oswald	-
+chambers	-
+buches	-
+ist	-
+
+wie	-
+viele	-
+unzen	-
+sind	-
+in	-
+einem	-
+quart	-
+
+wann	-
+ist	-
+sankt	-
+patricks	-
+tag	-
+
+was	-
+ist	-
+zweihundert	-
+geteilt	-
+durch	-
+fünf	-
+
+treffen	event_name
+mit	-
+meinem	-
+chef	relation
+erstellen	-
+
+rechne	-
+
+ich	-
+möchte	-
+über	-
+alle	-
+aktuellen	-
+nachrichten	-
+von	-
+der	-
+ganzen	-
+welt	-
+informiert	-
+werden	-
+
+wie	-
+wirken	-
+sich	-
+produktion	-
+und	-
+bevölkerung	-
+auf	-
+uns	-
+aus	-
+
+synonym	-
+von	-
+wort	-
+
+wie	-
+lang	-
+ist	-
+der	-
+nil	place_name
+fluss	place_name
+
+überprüfe	-
+den	-
+posteingang	email_folder
+auf	-
+neue	-
+nachrichten	-
+
+längster	-
+fluss	-
+auf	-
+der	-
+welt	-
+
+was	-
+weisst	-
+du	-
+über	-
+helmut	person
+kohl	person
+
+i	-
+hoffe	-
+wir	-
+können	-
+kekse	-
+essen	-
+
+erzähle	-
+von	-
+computer	definition_word
+definition	-
+
+erkäre	-
+bob	person
+dylan	person
+
+was	-
+ist	-
+inflation	-
+erkläre	-
+den	-
+zusammenhang	-
+zur	-
+wirtschaft	-
+
+definiere	-
+ewig	definition_word
+
+wieviel	-
+ist	-
+einhundertsechsunddreißig	-
+plus	-
+dreihundertsiebenundachtzig	-
+
+hilf	-
+mir	-
+zu	-
+schlafen	-
+
+wer	-
+ist	-
+merkel	person
+
+wo	-
+kommt	-
+merkel	person
+her	-
+
+probiere	-
+die	-
+folgenden	-
+schritte	-
+um	-
+die	-
+richtige	-
+antwort	-
+auszuwählen	-
+
+wie	-
+sind	-
+die	-
+öffnungszeiten	-
+von	-
+d.	-
+m.	-
+
+zehn	-
+plus	-
+y.	-
+
+was	-
+ist	-
+vierzehn	-
+durch	-
+zwei	-
+
+definition	-
+und	-
+verwendung	-
+des	-
+wortes	-
+absolut	definition_word
+in	-
+einem	-
+satz	-
+
+was	-
+würde	-
+passieren	-
+wenn	-
+man	-
+einen	-
+velociraptor	-
+und	-
+ein	-
+nilpferd	-
+zusammenbringt	-
+
+sag	-
+mir	-
+wie	-
+man	-
+ein	-
+testament	-
+macht	-
+
+schaue	-
+nach	-
+was	-
+das	-
+wort	-
+bedeutet	-
+
+wer	-
+ist	-
+der	-
+aktuelle	-
+us	-
+finanzminister	-
+
+was	-
+ist	-
+der	-
+umfang	-
+der	-
+erde	-
+
+wie	-
+alt	-
+ist	-
+thomas	person
+müller	person
+
+mathe	-
+kurse	-
+
+ich	-
+brauche	-
+ein	-
+rezept	-
+für	-
+hähnchenschenkel	-
+für	-
+meinen	-
+schnellkochtopf	-
+
+warum	-
+leute	-
+gerne	-
+andere	-
+kritisieren	-
+und	-
+sich	-
+selten	-
+selbst	-
+kritisieren	-
+
+welche	-
+ist	-
+die	-
+hauptstadt	-
+von	-
+niedersachsen	place_name
+
+was	-
+bedeutet	-
+der	-
+titel	-
+vom	-
+leo	-
+dicaprio	-
+film	-
+
+starte	-
+den	-
+ofen	-
+
+wo	-
+befinden	-
+sich	-
+die	place_name
+alpen	place_name
+
+was	-
+ist	-
+die	-
+größte	-
+stadt	-
+der	-
+welt	place_name
+
+wie	-
+viel	-
+wiegt	-
+ein	-
+durschnittliches	-
+auto	-
+
+wo	-
+ist	-
+der	-
+nächste	-
+fluss	-
+
+promi	-
+wiki	-
+checken	-
+
+was	-
+ist	-
+der	-
+wechselkurs	-
+von	-
+u.	currency_name
+s.	currency_name
+d.	currency_name
+und	-
+n.	currency_name
+z.	currency_name
+d.	currency_name
+
+was	-
+ist	-
+die	-
+bedeutung	-
+des	-
+worts	-
+scheinheilig	definition_word
+
+wann	-
+wurde	-
+trump	person
+geboren	-
+
+erzähl	-
+mir	-
+von	-
+sean	person
+connery	person
+
+was	-
+ist	-
+jürgen	person
+prochnow's	person
+geburtstag	-
+
+kannst	-
+du	-
+garantieren	-
+dass	-
+du	-
+die	-
+richtigen	-
+lottogewinnzahlen	-
+auswählen	-
+kannst	-
+
+wieviele	-
+g.	currency_name
+b.	currency_name
+p.	currency_name
+kann	-
+ich	-
+für	-
+einen	-
+dollar	currency_name
+bekommen	-
+
+definiere	-
+geschwätzigkeit	definition_word
+
+wie	-
+weit	-
+ist	-
+sachsen	place_name
+von	-
+bayern	place_name
+entfernt	-
+
+was	-
+ist	-
+die	-
+quadratwurzel	-
+von	-
+vier	-
+
+bitte	-
+beschreibe	-
+diesen	definition_word
+sonnenuntergang	definition_word
+für	-
+mich	-
+
+lebt	-
+nena	person
+noch	-
+
+wie	-
+viel	-
+zoll	-
+sind	-
+in	-
+einem	-
+fuss	-
+
+eine	-
+muschel	definition_word
+beschreiben	-
+
+kannst	-
+du	-
+mir	-
+beschreiben	-
+wie	-
+eine	-
+ananas	definition_word
+aussieht	-
+
+erzähl	-
+mir	-
+von	-
+michael	artist_name
+jackson	artist_name
+
+google	-
+nach	-
+michael	artist_name
+jackson	artist_name
+
+ich	-
+möchte	-
+ein	-
+paar	-
+informationen	-
+über	-
+knut	person
+kiesewetter	person
+haben	-
+
+die	-
+beschreibung	-
+von	-
+engel	definition_word
+
+wie	-
+weit	-
+reicht	-
+mein	-
+dollar	-
+in	-
+japan	-
+
+was	-
+ist	-
+ein	-
+hochdruckreiniger	definition_word
+
+wie	-
+viele	-
+kalorien	-
+hat	-
+eine	-
+orange	-
+
+was	-
+ist	-
+mit	-
+müller	person
+
+ich	-
+möchtewissen	-
+ob	-
+bei	-
+matheaufgaben	-
+addition	-
+vor	-
+subtraktion	-
+multiplikation	-
+oder	-
+division	-
+gerechnet	-
+wird	-
+
+wann	-
+hat	-
+angelina	person
+geburtstag	event_name
+
+wie	-
+ist	-
+der	-
+dollar	currency_name
+wechselkurs	-
+
+honda	business_name
+aktienpreis	-
+
+schaue	-
+wirtschaft	definition_word
+im	-
+lexikon	-
+nach	-
+
+sag	-
+mir	-
+wann	-
+martin	person
+luther	person
+king	person
+junior	person
+geboren	-
+wurde	-
+
+was	-
+ist	-
+ein	-
+schwarm	definition_word
+
+was	-
+ist	-
+ein	-
+tribok	definition_word
+
+wo	-
+sind	-
+die	-
+weltgrößten	-
+wasserfälle	-
+
+zeige	-
+wechselkurs	-
+u.	currency_name
+s.	currency_name
+d.	currency_name
+gegenüber	-
+euro	currency_name
+
+bitte	-
+erzähle	-
+mir	-
+von	-
+den	-
+historischen	-
+fakten	-
+von	-
+indien	place_name
+
+durchsuche	-
+die	-
+region	-
+
+was	-
+ist	-
+der	-
+aktienpreis	-
+für	-
+
+wie	-
+geht	-
+es	-
+der	-
+shellaktie	-
+heute	date
+
+aktienpreis	-
+f.	business_name
+flat	business_name
+
+wie	-
+hoch	-
+ist	-
+die	-
+qualität	-
+von	-
+diesem	-
+stein	-
+
+geh	-
+zur	-
+n.	-
+s.	-
+d.	-
+l.	-
+und	-
+suche	-
+nach	-
+aktienpreisen	-
+
+was	-
+ist	-
+drei	-
+plus	-
+hundertfünfundfünfzig	-
+
+wie	-
+viel	-
+ist	-
+der	-
+dollar	currency_name
+gegenüber	-
+dem	-
+pfund	currency_name
+
+wie	-
+macht	-
+man	-
+stahl	-
+
+wie	-
+läuft	-
+der	-
+kurs	-
+von	-
+compaq	business_name
+
+kannst	-
+du	-
+mir	-
+sagen	-
+was	-
+deine	-
+lieblingsfarbe	-
+ist	-
+
+was	-
+ist	-
+pyramide	definition_word
+
+bitte	-
+gib	-
+mir	-
+detail	-
+zu	-
+ein	-
+yen	currency_name
+gleich	-
+euro	currency_name
+
+was	-
+ist	-
+der	-
+wechselkurs	-
+von	-
+euro	currency_name
+für	-
+dollar	currency_name
+
+wie	-
+ist	-
+der	-
+wechselkurs	-
+zwischen	-
+rupie	currency_name
+und	-
+dollar	currency_name
+
+welchen	-
+preis	-
+hat	-
+google	business_name
+
+zeig	-
+mir	-
+den	-
+aktienpreis	-
+von	-
+tata	business_name
+
+was	-
+ist	-
+die	-
+aktie	-
+von	-
+apple	business_name
+
+wie	-
+sinnvoll	-
+ist	-
+es	-
+nike	business_name
+aktien	-
+zu	-
+kaufen	-
+
+ist	-
+hamburg	place_name
+in	-
+der	-
+nähe	-
+von	-
+münchen	place_name
+
+definiere	-
+beschleunigung	definition_word
+
+wie	-
+sind	-
+die	-
+top	-
+zehn	-
+aktien	-
+im	-
+moment	-
+
+kannst	-
+du	-
+fühlen	-
+
+wie	-
+viel	-
+ist	-
+der	-
+euro	currency_name
+wert	-
+gesunken	-
+
+investiert	-
+warren	person
+buffet	person
+in	-
+meine	-
+börsennotierten	-
+aktien	-
+
+steigen	-
+die	-
+aktien	-
+in	-
+die	-
+ich	-
+investiert	-
+habe	-
+an	-
+
+welcher	-
+kontinent	-
+hat	-
+die	-
+höchste	-
+baumwollproduktion	-
+und	-
+was	-
+ist	-
+die	-
+durchschnittliche	-
+produktion	-
+
+wie	-
+läuft	-
+jennifer	person
+garner's	person
+karriere	-
+
+bedeutung	-
+von	-
+name	definition_word
+
+was	-
+ist	-
+die	-
+hauptstadt	-
+von	-
+dänemark	place_name
+
+gib	-
+mir	-
+den	-
+wechselkurs	-
+zwischen	-
+u.	currency_name
+s.	currency_name
+dollar	currency_name
+und	-
+japanischer	currency_name
+yen	currency_name
+
+sag	-
+mir	-
+die	-
+area	-
+vom	-
+asiatischen	-
+kontinent	-
+
+siri	person
+svegler's	person
+geburtstag	event_name
+anzeigen	-
+
+gib	-
+mir	-
+die	-
+definition	-
+des	-
+wortes	-
+hochmütig	definition_word
+
+gib	-
+mir	-
+die	-
+definition	-
+des	-
+wortes	-
+streicheln	definition_word
+
+wie	-
+lautet	-
+die	-
+definition	-
+von	-
+print	definition_word
+work	definition_word
+directory	definition_word
+
+was	-
+ist	-
+das	-
+am	-
+dichtesten	-
+besiedelte	-
+land	-
+der	-
+welt	place_name
+
+was	-
+ist	-
+die	-
+defintion	-
+von	-
+empörung	definition_word
+
+was	-
+war	-
+martin	person
+luther	person
+kings	person
+geburtstag	event_name
+
+was	-
+ist	-
+der	-
+aktuelle	-
+preis	-
+der	-
+daimler	business_name
+aktie	-
+
+geldwechsel	-
+
+wie	-
+viele	-
+kontinente	-
+gibt	-
+es	-
+
+aktien	-
+details	-
+
+wieviele	-
+euro	currency_name
+für	-
+einen	-
+us	currency_name
+dollar	currency_name
+
+wie	-
+viele	-
+knochen	-
+hat	-
+ein	-
+menschlicher	-
+körper	-
+
+wo	-
+ist	-
+der	-
+heißeste	-
+ort	-
+auf	-
+der	-
+erde	place_name
+
+liste	-
+den	-
+derzeitigen	-
+preis	-
+für	-
+microsoft	business_name
+aktien	-
+auf	-
+
+ok	-
+google	-
+wo	-
+ist	-
+die	-
+beste	-
+und	-
+günstigste	-
+unterkunft	-
+in	-
+düsseldorf	place_name
+
+was	-
+ist	-
+die	-
+zeitzone	-
+von	-
+kuba	place_name
+
+was	-
+ist	-
+der	-
+wertunterschied	-
+zwischen	-
+einem	-
+dollar	currency_name
+und	-
+einem	-
+peso	currency_name
+
+person	-
+ist	-
+unglaublich	-
+
+wie	-
+viel	-
+ist	-
+ein	-
+dollar	currency_name
+in	-
+kanada	currency_name
+wert	-
+
+bitte	-
+überprüfe	-
+den	-
+wechselkurs	-
+zwischen	-
+dollar	currency_name
+und	-
+euro	currency_name
+
+was	-
+ist	-
+die	-
+definition	-
+probiotisch	definition_word
+
+wie	-
+hoch	-
+ist	-
+die	-
+zugspitze	place_name
+
+was	-
+ist	-
+das	-
+ergebnis	-
+von	-
+einhundert	-
+minus	-
+fünfzig	-
+
+sag	-
+mir	-
+wie	-
+alt	-
+ist	-
+ryan	person
+seacrest	person
+
+wenn	-
+dieses	-
+objekt	-
+zum	-
+verkauf	-
+steht	-
+was	-
+ist	-
+dann	-
+sein	-
+preis	-
+
+was	-
+ist	-
+die	-
+höhe	-
+dieses	-
+ortes	-
+
+was	-
+ist	-
+die	-
+bedeutung	-
+von	-
+
+wie	-
+hoch	-
+über	-
+dem	-
+meeresspiegel	-
+liegt	-
+denver	place_name
+
+wie	-
+groß	-
+ist	-
+die	-
+stashable	-
+cinch	-
+bag	-
+und	-
+wie	-
+sieht	-
+sie	-
+aus	-
+
+welcher	-
+ist	-
+der	-
+größte	-
+fluss	-
+in	-
+deutschland	place_name
+
+wann	-
+ist	-
+die	-
+beste	-
+zeit	-
+um	-
+bei	-
+edeka	-
+einzukaufen	-
+damit	-
+ich	-
+mich	-
+nicht	-
+mit	-
+einer	-
+menschenmenge	-
+herumschlagen	-
+muss	-
+
+sollen	-
+wir	-
+uns	-
+für	-
+die	-
+heutige	date
+party	event_name
+treffen	-
+
+kann	-
+ich	-
+auf	-
+öffentlichem	-
+grund	-
+nach	-
+gold	-
+schürfen	-
+
+bitte	-
+lasse	-
+mich	-
+wissen	-
+wie	-
+der	-
+wechselkurs	-
+zwischen	-
+indische	currency_name
+rupie	currency_name
+und	-
+euros	currency_name
+ist	-
+
+brauche	-
+geographische	-
+informationen	-
+zu	-
+italien	place_name
+
+erzähle	-
+mir	-
+von	-
+nina	person
+hagen	person
+
+wie	-
+viel	-
+kann	-
+chris	-
+helmsworth	-
+bankdrücken	-
+
+gib	-
+mir	-
+den	-
+durchschnittlichen	-
+fünfjährigen	-
+aktienpreis	-
+von	-
+home	-
+depot	-
+
+was	-
+ist	-
+der	-
+wechselkurs	-
+für	-
+u.	currency_name
+s.	currency_name
+dollar	currency_name
+und	-
+euro	currency_name
+
+kannst	-
+du	-
+mein	-
+geld	-
+umwandeln	-
+in	-
+
+welchen	-
+film	-
+empfiehlst	-
+du	-
+heute	timeofday
+abend	timeofday
+
+olly	-
+plane	-
+bitte	-
+alle	-
+meine	-
+arzttermine	event_name
+
+was	-
+hat	-
+die	-
+meisten	-
+likes	-
+auf	-
+facebook	media_type
+
+poste	-
+dass	-
+ich	-
+zum	-
+mcdonalds	business_name
+in	-
+lindenau	place_name
+gehe	-
+
+poste	-
+dass	-
+ich	-
+zum	-
+deichmann	business_name
+schuhladen	business_name
+gehe	-
+
+prüfe	-
+meine	-
+twitter	media_type
+benachrichtigungen	-
+
+wie	-
+viele	-
+benachrichtigungen	-
+habe	-
+ich	-
+auf	-
+facebook	media_type
+
+live	-
+show	-
+erinnerungen	-
+
+mach	-
+einen	-
+schnappschuss	media_type
+
+veröffentliche	-
+artikel	-
+auf	-
+pinterest	media_type
+
+ich	-
+höre	-
+einen	-
+song	-
+von	-
+janet	person
+jackson	person
+poste	-
+es	-
+auf	-
+meinem	-
+facebook	media_type
+konto	-
+
+was	-
+sind	-
+meine	-
+benachrichtigungen	-
+
+bitte	-
+veröffentliche	-
+diese	-
+nachricht	-
+auf	-
+meiner	-
+facebook	media_type
+seite	-
+
+olly	-
+angesagte	-
+soziale	-
+netzwerke	-
+
+zeige	-
+mir	-
+meine	-
+benachrichtigungen	-
+auf	-
+den	-
+sozialen	-
+netzwerken	-
+
+meine	-
+schwester	relation
+hat	-
+eben	-
+ihr	-
+baby	relation
+bekommen	-
+
+sende	-
+diese	-
+nachricht	-
+an	-
+twitter	media_type
+
+schick	-
+sony	business_name
+eine	-
+beschwerde	-
+über	-
+den	-
+fernseher	-
+der	-
+aufgehört	-
+hat	-
+zu	-
+funktionieren	-
+
+twittere	media_type
+eins	business_name
+und	business_name
+eins	business_name
+und	-
+sag	-
+ihnen	-
+dass	-
+ihr	-
+signal	-
+wieder	-
+weg	-
+ist	-
+
+poste	-
+das	-
+foto	-
+dass	-
+ich	-
+eben	-
+aufgenommen	-
+habe	-
+auf	-
+twitter	media_type
+
+beschwere	-
+dich	-
+bei	-
+sixt	business_name
+über	-
+die	-
+viel	-
+zu	-
+große	-
+warteschlange	-
+
+ich	-
+möchte	-
+einen	-
+neuen	-
+twitterbeitrag	media_type
+als	-
+beschwerde	-
+an	-
+kaufland	-
+
+erneuere	-
+diese	-
+beschwerde	-
+
+twittere	media_type
+eine	-
+beschwerde	-
+an	-
+amazon	business_name
+wegen	-
+der	-
+verspäteten	-
+lieferung	-
+
+schreibe	-
+eine	-
+beschwerde	-
+an	-
+g.	business_name
+m.	business_name
+x.	business_name
+
+tweete	media_type
+dem	-
+kundenservice	business_name
+von	business_name
+starbucks	business_name
+
+ich	-
+habe	-
+eine	-
+beschwerde	-
+
+bitte	-
+twittere	media_type
+für	-
+mich	-
+über	-
+den	-
+schlechten	-
+service	-
+der	-
+vom	-
+schnitzelrestaurant	-
+durchgeführt	-
+wurde	-
+
+rufe	-
+das	-
+kundenhandy	-
+über	-
+amail	-
+an	-
+
+twittere	media_type
+dem	-
+google	business_name
+kundenservice	business_name
+ihre	-
+produkte	-
+sind	-
+minderwertig	-
+
+melde	-
+beschwerde	-
+an	-
+samsung	business_name
+via	-
+tweet	media_type
+
+bitte	-
+twittere	media_type
+die	-
+folgende	-
+beschwerde	-
+
+erstelle	-
+einen	-
+tweet	media_type
+für	-
+youtube	media_type
+
+twittere	media_type
+eine	-
+beschwerde	-
+an	-
+dominos	business_name
+
+sende	-
+einen	-
+tweet	media_type
+über	-
+nachrichten	-
+an	-
+das	-
+cafe	business_name
+berlin	business_name
+und	-
+sage	-
+ihnen	-
+dass	-
+ihr	-
+kundenservice	-
+ausgezeichnet	-
+ist	-
+
+twittere	media_type
+pizza	business_name
+hut	business_name
+dass	-
+der	-
+liefertyp	-
+eine	-
+stunde	-
+zu	-
+spät	-
+ist	-
+
+twittere	media_type
+eine	-
+beschwerde	-
+für	-
+mich	-
+bezüglich	-
+krankheitsvorsorge	-
+
+auf	-
+amazon	business_name
+twitter	business_name
+handler	business_name
+tweete	media_type
+eine	-
+beschwerde	-
+über	-
+die	-
+qualität	-
+meiner	-
+jeans	-
+
+brauche	-
+informationen	-
+
+poste	-
+einen	-
+facebook	media_type
+status	-
+verlobt	-
+
+das	-
+ist	-
+ein	-
+tweet	media_type
+für	-
+vodafone	business_name
+wenn	-
+ich	-
+mein	-
+internet	-
+und	-
+telefon	-
+von	-
+ihnen	-
+habe	-
+und	-
+es	-
+aus	-
+geht	-
+wie	-
+kann	-
+ich	-
+sie	-
+kontaktieren	-
+
+deutsche	-
+bank	-
+ist	-
+scheiße	-
+schreib	-
+das	-
+auf	-
+deren	-
+twitter	media_type
+account	-
+
+olly	-
+übermittel	-
+eine	-
+negative	-
+bewertung	-
+an	-
+eine	-
+firma	-
+
+mache	-
+einen	-
+post	-
+
+schreibe	-
+einen	-
+tweet	media_type
+an	-
+diese	-
+firma	-
+
+habe	-
+ich	-
+irgendwelche	-
+neuen	-
+emails	-
+
+informiere	-
+mich	-
+
+habe	-
+ich	-
+irgendwas	-
+neues	-
+vom	-
+chef	relation
+bekommen	-
+
+schicke	-
+meiner	-
+mutti	relation
+eine	-
+email	-
+und	-
+frage	-
+nach	-
+dem	-
+wetter	-
+
+bitte	-
+prüfe	-
+ob	-
+es	-
+eine	-
+neue	-
+email	-
+im	-
+posteingang	email_folder
+gibt	-
+
+schick	-
+eine	-
+kopie	-
+der	-
+rechnung	-
+an	-
+mona	person
+per	-
+email	-
+
+suche	-
+die	-
+wohnadresse	personal_info
+von	-
+meiner	-
+teamleiterin	relation
+
+gib	-
+mir	-
+die	-
+telefonnummer	personal_info
+von	-
+alexander	person
+
+gibt	-
+es	-
+irgendeine	-
+neue	-
+mail	-
+für	-
+mich	-
+
+kannst	-
+du	-
+bitte	-
+eine	-
+email	-
+an	-
+meinen	-
+ehemann	relation
+schicken	-
+
+schicke	-
+eine	-
+email	-
+an	-
+benedikt	person
+dass	-
+es	-
+mir	-
+leid	-
+tut	-
+ich	-
+wusste	-
+nicht	-
+dass	-
+er	-
+so	-
+krank	-
+war	-
+
+neue	-
+email	-
+zu	-
+kontakten	-
+hinzugüfen	-
+
+schau	-
+nach	-
+ob	-
+es	-
+etwas	-
+gibt	-
+das	-
+mit	-
+meinem	-
+beruf	-
+zu	-
+tun	-
+hat	-
+
+suche	-
+nach	-
+kürzlichen	-
+gesendete	-
+emails	-
+von	-
+mama	relation
+
+bitte	-
+schicke	-
+ashwin	person
+patel	person
+meine	-
+besten	-
+wünsche	-
+und	-
+das	-
+arbeitspdf	-
+im	-
+anhang	-
+als	-
+email	-
+
+alex	person
+hat	-
+mir	-
+gesagt	-
+dass	-
+er	-
+eine	-
+email	-
+bezüglich	-
+des	-
+preises	-
+der	-
+maschine	-
+senden	-
+wird	-
+bitte	-
+überprüfen	-
+sie	-
+ob	-
+dies	-
+angekommen	-
+ist	-
+
+irgendwelche	-
+wichtigen	-
+emails	-
+aus	-
+der	-
+letzten	time
+stunde	time
+
+zeige	-
+die	-
+nummer	personal_info
+und	-
+kontakt	-
+email	personal_info
+von	-
+ronja	person
+
+ich	-
+will	-
+auf	-
+alle	-
+emails	-
+antworten	-
+die	-
+ich	-
+jeden	general_frequency
+tag	general_frequency
+zwischen	-
+zehn	time
+uhr	time
+abends	time
+und	-
+sieben	time
+uhr	time
+morgens	time
+erhalte	-
+
+upgarde	-
+die	-
+email	-
+an	-
+carlos	person
+auf	-
+linux	-
+
+schick	-
+email	-
+an	-
+marina	person
+sander	person
+
+liste	-
+die	-
+empfangenen	-
+emails	-
+in	-
+alphabetischer	-
+reihenfolge	-
+auf	-
+
+olly	-
+nenne	-
+mir	-
+bitte	-
+die	-
+kontaktdaten	personal_info
+von	-
+meinem	-
+bruder	relation
+
+was	-
+ist	-
+die	-
+email	-
+die	-
+ich	-
+von	-
+meiner	-
+freundin	relation
+bekommen	-
+habe	-
+
+wie	-
+lautet	-
+jeffs	person
+nummer	personal_info
+
+schaue	-
+die	-
+absender	-
+und	-
+themen	-
+der	-
+letzten	-
+emails	-
+nach	-
+
+alle	-
+emails	-
+von	-
+john	person
+smith	person
+aus	-
+zwölf	time
+monate	time
+
+ich	-
+will	-
+dass	-
+du	-
+auf	-
+jennifers	person
+email	-
+antwortes	-
+wir	-
+werden	-
+später	-
+kommen	-
+
+es	-
+ist	-
+joes	person
+geburtstag	event_name
+bald	-
+
+habe	-
+ich	-
+irgendwelche	-
+mails	-
+
+alexa	-
+stelle	-
+mir	-
+informationen	-
+über	-
+bernd	person
+aus	-
+meiner	-
+kontaktliste	-
+zur	-
+verfügung	-
+
+alexa	-
+schau	-
+die	-
+informationen	-
+zu	-
+bernd	person
+nach	-
+
+nächste	date
+woche	date
+email	-
+an	-
+ehefrau	relation
+
+antworte	-
+auf	-
+roberts	person
+email	-
+von	-
+heute	date
+früh	timeofday
+
+aktualisiere	-
+den	-
+e-mail	-
+posteingang	email_folder
+
+gibt	-
+es	-
+eine	-
+möglichkeit	-
+informationen	-
+über	-
+einen	-
+contact	-
+herauszufinden	-
+
+antworte	-
+horst	person
+schulz	person
+
+füge	-
+einen	-
+neuen	-
+email	-
+kontakt	-
+hinzu	-
+
+hat	-
+linda	person
+müller	person
+auf	-
+irgendeine	-
+von	-
+meinen	-
+emails	-
+heute	-
+morgen	timeofday
+geantwortet	-
+
+habe	-
+ich	-
+ungelesene	-
+emails	-
+von	-
+chris	person
+baum	person
+
+wer	-
+mir	-
+mails	-
+geschickt	-
+hat	-
+diese	date
+woche	date
+
+gibt	-
+es	-
+schon	-
+irgendwelche	-
+neuen	-
+emails	-
+
+lass	-
+mich	-
+wissen	-
+ob	-
+es	-
+irgendwelche	-
+neuen	-
+emails	-
+von	-
+clemens	person
+gibt	-
+
+hat	-
+jakob	person
+schneider	person
+mir	-
+irgendeine	-
+neue	-
+email	-
+geschickt	-
+
+habe	-
+ich	-
+irgendeinen	-
+verpassten	-
+anruf	-
+von	-
+patrick	person
+
+schicke	-
+eine	-
+email	-
+an	-
+mustermail	email_address
+at	email_address
+gmail	email_address
+dot	email_address
+com	email_address
+
+bereite	-
+eine	-
+antwortmail	-
+an	-
+mark	person
+vor	-
+
+zeige	-
+meine	-
+letzte	-
+email	-
+von	-
+mutter	relation
+
+schick	-
+eine	-
+erinnerung	-
+email	-
+
+sende	-
+diese	-
+antwort	-
+an	-
+die	-
+erhaltene	-
+email	-
+
+ist	-
+eine	-
+neue	-
+emailadresse	-
+für	-
+sarah	person
+notiert	-
+
+ist	-
+das	-
+die	-
+handynummer	personal_info
+meiner	-
+schwester	relation
+
+schicke	-
+eine	-
+email	-
+an	-
+die	-
+tochter	relation
+
+ich	-
+muss	-
+sehen	-
+ob	-
+ich	-
+irgendeine	-
+neue	-
+email	-
+bekommen	-
+haben	-
+
+habe	-
+ich	-
+eine	-
+nummer	-
+für	-
+gerhard	person
+
+wann	-
+habe	-
+ich	-
+das	-
+letzte	-
+mal	-
+eine	-
+neue	-
+email	-
+bekommen	-
+
+füge	-
+daniel	email_address
+bei	email_address
+telekom	email_address
+zu	-
+meinen	-
+kontakten	-
+hinzu	-
+
+sende	-
+joejoe	email_address
+at	email_address
+gmail	email_address
+dot	email_address
+com	email_address
+eine	-
+email	-
+
+finde	-
+lenas	person
+aktuellste	-
+email	-
+damit	-
+ich	-
+ihr	-
+antworten	-
+kann	-
+
+bitte	-
+schicke	-
+eine	-
+email	-
+an	-
+john	person
+die	-
+besagt	-
+dass	-
+ich	-
+in	-
+urlaub	-
+bin	-
+
+d	-
+i	-
+d	-
+i	-
+ich	-
+bekomme	-
+eine	-
+email	-
+von	-
+kraftwerk	person
+
+was	-
+sind	-
+die	-
+kontakt	-
+details	-
+von	-
+jonas	person
+
+habe	-
+ich	-
+in	-
+der	-
+letzten	time
+stunde	time
+irgendwelche	-
+mails	-
+bekommen	-
+
+aktualisiere	-
+meinen	-
+outlook	-
+posteingang	email_folder
+
+was	-
+weißt	-
+du	-
+über	-
+marie	person
+
+habe	-
+ich	-
+innerhalb	-
+der	-
+letzten	time
+fünf	time
+stunden	time
+irgendwelche	-
+emails	-
+bekommen	-
+
+habe	-
+ich	-
+irgendwelche	-
+emails	-
+von	-
+olaf	person
+bekommen	-
+
+tun	-
+ich	-
+haben	-
+neue	-
+email	-
+von	-
+erik	person
+
+welche	-
+ist	-
+meine	-
+letzte	-
+email	-
+
+sende	-
+eine	-
+bestätigungsemail	-
+an	-
+sandra	person
+
+alexa	-
+schick	-
+die	-
+email	-
+an	-
+diese	-
+neue	-
+emailadresse	-
+
+bitte	-
+füge	-
+eine	-
+email	-
+zu	-
+meinen	-
+kontakten	-
+hinzu	-
+
+sagen	-
+sie	-
+mir	-
+die	-
+vorwahl	personal_info
+zum	-
+jen	person
+k.	person
+
+hol	-
+mir	-
+neue	-
+mail	-
+
+was	-
+war	-
+der	-
+betreff	-
+meiner	-
+letzten	-
+email	-
+
+antworte	-
+auf	-
+meine	-
+letzte	-
+email	-
+
+gibt	-
+es	-
+irgendwelche	-
+ungelesenen	-
+emails	-
+dieser	-
+person	-
+
+chek	-
+die	-
+email	-
+nach	-
+betreff	-
+
+über	-
+den	-
+email	-
+server	-
+
+kannst	-
+du	-
+john	person
+via	-
+email	-
+antworten	-
+
+kannst	-
+du	-
+prüfen	-
+on	-
+ich	-
+eine	-
+email	-
+von	-
+jan	person
+bekommen	-
+habe	-
+
+zeig	-
+mir	-
+meine	-
+letzte	-
+email	-
+
+ich	-
+möchte	-
+auf	-
+die	-
+email	-
+antworten	-
+
+lass	-
+uns	-
+sandra	person
+eine	-
+email	-
+schicken	-
+
+olly	-
+sende	-
+bob	person
+eine	-
+email	-
+
+lese	-
+mir	-
+alle	-
+neuen	-
+nachrichten	-
+in	-
+meiner	-
+email	-
+vor	-
+
+bitte	-
+schicke	-
+eine	-
+geschäftliche	-
+email	-
+bezüglich	-
+der	-
+zeitänderung	-
+des	-
+meetings	-
+an	-
+lauren	person
+
+lass	-
+auf	-
+diese	-
+email	-
+antworten	-
+
+wann	-
+habe	-
+ich	-
+zuletzt	-
+einen	-
+anruf	-
+von	-
+daniel	person
+erhalten	-
+
+antworte	-
+auf	-
+mamas	relation
+mail	-
+nachricht	-
+über	-
+die	-
+rezepte	-
+seite	-
+
+schalte	-
+bitte	-
+die	-
+lichter	-
+aus	-
+
+leiser	-
+
+wie	-
+wird	-
+morgen	date
+die	-
+temperatur	weather_descriptor
+draußen	-
+sein	-
+
+der	-
+zweiundzwanzigste	date
+märz	date
+ist	-
+welcher	-
+wochentag	-
+
+es	-
+ist	-
+ein	-
+sehr	-
+gefährlicher	-
+
+gib	-
+mir	-
+ein	-
+paar	-
+internationale	place_name
+nachrichten	-
+
+stelle	-
+einen	-
+weckruf	-
+für	-
+zehn	time
+uhr	time
+
+stelle	-
+einen	-
+alarm	-
+für	-
+dreizehn	time
+uhr	time
+
+schalten	-
+die	-
+t.	device_type
+v.	device_type
+steckdose	-
+ein	-
+wenn	-
+ich	-
+nach	-
+hause	-
+komme	-
+
+wer	-
+führt	-
+gerade	-
+im	-
+formel	news_topic
+eins	news_topic
+rennen	-
+
+akzeptiert	-
+pf	business_name
+changs	business_name
+auch	-
+bestellungen	-
+zum	order_type
+mitnehmen	order_type
+
+aktuelle	-
+nachrichten	-
+n.	media_type
+t.	media_type
+v.	media_type
+
+kann	-
+ich	-
+das	-
+heutige	date
+datum	-
+erfahren	-
+
+kannst	-
+du	-
+mir	-
+ein	-
+gesundes	food_type
+essen	food_type
+zum	-
+abendessen	-
+vorschlagen	-
+
+wie	-
+wird	-
+das	-
+wetter	-
+am	-
+montag	date
+diese	date
+woche	date
+
+erstelle	-
+eine	-
+playlist	-
+aus	-
+allen	-
+liedern	-
+von	-
+eminem	artist_name
+und	-
+spiel	-
+mit	-
+zufälliger	player_setting
+wiedergabe	player_setting
+
+morgens	-
+oder	-
+abends	-
+
+wer	-
+ist	-
+der	-
+künstler	-
+des	-
+lieds	-
+das	-
+gerade	-
+spielt	-
+
+spiel	-
+michael	artist_name
+jackson	artist_name
+
+ich	-
+brauche	-
+mehr	-
+lichter	-
+
+wecke	-
+mich	-
+um	-
+fünf	time
+uhr	-
+
+spiel	-
+pop	music_genre
+
+sage	-
+mir	-
+wie	-
+das	-
+wetter	-
+in	-
+münchen	place_name
+bayern	place_name
+ist	-
+olly	-
+
+kannst	-
+du	-
+mir	-
+die	-
+aktuellen	-
+wetter	-
+verhältnisse	-
+sagen	-
+
+welche	-
+wecker	-
+stehen	-
+an	-
+
+gibt	-
+es	-
+eine	-
+möglichkeit	-
+die	-
+neusten	-
+nachrichten	-
+zu	-
+trump	news_topic
+zu	-
+bekommen	-
+
+spiel	-
+adele	artist_name
+
+ich	-
+möchte	-
+rock	music_genre
+anhören	-
+
+ok	-
+google	-
+spiele	-
+rock	music_genre
+musik	-
+
+mache	-
+die	-
+lichter	-
+im	-
+haus	house_place
+rot	color_type
+
+gibt	-
+es	-
+bei	-
+youtube	media_type
+irgendwelche	-
+neuen	-
+videos	-
+von	-
+der	-
+süddeutschen	media_type
+zeitung	media_type
+
+was	-
+ist	-
+das	-
+heutige	date
+datum	-
+
+spiel	-
+das	-
+nächste	-
+lied	-
+
+finde	-
+mein	-
+essen	-
+
+nächster	-
+wecker	-
+
+spiel	-
+mir	-
+etwas	-
+musik	-
+
+habe	-
+ich	-
+irgendwelche	-
+wecker	-
+für	-
+morgen	date
+früh	timeofday
+
+nacht	-
+zeit	-
+
+wird	-
+es	-
+am	-
+freitag	date
+schön	weather_descriptor
+am	-
+strand	place_name
+
+bestelle	-
+zwei	-
+große	-
+pizza	food_type
+und	food_type
+hot	food_type
+wings	food_type
+von	-
+dominoes	business_name
+
+wie	-
+ist	-
+das	-
+wetter	-
+jetzt	-
+
+die	-
+reinigung	-
+beginnen	-
+
+spiel	-
+lieder	-
+von	-
+der	-
+wiedergabeliste	-
+
+hey	-
+olly	-
+erzähl	-
+mir	-
+einen	-
+witz	-
+
+spiel	-
+meinen	-
+lieblings	-
+song	-
+vom	-
+letzten	date
+jahr	date
+
+ich	-
+möchte	-
+gute	-
+musik	-
+anhören	-
+
+die	-
+wettervorhersage	-
+die	-
+du	-
+mir	-
+gegeben	-
+hast	-
+ist	-
+für	-
+die	-
+falsche	-
+stadt	-
+ich	-
+möchte	-
+wissen	-
+wie	-
+die	-
+temperatur	-
+ist	-
+wo	-
+ich	-
+gerade	-
+bin	-
+
+spiele	-
+etwas	-
+von	-
+den	-
+smashing	playlist_name
+pumpkins	playlist_name
+
+ist	-
+in	-
+hannover	place_name
+eine	-
+andere	-
+zeit	-
+
+dimme	-
+die	-
+lichter	-
+auf	-
+level	-
+zwei	-
+
+stelle	-
+die	-
+schlafzimmer	house_place
+beleuchtung	-
+aus	-
+
+liste	-
+meine	-
+unterschiedlichen	-
+wecker	-
+auf	-
+
+sag	-
+mir	-
+was	-
+die	-
+letzten	-
+neuigkeiten	-
+sind	-
+
+wiederhole	player_setting
+das	music_descriptor
+letzte	music_descriptor
+lied	music_descriptor
+nochmal	-
+
+wann	-
+ist	-
+der	-
+sonnenuntergang	-
+
+wer	-
+sang	-
+das	-
+
+öffne	-
+einige	-
+coole	joke_type
+witze	-
+
+schalte	-
+die	-
+lichter	-
+aus	-
+
+schicke	-
+mir	-
+die	-
+aktienmarkt	news_topic
+neuigkeiten	-
+von	-
+heute	date
+
+würdest	-
+du	-
+die	-
+kaffeemaschine	device_type
+anschalten	-
+
+erzähl	-
+einen	-
+witz	-
+
+bitte	-
+geben	-
+sie	-
+mir	-
+einzelheiten	-
+über	-
+qntai	artist_name
+lied	-
+
+lies	-
+mir	-
+die	-
+nachrichten	-
+des	-
+tages	-
+vor	-
+
+mischen	player_setting
+blaue	playlist_name
+wiedergabeliste	playlist_name
+
+kippschalter	-
+wemo	device_type
+steckdose	device_type
+auf	-
+
+die	-
+wetter	-
+vorhersage	-
+für	-
+berlin	-
+von	-
+wetter	-
+punkt	-
+com	-
+und	-
+apple	-
+ist	-
+leider	-
+schlecht	-
+für	-
+meine	-
+region	-
+
+spiel	-
+partylieder	music_descriptor
+
+schalte	-
+den	-
+staubsaugerroboter	device_type
+ein	-
+
+ist	-
+dies	-
+der	-
+heißeste	-
+tag	-
+in	-
+münchen	place_name
+
+spiele	-
+irgendwas	music_descriptor
+von	-
+meiner	-
+aktuellen	-
+playlist	-
+
+was	-
+ist	-
+los	-
+
+sport	-
+
+hey	-
+was	-
+sind	-
+einige	-
+gute	-
+filme	-
+die	-
+bald	-
+rauskommen	-
+
+magst	-
+du	-
+meine	-
+freundin	relation
+
+ich	-
+brauche	-
+jeden	general_frequency
+einzelnen	general_frequency
+tag	general_frequency
+um	-
+neun	time
+uhr	time
+eine	-
+erinnerung	-
+
+erinnere	-
+mich	-
+an	-
+mein	-
+treffen	event_name
+morgen	date
+um	-
+zehn	time
+uhr	time
+
+termin	event_name
+anna	person
+morgen	date
+erstellen	-
+
+welche	-
+ereignisse	-
+sind	-
+heute	date
+in	-
+meinem	-
+kalender	-
+eingetragen	-
+
+brunch	event_name
+samstag	date
+morgen	timeofday
+mit	-
+chris	person
+und	-
+anna	person
+und	-
+andre	person
+
+sechzehn	time
+uhr	time
+
+sag	-
+mir	-
+das	-
+datum	-
+der	-
+geschäfts	-
+einführung	event_name
+meines	-
+freundes	relation
+felix	person
+
+wann	-
+ist	-
+mein	-
+erster	-
+termin	event_name
+heute	date
+
+setze	-
+ein	-
+treffen	event_name
+mit	-
+jack	person
+am	-
+zehnten	date
+märz	date
+
+erinnerung	-
+morgen	date
+für	-
+diese	-
+veranstaltung	-
+
+hallo	-
+setze	-
+eine	-
+erinnerung	-
+für	-
+ein	-
+treffen	event_name
+morgen	date
+früh	timeofday
+zehn	time
+uhr	time
+
+gibt	-
+es	-
+irgendwelche	-
+erinnerungen	-
+für	-
+heute	date
+
+habe	-
+ich	-
+in	-
+meinem	-
+kalender	-
+heute	date
+ein	-
+meeting	event_name
+
+schick	-
+mir	-
+eine	-
+erinnerung	-
+daran	-
+meinen	event_name
+hund	event_name
+um	-
+dreizehn	time
+uhr	time
+vom	-
+tierfriseur	place_name
+abzuholen	event_name
+
+entferne	-
+meinen	-
+kalendereintrag	-
+für	-
+dreizehn	time
+uhr	time
+heute	date
+
+lösche	-
+termin	-
+im	-
+kalender	-
+
+ich	-
+haben	-
+a	-
+treffen	event_name
+mit	-
+jens	person
+von	-
+einundzwanzigsten	date
+märz	date
+unter	-
+zehn	time
+
+setz	-
+eine	-
+erinnerung	-
+für	-
+einen	-
+wöchentlichen	general_frequency
+termin	-
+
+trage	-
+in	-
+meinem	-
+kalender	-
+meine	-
+reservierungen	-
+fürs	-
+abendessen	-
+ein	-
+
+habe	-
+ich	-
+irgendwelche	-
+erinnerungen	-
+auf	-
+meiner	-
+liste	-
+
+wann	-
+ist	-
+die	-
+party	event_name
+
+habe	-
+ich	-
+diesen	date
+monat	date
+irgendwelche	-
+events	-
+
+eine	time
+stunde	time
+erinnern	-
+zum	-
+treffen	event_name
+
+öffne	-
+iheartradio	app_name
+rock	music_genre
+
+starte	-
+den	-
+sender	-
+neunhunderteinundfünfzig	radio_name
+
+spiel	-
+berliner	radio_name
+radio	-
+für	-
+mich	-
+
+spiele	-
+radio	-
+musik	-
+programme	-
+
+spiele	-
+dreiundneunzig	radio_name
+punkt	radio_name
+fünf	radio_name
+f.	radio_name
+m.	radio_name
+
+spielen	-
+die	-
+programme	-
+in	-
+dieser	-
+erforderlichen	-
+polster	-
+
+setz	player_setting
+mein	-
+hörbuch	media_type
+von	-
+dort	-
+fort	player_setting
+wo	-
+ich	-
+zuletzt	-
+aufgehört	-
+habe	-
+
+lebenslauf	player_setting
+meine	-
+hörbuch	media_type
+vom	-
+anfang	-
+des	-
+letzten	-
+kapitel	-
+i	-
+gestartet	-
+
+spiel	-
+the	audiobook_name
+circle	audiobook_name
+ab	-
+
+spiel	-
+das	-
+hörbuch	media_type
+schneewittchen	audiobook_name
+
+kannst	-
+du	-
+das	-
+hörbuch	media_type
+the	audiobook_name
+circle	audiobook_name
+fortsetzen	player_setting
+
+setze	player_setting
+die	audiobook_name
+zwei	audiobook_name
+türme	audiobook_name
+fort	player_setting
+
+was	-
+ist	-
+das	-
+sexieste	food_type
+essen	-
+
+wie	-
+macht	-
+man	-
+kekse	food_type
+
+hol	-
+mir	-
+ein	-
+rezept	-
+zur	-
+zubereitung	-
+für	-
+einen	-
+hotdog	food_type
+
+kochtopf	-
+rezept	-
+für	-
+hühnchen	food_type
+alfredo	food_type
+
+keine	-
+kommentare	-
+mehr	-
+
+spiel	-
+spider	game_name
+
+finde	-
+das	-
+spiel	-
+
+von	-
+welchen	-
+supermärkten	list_name
+habe	-
+ich	-
+eine	-
+liste	-
+gemacht	-
+
+bitte	-
+füge	-
+diesen	-
+artikel	-
+zur	-
+liste	-
+hinzu	-
+
+lies	-
+die	-
+gegenstände	-
+auf	-
+der	-
+einkaufsliste	list_name
+vor	-
+
+lösche	-
+die	-
+milch	-
+von	-
+meiner	-
+einkaufs	list_name
+liste	-
+
+erzähle	-
+mir	-
+von	-
+der	-
+liste	-
+
+erstelle	-
+eine	-
+liste	-
+meiner	-
+offenen	list_name
+rechnungen	list_name
+
+bitte	-
+lösche	-
+die	-
+liste	-
+mit	-
+dem	-
+namen	-
+kickball	list_name
+
+öffne	-
+meine	-
+liste	-
+
+sag	-
+mir	-
+was	-
+auf	-
+meiner	-
+liste	-
+steht	-
+
+bitte	-
+entferne	-
+meine	-
+to	list_name
+do	list_name
+liste	-
+von	-
+heute	date
+
+weiter	-
+zur	-
+nächsten	podcast_descriptor
+folge	podcast_descriptor
+
+überspringe	-
+zur	-
+nächsten	podcast_descriptor
+episode	podcast_descriptor
+
+spiele	-
+duncan	person
+trussel's	person
+neusten	-
+podcast	-
+ab	-
+
+spiele	-
+den	-
+podcast	-
+kirche	podcast_name
+im	podcast_name
+radio	podcast_name
+
+zeige	-
+mir	-
+die	-
+letzte	-
+episode	-
+
+suche	-
+nach	-
+nahegelegenen	-
+chinesischen	food_type
+restaurants	business_type
+
+wer	-
+verkauft	-
+die	-
+günstigsten	-
+netbooks	-
+in	-
+hamburg	place_name
+
+was	-
+geht	-
+heute	date
+in	-
+stuttgart	place_name
+
+wie	-
+viele	-
+lebensmittel	-
+geschäfte	-
+gibt	-
+es	-
+in	-
+meiner	-
+nachbarschaft	-
+
+was	-
+ist	-
+in	place_name
+der	place_name
+nachbarschaft	place_name
+los	-
+
+gibt	-
+es	-
+chinesische	food_type
+restaurants	-
+in	-
+köln	place_name
+
+wegbeschreibung	-
+zum	-
+nächsten	-
+apple	business_name
+store	business_name
+
+gib	-
+mir	-
+die	-
+aktuelle	-
+verkehrssituation	-
+
+wie	-
+ist	-
+der	-
+verkehr	-
+von	-
+zuhause	place_name
+zur	-
+arbeit	-
+
+finde	-
+eine	-
+fahrt	-
+
+zeig	-
+mir	-
+die	-
+zug	transport_type
+abfahrtszeiten	-
+von	-
+berlin	place_name
+
+ich	-
+brauche	-
+ein	-
+taxi	transport_type
+bei	-
+acht	time
+morgen	date
+frü	timeofday
+um	-
+mich	-
+zur	-
+arbeit	-
+zu	-
+bringen	-
+
+ruf	-
+ein	-
+taxi	transport_type
+dass	-
+mich	-
+jetzt	-
+sofort	-
+auflesen	-
+soll	-
+
+wie	-
+ist	-
+heute	-
+morgen	timeofday
+der	-
+verkehr	-
+
+wie	-
+groß	-
+ist	-
+eine	-
+giraffe	-
+
+wie	-
+buchstabiert	-
+man	-
+giraffe	definition_word
+
+hörst	-
+du	-
+lieder	-
+von	-
+xavier	artist_name
+naidoo	artist_name
+musik	-
+
+löse	-
+die	-
+rechnung	-
+
+was	-
+ist	-
+mein	-
+standort	-
+
+wenn	-
+du	-
+wörter	-
+definierst	-
+benutze	-
+thesaurus	-
+und	-
+benutze	-
+sie	-
+im	-
+satz	-
+um	-
+es	-
+deutlicher	-
+zu	-
+machen	-
+
+was	-
+ist	-
+die	-
+definition	-
+von	-
+p.	definition_word
+d.	definition_word
+a.	definition_word
+
+kannst	-
+du	-
+mir	-
+sagen	-
+wie	-
+ich	-
+die	-
+antwort	-
+darauf	-
+bekomme	-
+
+wer	-
+war	-
+in	-
+den	-
+beatles	artist_name
+
+wie	-
+definiert	-
+man	-
+textlich	definition_word
+
+wo	-
+ist	-
+fulda	place_name
+in	place_name
+hessen	place_name
+
+was	-
+macht	-
+joachim	person
+gauck	person
+im	-
+moment	-
+
+was	-
+sind	-
+s.	currency_name
+d.	currency_name
+in	-
+franken	currency_name
+
+wie	-
+ist	-
+der	-
+wechselkurs	-
+von	-
+u.	currency_name
+s.	currency_name
+d.	currency_name
+zu	-
+c.	currency_name
+a.	currency_name
+d.	currency_name
+
+wie	-
+ist	-
+der	-
+wechselkurs	-
+zwischen	-
+u.	place_name
+s.	place_name
+a.	place_name
+und	-
+china	place_name
+
+finde	-
+info	-
+über	-
+
+welche	-
+religion	-
+ist	-
+die	-
+ehrlichste	-
+
+was	-
+ist	-
+der	-
+kurs	-
+von	-
+i.	currency_name
+n.	currency_name
+r.	currency_name
+
+zeig	-
+mir	-
+die	-
+biographie	-
+von	-
+sarah	artist_name
+connor	artist_name
+
+zeige	-
+verschiedene	-
+pflanzen	-
+auf	-
+der	-
+welt	-
+
+wie	-
+ist	-
+die	-
+coca-cola	business_name
+aktie	-
+heute	date
+
+wer	-
+ist	-
+arnold	person
+schwarzenegger	person
+
+gib	-
+mir	-
+den	-
+eröffnungskurs	-
+von	-
+apple	business_name
+
+alexa	-
+sag	-
+mir	-
+alles	-
+was	-
+du	-
+über	-
+bob	person
+dean	person
+weisst	-
+
+wie	-
+viel	-
+ist	-
+eine	-
+indische	currency_name
+rupie	currency_name
+im	-
+verhältnis	-
+zum	-
+u.	currency_name
+s.	currency_name
+dollar	currency_name
+wert	-
+
+hey	-
+olly	-
+was	-
+ist	-
+die	-
+definition	-
+von	-
+passiv	definition_word
+
+wie	-
+weit	-
+weg	-
+ist	-
+
+was	-
+ist	-
+dieses	-
+ding	-
+
+der	-
+artikel	-
+ist	-
+super	-
+cool	-
+kannst	-
+du	-
+den	-
+link	-
+bei	-
+facebook	media_type
+für	-
+mich	-
+teilen	-
+
+kannst	-
+du	-
+einen	-
+tweet	media_type
+an	-
+lisa	business_name
+schicken	-
+und	-
+ihr	-
+sagen	-
+dass	-
+die	-
+app	-
+abgestürzt	-
+ist	-
+
+tweete	media_type
+lfi	business_name
+und	-
+sag	-
+ihnen	-
+dass	-
+meine	-
+app	-
+abgestürzt	-
+ist	-
+
+sag	-
+einsundeins	business_name
+ich	-
+bin	-
+immernoch	-
+in	-
+der	-
+warteschlange	-
+
+bitte	-
+update	-
+mich	-
+bezüglich	-
+meiner	-
+social	-
+media	-
+accounts	-
+
+twittere	media_type
+eine	-
+beschwerde	-
+an	-
+samsung	business_name
+
+twitter	media_type
+edeka	business_name
+und	-
+sage	-
+ihnen	-
+dass	-
+ihr	-
+kundenservice	-
+furchtbar	-
+ist	-
+
+poste	-
+auf	-
+facebook	media_type
+mist	-
+ich	-
+bin	-
+krank	-
+
+schreibe	-
+einen	-
+tweet	media_type
+als	-
+beschwerde	-
+an	-
+burger	business_name
+king	business_name
+
+twittere	media_type
+eine	-
+beschwerde	-
+an	-
+bauknecht	business_name
+über	-
+meinen	-
+kühlschrank	-
+
+sag	-
+mir	-
+ob	-
+ich	-
+neue	-
+emails	-
+habe	-
+
+schicke	-
+alexa	person
+eine	-
+email	-
+und	-
+worin	-
+steht	-
+ich	-
+komme	-
+zu	-
+spät	-
+bitte	-
+warte	-
+nicht	-
+mit	-
+dem	-
+abendessen	meal_type
+
+sende	-
+eine	-
+antwort	-
+an	-
+meinen	-
+freund	relation
+für	-
+seine	-
+frage	-
+
+alexa	-
+füge	-
+erosser	email_address
+at	email_address
+g.m.x.	email_address
+punkt	email_address
+d.e.	email_address
+als	-
+neuen	-
+kontakt	-
+zu	-
+emily	person
+rosser	person
+hinzu	-
+
+eddie	person
+richards	person
+email	-
+suchen	-
+
+senden	-
+an	-
+email	-
+zu	-
+meine	-
+managerin	relation
+
+maile	-
+george	person
+brown	person
+
+öffne	-
+antwort	-
+
+dieser	-
+email	-
+antworten	-
+
+habe	-
+ich	-
+irgendein	-
+email	-
+in	-
+mein	-
+account	-
+
+kann	-
+ich	-
+informationen	-
+über	-
+einen	-
+kontakt	-
+herausfinden	-
+
+berichte	-
+bob	person
+smith	person
+
+hey	-
+emails	-
+checken	-
+
+starte	-
+email	-
+
+öffne	-
+mein	-
+email	-
+konto	-
+und	-
+check	-
+nach	-
+neuer	-
+email	-
+
+helfen	-
+sie	-
+mir	-
+eine	-
+email	-
+zu	-
+schreiben	-
+chelsea	person
+
+sende	-
+eine	-
+email	-
+an	-
+alle	-
+meine	-
+firmen	relation
+angestellte	relation
+
+geburtstag	event_name
+mit	-
+mama	relation
+
+sind	-
+schon	-
+irgendwelche	-
+persönlichen	-
+emails	-
+angekommen	-
+
+wie	-
+viele	-
+kontakte	-
+habe	-
+ich	-
+in	-
+meinem	-
+telefonbuch	device_type
+
+tat	-
+mike	person
+schicken	-
+mich	-
+ein	-
+email	-
+
+antworte	-
+auf	-
+jürgens	person
+email	-
+mit	-
+der	-
+antwort	-
+sechs	-
+dreißig	-
+
+zeige	-
+mir	-
+alle	-
+meine	-
+jüngsten	-
+emails	-
+
+habe	-
+ich	-
+irgendwelche	-
+emails	-
+von	-
+sam	person
+heute	date
+
+veröffentliche	-
+eine	-
+email	-
+an	-
+meine	-
+firmenangestellte	relation
+mit	-
+den	-
+geplanten	-
+treffen	-
+für	-
+heute	date
+
+ruf	-
+raju	person
+telefonnummer	personal_info
+an	-
+
+wir	-
+brauchen	-
+rosa	color_type
+
+schalte	-
+die	-
+beleuchtungs	-
+helligkeit	-
+höher	-
+
+wie	-
+spät	-
+it	-
+es	-
+heute	date
+
+sage	-
+mir	-
+das	-
+wetter	-
+dieser	date
+woche	date
+
+reduzieren	-
+der	-
+lichter	-
+
+ich	-
+kann	-
+dich	-
+nicht	-
+hören	-
+
+was	-
+ist	-
+der	-
+wechselkurs	news_topic
+von	news_topic
+u.	news_topic
+s.	news_topic
+dollar	news_topic
+zu	news_topic
+euro	news_topic
+
+an	-
+welchem	-
+tag	-
+ist	-
+dieses	date
+jahr	date
+silvester	-
+
+erzähl	-
+mir	-
+einen	-
+guten	joke_type
+witz	-
+
+bitte	-
+lasse	-
+den	-
+wecker	-
+nächsten	-
+samstag	date
+um	-
+acht	time
+uhr	time
+klingen	-
+
+schalte	-
+aus	-
+die	-
+raum	house_place
+lichter	-
+
+ich	-
+will	-
+die	-
+neuesten	-
+nachrichten	-
+von	-
+n.	media_type
+t.	media_type
+v.	media_type
+hören	-
+
+stelle	-
+die	-
+lichter	-
+im	-
+haus	house_place
+um	-
+achtzehn	time
+uhr	time
+auf	-
+bernsteinfarben	color_type
+
+schalte	-
+bitte	-
+die	-
+beleuchtung	-
+aus	-
+
+in	-
+new	place_name
+york	place_name
+ist	-
+es	-
+jetzt	-
+wie	-
+spät	-
+
+könntest	-
+du	-
+die	-
+lichter	-
+aus	-
+schalten	-
+
+einschalten	-
+vom	-
+staubsaugerroboter	device_type
+
+bitte	-
+drehe	-
+die	-
+bildschirm	device_type
+helligkeit	-
+ganz	change_amount
+hoch	change_amount
+
+spiel	-
+nicht	-
+rock	music_genre
+metal	music_genre
+
+kannst	-
+du	-
+die	-
+helligkeit	-
+in	-
+dem	-
+zimmer	house_place
+erhöhen	-
+
+bereite	-
+nenas	artist_name
+nur	song_name
+geträumt	song_name
+als	-
+nächstes	-
+ab	-
+
+jetzt	-
+ist	-
+es	-
+wie	-
+spät	-
+in	-
+sydney	place_name
+
+finde	-
+irre	media_type
+artikel	-
+über	-
+trump	news_topic
+von	date
+heute	date
+
+bitte	-
+verringere	-
+die	-
+lautstärke	-
+des	-
+lautsprechers	-
+
+bitte	-
+ändere	-
+das	-
+licht	-
+ich	-
+fühle	-
+mich	-
+nicht	-
+wohl	-
+damit	-
+
+spiel	-
+die	-
+neusten	-
+rock	music_genre
+songs	-
+mit	-
+einer	-
+bewertung	music_descriptor
+von	music_descriptor
+vier	music_descriptor
+oder	music_descriptor
+drüber	music_descriptor
+ab	-
+
+stelle	-
+den	-
+wecker	-
+aus	-
+
+welche	-
+alarme	-
+habe	-
+ich	-
+eingestellt	-
+
+wie	-
+ist	-
+das	-
+wetter	-
+an	-
+meinem	-
+standort	-
+diese	date
+woche	date
+
+starte	-
+den	-
+staubsauger	device_type
+
+wann	-
+wird	-
+es	-
+das	-
+nächste	-
+mal	-
+regnen	weather_descriptor
+
+wird	-
+es	-
+morgen	date
+mittag	timeofday
+schneien	weather_descriptor
+
+schalte	-
+alle	device_type
+lichter	device_type
+aus	-
+
+esszimmer	house_place
+ausschalten	-
+
+als	-
+nächstes	-
+spiele	-
+summer	song_name
+lovin	song_name
+
+ich	-
+muss	-
+wissen	-
+wie	-
+spät	-
+es	-
+jetzt	-
+ist	-
+
+lautlos	-
+machen	-
+
+kann	-
+ich	-
+zum	order_type
+mitnehmen	order_type
+von	-
+fatoush	business_name
+bestellen	-
+
+licht	-
+farbe	-
+für	-
+das	-
+studierzimmer	house_place
+
+setzen	-
+sie	-
+dunkle	color_type
+farben	-
+statt	-
+von	-
+hellen	-
+die	-
+in	-
+dem	-
+haus	house_place
+
+ich	-
+habe	-
+lust	-
+auf	-
+suppe	food_type
+zum	-
+mittagessen	meal_type
+bestelle	-
+eine	-
+hühnchen	-
+manchow	-
+suppe	-
+vom	-
+wangs	business_name
+kitchen	business_name
+restaurant	business_type
+
+welches	-
+datum	-
+ist	-
+heute	date
+
+kannst	-
+du	-
+bitte	-
+einen	-
+pandora	-
+kanal	-
+für	-
+adele	artist_name
+einrichten	-
+
+habe	-
+ich	-
+daran	-
+gedacht	-
+einen	-
+erinnerungsalarm	-
+für	-
+meinen	-
+nächsten	-
+arzttermin	event_name
+zu	-
+stellen	-
+
+wird	-
+die	-
+temperatur	weather_descriptor
+gleich	-
+bleiben	-
+oder	-
+wird	-
+es	-
+kälter	-
+
+sollte	-
+ich	-
+heute	date
+einen	-
+regenschirm	-
+mitnehmen	-
+
+stell	-
+die	-
+beleuchtung	-
+im	-
+wohnzimmer	house_place
+auf	change_amount
+fünfzig	change_amount
+prozent	change_amount
+
+initiiere	-
+den	-
+staubsaugroboter	device_type
+
+entferne	-
+den	-
+wecker	-
+
+kannst	-
+du	-
+bitte	-
+die	-
+lichter	-
+für	-
+mich	-
+erhöhen	-
+
+hol	-
+das	-
+licht	-
+für	-
+mich	-
+zurück	-
+
+artikel	-
+von	-
+der	-
+ersten	-
+seite	-
+bitte	-
+
+ausmachen	-
+der	-
+steckdose	-
+
+schalte	-
+meine	-
+schlafzimmer	house_place
+lichter	-
+aus	-
+
+ich	-
+möchte	-
+weniger	-
+licht	-
+
+wie	-
+ist	-
+das	-
+wetter	-
+diese	date
+woche	date
+in	-
+münchen	place_name
+
+wetterbericht	-
+für	-
+dreiunddreißigtausendsiebenhundertundsiebzig	-
+
+kannst	-
+du	-
+bitte	-
+meine	-
+kaffeemaschine	device_type
+so	-
+einstellen	-
+dass	-
+sie	-
+mir	-
+sieben	time
+uhr	time
+kaffee	-
+macht	-
+
+spiele	-
+meine	-
+am	-
+meisten	-
+gespielten	-
+song	-
+liste	-
+
+wie	-
+hoch	-
+ist	-
+heute	date
+die	-
+niederschlagswahrscheinlichkeit	weather_descriptor
+
+ich	-
+möchte	-
+etwas	-
+rap	music_genre
+musik	-
+hören	-
+
+mache	-
+einen	-
+kaffee	-
+
+ist	-
+mein	-
+erinnerungs	-
+alarm	-
+für	-
+den	-
+tanzkurs	event_name
+gestellt	-
+
+ich	-
+möchte	-
+limelight	-
+von	-
+rush	artist_name
+hören	-
+
+wie	-
+viel	-
+uhr	-
+ist	-
+es	-
+in	-
+dresden	place_name
+
+werde	-
+ich	-
+heute	date
+einen	-
+regenschirm	-
+mit	-
+mir	-
+rumtragen	-
+müssen	-
+
+was	-
+hat	-
+die	-
+vogue	media_type
+heute	date
+gepostet	-
+
+lies	-
+mir	-
+die	-
+schlagzeilen	-
+von	-
+bild	media_type
+d.	media_type
+e.	media_type
+vor	-
+
+spiel	-
+meine	-
+favoriten	-
+
+wird	-
+es	-
+am	-
+montag	date
+regnen	weather_descriptor
+
+brauche	-
+ich	-
+eine	-
+jacke	weather_descriptor
+
+mache	-
+die	-
+lichter	-
+rosa	color_type
+
+wie	-
+ist	-
+es	-
+draußen	-
+
+welche	-
+uhrzeit	-
+ist	-
+es	-
+in	-
+einer	place_name
+stadt	place_name
+
+bitte	-
+spiel	-
+den	-
+neusten	-
+song	-
+vom	-
+album	-
+abbas	music_album
+ab	-
+
+kannst	-
+du	-
+bitte	-
+den	-
+song	-
+von	-
+madonna	artist_name
+abspielen	-
+
+bitte	-
+reduziere	-
+die	-
+lautstärke	-
+der	-
+lautsprecher	-
+
+ist	-
+das	-
+lied	-
+von	-
+shakira	artist_name
+
+spiele	-
+etwas	-
+musik	-
+pop	music_genre
+mix	music_genre
+
+zeig	-
+b.	media_type
+b.	media_type
+c.	media_type
+neuigkeiten	-
+über	-
+migration	news_topic
+
+hey	-
+hast	-
+du	-
+lieferung	order_type
+nach	order_type
+hause	order_type
+
+was	-
+gibt	-
+es	-
+neues	-
+zum	-
+kurz	news_topic
+skandal	news_topic
+
+ich	-
+möchte	-
+reggae	music_genre
+
+zeig	-
+das	-
+datum	-
+
+zeit	-
+jetzt	-
+
+sollte	-
+ich	-
+demnächst	-
+meine	-
+autoreifen	-
+auf	-
+winterreifen	weather_descriptor
+wechseln	-
+
+wie	-
+ist	-
+das	-
+wetter	-
+in	-
+der	place_name
+hauptstadt	place_name
+
+kannst	-
+du	-
+bitte	-
+aufhören	-
+zu	-
+sprechen	-
+
+ich	-
+möchte	-
+dass	-
+du	-
+bohemian	song_name
+raphsody	song_name
+für	-
+mich	-
+abspielen	-
+
+die	-
+lichter	-
+bitte	-
+zu	-
+einer	-
+niedrigeren	-
+einstellung	-
+anpassen	-
+bitte	-
+
+brauche	-
+ich	-
+später	-
+sonnencreme	weather_descriptor
+
+starte	-
+bitte	-
+eine	-
+kaffeekanne	device_type
+
+hey	-
+bestell	-
+zwei	-
+flügel	food_type
+mit	food_type
+pommes	food_type
+beim	-
+chinesischen	business_name
+essensladen	business_name
+
+benötige	-
+ich	-
+heute	date
+einen	-
+regenschirm	weather_descriptor
+
+wie	-
+heißt	-
+du	-
+
+heute	date
+habe	-
+ich	-
+eine	-
+bulldogge	-
+gesehen	-
+
+ich	-
+habe	-
+tickets	-
+für	-
+ein	-
+fussballfreundschaftsspiel	event_name
+gekauft	-
+
+ich	-
+ging	-
+zum	-
+geschäft	-
+
+hallo	-
+wie	-
+ist	-
+dein	-
+tag	-
+
+kannst	-
+du	-
+mir	-
+bitte	-
+etwas	-
+raten	-
+
+bist	-
+du	-
+glücklich	-
+
+mathe	-
+
+hast	-
+du	-
+einen	-
+freund	-
+
+pflanzen	-
+
+hallo	-
+bist	-
+du	-
+da	-
+
+was	-
+denkst	-
+du	-
+über	-
+die	-
+zukunft	-
+
+erzähle	-
+mir	-
+interessante	-
+nachrichten	-
+
+was	-
+sind	-
+heute	date
+die	-
+beliebtesten	-
+suchanfragen	-
+bei	-
+google	-
+
+diät	-
+einhalten	-
+
+entferne	-
+mein	-
+nächstes	-
+ereignis	-
+
+erinnere	-
+mich	-
+an	-
+mamas	relation
+geburtstag	event_name
+eine	time
+woche	time
+vorher	time
+
+ist	-
+heute	timeofday
+abend	timeofday
+um	time
+neun	time
+in	-
+der	-
+jazz	place_name
+bar	place_name
+eine	-
+gute	-
+band	event_name
+am	event_name
+spielen	event_name
+
+erinnere	-
+ans	-
+treffen	event_name
+morgen	date
+um	-
+sechs	time
+
+kannst	-
+du	-
+mir	-
+den	-
+film	event_name
+zeitplan	-
+zeigen	-
+
+kannst	-
+du	-
+mir	-
+sagen	-
+was	-
+ich	-
+nächsten	-
+samstag	date
+um	-
+achtzehn	time
+uhr	time
+machen	-
+muss	-
+
+jedes	general_frequency
+jahr	general_frequency
+erinnern	-
+
+gib	-
+mir	-
+den	-
+terminplan	-
+fü	-
+die	-
+heutigen	date
+veranstaltungen	-
+
+erinnere	-
+mich	-
+vierundzwanzig	time
+stunden	time
+vor	time
+meinem	-
+treffen	event_name
+am	-
+freitag	date
+mit	-
+bernd	person
+
+alles	-
+in	-
+meinem	-
+kalender	-
+absagen	-
+
+heute	date
+ist	-
+mutters	relation
+geburtstag	event_name
+sende	-
+mir	-
+jedes	general_frequency
+jahr	general_frequency
+an	-
+diesem	-
+tag	-
+eine	-
+erinnerung	-
+
+wecke	-
+mich	-
+am	-
+donnerstag	date
+um	-
+sechs	time
+uhr	time
+damit	-
+ich	-
+zeit	-
+für	-
+die	-
+besprechung	event_name
+habe	-
+
+zeige	-
+die	-
+treffen	-
+mit	-
+kunden	relation
+heute	date
+
+meeting	event_name
+mit	-
+der	-
+person	-
+bitte	-
+
+was	-
+ist	-
+um	-
+sechszehn	time
+uhr	time
+mit	-
+jan	person
+
+bitte	-
+plane	-
+ein	-
+treffen	event_name
+mit	-
+petra	person
+in	-
+wiesbaden	place_name
+am	-
+mittag	timeofday
+
+hey	-
+olly	-
+lösche	-
+alle	-
+meine	-
+besprechungen	-
+und	-
+anrufe	-
+für	-
+den	-
+zweiten	date
+märz	date
+weil	-
+es	-
+jans	person
+geburtstag	event_name
+ist	-
+trage	-
+es	-
+als	-
+ereignis	-
+in	-
+deinen	-
+kalender	-
+ein	-
+
+erinnere	-
+mich	-
+jeden	general_frequency
+montag	general_frequency
+daran	-
+den	-
+müll	-
+rauszubringen	-
+
+welcher	-
+erinnerungen	-
+habe	-
+ich	-
+eingestellt	-
+
+ich	-
+habe	-
+heute	date
+mittag	timeofday
+eine	-
+besprechung	event_name
+
+erinner	-
+mich	-
+daran	-
+heute	-
+nachmittag	time
+um	time
+fünf	time
+mit	-
+dem	-
+abendessen	event_name
+zu	-
+beginnen	-
+
+lösche	-
+mein	-
+abendessen	meal_type
+mit	-
+mike	person
+
+dorothea	person
+muss	-
+mit	-
+mir	-
+über	-
+unsere	-
+scheidung	event_name
+sprechen	-
+können	-
+sie	-
+bitte	-
+ein	-
+treffen	event_name
+vereinbaren	-
+sobald	-
+ich	-
+verfügbar	-
+bin	-
+
+welche	-
+termine	-
+stehen	-
+heute	date
+an	-
+
+planen	-
+sie	-
+ein	-
+verkaufsgespräch	event_name
+für	-
+mittwoch	date
+um	-
+elf	time
+uhr	time
+
+welche	-
+treffen	event_name
+fanden	-
+im	-
+dem	-
+zeitraum	-
+vom	-
+ersten	date
+februar	date
+bis	date
+sechszehnten	date
+märz	date
+statt	-
+
+eintausendzweihundertdreißig	time
+uhr.	time
+schon	-
+haben	-
+sie	-
+ein	-
+treffen	event_name
+in	-
+zehn	time
+minuten	time
+
+setze	-
+eine	-
+erinnerung	-
+für	-
+heutiges	date
+fakultätstreffen	event_name
+um	-
+vier	time
+
+füge	-
+kalender	-
+hinzu	-
+und	-
+wiederhole	-
+
+ich	-
+möchte	-
+mehr	-
+über	-
+diese	-
+veranstaltung	-
+erfahren	-
+
+streiche	-
+alle	-
+meine	-
+geplanten	-
+termine	-
+
+trage	-
+eine	-
+erinnerung	-
+an	-
+den	-
+geburtstag	event_name
+meiner	-
+tochter	relation
+ein	-
+
+zeig	-
+mir	-
+meine	-
+ereignisse	-
+
+den	event_name
+truthahn	event_name
+zu	event_name
+bestellen	event_name
+erinnerugn	-
+
+ich	-
+möchte	-
+in	-
+meinem	-
+kalender	-
+eine	-
+notiz	-
+für	-
+die	-
+veranstaltung	-
+morgen	date
+in	-
+der	place_name
+bibliothek	place_name
+machen	-
+
+füge	-
+eine	-
+telefonkonferenz	event_name
+um	-
+sechzehn	time
+uhr	time
+zu	-
+meinen	-
+heutigen	date
+erinnerungen	-
+hinzu	-
+
+info	-
+über	-
+die	-
+anstehenden	-
+veranstaltungen	-
+
+um	-
+welche	-
+uhrzeit	-
+ist	-
+mein	-
+termin	event_name
+am	-
+vierten	date
+april	date
+
+erinnere	-
+mich	-
+an	-
+wichtige	event_name
+treffen	event_name
+mit	event_name
+meinem	event_name
+chef	event_name
+für	-
+die	-
+gesamte	time
+woche	time
+
+anstehende	event_name
+veranstaltungen	event_name
+in	-
+kalendar	-
+
+welche	-
+information	-
+hast	-
+du	-
+für	-
+erinnerungen	-
+
+gibt	-
+es	-
+diesen	timeofday
+nachmittag	timeofday
+ein	-
+treffen	event_name
+in	-
+meinem	-
+kalender	-
+
+was	-
+habe	-
+ich	-
+für	-
+diese	date
+woche	date
+geplant	-
+
+spiel	-
+einfach	-
+neunhundertsiebenunddreißig	radio_name
+f.	radio_name
+m.	radio_name
+
+spielen	-
+blutengel	-
+live	-
+konzert	-
+serie	-
+
+starte	-
+meine	-
+playlist	-
+auf	-
+ich	radio_name
+liebe	radio_name
+radio	radio_name
+
+pausiere	player_setting
+das	-
+buch	-
+
+öffne	-
+media	-
+und	-
+spiel	-
+jingle	song_name
+bells	song_name
+
+spiel	-
+das	-
+hörbuch	media_type
+der	-
+planeten	audiobook_name
+
+spiele	player_setting
+das	player_setting
+lied	player_setting
+weiter	player_setting
+von	-
+dem	-
+hörbuch	media_type
+von	-
+den	-
+beatles	artist_name
+
+spiel	-
+mein	-
+lieblings	-
+buch	-
+
+lies	player_setting
+etwas	-
+mehr	-
+von	-
+dem	-
+daisy	audiobook_author
+goodwin	audiobook_author
+buch	media_type
+
+spiel	-
+ein	-
+zufälliges	-
+hörbuch	media_type
+dass	-
+mit	-
+liebe	-
+zu	-
+tun	-
+hat	-
+
+spiel	player_setting
+krieg	audiobook_name
+und	audiobook_name
+frieden	audiobook_name
+weiter	player_setting
+
+wie	-
+lange	-
+braucht	-
+man	-
+für	-
+gemüselasagne	food_type
+
+was	-
+ist	-
+die	-
+beste	-
+temperatur	-
+zum	-
+rösten	cooking_type
+von	-
+kartoffeln	ingredient
+im	-
+ofen	-
+
+was	-
+steht	-
+heute	date
+auf	-
+dem	-
+speiseplan	-
+dazu	-
+noch	-
+etwas	-
+gekochtes	food_type
+gemüse	food_type
+
+kannst	-
+du	-
+mir	-
+das	-
+rezept	-
+für	-
+pav	food_type
+bhaji	food_type
+sagen	-
+
+ich	-
+brauche	-
+ein	-
+rezept	-
+für	-
+die	-
+zutaten	-
+auf	-
+meiner	-
+einkaufs	list_name
+liste	-
+
+was	-
+soll	-
+ich	-
+zum	-
+abendessen	event_name
+kochen	-
+
+was	-
+ist	-
+der	-
+unterschied	-
+zwischen	-
+backen	-
+und	-
+grillen	-
+
+wie	-
+macht	-
+man	-
+tacos	food_type
+
+ich	-
+muss	-
+wissen	-
+wie	-
+man	-
+gefüllte	food_type
+paprika	food_type
+macht	-
+
+wie	-
+viele	-
+eier	food_type
+braucht	-
+man	-
+für	-
+ein	-
+omelett	food_type
+
+lass	-
+uns	-
+global	game_name
+thermonuclear	game_name
+war	game_name
+spielen	-
+
+spiel	-
+fußball	game_name
+mit	-
+mir	-
+
+öffne	-
+spiele	-
+
+darf	-
+ich	-
+eine	-
+liste	-
+haben	-
+fünf	list_name
+sterne	list_name
+hotels	list_name
+in	-
+berlin	place_name
+
+kannst	-
+du	-
+mir	-
+eine	-
+liste	-
+erstellen	-
+
+lösche	-
+alle	-
+listen	-
+
+suche	-
+den	-
+gegenstand	-
+
+erstelle	-
+eine	-
+liste	-
+die	-
+verfügbar	-
+ist	-
+
+was	-
+ist	-
+heute	date
+auf	-
+meiner	-
+to	list_name
+do	list_name
+liste	-
+
+entferne	-
+diesen	-
+gegenstand	-
+
+erstelle	-
+eine	-
+playlist	-
+
+olly	-
+lösch	-
+die	-
+liste	-
+
+lösche	-
+liste	-
+für	-
+lebensmittel	list_name
+
+olly	-
+was	-
+habe	-
+ich	-
+als	-
+nächstes	-
+geplant	-
+
+mach	-
+bitte	-
+eine	-
+lebensmittel	list_name
+liste	-
+
+was	-
+ist	-
+aktuell	-
+auf	-
+deiner	-
+liste	-
+
+auf	-
+meiner	-
+aufgabenliste	list_name
+entferne	-
+küche	-
+feucht	-
+wischen	-
+
+füge	-
+jonas	person
+meiner	-
+kontaktliste	list_name
+hinzu	-
+
+füge	-
+einen	-
+artikel	-
+zur	-
+liste	-
+hinzu	-
+
+füge	-
+eine	-
+liste	-
+hinzu	-
+
+lösch	-
+die	-
+steuer	list_name
+tabelle	-
+von	-
+neunzehnneunzig	date
+
+liste	-
+erstellen	-
+
+nächste	-
+
+spiele	-
+den	-
+young	podcast_name
+turks	podcast_name
+podcast	-
+
+spiel	-
+mir	-
+john's	person
+podcast	-
+
+beginn	-
+meinen	-
+neuesten	-
+podcast	-
+zu	-
+spielen	-
+
+ich	-
+möchte	-
+ein	-
+sport	podcast_name
+podcast	podcast_name
+hören	-
+
+spiele	-
+alle	-
+order	podcast_name
+of	podcast_name
+the	podcast_name
+green	podcast_name
+hand	podcast_name
+von	-
+der	-
+vorherige	-
+woche	-
+
+olly	-
+ich	-
+suche	-
+nach	-
+einer	-
+kleidershow	business_type
+kannst	-
+du	-
+kleiderläden	-
+innerhalb	place_name
+eines	place_name
+kilometers	place_name
+für	-
+mich	-
+finden	-
+
+gibt	-
+es	-
+hier	-
+irgendwelche	-
+guten	-
+pizzarien	business_type
+hier	-
+
+finden	-
+irgendwelche	-
+handwerksmessen	event_name
+in	-
+dieser	-
+gegen	-
+statt	-
+
+buche	-
+für	-
+morgen	date
+ein	-
+uber	transport_agency
+fahrzeug	-
+
+wie	-
+ist	-
+die	-
+verkehrssituation	-
+auf	-
+der	-
+a	place_name
+einhundertfünfzehn	place_name
+
+besorg	-
+ein	-
+stadt	-
+taxi	transport_type
+von	-
+hier	-
+zum	-
+flughafen	place_name
+
+kauf	-
+bitte	-
+ein	-
+zug	transport_type
+ticket	-
+für	-
+dieses	-
+wochenende	time
+
+sag	-
+mir	-
+wie	-
+der	-
+verkehr	-
+in	-
+der	-
+stadt	place_name
+ist	-
+
+kauf	-
+bitte	-
+einen	-
+zug	transport_type
+fahrschein	-
+von	-
+berlin	place_name
+nach	-
+köln	place_name
+
+buch	-
+ein	-
+erste	transport_descriptor
+klasse	transport_descriptor
+ticket	-
+im	-
+nächsten	-
+zug	transport_type
+nach	-
+münchen	place_name
+
+was	-
+ist	-
+der	-
+beste	-
+weg	-
+um	-
+zeitz	place_name
+
+finde	-
+ein	-
+taxi	transport_type
+zum	-
+buchen	-
+
+was	-
+ist	-
+der	-
+schnellste	-
+weg	-
+zu	-
+starbucks	business_name
+
+führe	-
+den	-
+weg	-
+zum	-
+ort	-
+
+buche	-
+mir	-
+ein	-
+taxi	transport_type
+zu	-
+dem	-
+ort	-
+
+reserviere	-
+das	-
+nächste	-
+uber	transport_agency
+in	-
+der	-
+nähe	-
+
+können	-
+sie	-
+mir	-
+etwas	-
+über	-
+den	-
+verkehr	-
+sagen	-
+
+zug	-
+abfahrtszeiten	-
+von	-
+hier	-
+nach	-
+standort	place_name
+
+wie	-
+ist	-
+im	time
+moment	time
+der	-
+verkehr	-
+
+buch	-
+ein	-
+taxi	transport_type
+zum	-
+büro	place_name
+für	-
+mich	-
+
+verkehrsbericht	-
+
+zug	transport_type
+ticket	-
+
+buche	-
+ein	-
+zug	transport_type
+ticket	-
+für	-
+das	-
+wochenende	date
+vom	date
+sechsundzwanzigsten	date
+von	-
+hannover	place_name
+nach	-
+köln	place_name
+
+was	-
+ist	-
+das	-
+höchste	-
+gebäude	-
+der	-
+welt	place_name
+
+was	-
+bedeutet	-
+turbulenz	definition_word
+
+ich	-
+möchte	-
+süßkartoffelkuchen	-
+von	-
+einer	-
+lokalen	-
+bäckerei	-
+
+erinnere	-
+mich	-
+daran	-
+mich	-
+zu	-
+bewegen	-
+damit	-
+ich	-
+nicht	-
+zunehme	-
+
+checke	-
+alle	-
+kinopreise	-
+und	-
+verfügbarkeiten	-
+für	-
+einen	-
+neuen	-
+film	-
+in	-
+meiner	-
+umgebung	-
+
+kannst	-
+du	-
+mathe	-
+
+was	-
+war	-
+george	person
+eliot's	person
+erster	-
+november	-
+el	-
+
+was	-
+ist	-
+zwei	-
+plus	-
+zwei	-
+
+was	-
+ist	-
+zwölf	-
+plus	-
+einhundertundsechsundneunzig	-
+
+gib	-
+mir	-
+die	-
+antwort	-
+zu	-
+diesem	-
+problem	-
+zweihundertsechsundvierzig	-
+plus	-
+sechshundertvierundfünfzig	-
+
+was	-
+ist	-
+zwölf	-
+geteilt	-
+durch	-
+vier	-
+
+es	-
+wäre	-
+toll	-
+wenn	-
+du	-
+mir	-
+rechtsberatungen	-
+anbieten	-
+könntest	-
+
+was	-
+ist	-
+die	-
+hauptstadt	-
+von	-
+mecklenburg	place_name
+vorpommern	place_name
+
+wo	-
+ist	-
+der	-
+grundmeridian	-
+
+was	-
+ist	-
+der	-
+wechselkurs	-
+für	-
+china	place_name
+
+bitte	-
+google	-
+ort	-
+und	-
+information	-
+von	-
+mount	-
+rushmore	-
+
+definiere	-
+verblüfft	definition_word
+
+was	-
+ist	-
+der	-
+geburtstag	-
+von	-
+hemingway	person
+
+wie	-
+viel	-
+ist	-
+lebron	person
+james	person
+wert	-
+
+ich	-
+will	-
+etwas	-
+über	-
+suffer	-
+the	-
+consequences	-
+lesen	-
+
+beschreibe	-
+hölle	definition_word
+
+eins	-
+plus	-
+zwei	-
+gleich	-
+
+wo	-
+liegt	-
+moldavien	-
+
+ein	-
+dolla	currency_name
+ist	-
+wie	-
+viel	-
+inr	currency_name
+
+details	-
+zu	-
+person	-
+
+hey	-
+was	-
+ist	-
+ein	-
+buch	definition_word
+
+details	-
+zu	-
+aktienpreisen	-
+
+wie	-
+heißt	-
+der	-
+aktivste	-
+größte	-
+vulkan	-
+der	-
+erde	place_name
+
+wie	-
+lang	-
+wird	-
+es	-
+dauern	-
+um	-
+von	-
+frankfurt	place_name
+nach	-
+köln	place_name
+zu	-
+reisen	-
+
+ok	-
+google	-
+was	-
+ist	-
+ein	-
+präsident	definition_word
+
+was	-
+genau	-
+ist	-
+eine	-
+zahnfüllung	definition_word
+aus	definition_word
+harz	definition_word
+
+beschreibe	-
+das	-
+heart	definition_word
+stone	definition_word
+kartenspiel	definition_word
+
+teile	-
+siebenundsiebzig	-
+in	-
+zwei	-
+häflten	-
+
+sag	-
+mir	-
+den	-
+größten	-
+ozean	-
+der	-
+welt	place_name
+
+könntest	-
+du	-
+mir	-
+bitte	-
+die	-
+bedeutung	-
+von	-
+exorbitant	definition_word
+erklären	-
+
+in	-
+welchem	-
+bereich	-
+ist	-
+diese	-
+person	-
+experte	-
+
+wie	-
+verstehe	-
+ich	-
+frauen	-
+
+finde	-
+eine	-
+beschreibung	-
+über	-
+einen	-
+samsung	definition_word
+t.	definition_word
+v.	definition_word
+
+werde	-
+zum	-
+hubschrauber	-
+
+bitte	-
+schaue	-
+nach	-
+den	-
+angesagten	-
+themen	-
+auf	-
+twitter	media_type
+
+kannst	-
+du	-
+samsung	business_name
+kontaktieren	-
+und	-
+sagen	-
+meine	-
+waschmaschine	-
+brennt	-
+
+öffne	-
+twitter	business_name
+sende	-
+eine	-
+nachricht	-
+
+twitter	media_type
+kohls	business_name
+wegen	-
+der	-
+sauberkeit	-
+in	-
+ihren	-
+läden	-
+
+sende	-
+beschwerde	-
+via	-
+tweet	media_type
+an	-
+kaufhof	business_name
+
+du	-
+muss	-
+eine	-
+beschwerde	-
+tweeten	media_type
+
+twittere	media_type
+beschwerde	-
+an	business_name
+lieferando	business_name
+
+öffne	-
+unternehmensname	business_name
+und	-
+finde	-
+beschwerden	-
+
+hilf	-
+mir	-
+eine	-
+beschwerde	-
+an	-
+den	-
+kundenservice	business_name
+zu	-
+erstellen	-
+
+bitte	-
+füge	-
+eine	-
+beschwerde	-
+über	-
+den	-
+service	-
+in	-
+dem	-
+tweet	media_type
+an	-
+edeka	business_name
+hinzu	-
+
+veröffentliche	-
+einen	-
+tweet	media_type
+dass	-
+ein	-
+insekt	-
+in	-
+meiner	-
+schokoladenpackung	-
+war	-
+
+abgelaufene	-
+produkte	-
+im	-
+letzten	-
+markt	-
+
+bitte	-
+schreibe	-
+eine	-
+email	-
+an	-
+mein	-
+team	relation
+
+bitte	-
+überprüfe	-
+neue	-
+emails	-
+
+olly	-
+habe	-
+ich	-
+irgendwelche	-
+neuen	-
+emails	-
+
+wo	-
+lebt	personal_info
+horst	person
+
+gib	-
+mir	-
+peters	person
+telefonnummer	personal_info
+
+prüfe	-
+outlook	-
+
+habe	-
+ich	-
+in	-
+den	-
+letzten	time
+zehn	time
+minuten	time
+irgendwelche	-
+emails	-
+bekommen	-
+
+bitte	-
+prüfe	-
+ob	-
+die	-
+emails	-
+ein	-
+stellenangebot	-
+enthalten	-
+
+sende	-
+eine	-
+email	-
+an	-
+meinen	-
+bruder	relation
+und	-
+schreibe	-
+hochzeitstag	event_name
+
+kontakte	-
+öffnen	-
+
+bitte	-
+überprüfe	-
+meine	-
+mails	-
+
+aktualisiere	-
+meinen	-
+posteingang	email_folder
+und	-
+informiere	-
+mich	-
+über	-
+neue	-
+emails	-
+
+bitte	-
+schicke	-
+eine	-
+email	-
+an	-
+kathrin	person
+die	-
+in	-
+meiner	-
+freunde	relation
+und	-
+familie	relation
+liste	-
+ist	-
+
+hab	-
+ich	-
+irgendwelche	-
+neuen	-
+emails	-
+
+alexa	-
+beginne	-
+eine	-
+email	-
+
+schick	-
+eine	-
+antwort	-
+auf	-
+die	-
+letzte	-
+email	-
+
+finde	-
+die	-
+email	-
+von	-
+rewe	business_name
+und	-
+setze	-
+sie	-
+auf	-
+meine	-
+kontaktliste	list_name
+
+ich	-
+möchte	-
+auf	-
+die	-
+letzte	-
+email	-
+antworten	-
+
+gibt	-
+es	-
+irgendwelche	-
+neuen	-
+emails	-
+für	-
+mich	-
+heute	date
+
+zeige	-
+mir	-
+alle	-
+emails	-
+über	-
+den	-
+verstoß	-
+
+email	-
+an	-
+natalie	person
+zu	-
+ihrem	-
+geburtstag	event_name
+
+sende	-
+jerry	person
+eine	-
+email	-
+bezüglich	-
+dem	-
+treffen	event_name
+
+hey	-
+antworte	-
+der	-
+email	-
+die	-
+ich	-
+bekam	-
+
+bitte	-
+suche	-
+alle	-
+neuen	-
+emails	-
+vom	-
+finanzamt	business_name
+
+beginne	-
+eine	-
+antwort	-
+
+schreib	-
+mama	relation
+eine	-
+email	-
+und	-
+frag	-
+wie	-
+dort	-
+das	-
+wetter	-
+ist	-
+
+schicke	-
+email	-
+an	-
+tim	email_address
+at	email_address
+hotmail	email_address
+punkt	email_address
+com	email_address
+
+prüfe	-
+meine	-
+email	-
+für	-
+irgendeine	-
+neue	-
+email	-
+von	-
+thomas	person
+

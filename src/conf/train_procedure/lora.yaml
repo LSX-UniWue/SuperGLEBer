@@ -1,0 +1,9 @@
+peft_config:
+  task_type: "FEATURE_EXTRACTION"
+  inference_mode: False
+  r: 8
+  lora_alpha: 32
+  lora_dropout: 0.1
+  bias: "none"
+fp16: True
+fine_tune: True

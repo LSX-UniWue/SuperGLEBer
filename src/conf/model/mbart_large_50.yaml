@@ -1,0 +1,2 @@
+model_name: facebook/mbart-large-50
+peft_target_modules: ["q_proj", "v_proj"]

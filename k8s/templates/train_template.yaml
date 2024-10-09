@@ -1,0 +1,82 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: &jobname "{{job_name}}"
+  namespace: &namespace "{% if affiliation == 'stud' %}stud{% endif %}{{lastname}}"
+spec:
+  backoffLimit: 0
+  template:
+    metadata:
+      name: *jobname
+    spec:
+      priorityClassName: "{{priorityClassName}}"
+      containers:
+        - name: *jobname
+          image: "{{image_name}}"
+          imagePullPolicy: "Always"
+          env:
+            - name: CUDA_LAUNCH_BLOCKING
+              value: "1"
+            - name: TOKENIZERS_PARALLELISM
+              value: "false"
+            - name: HOME
+              value: "/tmp"
+            - name: HYDRA_FULL_ERROR
+              value: "1"
+          resources:
+            requests: &resources
+              nvidia.com/gpu: "{{k8s_gpu_count}}"
+              cpu: "{{cpu_count}}"
+              memory: "{{mem_amount}}"
+            limits: *resources
+          workingDir: /localdir
+          command:
+            - python
+            - src/train.py
+            - +model={{model}}
+            - +task={{task_name}}
+            {% if seed %}- seed={{seed}}{% endif %}
+            {% if grad_accum != 1 %}- train_args={{k8s_gpu_type}}_grad_accum{{grad_accum}}{% endif %}
+            {% if disable_qlora %}- train_args.disable_qlora=true{% endif %}
+          volumeMounts:
+            - mountPath: /localdir # directory IN the container
+              name: &volumemount ceph-home
+            - mountPath: /dev/shm
+              name: &shared_mem dshm
+      restartPolicy: "Never"
+      imagePullSecrets:
+        - name: "{{pullsecret}}"
+      nodeSelector:
+        gputype: "{{k8s_gpu_type}}"
+      {%- if k8s_excluded_hosts is defined %}
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: kubernetes.io/hostname
+                    operator: NotIn
+                    values:
+                    {%- for excluded_hostname in k8s_excluded_hosts %}
+                    - "{{excluded_hostname}}"
+                    {%- endfor %}
+      {%- endif %}
+      tolerations:
+        - effect: NoSchedule
+          key: A100
+          operator: Exists
+        - effect: NoSchedule
+          key: node.kubernetes.io/unschedulable
+          operator: Exists
+      volumes:
+        - name: *volumemount
+          cephfs:
+            monitors:
+              - 132.187.14.16,132.187.14.17,132.187.14.19,132.187.14.20
+            user: *namespace
+            path: "{{cluster_path}}" # The path you want to mount
+            secretRef: # The name of the secret for auth. Is always "ceph-secret"
+              name: ceph-secret
+        - name: *shared_mem
+          emptyDir:
+            medium: Memory

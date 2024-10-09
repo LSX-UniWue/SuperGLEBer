@@ -1,0 +1,13 @@
+task_name: massive_seq
+framework: "flair"
+embedding_type: TransformerWordEmbeddings
+classifier_type: SequenceTagger
+label_type: &label_type "ner"
+classifier_args:
+  tag_type: *label_type
+  use_crf: True
+corpus_type: ColumnCorpus
+corpus_args:
+  data_folder: "Massive/Seq"
+  column_format: { 0: "text", 1: "ner" }
+

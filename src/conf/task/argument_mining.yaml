@@ -1,0 +1,12 @@
+task_name: argument_mining
+framework: "flair"
+multi_label: true
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: ClassificationCorpus
+corpus_args:
+  data_folder: "Argument_Mining"
+  label_type: *label_type

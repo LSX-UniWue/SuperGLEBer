@@ -1,0 +1,2 @@
+model_name: deepset/gbert-base
+supports_qlora: False

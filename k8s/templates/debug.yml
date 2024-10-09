@@ -1,0 +1,46 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: &jobname superkleber-debug
+spec:
+  template:
+    metadata:
+      name: *jobname
+    spec:
+      priorityClassName: research-med
+      containers:
+        - name: *jobname
+          image: "{{image_name}}"
+          imagePullPolicy: "Always"
+          resources:
+            requests: &resources
+              nvidia.com/gpu: "1"
+              cpu: "16"
+              memory: "16Gi"
+            limits: *resources
+          workingDir: /localdir
+          command:
+            - sleep
+            - infinity
+          volumeMounts:
+            - mountPath: /localdir # directory IN the container
+              name: &volumemount ceph-home
+            - mountPath: /dev/shm
+              name: &shared_mem dshm
+      restartPolicy: "Never"
+      imagePullSecrets:
+        - name: "{{pullsecret}}"
+      nodeSelector:
+        gputype: "rtx8000"
+      volumes:
+        - name: *volumemount
+          cephfs:
+            monitors:
+              - 132.187.14.16,132.187.14.17,132.187.14.19,132.187.14.20
+            user: "{% if affiliation == 'stud' %}stud{% endif %}{{lastname}}" # <namespace>
+            path: "{{cluster_path}}" # The path you want to mount
+            secretRef: # The name of the secret for auth. Is always "ceph-secret"
+              name: ceph-secret
+        - name: *shared_mem
+          emptyDir:
+            medium: Memory

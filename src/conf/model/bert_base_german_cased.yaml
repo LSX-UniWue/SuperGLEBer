@@ -1,0 +1,2 @@
+model_name: bert-base-german-cased
+supports_qlora: False

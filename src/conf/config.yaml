@@ -1,0 +1,14 @@
+defaults:
+  - train_args: a100
+  - train_procedure: qlora
+  - _self_
+data_base_dir: data/
+seed: 42
+debug: False
+
+hydra:
+  job:
+    chdir: True
+  output_subdir: hydra_conf
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S.%f}

@@ -1,0 +1,12 @@
+task_name: hotel_aspect
+framework: "flair"
+multi_label: true
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: ClassificationCorpus
+corpus_args:
+  data_folder: "Hotel_Aspect"
+  label_type: *label_type

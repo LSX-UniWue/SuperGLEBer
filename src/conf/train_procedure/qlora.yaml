@@ -1,0 +1,16 @@
+bnb_config:
+  device_map: "auto"
+  load_in_4bit: True
+  bnb_4bit_use_double_quant: True
+  bnb_4bit_quant_type: "nf4"
+  llm_int8_has_fp16_weight: True
+  bnb_4bit_compute_dtype: "bfloat16"
+peft_config:
+  task_type: "FEATURE_EXTRACTION"
+  inference_mode: False
+  r: 8
+  lora_alpha: 32
+  lora_dropout: 0.1
+  bias: "none"
+fp16: True
+fine_tune: True

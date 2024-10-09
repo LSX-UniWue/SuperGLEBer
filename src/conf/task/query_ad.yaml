@@ -1,0 +1,13 @@
+task_name: query_ad
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextTripleClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: DataTripleCorpus
+corpus_args:
+  data_folder: "XGlue/Query_Ad"
+  columns: [0, 1, 2, 3]
+  label_type: *label_type
+  skip_first_line: False

@@ -1,0 +1,66 @@
+{
+  "builder_name": "germanquad",
+  "citation": "\n@misc{m\u00f6ller2021germanquad,\n      title={GermanQuAD and GermanDPR: Improving Non-English Question Answering and Passage Retrieval}, \n      author={Timo M\u00f6ller and Julian Risch and Malte Pietsch},\n      year={2021},\n      eprint={2104.12741},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n",
+  "config_name": "plain_text",
+  "dataset_name": "germanquad",
+  "dataset_size": 24404604,
+  "description": "\nIn order to raise the bar for non-English QA, we are releasing a high-quality, human-labeled German QA dataset consisting of 13 722 questions, incl. a three-way annotated test set.\nThe creation of GermanQuAD is inspired by insights from existing datasets as well as our labeling experience from several industry projects. We combine the strengths of SQuAD, such as high out-of-domain performance, with self-sufficient questions that contain all relevant information for open-domain QA as in the NaturalQuestions dataset. Our training and test datasets do not overlap like other popular datasets and include complex questions that cannot be answered with a single entity or only a few words.\n",
+  "download_checksums": {
+    "https://germanquad.s3.amazonaws.com/GermanQuAD.zip": {
+      "num_bytes": 2731660,
+      "checksum": null
+    }
+  },
+  "download_size": 2731660,
+  "features": {
+    "id": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "context": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answers": {
+      "feature": {
+        "text": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "answer_start": {
+          "dtype": "int32",
+          "_type": "Value"
+        }
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "https://deepset.ai/germanquad",
+  "license": "",
+  "size_in_bytes": 27136264,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 17973011,
+      "num_examples": 11518,
+      "dataset_name": "germanquad"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 6431593,
+      "num_examples": 2204,
+      "dataset_name": "germanquad"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "description": "",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
