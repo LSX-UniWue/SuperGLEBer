@@ -1,0 +1,4 @@
+model_name: meta-llama/Llama-3.2-1B
+set_pad_token_to_eos_token_id: True
+model_args:
+  attn_implementation: flash_attention_2
