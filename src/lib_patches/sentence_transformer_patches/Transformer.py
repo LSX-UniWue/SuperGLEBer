@@ -10,9 +10,9 @@ def get_load_model(cfg: DictConfig):
         """Loads the transformer model"""
         if "bnb_config" in cfg.train_procedure:
             if config.model_type == "bert":  # bert does not support quantization
-                model_args = {}
+                model_args |= {}
             else:
-                model_args = {"quantization_config": get_bnb_config(cfg)}
+                model_args |= {"quantization_config": get_bnb_config(cfg)}
 
 
         if isinstance(config, T5Config):

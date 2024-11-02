@@ -90,6 +90,7 @@ def training(cfg: DictConfig) -> None:
         else:
             peft_config = None
 
+        bnb_config = {}
         if "bnb_config" in cfg.train_procedure:
             if model_conf.model_type == "bert":  # bert does not support quantization
                 bnb_config = {}

@@ -144,6 +144,7 @@ def training(cfg: DictConfig) -> None:
 
     config = AutoConfig.from_pretrained(cfg.model.model_name, finetuning_task="question-answering")
 
+    bnb_config = {}
     if "bnb_config" in cfg.train_procedure:
         if config.model_type == "bert":  # bert does not support quantization
             bnb_config = {}
