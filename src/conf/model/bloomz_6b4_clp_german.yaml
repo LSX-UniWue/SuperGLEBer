@@ -1,0 +1,3 @@
+model_name: malteos/bloom-6b4-clp-german
+set_pad_token_to_eos_token_id: True
+set_padding_right: True
