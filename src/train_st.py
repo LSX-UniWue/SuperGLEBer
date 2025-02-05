@@ -179,16 +179,11 @@ def training(cfg: DictConfig) -> None:
         optimizer_class=bnb.optim.adamw.AdamW,
         output_path=save_path,
         save_best_model=False,
+
     )
+
 
     logger.info("evaluating on test set")
-    test_evaluator = EmbeddingSimilarityEvaluator.from_input_examples(
-        examples=sentence_transformer_corpus["test"],
-        batch_size=cfg.train_args.batch_size,
-        name="sts-test",
-    )
-    test_evaluator(model, output_path=save_path)
-
     logger.info("Saving predictions")
     predictions_output_file = Path(save_path) / "predictions.csv"
     true_labels, predicted_scores = save_predictions(

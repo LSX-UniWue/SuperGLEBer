@@ -3,31 +3,31 @@ from torch import nn
 from typing import Optional, Tuple, Union
 
 from torch.nn import CrossEntropyLoss
-from transformers import MistralPreTrainedModel
-from transformers.models.mistral.configuration_mistral import MistralConfig
-from transformers.models.mistral.modeling_mistral import MistralModel, MISTRAL_START_DOCSTRING, _CONFIG_FOR_DOC
+from transformers import Gemma2PreTrainedModel
+from transformers.models.gemma2.configuration_gemma2 import Gemma2Config
+from transformers.models.gemma2.modeling_gemma2 import Gemma2Model, GEMMA2_START_DOCSTRING, _CONFIG_FOR_DOC
 from transformers.modeling_outputs import QuestionAnsweringModelOutput
 from transformers.utils import add_start_docstrings_to_model_forward, add_code_sample_docstrings, add_start_docstrings
 
-_REAL_CHECKPOINT_FOR_DOC = "LeoLM/leo-mistral-hessianai-7b"
+_REAL_CHECKPOINT_FOR_DOC = "flair/bueble-lm-2b"
 
 @add_start_docstrings(
-    "The Mistral Model for QnA.",
-    MISTRAL_START_DOCSTRING,
+    "The Gemma2 Model for QnA.",
+    GEMMA2_START_DOCSTRING,
 )
 
 # https://github.com/huggingface/transformers/pull/29168
-class MistralForQuestionAnswering(MistralPreTrainedModel):
+class Gemma2ForQuestionAnswering(Gemma2PreTrainedModel):
     """
     Using tiny mistral
     Args:
         config: MistralConfig
     """
 
-    def __init__(self, config: MistralConfig):
+    def __init__(self, config: Gemma2Config):
         super().__init__(config)
         self.num_labels = config.num_labels
-        self.model = MistralModel(config)
+        self.model = Gemma2Model(config)
         self.qa_outputs = nn.Linear(config.hidden_size, config.num_labels)
 
         # Model parallel
@@ -45,7 +45,7 @@ class MistralForQuestionAnswering(MistralPreTrainedModel):
         self.model.embed_tokens = value
 
 
-    @add_start_docstrings_to_model_forward(MISTRAL_START_DOCSTRING.format("batch_size, sequence_length"))
+    @add_start_docstrings_to_model_forward(GEMMA2_START_DOCSTRING.format("batch_size, sequence_length"))
     @add_code_sample_docstrings(
         output_type=QuestionAnsweringModelOutput,
         config_class=_CONFIG_FOR_DOC,
@@ -120,3 +120,4 @@ class MistralForQuestionAnswering(MistralPreTrainedModel):
             hidden_states=outputs.hidden_states,
             attentions=outputs.attentions,
         )
+

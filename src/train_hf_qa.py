@@ -12,8 +12,10 @@ from transformers import AutoConfig, AutoModelForQuestionAnswering
 from transformers.models.auto.tokenization_auto import AutoTokenizer
 from transformers.tokenization_utils import PreTrainedTokenizer
 from transformers.trainer import Trainer, TrainingArguments
-from lib_patches.transformers_patches.MistralForQuestionAnswering import MistralForQuestionAnswering
-from transformers.models.mistral.configuration_mistral import MistralConfig
+from lib_patches.transformers_patches.Gemma2ForQuestionAnswering import Gemma2ForQuestionAnswering
+
+from transformers.models.gemma2.configuration_gemma2 import Gemma2Config
+
 from transformers import AutoModel, AutoModelForQuestionAnswering
 import sys
 
@@ -139,8 +141,8 @@ def training(cfg: DictConfig) -> None:
     )
 
     logger.info("creating model")
-    MistralForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
-    AutoModelForQuestionAnswering.register(MistralConfig, MistralForQuestionAnswering)
+    Gemma2ForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
+    AutoModelForQuestionAnswering.register(Gemma2Config, Gemma2ForQuestionAnswering)
 
     config = AutoConfig.from_pretrained(cfg.model.model_name, finetuning_task="question-answering")
 

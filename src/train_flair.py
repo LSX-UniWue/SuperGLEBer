@@ -92,7 +92,7 @@ def training(cfg: DictConfig) -> None:
 
         bnb_config = {}
         if "bnb_config" in cfg.train_procedure:
-            if model_conf.model_type == "bert":  # bert does not support quantization
+            if model_conf.model_type == "bert" or model_conf.model_type == "modernbert":  # bert does not support quantization
                 bnb_config = {}
             else:
                 bnb_config = {"quantization_config": get_bnb_config(cfg)}

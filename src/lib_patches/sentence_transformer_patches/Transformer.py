@@ -6,22 +6,22 @@ from utils import get_bnb_config, get_peft_config
 
 
 def get_load_model(cfg: DictConfig):
-    def _load_model(self, model_name_or_path, config, cache_dir, **model_args):
+    def _load_model(self, model_name_or_path, config, cache_dir, backend = "torch",  **model_args):
         """Loads the transformer model"""
         if "bnb_config" in cfg.train_procedure:
-            if config.model_type == "bert":  # bert does not support quantization
+            if config.model_type == "bert" or config.model_type == "modernbert":  # bert does not support quantization
                 model_args |= {}
             else:
                 model_args |= {"quantization_config": get_bnb_config(cfg)}
 
 
         if isinstance(config, T5Config):
-            self._load_t5_model(model_name_or_path, config, cache_dir, **model_args)
+            self._load_t5_model(model_name_or_path, config, cache_dir,  **model_args)
         elif isinstance(config, MT5Config):
-            self._load_mt5_model(model_name_or_path, config, cache_dir, **model_args)
+            self._load_mt5_model(model_name_or_path, config, cache_dir,  **model_args)
         else:
             self.auto_model = AutoModel.from_pretrained(
-                model_name_or_path, config=config, cache_dir=cache_dir, **model_args
+                model_name_or_path, config=config, cache_dir=cache_dir,  **model_args
             )
         if "peft_config" in cfg.train_procedure:
             if "bnb_config" in cfg.train_procedure:
