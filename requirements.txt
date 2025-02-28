@@ -102,10 +102,10 @@ sympy==1.12
 tabulate==0.9.0
 threadpoolctl==3.5.0
 tokenizers==0.21.0
-torch==2.3.1+cu121
+torch==2.3.1
 tqdm==4.66.4
 transformer-smaller-training-vocab==0.4.0
-transformers==4.48.1
+transformers==4.44.2
 triton==2.3.1
 typing_extensions==4.9.0
 tzdata==2024.1
@@ -116,3 +116,4 @@ Wikipedia-API==0.6.0
 wrapt==1.16.0
 xxhash==3.4.1
 yarl==1.9.4
+llm2vec==0.2.3

@@ -54,3 +54,20 @@ def create_weight_dict(data):
     class_weights_dict = dict(zip(unique_labels, class_weights))
 
     return class_weights_dict
+
+
+def merge_llm2vec(model_path, out_dir, peft_path=None):
+    """util function to merge loras obtained from llm2vec"""
+
+    from llm2vec import LLM2Vec
+
+    model = LLM2Vec.from_pretrained(
+        model_path,
+        peft_model_name_or_path=peft_path,
+        merge_peft=True,
+        enable_bidirectional=True,
+        device_map="cpu",
+        torch_dtype=torch.bfloat16,
+    )
+
+    model.save(out_dir, merge_before_save=True)

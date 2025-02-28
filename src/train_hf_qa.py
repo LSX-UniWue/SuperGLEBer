@@ -12,9 +12,10 @@ from transformers import AutoConfig, AutoModelForQuestionAnswering
 from transformers.models.auto.tokenization_auto import AutoTokenizer
 from transformers.tokenization_utils import PreTrainedTokenizer
 from transformers.trainer import Trainer, TrainingArguments
-from lib_patches.transformers_patches.Gemma2ForQuestionAnswering import Gemma2ForQuestionAnswering
-
 from transformers.models.gemma2.configuration_gemma2 import Gemma2Config
+from transformers.models.llama.configuration_llama import LlamaConfig
+from lib_patches.transformers_patches.Gemma2ForQuestionAnswering import Gemma2ForQuestionAnswering
+from lib_patches.transformers_patches.BiLlamaForQuestionAnswering import BiLlamaForQuestionAnswering
 
 from transformers import AutoModel, AutoModelForQuestionAnswering
 import sys
@@ -153,8 +154,18 @@ def training(cfg: DictConfig) -> None:
         else:
             bnb_config = {"quantization_config": get_bnb_config(cfg)}
 
+    if cfg['model'].get("is_bidirectional", False):
+        # only supporting llama for now
+        BiLlamaForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
+        AutoModelForQuestionAnswering.register(LlamaConfig, BiLlamaForQuestionAnswering, exist_ok=True)
+        model = AutoModelForQuestionAnswering.from_pretrained(
+            cfg.model.model_name,
+            config=config,
+            **bnb_config,
+            **cfg.model.get("model_args", {}),
+        )
     # https://github.com/huggingface/transformers/issues/30381#issuecomment-2120004654 - weights are not initialized
-    if config.model_type == "llama" or config.model_type == "mistral":
+    elif config.model_type == "llama" or config.model_type == "mistral":
         model = AutoModel.from_pretrained(cfg.model.model_name)
         model.save_pretrained("tmp")
         model = AutoModelForQuestionAnswering.from_pretrained("tmp",
@@ -162,7 +173,6 @@ def training(cfg: DictConfig) -> None:
                                                               **bnb_config,
                                                               **cfg.model.get("model_args", {}),
                                                               )
-
     else:
         model = AutoModelForQuestionAnswering.from_pretrained(
             cfg.model.model_name,
@@ -170,6 +180,7 @@ def training(cfg: DictConfig) -> None:
             **bnb_config,
             **cfg.model.get("model_args", {}),
         )
+
     if "peft_config" in cfg.train_procedure:
         cfg.train_procedure.peft_config.task_type = TaskType.QUESTION_ANS
         peft_config = get_peft_config(cfg)
