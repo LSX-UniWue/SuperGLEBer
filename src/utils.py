@@ -72,6 +72,30 @@ def merge_llm2vec(model_path, peft_path, out_dir):
 
     model.save(out_dir, merge_before_save=True)
 
+def merge_multiple_llm2vec(cfg):
+    """basically a loop through `merge_llm2vec` to merge multiple adapters"""
+
+    peft_paths = cfg['model'].get("peft_paths", None)
+    suffix = cfg['model'].get("merged_suffix", None)
+    new_model_path = str(cfg.model.model_name) + (suffix if suffix else "_merged")
+
+    for i, lora_path in enumerate(peft_paths):
+        if i == 0:
+            merge_llm2vec(
+                model_path=cfg.model.model_name,
+                peft_path=lora_path,
+                out_dir=new_model_path,
+            )
+        else:
+            merge_llm2vec(
+                model_path=new_model_path,
+                peft_path=lora_path,
+                out_dir=new_model_path,
+            )
+
+    cfg.model.model_name = new_model_path
+    cfg.model.peft_paths = None
+
 
 def patch_transformers_automodel():
     """util function to overwrite the AutoModel classes to their respective llm2vec classes (bidirectional models from causal models)"""
