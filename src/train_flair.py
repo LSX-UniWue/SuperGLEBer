@@ -34,6 +34,7 @@ from utils import (
     get_bnb_config,
     get_max_seq_length,
     get_peft_config,
+    patch_transformers_automodel,
 )
 
 
@@ -77,6 +78,11 @@ def training(cfg: DictConfig) -> None:
     weight_dict = create_weight_dict(data=corpus.train)
     logger.info(f"weight_dict has been created {weight_dict}")
 
+    # patching to enable llm2vec models
+    if cfg['model'].get("is_bidirectional", False):
+        patch_transformers_automodel()
+
+    logger.info("loading flair model")
     if cfg["model"]["model_name"] == "dummy":
         classifier: flair.nn.Classifier = DummyTextClassifier(
             baseline_type=cfg.model.baseline_type,

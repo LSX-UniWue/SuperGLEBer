@@ -20,7 +20,7 @@ from lib_patches.transformers_patches.BiLlamaForQuestionAnswering import BiLlama
 from transformers import AutoModel, AutoModelForQuestionAnswering
 import sys
 
-from utils import get_bnb_config, get_max_seq_length, get_peft_config
+from utils import get_bnb_config, get_max_seq_length, get_peft_config, patch_transformers_automodelforqna
 
 
 def setup_logging(log_dir: Path):
@@ -154,18 +154,13 @@ def training(cfg: DictConfig) -> None:
         else:
             bnb_config = {"quantization_config": get_bnb_config(cfg)}
 
-    if cfg['model'].get("is_bidirectional", False):
-        # only supporting llama for now
-        BiLlamaForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
-        AutoModelForQuestionAnswering.register(LlamaConfig, BiLlamaForQuestionAnswering, exist_ok=True)
-        model = AutoModelForQuestionAnswering.from_pretrained(
-            cfg.model.model_name,
-            config=config,
-            **bnb_config,
-            **cfg.model.get("model_args", {}),
-        )
+    # patching to enable llm2vec models
+    is_bidirectional = cfg['model'].get("is_bidirectional", False)
+    if is_bidirectional:
+        patch_transformers_automodelforqna()
+
     # https://github.com/huggingface/transformers/issues/30381#issuecomment-2120004654 - weights are not initialized
-    elif config.model_type == "llama" or config.model_type == "mistral":
+    if (config.model_type == "llama" and not is_bidirectional) or config.model_type == "mistral":
         model = AutoModel.from_pretrained(cfg.model.model_name)
         model.save_pretrained("tmp")
         model = AutoModelForQuestionAnswering.from_pretrained("tmp",

@@ -56,7 +56,7 @@ def create_weight_dict(data):
     return class_weights_dict
 
 
-def merge_llm2vec(model_path, out_dir, peft_path=None):
+def merge_llm2vec(model_path, peft_path, out_dir):
     """util function to merge loras obtained from llm2vec"""
 
     from llm2vec import LLM2Vec
@@ -71,3 +71,45 @@ def merge_llm2vec(model_path, out_dir, peft_path=None):
     )
 
     model.save(out_dir, merge_before_save=True)
+
+
+def patch_transformers_automodel():
+    """util function to overwrite the AutoModel classes to their respective llm2vec classes (bidirectional models from causal models)"""
+
+    from transformers import AutoModel
+    from transformers import (
+        LlamaConfig,
+        Qwen2Config,
+        GemmaConfig,
+        MistralConfig
+    )
+    from llm2vec.models import (
+        LlamaBiModel,
+        Qwen2BiModel,
+        GemmaBiModel,
+        MistralBiModel,
+    )
+
+    # only supporting the models used in the llm2vec repo itself
+    for config, bimodel in zip(
+        [LlamaConfig, Qwen2Config, GemmaConfig, MistralConfig],
+        [LlamaBiModel, Qwen2BiModel, GemmaBiModel, MistralBiModel],
+    ):
+        bimodel.register_for_auto_class("AutoModel")
+        AutoModel.register(config, bimodel, exist_ok=True)
+
+
+def patch_transformers_automodelforqna():
+    """same as `patch_transformers_automodel` but on the AutoModelForQuestionAnswering classes"""
+
+    from transformers import AutoModelForQuestionAnswering
+    from transformers import LlamaConfig
+    from lib_patches.transformers_patches.BiLlamaForQuestionAnswering import BiLlamaForQuestionAnswering
+
+    # TODO: only supporting llama for now --> write qna wrappers for the others
+    for config, bimodel in zip(
+        [LlamaConfig],
+        [BiLlamaForQuestionAnswering],
+    ):
+        bimodel.register_for_auto_class("AutoModelForQuestionAnswering")
+        AutoModelForQuestionAnswering.register(config, bimodel, exist_ok=True)

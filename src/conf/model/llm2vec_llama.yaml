@@ -1,9 +1,11 @@
 # unmerged version
 #model_name: /datadisk1/av11/coding/github/SuperGLEBer/cache/base/iter-01430512-ckpt
-#peft_path: /datadisk1/av11/coding/github/SuperGLEBer/cache/checkpoint-1000
+#peft_paths: [/datadisk1/av11/coding/github/SuperGLEBer/cache/mnpt_1k_v1, /datadisk1/av11/coding/github/SuperGLEBer/cache/simcse_1kv1_to_200_base]
+#merged_suffix: _mntp_1kv1_simcse_base200
 
 # merged version
-model_name: /datadisk1/av11/coding/github/SuperGLEBer/cache/mntp
+model_name: /datadisk1/av11/coding/github/SuperGLEBer/cache/base/iter-01430512-ckpt_mntp_1kv1_simcse_base200
+
 # indicate bidirectional model (from causal model)
 is_bidirectional: True
 set_pad_token_to_eos_token_id: True
