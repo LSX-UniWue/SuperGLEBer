@@ -1,3 +1,5 @@
+import os.path
+
 import numpy as np
 import pandas as pd
 import torch
@@ -137,3 +139,48 @@ def patch_transformers_automodelforqna():
     ):
         bimodel.register_for_auto_class("AutoModelForQuestionAnswering")
         AutoModelForQuestionAnswering.register(config, bimodel, exist_ok=True)
+
+
+def create_config_for_llm2vec(base_model_dir, config_path, base_adapter_dir, mntp_steps, simcse_steps=None, custom_simcse=None):
+    """assumes a given directory structure to create respective configs"""
+
+    from jinja2 import Environment, FileSystemLoader
+
+    merged_suffix = ""
+    peft_paths = []
+
+    if mntp_steps not in [1_000, 10_000]:
+        raise ValueError(f"SimCSE has only trained on mntp models with either 1k or 10k steps, got {mntp_steps} instead")
+
+    mntp_path = os.path.join(base_adapter_dir, f"mntp/llammlein7b-mntp/checkpoint-{mntp_steps}")
+    merged_suffix += f"_mntp-{mntp_steps}"
+    peft_paths.append(mntp_path)
+
+    simcse_exists = simcse_steps is not None and custom_simcse is not None
+    if simcse_exists:
+        from_mntp_steps = "1k_to_simcse_fewer_steps" if mntp_steps == 1_000 else "10k_to_simcse"
+        simcse_path = os.path.join(base_adapter_dir, from_mntp_steps)
+        merged_suffix += f"_simcse"
+
+        if custom_simcse:
+            simcse_path = os.path.join(simcse_path, "custom")
+            merged_suffix += f"-custom"
+
+        simcse_path = os.path.join(simcse_path, f"checkpoint-{simcse_steps}")
+        merged_suffix += f"-{simcse_steps}"
+        peft_paths.append(simcse_path)
+
+    template_dict = {
+        "base_model_dir": base_model_dir,
+        "peft_paths": peft_paths,
+        "suffix": merged_suffix,
+    }
+
+    template = Environment(loader=FileSystemLoader(config_path)).get_template("llm2vec_template.yaml")
+    output_yaml = template.render(**template_dict)
+
+    new_config_name = f"llm2vec_for{merged_suffix}.yaml"
+    with open(os.path.join(config_path, new_config_name), "w") as f:
+        f.write(output_yaml)
+
+    print(new_config_name)
