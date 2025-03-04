@@ -158,8 +158,9 @@ def create_config_for_llm2vec(base_model_dir, config_path, base_adapter_dir, mnt
 
     simcse_exists = simcse_steps is not None and custom_simcse is not None
     if simcse_exists:
+        simcse_path = os.path.join(base_adapter_dir, "simcse")
         from_mntp_steps = "1k_to_simcse_fewer_steps" if mntp_steps == 1_000 else "10k_to_simcse"
-        simcse_path = os.path.join(base_adapter_dir, from_mntp_steps)
+        simcse_path = os.path.join(simcse_path, from_mntp_steps)
         merged_suffix += f"_simcse"
 
         if custom_simcse:
