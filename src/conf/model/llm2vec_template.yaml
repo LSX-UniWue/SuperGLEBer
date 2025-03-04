@@ -2,6 +2,8 @@
 model_name: {{ base_model_dir }}
 peft_paths: {{ peft_paths }}
 merged_suffix: {{ suffix }}
+model_args:
+  attn_implementation: flash_attention_2
 
 # indicate bidirectional model (from causal model)
 is_bidirectional: True

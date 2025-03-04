@@ -81,6 +81,9 @@ def merge_multiple_llm2vec(cfg):
     suffix = cfg['model'].get("merged_suffix", None)
     new_model_path = str(cfg.model.model_name) + (suffix if suffix else "_merged")
 
+    # only needs merging if we do not find any model there
+    if os.path.exists(new_model_path) and os.path.isdir(new_model_path): return
+
     for i, lora_path in enumerate(peft_paths):
         if i == 0:
             merge_llm2vec(
