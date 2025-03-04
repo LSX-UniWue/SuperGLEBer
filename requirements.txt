@@ -68,7 +68,7 @@ nvidia-nvtx-cu12==12.1.105
 omegaconf==2.3.0
 packaging==24.1
 pandas==2.2.2
-peft==0.13.0
+peft==0.14.0
 pillow==10.4.0
 pptree==3.1
 protobuf==5.27.2
