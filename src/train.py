@@ -42,6 +42,8 @@ def training(cfg: DictConfig):
     if cfg['model'].get("peft_paths", None) and cfg['model'].get("is_bidirectional", False):
         merge_multiple_llm2vec(cfg)
 
+    logger.info(f'Using model "{cfg.model.model_name}"')
+
     if cfg.task.framework == "flair":
         logger.info("Training with flair")
         train_flair(cfg)

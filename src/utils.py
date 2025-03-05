@@ -75,14 +75,19 @@ def merge_llm2vec(model_path, peft_path, out_dir):
     model.save(out_dir, merge_before_save=True)
 
 def merge_multiple_llm2vec(cfg):
-    """basically a loop through `merge_llm2vec` to merge multiple adapters"""
-
+    """basically a loop through `merge_llm2vec` to merge multiple adapters (if necessary)"""
     peft_paths = cfg['model'].get("peft_paths", None)
     suffix = cfg['model'].get("merged_suffix", None)
     new_model_path = str(cfg.model.model_name) + (suffix if suffix else "_merged")
 
+    def overwrite_to_new_config_path():
+        cfg.model.model_name = new_model_path
+        cfg.model.peft_paths = None
+
     # only needs merging if we do not find any model there
-    if os.path.exists(new_model_path) and os.path.isdir(new_model_path): return
+    if os.path.exists(new_model_path) and os.path.isdir(new_model_path):
+        overwrite_to_new_config_path()
+        return
 
     for i, lora_path in enumerate(peft_paths):
         if i == 0:
@@ -98,8 +103,7 @@ def merge_multiple_llm2vec(cfg):
                 out_dir=new_model_path,
             )
 
-    cfg.model.model_name = new_model_path
-    cfg.model.peft_paths = None
+    overwrite_to_new_config_path()
 
 
 def patch_transformers_automodel():
