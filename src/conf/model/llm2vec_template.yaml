@@ -8,3 +8,4 @@ model_args:
 # indicate bidirectional model (from causal model)
 is_bidirectional: True
 set_pad_token_to_eos_token_id: True
+set_padding_right: True
