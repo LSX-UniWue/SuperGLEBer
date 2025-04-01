@@ -1,3 +1,4 @@
+import math
 import torch
 from torch import nn
 from typing import Optional, Tuple, Union
@@ -27,6 +28,37 @@ class ModernBertForQuestionAnswering(ModernBertPreTrainedModel):
         self.classifier = nn.Linear(config.hidden_size, config.num_labels)
 
         self.post_init()
+
+    # this is an adaptation of <https://github.com/huggingface/transformers/blob/49b5ab6a27511de5168c72e83318164f1b4adc43/src/transformers/models/modernbert/modular_modernbert.py#L792>
+    def _init_weights(self, module):
+        cutoff_factor = self.config.initializer_cutoff_factor
+
+        if cutoff_factor is None:
+            cutoff_factor = 3
+
+        def init_weight(module: nn.Module, std: float):
+            nn.init.trunc_normal_(
+                module.weight,
+                mean=0.0,
+                std=std,
+                a=-cutoff_factor * std,
+                b=cutoff_factor * std,
+            )
+
+            if isinstance(module, nn.Linear):
+                if module.bias is not None:
+                    nn.init.zeros_(module.bias)
+
+        stds = {
+            "in": self.config.initializer_range,
+            "out": self.config.initializer_range / math.sqrt(2.0 * self.config.num_hidden_layers),
+            "embedding": self.config.initializer_range,
+            "final_out": self.config.hidden_size**-0.5,
+        }
+        if isinstance(module, ModernBertForQuestionAnswering):
+            init_weight(module.classifier, stds["final_out"])
+        else:
+            super()._init_weights(module)
 
     @add_start_docstrings_to_model_forward(MODERNBERT_INPUTS_DOCSTRING)
     @add_code_sample_docstrings(
