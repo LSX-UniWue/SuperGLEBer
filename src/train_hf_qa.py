@@ -13,8 +13,10 @@ from transformers.models.auto.tokenization_auto import AutoTokenizer
 from transformers.tokenization_utils import PreTrainedTokenizer
 from transformers.trainer import Trainer, TrainingArguments
 from lib_patches.transformers_patches.Gemma2ForQuestionAnswering import Gemma2ForQuestionAnswering
+from lib_patches.transformers_patches.ModernBERTForQuestionAnswering import ModernBertForQuestionAnswering
 
 from transformers.models.gemma2.configuration_gemma2 import Gemma2Config
+from transformers.models.modernbert.configuration_modernbert import ModernBertConfig
 
 from transformers import AutoModel, AutoModelForQuestionAnswering
 import sys
@@ -136,7 +138,7 @@ def training(cfg: DictConfig) -> None:
         gradient_accumulation_steps=(
             cfg.train_args.gradient_accumulation_steps if cfg.train_args.gradient_accumulation_steps else 1
         ),
-        optim="paged_adamw_8bit",
+     #   optim="paged_adamw_8bit",
         save_strategy="no",
     )
 
@@ -144,11 +146,14 @@ def training(cfg: DictConfig) -> None:
     Gemma2ForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
     AutoModelForQuestionAnswering.register(Gemma2Config, Gemma2ForQuestionAnswering)
 
+    ModernBertForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
+    AutoModelForQuestionAnswering.register(ModernBertConfig, ModernBertForQuestionAnswering)
+
     config = AutoConfig.from_pretrained(cfg.model.model_name, finetuning_task="question-answering")
 
     bnb_config = {}
     if "bnb_config" in cfg.train_procedure:
-        if config.model_type == "bert":  # bert does not support quantization
+        if config.model_type == "bert" or config.model_type=="modernbert":  # bert does not support quantization
             bnb_config = {}
         else:
             bnb_config = {"quantization_config": get_bnb_config(cfg)}

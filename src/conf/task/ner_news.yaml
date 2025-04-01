@@ -1,4 +1,4 @@
-task_name: new_news
+task_name: ner_news
 framework: "flair"
 embedding_type: TransformerWordEmbeddings
 classifier_type: SequenceTagger
