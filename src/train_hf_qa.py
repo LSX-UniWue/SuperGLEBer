@@ -149,7 +149,8 @@ def training(cfg: DictConfig) -> None:
     ModernBertForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
     AutoModelForQuestionAnswering.register(ModernBertConfig, ModernBertForQuestionAnswering)
 
-    config = AutoConfig.from_pretrained(cfg.model.model_name, finetuning_task="question-answering")
+    config = AutoConfig.from_pretrained(cfg.model.model_name, finetuning_task="question-answering",
+                                        **cfg.model.get("model_config_args"))
 
     bnb_config = {}
     if "bnb_config" in cfg.train_procedure:
