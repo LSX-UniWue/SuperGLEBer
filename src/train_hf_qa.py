@@ -134,6 +134,7 @@ def training(cfg: DictConfig) -> None:
         per_device_train_batch_size=cfg.train_args.batch_size,
         per_device_eval_batch_size=cfg.train_args.batch_size,
         num_train_epochs=cfg.train_args.epochs,
+        seed=cfg.seed,
         # fp16=cfg.train_args.get("fp16", False),
         gradient_accumulation_steps=(
             cfg.train_args.gradient_accumulation_steps if cfg.train_args.gradient_accumulation_steps else 1
@@ -149,7 +150,8 @@ def training(cfg: DictConfig) -> None:
     ModernBertForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
     AutoModelForQuestionAnswering.register(ModernBertConfig, ModernBertForQuestionAnswering)
 
-    config = AutoConfig.from_pretrained(cfg.model.model_name, finetuning_task="question-answering")
+    config = AutoConfig.from_pretrained(cfg.model.model_name, finetuning_task="question-answering",
+                                        **cfg.model.get("model_config_args"))
 
     bnb_config = {}
     if "bnb_config" in cfg.train_procedure:
