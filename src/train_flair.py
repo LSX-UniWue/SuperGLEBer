@@ -103,7 +103,7 @@ def training(cfg: DictConfig) -> None:
                 fine_tune=cfg.train_procedure.get("fine_tune", True),
                 force_max_length=True,
                 transformers_config_kwargs=cfg.model.get("model_config_args", {}),
-                transformers_model_kwargs=bnb_config | cfg.model.get("model_args", {}),
+                transformers_model_kwargs=bnb_config | dict(cfg.model.get("model_args", {})),
                 transformers_tokenizer_kwargs={"model_max_length": get_max_seq_length(cfg)},
                 peft_config=peft_config if "peft_config" in cfg.train_procedure else None,
                 peft_gradient_checkpointing_kwargs={"gradient_checkpointing_kwargs": {"use_reentrant": False}},
