@@ -20,6 +20,7 @@ from flair.models import (
     SequenceTagger,
     TextClassifier,
     TextPairClassifier,
+    TextPairRegressor,
     TextTripleClassifier,
 )
 from flair.nn import Classifier
@@ -28,6 +29,7 @@ from loguru import logger
 from omegaconf import DictConfig
 from peft import LoraConfig
 from transformers import AutoConfig
+
 from lib_patches.flair_patches.dummyclassifier import DummyTextClassifier
 from utils import (
     create_weight_dict,
@@ -92,7 +94,9 @@ def training(cfg: DictConfig) -> None:
 
         bnb_config = {}
         if "bnb_config" in cfg.train_procedure:
-            if model_conf.model_type == "bert" or model_conf.model_type == "modernbert":  # bert does not support quantization
+            if (
+                model_conf.model_type == "bert" or model_conf.model_type == "modernbert"
+            ):  # bert does not support quantization
                 bnb_config = {}
             else:
                 bnb_config = {"quantization_config": get_bnb_config(cfg)}
