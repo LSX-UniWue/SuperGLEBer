@@ -1,7 +1,7 @@
 models
 node_modules
 .next
-
+data/raw
 cache*.arrow
 
 ### VisualStudioCode template
