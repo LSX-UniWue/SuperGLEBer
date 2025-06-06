@@ -1,0 +1,3 @@
+model_name: LSX-UniWue/ModernGBERT_1B
+supports_qlora: False
+peft_target_modules: ["Wqkv", "Wo", "Wi"]
