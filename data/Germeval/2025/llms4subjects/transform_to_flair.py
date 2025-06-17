@@ -47,8 +47,8 @@ def process_jsonld_file(file_path: Path) -> Optional[Tuple[Set[str], str, str]]:
         domains = extract_domain_labels(subject_list)
 
         # Skip records without domain information
-        if not domains:
-            return None
+        # if not domains:
+        #    return None
 
         # Extract title and abstract
         title = main_record.get("title", "")
