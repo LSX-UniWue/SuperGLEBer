@@ -1,0 +1,13 @@
+task_name: harmful_content_dbo
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: CSVClassificationCorpus
+corpus_args:
+  data_folder: "Germeval/2025/HarmfulContent/dbo"
+  column_name_map: { 1: "comment", 2: "DBO" }
+  label_type: *label_type
+  skip_header: True
