@@ -8,6 +8,6 @@ classifier_args:
 corpus_type: CSVClassificationCorpus
 corpus_args:
   data_folder: "Germeval/2025/FlauschErkennung/task1"
-  column_name_map: { 2: "comment", 3: "label" }
+  column_name_map: { 2: "text", 3: "label" }
   label_type: *label_type
   skip_header: True

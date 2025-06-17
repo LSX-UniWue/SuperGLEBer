@@ -8,7 +8,7 @@ classifier_args:
 corpus_type: CSVClassificationCorpus
 corpus_args:
   data_folder: "Germeval/2025/HarmfulContent/dbo"
-  column_name_map: { 1: "comment", 2: "label" }
+  column_name_map: { 1: "text", 2: "label" }
   label_type: *label_type
   delimiter: ";"
   skip_header: True

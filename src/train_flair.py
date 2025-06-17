@@ -101,8 +101,10 @@ def training(cfg: DictConfig) -> None:
             else:
                 bnb_config = {"quantization_config": get_bnb_config(cfg)}
 
-        classifier: flair.nn.Classifier = globals()[cfg.task.classifier_type](
-            embeddings=globals()[cfg.task.embedding_type](
+        classifier_class = globals()[cfg.task.classifier_type]
+        # TODO: Check
+        classifier_kwargs = {
+            "embeddings": globals()[cfg.task.embedding_type](
                 model=cfg.model.model_name,
                 fine_tune=cfg.train_procedure.get("fine_tune", True),
                 force_max_length=True,
@@ -114,8 +116,13 @@ def training(cfg: DictConfig) -> None:
             ),
             **cfg.task.get("classifier_args", {}),
             **additional_classifier_args,
-            loss_weights=weight_dict,
-        )
+        }
+
+        # Conditionally add loss_weights only if classifier is NOT regression
+        if classifier_class.__name__ != "TextPairRegressor":
+            classifier_kwargs["loss_weights"] = weight_dict
+
+        classifier: flair.nn.Classifier = classifier_class(**classifier_kwargs)
 
     if cfg.model.get("set_pad_token_to_eos_token_id", False):
         logger.info("patching tokenizer")

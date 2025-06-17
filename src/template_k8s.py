@@ -31,13 +31,13 @@ template_vars = [
     },
     {
         # this one is only used for creating the docker image on github actions
-        "lastname": "supergleber",
+        "lastname": "wunderle",
         "affiliation": "lsx",
         "pullsecret": "multipull",
-        "cluster_path": "/home/ls6/pfister/projects/Superkleber",
-        "slurm_path": "/home/hpc/b185cb/b185cb10/projects/Superkleber",
-        "user": "b185cb10",
-        "mail_address": "supergleber@informatik.uni-wuerzburg.de",
+        "cluster_path": "/home/s386162/SuperGLEBer",
+        "slurm_path": "/home/s386162/SuperGLEBer",
+        "user": "b185cb13",
+        "mail_address": "wunderle@informatik.uni-wuerzburg.de",
         "uuid": 1000,
         "image_name": "ghcr.io/LSX-UniWue/SuperGLEBer:main",
         "image_tag": "main",
@@ -48,7 +48,7 @@ logger.info("adding default values")
 for template_config in template_vars:
     template_config["k8s_gpu_type"] = "a100"
     template_config["k8s_gpu_count"] = 1
-    template_config["slurm_gpu_type"] = "a100"
+    template_config["slurm_gpu_type"] = "h100"
     template_config["slurm_gpu_count"] = 1
     template_config["cpu_count"] = 8
     template_config["mem_amount"] = "48Gi"
@@ -157,3 +157,4 @@ for template_config in template_vars:
             out_file.parent.mkdir(exist_ok=True, parents=True)
             with open(out_file, "w") as f:
                 f.write(outputText)
+
