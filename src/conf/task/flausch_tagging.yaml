@@ -2,7 +2,7 @@ task_name: flausch_tagging
 framework: "flair"
 embedding_type: TransformerWordEmbeddings
 classifier_type: SequenceTagger
-label_type: &label_type "ner"
+label_type: &label_type "flausch"
 classifier_args:
   tag_type: *label_type
   use_crf: True
