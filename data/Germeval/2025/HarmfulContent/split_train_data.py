@@ -27,18 +27,26 @@ def split_train_data(base_dir: str, train_ratio: float = 0.8, random_state: int 
 
     # Find all subdirectories containing train.csv
     subdirs_with_train = []
+    subdirs_with_test = []
     for subdir in base_path.iterdir():
         if subdir.is_dir():
             train_file = subdir / "train.csv"
+            test_file = subdir / "test.csv"
             if train_file.exists():
                 subdirs_with_train.append(subdir)
+            if test_file.exists():
+                subdirs_with_test.append(subdir)
 
-    if not subdirs_with_train:
-        print(f"No subdirectories with train.csv found in {base_dir}")
+    if not subdirs_with_train and not subdirs_with_test:
+        print(f"No subdirectories with train.csv or test.csv found in {base_dir}")
         return
 
     print(f"Found {len(subdirs_with_train)} subdirectories with train.csv files:")
     for subdir in subdirs_with_train:
+        print(f"  - {subdir.name}")
+
+    print(f"Found {len(subdirs_with_test)} subdirectories with test.csv files:")
+    for subdir in subdirs_with_test:
         print(f"  - {subdir.name}")
 
     # Process each subdirectory
@@ -96,9 +104,39 @@ def split_train_data(base_dir: str, train_ratio: float = 0.8, random_state: int 
             print(f"  Error processing {subdir.name}: {str(e)}")
             continue
 
-    print(
-        f"\nSplit complete! Files have been split with {train_ratio:.0%} for training and {1 - train_ratio:.0%} for development."
-    )
+    # Process test.csv files to add empty "label" column
+    for subdir in subdirs_with_test:
+        test_file = subdir / "test.csv"
+        print(f"\nProcessing {subdir.name}/test.csv...")
+
+        try:
+            # Read the test.csv file
+            df_test = pd.read_csv(test_file, sep=";", encoding="utf-8")
+            print(f"  Original test data shape: {df_test.shape}")
+
+            # Check if "label" column already exists
+            if "label" not in df_test.columns:
+                # Add empty "label" column
+                df_test["label"] = ""
+                print(f"  Added empty 'label' column")
+
+                # Save the updated test file
+                df_test.to_csv(test_file, sep=";", index=False, encoding="utf-8")
+                print(f"  Updated: {test_file}")
+            else:
+                print(f"  'label' column already exists, skipping")
+
+        except Exception as e:
+            print(f"  Error processing test file in {subdir.name}: {str(e)}")
+            continue
+
+    if subdirs_with_train:
+        print(
+            f"\nSplit complete! Files have been split with {train_ratio:.0%} for training and {1 - train_ratio:.0%} for development."
+        )
+
+    if subdirs_with_test:
+        print(f"\nTest files processed! Added empty 'label' column where needed.")
 
 
 def main():

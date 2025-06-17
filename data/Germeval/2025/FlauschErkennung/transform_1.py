@@ -140,6 +140,7 @@ def process_test_data(comments_file):
                 "document": row["document"],
                 "comment_id": row["comment_id"],
                 "comment": row["comment"],
+                "flausch": "",  # Empty column for consistency with training data
             }
             test_data.append(test_row)
 
