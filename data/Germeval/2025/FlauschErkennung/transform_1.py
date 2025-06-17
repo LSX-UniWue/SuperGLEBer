@@ -2,39 +2,81 @@
 """
 Script to join two CSV files from FlauschErkennung data on comment_id
 and create a merged dataset with all columns.
+Automatically splits training data into train/dev (80/20) and processes test data.
 """
 
 import argparse
 import csv
 import os
+import random
 
 
-def merge_flausch_data(data_dir, output_dir):
+def merge_flausch_data(training_data_dir, test_data_dir, output_dir):
     """
     Merge the two FlauschErkennung CSV files on comment_id.
+    Splits training data into train/dev (80/20) and processes test data separately.
 
     Args:
-        data_dir (str): Path to directory containing the two CSV files
-        output_dir (str): Path to output directory for merged file
+        training_data_dir (str): Path to directory containing training CSV files
+        test_data_dir (str): Path to directory containing test CSV files
+        output_dir (str): Path to output directory for merged files
     """
 
-    # File paths
-    comments_file = os.path.join(data_dir, "comments.csv")
-    task1_file = os.path.join(data_dir, "task1.csv")
+    # Training file paths
+    training_comments_file = os.path.join(training_data_dir, "comments.csv")
+    training_task1_file = os.path.join(training_data_dir, "task1.csv")
 
-    # Check if all files exist
-    for file_path in [comments_file, task1_file]:
+    # Test file paths
+    test_comments_file = os.path.join(test_data_dir, "comments.csv")
+
+    # Check if all required files exist
+    for file_path in [training_comments_file, training_task1_file]:
         if not os.path.exists(file_path):
-            raise FileNotFoundError(f"Required file not found: {file_path}")
+            raise FileNotFoundError(f"Required training file not found: {file_path}")
 
-    print("Loading CSV files...")
+    if not os.path.exists(test_comments_file):
+        raise FileNotFoundError(f"Required test file not found: {test_comments_file}")
 
+    print("Processing training data...")
+    training_data = process_training_data(training_comments_file, training_task1_file)
+
+    print("Processing test data...")
+    test_data = process_test_data(test_comments_file)
+
+    print("Splitting training data into train/dev (80/20)...")
+    train_data, dev_data = split_train_dev(training_data, train_ratio=0.8)
+
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Write training split
+    write_csv_data(train_data, os.path.join(output_dir, "train.csv"))
+    print(f"Training data saved to: {os.path.join(output_dir, 'train.csv')} ({len(train_data)} samples)")
+
+    # Write development split
+    write_csv_data(dev_data, os.path.join(output_dir, "dev.csv"))
+    print(f"Development data saved to: {os.path.join(output_dir, 'dev.csv')} ({len(dev_data)} samples)")
+
+    # Write test data
+    write_csv_data(test_data, os.path.join(output_dir, "test.csv"))
+    print(f"Test data saved to: {os.path.join(output_dir, 'test.csv')} ({len(test_data)} samples)")
+
+    print("Processing complete!")
+
+
+def process_training_data(comments_file, task1_file):
+    """
+    Process training data by merging comments and task1 labels.
+
+    Returns:
+        list: List of dictionaries containing merged training data
+    """
     # Data structures to hold the data
     comments_data = {}  # key: (document, comment_id), value: comment data
     task1_data = {}  # key: (document, comment_id), value: task1 data
 
     # Load comments.csv
-    print("Loading comments...")
+    print("Loading training comments...")
     with open(comments_file, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -53,75 +95,135 @@ def merge_flausch_data(data_dir, output_dir):
             key = (row["document"], row["comment_id"])
             task1_data[key] = {"flausch": row["flausch"]}
 
-    print(f"Loaded {len(comments_data)} comments")
+    print(f"Loaded {len(comments_data)} training comments")
     print(f"Loaded {len(task1_data)} task1 entries")
-
-    # Create output directory if it doesn't exist
-    os.makedirs(output_dir, exist_ok=True)
-
-    # Determine output filename based on input directory
-    if "training" in data_dir.lower():
-        output_filename = "merged_training_data.csv"
-    elif "trial" in data_dir.lower():
-        output_filename = "merged_trial_data.csv"
-    else:
-        output_filename = "merged_data.csv"
-
-    output_path = os.path.join(output_dir, output_filename)
 
     # Get all unique keys (comment IDs) across all datasets
     all_keys = set(comments_data.keys()) | set(task1_data.keys())
 
     print(f"Merging data for {len(all_keys)} unique comment IDs...")
 
-    # Write merged data
+    # Create merged data list
+    merged_data = []
+    for key in sorted(all_keys):
+        # Get data from each source
+        comment_info = comments_data.get(key, {})
+        task1_info = task1_data.get(key, {})
+
+        # Create row
+        row = {
+            "document": comment_info.get("document", key[0]),
+            "comment_id": comment_info.get("comment_id", key[1]),
+            "comment": comment_info.get("comment", ""),
+            "flausch": task1_info.get("flausch", ""),
+        }
+        merged_data.append(row)
+
+    return merged_data
+
+
+def process_test_data(comments_file):
+    """
+    Process test data (only comments, no labels).
+
+    Returns:
+        list: List of dictionaries containing test data
+    """
+    test_data = []
+
+    print("Loading test comments...")
+    with open(comments_file, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            # For test data, we only have comments, no labels
+            test_row = {
+                "document": row["document"],
+                "comment_id": row["comment_id"],
+                "comment": row["comment"],
+            }
+            test_data.append(test_row)
+
+    print(f"Loaded {len(test_data)} test comments")
+    return test_data
+
+
+def split_train_dev(data, train_ratio=0.8, random_seed=42):
+    """
+    Split data into train and dev sets.
+
+    Args:
+        data (list): List of data samples
+        train_ratio (float): Ratio of data to use for training
+        random_seed (int): Random seed for reproducibility
+
+    Returns:
+        tuple: (train_data, dev_data)
+    """
+    # Set random seed for reproducibility
+    random.seed(random_seed)
+
+    # Shuffle the data
+    shuffled_data = data.copy()
+    random.shuffle(shuffled_data)
+
+    # Calculate split point
+    split_point = int(len(shuffled_data) * train_ratio)
+
+    # Split the data
+    train_data = shuffled_data[:split_point]
+    dev_data = shuffled_data[split_point:]
+
+    return train_data, dev_data
+
+
+def write_csv_data(data, output_path):
+    """
+    Write data to CSV file.
+
+    Args:
+        data (list): List of dictionaries to write
+        output_path (str): Path to output CSV file
+    """
+    if not data:
+        print(f"Warning: No data to write to {output_path}")
+        return
+
+    # Determine fieldnames based on first row
+    fieldnames = list(data[0].keys())
+
     with open(output_path, "w", encoding="utf-8", newline="") as f:
-        # Define the output columns
-        fieldnames = ["document", "comment_id", "comment", "flausch"]
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
-
-        row_count = 0
-        for key in sorted(all_keys):
-            # Get data from each source
-            comment_info = comments_data.get(key, {})
-            task1_info = task1_data.get(key, {})
-
-            # Create one row per comment
-            row = {
-                "document": comment_info.get("document", key[0]),
-                "comment_id": comment_info.get("comment_id", key[1]),
-                "comment": comment_info.get("comment", ""),
-                "flausch": task1_info.get("flausch", ""),
-            }
+        for row in data:
             writer.writerow(row)
-            row_count += 1
-
-    print(f"Saving merged data to: {output_path}")
-    print(f"Final merged dataset has {row_count} rows")
-    print("Merge complete!")
-    print(f"Columns in merged dataset: {fieldnames}")
 
 
 def main():
     """Main function to handle command line arguments and execute merge."""
 
-    parser = argparse.ArgumentParser(description="Merge FlauschErkennung CSV files on comment_id")
+    parser = argparse.ArgumentParser(description="Merge FlauschErkennung CSV files and split into train/dev/test")
     parser.add_argument(
-        "--data_dir",
+        "--training_data_dir",
         default="data/raw/FlauschErkennung/Data/training data",
-        help="Directory containing the two CSV files to merge",
+        help="Directory containing training CSV files to merge",
     )
     parser.add_argument(
-        "--output_dir", default="data/Germeval/2025/FlauschErkennung", help="Output directory for merged CSV file"
+        "--test_data_dir",
+        default="data/raw/FlauschErkennung/Data/test data",
+        help="Directory containing test CSV files",
+    )
+    parser.add_argument(
+        "--output_dir",
+        default="data/Germeval/2025/FlauschErkennung/task1",
+        help="Output directory for processed CSV files",
     )
 
     args = parser.parse_args()
 
     try:
-        merge_flausch_data(args.data_dir, args.output_dir)
+        merge_flausch_data(args.training_data_dir, args.test_data_dir, args.output_dir)
     except Exception as e:
-        print(f"Error during merge: {e}")
+        print(f"Error during processing: {e}")
         return 1
 
     return 0

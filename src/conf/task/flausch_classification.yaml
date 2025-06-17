@@ -1,0 +1,13 @@
+task_name: flausch_classification
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: CSVClassificationCorpus
+corpus_args:
+  data_folder: "Germeval/2025/FlauschErkennung/task1"
+  column_name_map: { 2: "comment", 3: "flausch" }
+  label_type: *label_type
+  skip_header: True

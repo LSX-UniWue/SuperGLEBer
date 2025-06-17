@@ -1,0 +1,12 @@
+task_name: flausch_tagging
+framework: "flair"
+embedding_type: TransformerWordEmbeddings
+classifier_type: SequenceTagger
+label_type: &label_type "ner"
+classifier_args:
+  tag_type: *label_type
+  use_crf: True
+corpus_type: ColumnCorpus
+corpus_args:
+  data_folder: "Germeval/2025/FlauschErkennung/task2"
+  column_format: { 0: "comment", 1: "flausch" }
