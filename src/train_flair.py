@@ -125,7 +125,12 @@ def training(cfg: DictConfig) -> None:
         else:
             # constrain the output to be between 0 and 1
             classifier_kwargs["decoder"] = nn.Sequential(
-                nn.Linear(2 * classifier_kwargs["embeddings"].embedding_length, 1),
+                nn.Linear(
+                    2 * classifier_kwargs["embeddings"].embedding_length
+                    if classifier_kwargs["embeddings"].embed_separately
+                    else classifier_kwargs["embeddings"].embedding_length,
+                    1,
+                ),
                 nn.Sigmoid(),
             )
             nn.init.xavier_uniform_(classifier_kwargs["decoder"][0].weight)
