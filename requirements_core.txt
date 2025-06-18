@@ -13,6 +13,6 @@ safetensors
 sentence-transformers==3.3.1
 sentencepiece
 tokenizers
-torch==2.7.1+cu128
+torch==2.7.1+cu126
 transformers
 uv
