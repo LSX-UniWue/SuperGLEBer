@@ -125,6 +125,11 @@ def training(cfg: DictConfig) -> None:
         else:
             # constrain the output to be between 0 and 1
             classifier_kwargs["decoder"] = nn.Sequential(
+                nn.RMSNorm(
+                    2 * classifier_kwargs["embeddings"].embedding_length
+                    if classifier_kwargs.get("embed_separately", False)
+                    else classifier_kwargs["embeddings"].embedding_length
+                ),
                 nn.Linear(
                     2 * classifier_kwargs["embeddings"].embedding_length
                     if classifier_kwargs.get("embed_separately", False)
@@ -133,7 +138,7 @@ def training(cfg: DictConfig) -> None:
                 ),
                 nn.Sigmoid(),
             )
-            nn.init.xavier_uniform_(classifier_kwargs["decoder"][0].weight)
+            nn.init.xavier_uniform_(classifier_kwargs["decoder"][1].weight)
 
         classifier: flair.nn.Classifier = classifier_class(**classifier_kwargs)
 
