@@ -28,6 +28,7 @@ from flair.trainers import ModelTrainer
 from loguru import logger
 from omegaconf import DictConfig
 from peft import LoraConfig
+from torch import nn
 from transformers import AutoConfig
 
 from lib_patches.flair_patches.dummyclassifier import DummyTextClassifier
@@ -118,9 +119,16 @@ def training(cfg: DictConfig) -> None:
             **additional_classifier_args,
         }
 
-        # Conditionally add loss_weights only if classifier is NOT regression
         if classifier_class.__name__ != "TextPairRegressor":
+            # Conditionally add loss_weights only if classifier is NOT regression
             classifier_kwargs["loss_weights"] = weight_dict
+        else:
+            # constrain the output to be between 0 and 1
+            classifier_kwargs["decoder"] = nn.Sequential(
+                nn.Linear(2 * classifier_kwargs["embeddings"].embedding_length, 1),
+                nn.Sigmoid(),
+            )
+            nn.init.xavier_uniform_(classifier_kwargs["decoder"][0].weight)
 
         classifier: flair.nn.Classifier = classifier_class(**classifier_kwargs)
 
