@@ -1,5 +1,4 @@
-FROM nvidia/cuda:12.1.1-devel-ubuntu22.04
-#FROM nvidia/cuda:12.3.1-devel-ubuntu22.04
+FROM nvidia/cuda:12.8.1-devel-ubuntu22.04
 
 ARG USER={{lastname}}
 ARG UID={{uuid}}
@@ -33,8 +32,8 @@ RUN chown -R ${USER}:${USER} /localdir/
 
 COPY . .
 RUN python -m pip install packaging wheel
-RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu121 torch==2.5.1+cu121
-RUN python -m pip install --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
+RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu128 torch==2.7.1+cu128
+RUN python -m pip install --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu128 -r requirements_core.txt
 Run python -m pip freeze
 
 #RUN python -m pip install flash-attn==2.5.7 --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
