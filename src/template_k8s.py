@@ -30,7 +30,6 @@ template_vars = [
         "image_tag": "main",
     },
     {
-        # this one is only used for creating the docker image on github actions
         "lastname": "wunderle",
         "affiliation": "lsx",
         "pullsecret": "multipull",
@@ -38,6 +37,19 @@ template_vars = [
         "slurm_path": "/home/s386162/SuperGLEBer",
         "user": "b185cb13",
         "mail_address": "wunderle@informatik.uni-wuerzburg.de",
+        "uuid": 1000,
+        "image_name": "ghcr.io/LSX-UniWue/SuperGLEBer:main",
+        "image_tag": "main",
+    },
+    {
+        # this one is only used for creating the docker image on github actions
+        "lastname": "supergleber",
+        "affiliation": "lsx",
+        "pullsecret": "multipull",
+        "cluster_path": "/home/ls6/pfister/projects/Superkleber",
+        "slurm_path": "/home/hpc/b185cb/b185cb10/projects/Superkleber",
+        "user": "b185cb10",
+        "mail_address": "supergleber@informatik.uni-wuerzburg.de",
         "uuid": 1000,
         "image_name": "ghcr.io/LSX-UniWue/SuperGLEBer:main",
         "image_tag": "main",
@@ -157,4 +169,3 @@ for template_config in template_vars:
             out_file.parent.mkdir(exist_ok=True, parents=True)
             with open(out_file, "w") as f:
                 f.write(outputText)
-

@@ -305,7 +305,7 @@ def print_metrics_report(metrics, error_stats, problems):
 def main():
     parser = argparse.ArgumentParser(description="Analyze regression performance")
     parser.add_argument(
-        "--file", "-f", default="dev_regr_mgb_no_decoder.tsv", help="Path to TSV file (default: dev_regr.tsv)"
+        "--file", "-f", default="analyze/pred_dev_regr_mgb_rms.tsv", help="Path to TSV file (default: dev_regr.tsv)"
     )
     parser.add_argument("--save-plots", "-s", action="store_true", help="Save plots to file")
 
