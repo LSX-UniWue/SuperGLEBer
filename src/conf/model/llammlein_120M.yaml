@@ -1,0 +1,5 @@
+model_name: LSX-UniWue/LLaMmlein_120M
+set_pad_token_to_eos_token_id: True
+set_padding_right: True
+model_args:
+  attn_implementation: flash_attention_2

@@ -1,0 +1,6 @@
+model_name: flair/bueble-lm-2b
+peft_target_modules: ["q_proj", "v_proj"]
+set_padding_right: True
+set_pad_token_to_eos_token_id: True
+model_args:
+  attn_implementation: flash_attention_2
