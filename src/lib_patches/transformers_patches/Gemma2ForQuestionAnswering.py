@@ -1,20 +1,15 @@
-import torch
-from torch import nn
 from typing import Optional, Tuple, Union
 
+import torch
+from torch import nn
 from torch.nn import CrossEntropyLoss
 from transformers import Gemma2PreTrainedModel
-from transformers.models.gemma2.configuration_gemma2 import Gemma2Config
-from transformers.models.gemma2.modeling_gemma2 import Gemma2Model, GEMMA2_START_DOCSTRING, _CONFIG_FOR_DOC
 from transformers.modeling_outputs import QuestionAnsweringModelOutput
-from transformers.utils import add_start_docstrings_to_model_forward, add_code_sample_docstrings, add_start_docstrings
+from transformers.models.gemma2.configuration_gemma2 import Gemma2Config
+from transformers.models.gemma2.modeling_gemma2 import Gemma2Model
 
 _REAL_CHECKPOINT_FOR_DOC = "flair/bueble-lm-2b"
 
-@add_start_docstrings(
-    "The Gemma2 Model for QnA.",
-    GEMMA2_START_DOCSTRING,
-)
 
 # https://github.com/huggingface/transformers/pull/29168
 class Gemma2ForQuestionAnswering(Gemma2PreTrainedModel):
@@ -44,13 +39,6 @@ class Gemma2ForQuestionAnswering(Gemma2PreTrainedModel):
     def set_input_embeddings(self, value):
         self.model.embed_tokens = value
 
-
-    @add_start_docstrings_to_model_forward(GEMMA2_START_DOCSTRING.format("batch_size, sequence_length"))
-    @add_code_sample_docstrings(
-        output_type=QuestionAnsweringModelOutput,
-        config_class=_CONFIG_FOR_DOC,
-        real_checkpoint=_REAL_CHECKPOINT_FOR_DOC,
-    )
     def forward(
         self,
         input_ids: Optional[torch.LongTensor] = None,
@@ -120,4 +108,3 @@ class Gemma2ForQuestionAnswering(Gemma2PreTrainedModel):
             hidden_states=outputs.hidden_states,
             attentions=outputs.attentions,
         )
-

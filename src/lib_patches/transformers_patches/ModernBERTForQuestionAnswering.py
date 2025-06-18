@@ -1,21 +1,16 @@
 import math
-import torch
-from torch import nn
 from typing import Optional, Tuple, Union
 
-from torch.nn import CrossEntropyLoss
+import torch
+from torch import nn
 from transformers import ModernBertPreTrainedModel
-from transformers.models.modernbert.configuration_modernbert import ModernBertConfig
-from transformers.models.modernbert.modeling_modernbert import ModernBertModel, MODERNBERT_START_DOCSTRING, \
-    _CONFIG_FOR_DOC, MODERNBERT_INPUTS_DOCSTRING, _CHECKPOINT_FOR_DOC, ModernBertPredictionHead
 from transformers.modeling_outputs import QuestionAnsweringModelOutput
-from transformers.utils import add_start_docstrings_to_model_forward, add_code_sample_docstrings, add_start_docstrings
-
-
-@add_start_docstrings(
-    "The ModernBERT Model for QnA.",
-    MODERNBERT_START_DOCSTRING,
+from transformers.models.modernbert.configuration_modernbert import ModernBertConfig
+from transformers.models.modernbert.modeling_modernbert import (
+    ModernBertModel,
+    ModernBertPredictionHead,
 )
+
 
 class ModernBertForQuestionAnswering(ModernBertPreTrainedModel):
     def __init__(self, config: ModernBertConfig):
@@ -60,12 +55,6 @@ class ModernBertForQuestionAnswering(ModernBertPreTrainedModel):
         else:
             super()._init_weights(module)
 
-    @add_start_docstrings_to_model_forward(MODERNBERT_INPUTS_DOCSTRING)
-    @add_code_sample_docstrings(
-        checkpoint=_CHECKPOINT_FOR_DOC,
-        output_type=QuestionAnsweringModelOutput,
-        config_class=_CONFIG_FOR_DOC,
-    )
     def forward(
         self,
         input_ids: Optional[torch.Tensor],
@@ -126,4 +115,3 @@ class ModernBertForQuestionAnswering(ModernBertPreTrainedModel):
             hidden_states=outputs.hidden_states,
             attentions=outputs.attentions,
         )
-
