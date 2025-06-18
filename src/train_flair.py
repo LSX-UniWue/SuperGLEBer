@@ -127,7 +127,7 @@ def training(cfg: DictConfig) -> None:
             classifier_kwargs["decoder"] = nn.Sequential(
                 nn.Linear(
                     2 * classifier_kwargs["embeddings"].embedding_length
-                    if classifier_kwargs["embeddings"].embed_separately
+                    if classifier_kwargs.get("embed_separately", False)
                     else classifier_kwargs["embeddings"].embedding_length,
                     1,
                 ),
