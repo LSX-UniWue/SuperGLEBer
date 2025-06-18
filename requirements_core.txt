@@ -2,7 +2,7 @@ bitsandbytes
 datasets
 debugpy
 flair==0.14.0
-flash-attn
+flash-attn==2.7.4.post1 # https://github.com/huggingface/transformers/issues/38843
 huggingface-hub
 hydra-core
 Jinja2
