@@ -33,7 +33,7 @@ RUN chown -R ${USER}:${USER} /localdir/
 COPY . .
 RUN python -m pip install packaging wheel
 RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu126 torch==2.7.1+cu126
-RUN python -m pip install --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu126 -r requirements_core.txt
+RUN python -m pip install --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu126 -r requirements.txt
 Run python -m pip freeze
 
 #RUN python -m pip install flash-attn==2.5.7 --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
