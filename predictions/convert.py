@@ -9,6 +9,7 @@ import json
 import os
 import re
 import unicodedata
+import zipfile
 from pathlib import Path
 
 import pandas as pd
@@ -326,6 +327,9 @@ def convert_task(model_name, output_dir, task_config):
 
         # Extract ID columns
         id_data = {col: row[col] for col in id_columns}
+        if "comment_id" in id_data:
+            # convert all comment_id to int
+            id_data["comment_id"] = int(id_data["comment_id"])
 
         # Find matching prediction
         prediction = None
@@ -693,7 +697,7 @@ def convert_flausch_tagging_task(model_name, output_dir):
     for idx, row in test_data.iterrows():
         test_comment = normalize_text(row["comment"])
         document = row["document"]
-        comment_id = row["comment_id"]
+        comment_id = int(row["comment_id"])
 
         # Find matching prediction using lookup
         matched_entities = prediction_lookup.get(test_comment, [])
@@ -863,6 +867,187 @@ def convert_llms4subjects_task(model_name, output_dir):
     print(f"Subtask directory: {subtask_dir}")
 
 
+def create_harmful_content_submission_zip(output_dir, model_name, team_name="LSX-UniWue", run_number=1):
+    """
+    Create submission zip file for harmful content tasks according to guidelines.
+
+    Format: [team_name][run].zip containing [team_name][run]_[task].csv files
+    """
+    model_output_dir = output_dir / model_name
+
+    # Check which harmful content files exist
+    harmful_tasks = ["c2a", "dbo", "vio"]
+    available_files = []
+
+    for task in harmful_tasks:
+        csv_file = model_output_dir / f"{model_name}_{task}.csv"
+        if csv_file.exists():
+            available_files.append((task, csv_file))
+
+    if not available_files:
+        print(f"No harmful content prediction files found for {model_name}")
+        return
+
+    # Create submission zip file
+    zip_filename = f"{team_name}{run_number}.zip"
+    zip_path = model_output_dir / zip_filename
+
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
+        for task, csv_file in available_files:
+            # Create submission filename according to guidelines
+            submission_filename = f"{team_name}{run_number}_{task}.csv"
+            zipf.write(csv_file, submission_filename)
+            print(f"Added {csv_file.name} as {submission_filename} to zip")
+
+    print(f"Created harmful content submission zip: {zip_path}")
+    print(f"Contains {len(available_files)} task predictions")
+
+
+def create_sustaineval_submission_zip(output_dir, model_name, team_name="LSX-UniWue"):
+    """
+    Create submission zip file for sustaineval tasks according to guidelines.
+
+    Should contain prediction_task_a.csv and prediction_task_b.csv
+    """
+    model_output_dir = output_dir / model_name
+
+    # Check which sustaineval files exist
+    task_a_file = model_output_dir / "prediction_task_a.csv"
+    task_b_file = model_output_dir / "prediction_task_b.csv"
+
+    available_files = []
+    if task_a_file.exists():
+        available_files.append(("prediction_task_a.csv", task_a_file))
+    if task_b_file.exists():
+        available_files.append(("prediction_task_b.csv", task_b_file))
+
+    if not available_files:
+        print(f"No sustaineval prediction files found for {model_name}")
+        return
+
+    # Create submission zip file
+    zip_filename = f"{team_name}_{model_name}_sustaineval_submission.zip"
+    zip_path = model_output_dir / zip_filename
+
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
+        for submission_filename, file_path in available_files:
+            zipf.write(file_path, submission_filename)
+            print(f"Added {file_path.name} as {submission_filename} to zip")
+
+        # Create a basic code folder with main.py (for evaluation phase)
+        # This is a placeholder - users should replace with actual code
+        main_py_content = """#!/usr/bin/env python3
+# Placeholder main.py for SustainEval submission
+# Replace this with your actual prediction code
+
+def main():
+    print("This is a placeholder main.py file")
+    print("Replace with your actual prediction code for evaluation phase")
+
+if __name__ == "__main__":
+    main()
+"""
+        zipf.writestr("code/main.py", main_py_content)
+        print("Added placeholder code/main.py to zip")
+
+    print(f"Created sustaineval submission zip: {zip_path}")
+    print(f"Contains {len(available_files)} task predictions + code folder")
+
+
+def create_llms4subjects_submission_zip(output_dir, model_name, team_name="LSX-UniWue"):
+    """
+    Create submission zip file for llms4subjects tasks according to guidelines.
+
+    Should contain subtask_1 and subtask_2 folders (currently only subtask_1 is implemented)
+    """
+    model_output_dir = output_dir / model_name
+    subtask1_dir = model_output_dir / "subtask_1"
+
+    if not subtask1_dir.exists():
+        print(f"No llms4subjects predictions found for {model_name}")
+        return
+
+    # Create submission zip file
+    zip_filename = f"{team_name}_{model_name}_llms4subjects_submission.zip"
+    zip_path = model_output_dir / zip_filename
+
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
+        # Add all files from subtask_1 directory
+        for root, dirs, files in os.walk(subtask1_dir):
+            for file in files:
+                file_path = Path(root) / file
+                # Calculate relative path from model_output_dir
+                rel_path = file_path.relative_to(model_output_dir)
+                zipf.write(file_path, str(rel_path))
+
+        # Create empty subtask_2 directory structure (placeholder)
+        # Since only subtask_1 is implemented, create basic structure for subtask_2
+        subtask2_base_dirs = [
+            "subtask_2/Article/en/",
+            "subtask_2/Article/de/",
+            "subtask_2/Book/",
+            "subtask_2/Conference/",
+            "subtask_2/Report/",
+            "subtask_2/Thesis/",
+        ]
+
+        for dir_path in subtask2_base_dirs:
+            # Create empty directories by adding a .gitkeep file
+            zipf.writestr(f"{dir_path}.gitkeep", "")
+
+    print(f"Created llms4subjects submission zip: {zip_path}")
+    print(f"Contains subtask_1 predictions and placeholder subtask_2 structure")
+
+
+def create_flausch_submission_zip(output_dir, model_name, team_name="LSX-UniWue"):
+    """
+    Create separate submission zip files for each flausch subtask.
+
+    Creates separate zips for:
+    - task1-predicted.csv (classification)
+    - task2-predicted.csv (tagging)
+
+    Each zip contains only one CSV file as per submission guidelines.
+    """
+    model_output_dir = output_dir / model_name
+
+    # Check which flausch files exist and create separate zips
+    task1_file = model_output_dir / "task1-predicted.csv"
+    task2_file = model_output_dir / "task2-predicted.csv"
+
+    created_zips = []
+
+    # Create zip for task1 (classification) if it exists
+    if task1_file.exists():
+        zip_filename = f"{team_name}_{model_name}_flausch_task1_submission.zip"
+        zip_path = model_output_dir / zip_filename
+
+        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
+            zipf.write(task1_file, "task1-predicted.csv")
+            print(f"Added {task1_file.name} as task1-predicted.csv to zip")
+
+        print(f"Created flausch task1 (classification) submission zip: {zip_path}")
+        created_zips.append("task1")
+
+    # Create zip for task2 (tagging) if it exists
+    if task2_file.exists():
+        zip_filename = f"{team_name}_{model_name}_flausch_task2_submission.zip"
+        zip_path = model_output_dir / zip_filename
+
+        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
+            zipf.write(task2_file, "task2-predicted.csv")
+            print(f"Added {task2_file.name} as task2-predicted.csv to zip")
+
+        print(f"Created flausch task2 (tagging) submission zip: {zip_path}")
+        created_zips.append("task2")
+
+    if not created_zips:
+        print(f"No flausch prediction files found for {model_name}")
+        return
+
+    print(f"Created {len(created_zips)} separate flausch submission zip files: {', '.join(created_zips)}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Convert model predictions to submission format")
     parser.add_argument(
@@ -882,6 +1067,9 @@ def main():
         help="Task to convert predictions for (flausch_class: classification, flausch_tagging: sequence tagging)",
     )
     parser.add_argument("--model", help="Specific model to convert (if not provided, converts all models)")
+    parser.add_argument("--team-name", default="LSX-UniWue", help="Team name for submission files")
+    parser.add_argument("--run-number", type=int, default=1, help="Run number for harmful content submissions (1-3)")
+    parser.add_argument("--create-zips", action="store_true", help="Create submission zip files")
 
     args = parser.parse_args()
 
@@ -936,6 +1124,28 @@ def main():
 
         if args.task == "llms4subjects" or args.task == "all":
             convert_llms4subjects_task(model_name, output_dir)
+
+        # Create submission zip files if requested
+        if args.create_zips:
+            print(f"\n{'=' * 30}")
+            print(f"Creating submission zip files for {model_name}")
+            print(f"{'=' * 30}")
+
+            # Create harmful content submission zip
+            if any(args.task in ["harmful_c2a", "harmful_dbo", "harmful_vio", "all"] for _ in [1]):
+                create_harmful_content_submission_zip(output_dir, model_name, args.team_name, args.run_number)
+
+            # Create sustaineval submission zip
+            if any(args.task in ["sustaineval_class", "sustaineval_regr", "all"] for _ in [1]):
+                create_sustaineval_submission_zip(output_dir, model_name, args.team_name)
+
+            # Create llms4subjects submission zip
+            if args.task == "llms4subjects" or args.task == "all":
+                create_llms4subjects_submission_zip(output_dir, model_name, args.team_name)
+
+            # Create flausch submission zip
+            if any(args.task in ["flausch_class", "flausch_tagging", "all"] for _ in [1]):
+                create_flausch_submission_zip(output_dir, model_name, args.team_name)
 
 
 if __name__ == "__main__":
