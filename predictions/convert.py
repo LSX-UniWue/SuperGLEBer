@@ -860,7 +860,7 @@ def convert_llms4subjects_task(model_name, output_dir):
     print(f"Saved predictions to: {subtask_dir}")
 
     # Create a simple zip file for submission (optional)
-    submission_zip_path = model_output_dir / f"{model_name}_llms4subjects_submission.zip"
+    submission_zip_path = model_output_dir / f"{model_name}_llms4subjects.zip"
 
     # Note: You may want to create the zip file manually or use a different approach
     print(f"Conversion complete. You can zip the subtask_1 directory for submission.")
@@ -926,7 +926,7 @@ def create_sustaineval_submission_zip(output_dir, model_name, team_name="LSX-Uni
         return
 
     # Create submission zip file
-    zip_filename = f"{team_name}_{model_name}_sustaineval_submission.zip"
+    zip_filename = f"{team_name}_{model_name}_sustaineval.zip"
     zip_path = model_output_dir / zip_filename
 
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
@@ -968,7 +968,7 @@ def create_llms4subjects_submission_zip(output_dir, model_name, team_name="LSX-U
         return
 
     # Create submission zip file
-    zip_filename = f"{team_name}_{model_name}_llms4subjects_submission.zip"
+    zip_filename = f"{team_name}_{model_name}_llms4subjects.zip"
     zip_path = model_output_dir / zip_filename
 
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
@@ -1019,7 +1019,7 @@ def create_flausch_submission_zip(output_dir, model_name, team_name="LSX-UniWue"
 
     # Create zip for task1 (classification) if it exists
     if task1_file.exists():
-        zip_filename = f"{team_name}_{model_name}_flausch_task1_submission.zip"
+        zip_filename = f"{team_name}_{model_name}_flausch_task1.zip"
         zip_path = model_output_dir / zip_filename
 
         with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
@@ -1031,7 +1031,7 @@ def create_flausch_submission_zip(output_dir, model_name, team_name="LSX-UniWue"
 
     # Create zip for task2 (tagging) if it exists
     if task2_file.exists():
-        zip_filename = f"{team_name}_{model_name}_flausch_task2_submission.zip"
+        zip_filename = f"{team_name}_{model_name}_flausch_task2.zip"
         zip_path = model_output_dir / zip_filename
 
         with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
