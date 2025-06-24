@@ -65,14 +65,16 @@ def training(cfg: DictConfig) -> None:
     corpus.filter_empty_sentences()
 
     additional_classifier_args = dict()
+
+    if "multi_label" in cfg.task:
+        additional_classifier_args["multi_label"] = cfg.task.get("multi_label", False)
+
     if cfg.task.classifier_type in ["TextClassifier", "TextPairClassifier", "TextTripleClassifier"]:
         additional_classifier_args["label_dictionary"] = corpus.make_label_dictionary(label_type=cfg.task.label_type)
     elif cfg.task.classifier_type == "SequenceTagger":
         additional_classifier_args["tag_dictionary"] = corpus.make_label_dictionary(
             label_type=cfg.task.label_type, add_unk=True
         )
-        if "multi_label" in cfg.task:
-            additional_classifier_args["multi_label"] = cfg.task.get("multi_label", False)
 
     logger.info(f"label distribution: {corpus.get_label_distribution()}")
 
