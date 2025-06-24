@@ -344,3 +344,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 llms4subjects-sample-submission
+data/Germeval/2025/llms4subjects/test
+predictions/converted/*/subtask_1

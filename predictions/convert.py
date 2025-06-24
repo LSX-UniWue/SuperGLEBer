@@ -813,7 +813,7 @@ def convert_llms4subjects_task(model_name, output_dir):
 
             # Extract abstract from the test data
             abstract = None
-            if "@graph" in test_data and len(test_data["@graph"]) > 1:
+            if "@graph" in test_data and len(test_data["@graph"]) > 0:
                 for item in test_data["@graph"]:
                     if "abstract" in item:
                         abstract_data = item["abstract"]
