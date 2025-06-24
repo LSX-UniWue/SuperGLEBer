@@ -4,6 +4,8 @@ Script to convert model predictions to submission format for GermEval 2025 tasks
 """
 
 import argparse
+import glob
+import json
 import os
 import re
 import unicodedata
@@ -19,73 +21,26 @@ def create_output_dir():
     return output_dir
 
 
-def parse_flausch_predictions(prediction_file):
+def parse_predictions_generic(prediction_file, content_key="comment", prediction_processor=None):
     """
-    Parse flausch classification predictions from TSV format.
+    Generic function to parse predictions from TSV format.
 
     Expected format:
-    comment_text
-     - Gold: yes/no
-     - Pred: yes/no
-     -> MISMATCH! (optional)
-    """
-    predictions = []
-    current_comment = None
-    current_prediction = None
-
-    with open(prediction_file, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    for line in lines:
-        line = line.strip()
-
-        # Skip empty lines
-        if not line:
-            # If we have a complete comment-prediction pair, save it
-            if current_comment is not None and current_prediction is not None:
-                predictions.append({"comment": current_comment, "prediction": current_prediction})
-                current_comment = None
-                current_prediction = None
-            continue
-
-        # Look for prediction line first
-        if line.startswith("- Pred:"):
-            pred_match = re.search(r"Pred:\s*(yes|no)", line)
-            if pred_match:
-                current_prediction = pred_match.group(1)
-            continue
-
-        # If line starts with "- " it's metadata, skip
-        if line.startswith("- ") or line.startswith("->"):
-            continue
-
-        # Otherwise it's a comment
-        # Save previous prediction if we have one
-        if current_comment is not None and current_prediction is not None:
-            predictions.append({"comment": current_comment, "prediction": current_prediction})
-
-        current_comment = line
-        current_prediction = None
-
-    # Don't forget the last prediction if file doesn't end with empty line
-    if current_comment is not None and current_prediction is not None:
-        predictions.append({"comment": current_comment, "prediction": current_prediction})
-
-    return predictions
-
-
-def parse_harmful_predictions(prediction_file):
-    """
-    Parse harmful content predictions from TSV format.
-
-    Expected format:
-    comment_text
+    content_text
      - Gold: <label>
      - Pred: <label>
      -> MISMATCH! (optional)
+
+    Args:
+        prediction_file: Path to the prediction file
+        content_key: Key name for the content in returned dict ("comment", "abstract", etc.)
+        prediction_processor: Function to process the raw prediction string
+
+    Returns:
+        List of dicts with content_key and "prediction" keys
     """
     predictions = []
-    current_comment = None
+    current_content = None
     current_prediction = None
 
     with open(prediction_file, "r", encoding="utf-8") as f:
@@ -96,10 +51,10 @@ def parse_harmful_predictions(prediction_file):
 
         # Skip empty lines
         if not line:
-            # If we have a complete comment-prediction pair, save it
-            if current_comment is not None and current_prediction is not None:
-                predictions.append({"comment": current_comment, "prediction": current_prediction})
-                current_comment = None
+            # If we have a complete content-prediction pair, save it
+            if current_content is not None and current_prediction is not None:
+                predictions.append({content_key: current_content, "prediction": current_prediction})
+                current_content = None
                 current_prediction = None
             continue
 
@@ -108,82 +63,56 @@ def parse_harmful_predictions(prediction_file):
             # Extract prediction value after "Pred:"
             pred_match = re.search(r"Pred:\s*(.+)", line)
             if pred_match:
-                current_prediction = pred_match.group(1)
+                pred_text = pred_match.group(1).strip()
+                # Apply custom processor if provided
+                if prediction_processor:
+                    current_prediction = prediction_processor(pred_text)
+                else:
+                    current_prediction = pred_text
             continue
 
         # If line starts with "- " it's metadata, skip
         if line.startswith("- ") or line.startswith("->"):
             continue
 
-        # Otherwise it's a comment
+        # Otherwise it's content (comment/abstract/etc.)
         # Save previous prediction if we have one
-        if current_comment is not None and current_prediction is not None:
-            predictions.append({"comment": current_comment, "prediction": current_prediction})
+        if current_content is not None and current_prediction is not None:
+            predictions.append({content_key: current_content, "prediction": current_prediction})
 
-        current_comment = line
+        current_content = line
         current_prediction = None
 
     # Don't forget the last prediction if file doesn't end with empty line
-    if current_comment is not None and current_prediction is not None:
-        predictions.append({"comment": current_comment, "prediction": current_prediction})
+    if current_content is not None and current_prediction is not None:
+        predictions.append({content_key: current_content, "prediction": current_prediction})
 
     return predictions
+
+
+def parse_flausch_predictions(prediction_file):
+    """Parse flausch classification predictions (yes/no format)."""
+
+    def processor(pred_text):
+        pred_match = re.search(r"(yes|no)", pred_text)
+        return pred_match.group(1) if pred_match else "no"
+
+    return parse_predictions_generic(prediction_file, "comment", processor)
+
+
+def parse_harmful_predictions(prediction_file):
+    """Parse harmful content predictions (general label format)."""
+    return parse_predictions_generic(prediction_file, "comment")
 
 
 def parse_sustaineval_classification_predictions(prediction_file):
-    """
-    Parse sustaineval classification predictions from TSV format.
+    """Parse sustaineval classification predictions (numeric format)."""
 
-    Expected format:
-    context || target
-     - Gold: <number>
-     - Pred: <number>
-     -> MISMATCH! (optional)
-    """
-    predictions = []
-    current_comment = None
-    current_prediction = None
+    def processor(pred_text):
+        pred_match = re.search(r"(\d+)", pred_text)
+        return int(pred_match.group(1)) if pred_match else 0
 
-    with open(prediction_file, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-
-    for line in lines:
-        line = line.strip()
-
-        # Skip empty lines
-        if not line:
-            # If we have a complete comment-prediction pair, save it
-            if current_comment is not None and current_prediction is not None:
-                predictions.append({"comment": current_comment, "prediction": current_prediction})
-                current_comment = None
-                current_prediction = None
-            continue
-
-        # Look for prediction line first
-        if line.startswith("- Pred:"):
-            # Extract prediction value after "Pred:"
-            pred_match = re.search(r"Pred:\s*(\d+)", line)
-            if pred_match:
-                current_prediction = int(pred_match.group(1))
-            continue
-
-        # If line starts with "- " it's metadata, skip
-        if line.startswith("- ") or line.startswith("->"):
-            continue
-
-        # Otherwise it's a comment (context || target format)
-        # Save previous prediction if we have one
-        if current_comment is not None and current_prediction is not None:
-            predictions.append({"comment": current_comment, "prediction": current_prediction})
-
-        current_comment = line
-        current_prediction = None
-
-    # Don't forget the last prediction if file doesn't end with empty line
-    if current_comment is not None and current_prediction is not None:
-        predictions.append({"comment": current_comment, "prediction": current_prediction})
-
-    return predictions
+    return parse_predictions_generic(prediction_file, "comment", processor)
 
 
 def parse_sustaineval_regression_predictions(prediction_file):
@@ -808,6 +737,132 @@ def convert_flausch_tagging_task(model_name, output_dir):
     print(submission_df.head(10))
 
 
+def parse_llms4subjects_predictions(prediction_file):
+    """Parse llms4subjects predictions (comma-separated domains format)."""
+
+    def processor(pred_text):
+        if pred_text:
+            domains = [d.strip() for d in pred_text.split(",") if d.strip()]
+            return domains
+        else:
+            return []
+
+    return parse_predictions_generic(prediction_file, "abstract", processor)
+
+
+def convert_llms4subjects_task(model_name, output_dir):
+    """Convert llms4subjects predictions to submission format."""
+
+    prediction_file = f"predictions/results/{model_name}/llms4subjects.tsv"
+    test_base_dir = "data/Germeval/2025/llms4subjects/test"
+
+    if not os.path.exists(prediction_file):
+        print(f"Warning: Prediction file not found: {prediction_file}")
+        return
+
+    if not os.path.exists(test_base_dir):
+        print(f"Error: Test directory not found: {test_base_dir}")
+        return
+
+    print(f"Converting llms4subjects predictions for model: {model_name}")
+
+    # Parse predictions and normalize text
+    predictions = parse_llms4subjects_predictions(prediction_file)
+    print(f"Found {len(predictions)} predictions")
+
+    # Normalize prediction abstracts
+    for pred in predictions:
+        pred["abstract_normalized"] = normalize_text(pred["abstract"])
+
+    # Create lookup table from predictions by normalized abstract text
+    prediction_lookup = {}
+    for pred in predictions:
+        prediction_lookup[pred["abstract_normalized"]] = pred["prediction"]
+
+    # Create output directory structure
+    model_output_dir = output_dir / model_name
+    model_output_dir.mkdir(exist_ok=True)
+
+    # Create subtask_1 directory structure matching test data
+    subtask_dir = model_output_dir / "subtask_1"
+    subtask_dir.mkdir(exist_ok=True)
+
+    # Find all test files and process them
+    test_files = glob.glob(f"{test_base_dir}/**/*.jsonld", recursive=True)
+    print(f"Found {len(test_files)} test files")
+
+    matched_count = 0
+    unmatched_count = 0
+
+    for test_file_path in test_files:
+        # Get relative path from test_base_dir
+        rel_path = os.path.relpath(test_file_path, test_base_dir)
+
+        # Create corresponding output directory structure
+        output_file_dir = subtask_dir / os.path.dirname(rel_path)
+        output_file_dir.mkdir(parents=True, exist_ok=True)
+
+        # Change file extension from .jsonld to .json
+        output_filename = os.path.basename(rel_path).replace(".jsonld", ".json")
+        output_file_path = output_file_dir / output_filename
+
+        # Load and parse the test file
+        try:
+            with open(test_file_path, "r", encoding="utf-8") as f:
+                test_data = json.load(f)
+
+            # Extract abstract from the test data
+            abstract = None
+            if "@graph" in test_data and len(test_data["@graph"]) > 1:
+                for item in test_data["@graph"]:
+                    if "abstract" in item:
+                        abstract_data = item["abstract"]
+                        # Handle case where abstract is a list
+                        if isinstance(abstract_data, list):
+                            # Take the first abstract if it's a list
+                            abstract = abstract_data[0] if abstract_data else None
+                        else:
+                            abstract = abstract_data
+                        break
+
+            if abstract is None:
+                print(f"Warning: No abstract found in {test_file_path}")
+                prediction = []
+            else:
+                # Normalize abstract and look up prediction
+                normalized_abstract = normalize_text(abstract)
+                prediction = prediction_lookup.get(normalized_abstract, [])
+
+                if prediction:
+                    matched_count += 1
+                else:
+                    unmatched_count += 1
+                    # Only print warning for first few unmatched files to avoid spam
+                    if unmatched_count <= 10:
+                        print(f"Warning: No prediction found for file: {rel_path}")
+
+            # Create output JSON in the required format
+            output_data = {"domains": prediction}
+
+            # Save the prediction file
+            with open(output_file_path, "w", encoding="utf-8") as f:
+                json.dump(output_data, f, indent=4, ensure_ascii=False)
+
+        except Exception as e:
+            print(f"Error processing file {test_file_path}: {e}")
+            continue
+
+    print(f"Successfully matched {matched_count}/{len(test_files)} predictions")
+    print(f"Saved predictions to: {subtask_dir}")
+
+    # Create a simple zip file for submission (optional)
+    submission_zip_path = model_output_dir / f"{model_name}_llms4subjects_submission.zip"
+
+    # Note: You may want to create the zip file manually or use a different approach
+    print(f"Conversion complete. You can zip the subtask_1 directory for submission.")
+    print(f"Subtask directory: {subtask_dir}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Convert model predictions to submission format")
     parser.add_argument(
@@ -821,6 +876,7 @@ def main():
             "harmful_vio",
             "sustaineval_class",
             "sustaineval_regr",
+            "llms4subjects",
             "all",
         ],
         help="Task to convert predictions for (flausch_class: classification, flausch_tagging: sequence tagging)",
@@ -877,6 +933,9 @@ def main():
 
         if args.task == "sustaineval_regr" or args.task == "all":
             convert_sustaineval_regression_task(model_name, output_dir)
+
+        if args.task == "llms4subjects" or args.task == "all":
+            convert_llms4subjects_task(model_name, output_dir)
 
 
 if __name__ == "__main__":
