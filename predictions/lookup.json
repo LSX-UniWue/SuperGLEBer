@@ -1,0 +1,107 @@
+[
+    {
+        "model": "LSX-UniWue/ModernGBERT_1B",
+        "flausch_classification": {
+            "metric": "0.9475",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-20/08-58-29.418709/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.6619",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-20/09-01-05.672539/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9534",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-20/09-01-03.659875/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8969",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-20/09-01-03.538083/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9518",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-20/09-01-03.714787/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6848",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-20/09-01-03.814001/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.6592",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-20/09-01-03.960615/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.1182",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/11-21-59.316517/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "LSX-UniWue/LLaMmlein_7B",
+        "flausch_classification": {
+            "metric": "0.9498",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-05-35.824629/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5753",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-13-43.926456/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9516",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-06-20.494069/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8868",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-08-30.829264/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9558",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-05-17.711976/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6804",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-07-35.858885/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.633",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-12-22.319769/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3567",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-05-17.653846/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "meta-llama/Meta-Llama-3.1-8B",
+        "flausch_classification": {
+            "metric": "0.9477",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/16-59-01.344039/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.51",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/17-00-01.472040/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9361",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/16-59-20.417005/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8734",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/16-59-38.726960/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9494",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/16-57-55.933246/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6773",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/16-59-28.567373/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.5843",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/16-59-56.586620/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.4537",
+            "train_log_path": "/hnvme/workspace/b185cb13-llammlein/Germeval2025/SuperGLEBer/outputs/2025-06-18/16-59-01.359522/sustaineval_regression/training_logs/training.log"
+        }
+    }
+]
