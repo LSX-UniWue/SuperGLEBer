@@ -248,7 +248,21 @@ def extract_entities_from_bio(tokens, bio_labels):
     if current_entity is not None:
         entities.append({"type": current_entity["type"], "start": current_entity["start"], "end": current_pos})
 
-    return entities
+    # Merge consecutive entities of the same type
+    merged_entities = []
+    for entity in entities:
+        if (
+            merged_entities
+            and merged_entities[-1]["type"] == entity["type"]
+            and merged_entities[-1]["end"] + 1 == entity["start"]
+        ):
+            # Merge with previous entity by extending the end position
+            merged_entities[-1]["end"] = entity["end"]
+        else:
+            # Add as new entity
+            merged_entities.append(entity)
+
+    return merged_entities
 
 
 def normalize_text(text):
@@ -935,7 +949,6 @@ def create_sustaineval_submission_zip(output_dir, model_name, team_name="LSX-Uni
             print(f"Added {file_path.name} as {submission_filename} to zip")
 
         # Create a basic code folder with main.py (for evaluation phase)
-        # This is a placeholder - users should replace with actual code
         main_py_content = """#!/usr/bin/env python3
 # Placeholder main.py for SustainEval submission
 # Replace this with your actual prediction code
