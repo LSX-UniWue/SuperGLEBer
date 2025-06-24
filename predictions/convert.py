@@ -1126,9 +1126,7 @@ def main():
     parser.add_argument("--team-name", default="LSX-UniWue", help="Team name for submission files")
     parser.add_argument("--run-number", type=int, default=1, help="Run number for harmful content submissions (1-3)")
     parser.add_argument("--create-zips", action="store_true", help="Create submission zip files")
-    parser.add_argument(
-        "--test_tsv_for_sustaineval", default="predictions/results", help="Directory containing results"
-    )
+    parser.add_argument("--test_tsv_for_sustaineval", help="Directory containing results")
 
     args = parser.parse_args()
 
