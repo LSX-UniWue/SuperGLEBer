@@ -1,0 +1,1402 @@
+[
+    {
+        "model": "/hnvme/workspace/b185cb13-llammlein/anvme/models/120M_fa3_new/models_hf/iter-01430512-ckpt_120M",
+        "flausch_classification": {
+            "metric": "0.924",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/08-58-45.589121/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4328",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-23.724518/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9196",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-23.279801/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8449",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-23.280000/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.943",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-24.533893/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6408",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-25.365217/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.2247",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-25.848749/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3299",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-22.500470/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "/hnvme/workspace/b185cb13-llammlein/anvme/models/tiny_LLaMA_1B_fa3_new/models_hf/iter-01430512-ckpt_1B",
+        "flausch_classification": {
+            "metric": "0.9414",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-30.781479/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5411",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-46.818251/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9361",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-46.388159/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.886",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-46.387565/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9446",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-47.566190/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6683",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-33.158966/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.4494",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-33.510122/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3207",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-33.156633/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "DiscoResearch/Llama3-German-8B",
+        "flausch_classification": {
+            "metric": "0.9487",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-31-48.289479/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5271",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-38-13.775052/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9443",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-35-26.020618/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8709",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-37-31.577741/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9502",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-25-26.619909/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6818",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-35-41.512185/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.6255",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-37-41.301351/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.4301",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-29-50.437998/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "EuroBERT/EuroBERT-2.1B",
+        "flausch_classification": {
+            "metric": "0.8983",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-34-03.084420/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.3886",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-35-36.979231/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.8941",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-34-33.439191/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.7728",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-35-04.779721/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9309",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-33-02.866665/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6664",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-34-35.531643/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1273",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-35-09.537706/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.151",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-33-32.031502/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "EuroBERT/EuroBERT-210m",
+        "flausch_classification": {
+            "metric": "0.9062",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-56-02.876746/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.2963",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-51-45.922807/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.8877",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-50-11.776794/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.7846",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-51-05.941176/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9309",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-48-29.973128/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6209",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-50-43.133805/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1199",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-51-59.071488/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.1215",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-48-42.330782/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "EuroBERT/EuroBERT-610m",
+        "flausch_classification": {
+            "metric": "0.9066",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-48.483735/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4936",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-11.985898/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.8776",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-05.008431/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8173",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-05.272810/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9309",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-48.128568/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6569",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-06.703314/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1011",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-05.974411/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2089",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-49.281671/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "FacebookAI/xlm-roberta-base",
+        "flausch_classification": {
+            "metric": "0.9231",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-45-57.834664/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.3083",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-52-08.562154/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.8977",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-47-20.839036/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8223",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-48-42.534750/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9309",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-41-52.150919/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6073",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-48-18.401273/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1348",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-48-57.917485/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.272",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-42-17.243236/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "GeistBERT/GeistBERT_base",
+        "flausch_classification": {
+            "metric": "0.9329",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-05-30.430622/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4807",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-17-49.927849/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9269",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-05-34.970994/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8424",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-06-00.990894/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9349",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-14-26.610806/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6327",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-14-52.036407/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.2772",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-06-03.198964/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2284",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-14-21.436671/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "LSX-UniWue/LLaMmlein_7B",
+        "flausch_classification": {
+            "metric": "0.9498",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-05-35.824629/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5753",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-13-43.926456/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9516",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-06-20.494069/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8868",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-08-30.829264/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9558",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-05-17.711976/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6804",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-07-35.858885/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.633",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-12-22.319769/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3567",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-05-17.653846/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "LSX-UniWue/ModernGBERT_134M",
+        "flausch_classification": {
+            "metric": "0.9325",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-15.195918/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5199",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-13.975954/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9315",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-14.414959/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.865",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-13.977310/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9357",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-32.730616/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6608",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-14.054917/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.2097",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-14.054554/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.243",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-14.489966/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "LSX-UniWue/ModernGBERT_1B",
+        "flausch_classification": {
+            "metric": "0.9475",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/08-58-29.418709/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.6619",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-05.672539/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9534",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-03.659875/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8969",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-03.538083/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9518",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-03.714787/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6848",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-03.814001/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.6592",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-03.960615/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.1182",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/11-21-59.316517/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "LeoLM/leo-hessianai-7b",
+        "flausch_classification": {
+            "metric": "0.9526",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-05-35.632225/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5208",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/18-13-46.539959/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9516",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-05-43.135067/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8969",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-05-56.995475/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9486",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-06-10.098496/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6821",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-06-43.927959/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.6217",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-06-43.879846/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3488",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-07-03.888016/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "Qwen/Qwen2.5-0.5B",
+        "flausch_classification": {
+            "metric": "0.9172",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-19-54.808186/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.205",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-21-25.539139/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.8877",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-20-00.001388/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8324",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-21-25.754492/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9309",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-17-23.581490/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6276",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-20-55.012796/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.0861",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-21-25.915139/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3053",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-19-24.980880/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "Qwen/Qwen2.5-7B",
+        "flausch_classification": {
+            "metric": "0.9402",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-52-00.111329/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4406",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-59-43.864646/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9297",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-51-47.455966/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.865",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-53-40.383487/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.947",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-49-41.779285/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6745",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-52-11.680511/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.4981",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-56-11.984827/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3079",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-50-12.556007/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "Qwen/Qwen3-0.6B",
+        "flausch_classification": {
+            "metric": "0.9242",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-42-06.802449/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.3439",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-45-07.613752/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.905",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-42-13.101175/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8483",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-44-12.902955/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9277",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-37-08.571538/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6551",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-42-45.361495/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1723",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-44-46.002765/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2528",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-37-35.845941/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "Qwen/Qwen3-1.7B",
+        "flausch_classification": {
+            "metric": "0.9315",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-12-05.966234/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.3899",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-13-07.355002/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9041",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-12-05.990242/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8659",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-12-41.485192/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9309",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-12-06.169281/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6662",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-12-35.883533/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.191",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-12-36.862343/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3927",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-12-25.574406/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "Qwen/Qwen3-4B",
+        "flausch_classification": {
+            "metric": "0.9409",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-36-06.827837/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4413",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-37-27.548532/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9224",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-36-53.945883/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8642",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-37-27.163197/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9382",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-35-54.750936/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6746",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-37-29.082817/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.412",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-37-28.271140/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3582",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-35-55.249401/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "TUM/GottBERT_large",
+        "flausch_classification": {
+            "metric": "0.9363",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-18-13.404764/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4187",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-29-17.687313/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9269",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-26-21.852372/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8114",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-28-16.838324/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9325",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-16-12.026825/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6602",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-28-06.372095/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.2884",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-29-10.192360/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.1541",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-16-10.173854/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "benjamin/gerpt2",
+        "flausch_classification": {
+            "metric": "0.913",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-51-46.154685/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.237",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-54-06.498184/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9233",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-52-12.057463/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.7787",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-53-06.418912/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9325",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-51-49.586387/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6215",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-52-14.530651/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.0936",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-53-11.724196/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2814",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-51-45.677286/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "benjamin/gerpt2-large",
+        "flausch_classification": {
+            "metric": "0.9354",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-51.809085/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4496",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-46.410039/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9352",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-49.984461/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8583",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-49.082585/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9414",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-51.055217/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6573",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-50.728939/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.382",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-49.269529/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3214",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-50.157567/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "bert-base-german-cased",
+        "flausch_classification": {
+            "metric": "0.9106",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-57-12.781959/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.2998",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-57-56.252427/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9151",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-57-29.158562/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8516",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-57-30.476555/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9382",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-56-59.593009/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6349",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-57-25.684015/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.2734",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-57-25.714158/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3088",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-57-12.643593/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "bigscience/bloomz-560m",
+        "flausch_classification": {
+            "metric": "0.9142",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-11.186851/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.2422",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-50.327250/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.8831",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-27.525367/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.7804",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-47.762147/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9293",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-11.192629/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.5909",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-49.973412/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1086",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-57-50.517608/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2884",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-12.796742/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "bigscience/mt0-small",
+        "flausch_classification": {
+            "metric": "0.2901",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-07-33.616861/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.0001",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-09-03.135810/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.1023",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-08-02.805800/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.0411",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-08-40.478021/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.0691",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-07-12.751806/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.1417",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-08-08.371629/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.0487",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-08-40.059801/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.1084",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-07-34.117388/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "dbmdz/german-gpt2",
+        "flausch_classification": {
+            "metric": "0.9169",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-55-30.462679/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.3177",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-55-35.515535/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.916",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-55-41.562418/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.7469",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-55-43.132035/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9341",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-55-46.852770/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6099",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-56-04.694127/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1348",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-55-53.645128/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.1506",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-55-58.158615/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "deepset/gbert-base",
+        "flausch_classification": {
+            "metric": "0.9238",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/12-38-33.512707/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.3864",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-28-27.829794/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9288",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-07-06.856492/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8433",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-28-37.272801/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9333",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-28-37.399415/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6419",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-28-40.325536/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.2921",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-52-56.094896/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2218",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-17/19-53-10.568427/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "deepset/gbert-large",
+        "flausch_classification": {
+            "metric": "0.9367",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-11-09.977513/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.567",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-11-37.587787/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9479",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-11-41.308654/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8776",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-11-35.646401/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.943",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-11-05.057265/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6617",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-11-40.973093/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.3783",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-11-37.169810/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.307",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-11-04.961959/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "deepset/gelectra-base",
+        "flausch_classification": {
+            "metric": "0.9213",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-05-47.038197/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.2913",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-12-25.372796/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9059",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-07-52.974905/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.798",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-09-49.335287/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9365",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-03-45.625611/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.5949",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-09-19.216272/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.0824",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-12-21.316052/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.1475",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-05-17.539429/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "deepset/gelectra-large",
+        "flausch_classification": {
+            "metric": "0.9365",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-08.466106/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5359",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-27.679584/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9279",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-07.202639/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8575",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-25.457333/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9398",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-07.742598/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.646",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-07.201101/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.191",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-28.458836/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2475",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-07.657260/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "facebook/mbart-large-50",
+        "flausch_classification": {
+            "metric": "0.9348",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-49.764289/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4377",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-50.459023/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9224",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-49.873344/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8265",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-49.873374/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9317",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-51.217003/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6223",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-49.022944/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.0899",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-49.874940/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2625",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-01-49.021118/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "flair/bueble-lm-2b",
+        "flausch_classification": {
+            "metric": "0.9348",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-55-38.054565/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5534",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/18-00-18.683820/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9315",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-58-22.506000/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8726",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/18-00-10.060230/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9438",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-54-50.033415/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6692",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/18-00-00.463174/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.4382",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/18-00-25.374094/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3581",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-55-13.678776/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "gerturax/gerturax-1",
+        "flausch_classification": {
+            "metric": "0.9297",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-22-31.023707/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4332",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-28-34.028567/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9324",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-23-31.722328/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8365",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-26-28.304911/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9486",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-21-31.024369/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6319",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-26-02.656581/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.176",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-27-33.305218/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2811",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-22-06.023491/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "gerturax/gerturax-2",
+        "flausch_classification": {
+            "metric": "0.9348",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-44-29.049584/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4435",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-48-11.214999/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.937",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-45-03.575452/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.855",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-46-13.487337/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.943",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-43-57.823012/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6379",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-45-28.958406/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.2322",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-46-29.119796/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.2137",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-44-12.220293/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "gerturax/gerturax-3",
+        "flausch_classification": {
+            "metric": "0.9336",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-46.180715/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4276",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-45.194424/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.937",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-46.594838/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8433",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-43.255550/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9462",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-27.423148/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6355",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-47.339403/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1835",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-45.746110/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.222",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/14-58-27.719973/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "malteos/bloom-6b4-clp-german",
+        "flausch_classification": {
+            "metric": "0.9479",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-17-11.070969/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4273",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-25-28.961089/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.947",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-20-42.933991/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8835",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-22-45.505324/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9494",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-16-18.411273/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6778",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-21-47.648923/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.5019",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-23-26.244474/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3913",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-16-44.889286/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "maxidl/DOSMo-7B-v0.2",
+        "flausch_classification": {
+            "metric": "0.9522",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-40-56.538595/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.5766",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-43-57.327497/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9452",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-40-56.919249/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.891",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-42-30.119476/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.947",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-39-55.009201/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6789",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-41-58.375327/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.5805",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-43-08.330781/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.4012",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-40-25.498299/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "meta-llama/Llama-3.2-1B",
+        "flausch_classification": {
+            "metric": "0.9343",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/13-02-28.064233/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.3419",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-35-27.840803/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9096",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/13-02-12.237370/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8718",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/13-02-13.817743/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9382",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-30-48.589307/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6667",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/13-02-12.333873/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.3708",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/13-02-00.919496/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3569",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/13-02-00.901392/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "meta-llama/Llama-3.2-3B",
+        "flausch_classification": {
+            "metric": "0.9394",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-13-38.580732/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4551",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-16-06.989911/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9233",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-13-37.920972/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8667",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-15-06.611128/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9382",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-13-06.315166/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6762",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-14-43.544945/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.4944",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-15-38.809391/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.3904",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-13-07.257664/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "meta-llama/Meta-Llama-3.1-8B",
+        "flausch_classification": {
+            "metric": "0.9477",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-59-01.344039/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.51",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/17-00-01.472040/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9361",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-59-20.417005/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8734",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-59-38.726960/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9494",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-57-55.933246/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6773",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-59-28.567373/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.5843",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-59-56.586620/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.4537",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/16-59-01.359522/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "uklfr/gottbert-base",
+        "flausch_classification": {
+            "metric": "0.9261",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-00-38.382131/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.3868",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-04-31.241262/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9068",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-04-00.032888/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8558",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-04-35.589008/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9365",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-00-00.574464/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.64",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-03-59.841393/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.1573",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-04-31.725534/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.1309",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-18/15-00-00.838926/sustaineval_regression/training_logs/training.log"
+        }
+    },
+    {
+        "model": "utter-project/EuroLLM-1.7B",
+        "flausch_classification": {
+            "metric": "0.9405",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-02-01.569475/flausch_classification/training_logs/training.log"
+        },
+        "flausch_tagging": {
+            "metric": "0.4965",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-02-03.871600/flausch_tagging/training_logs/training.log"
+        },
+        "harmful_content_c2a": {
+            "metric": "0.9342",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-02-03.933437/harmful_content_c2a/training_logs/training.log"
+        },
+        "harmful_content_dbo": {
+            "metric": "0.8961",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-03-50.900307/harmful_content_dbo/training_logs/training.log"
+        },
+        "harmful_content_vio": {
+            "metric": "0.9486",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-04-36.741643/harmful_content_vio/training_logs/training.log"
+        },
+        "llms4subjects": {
+            "metric": "0.6669",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-04-51.355315/llms4subjects/training_logs/training.log"
+        },
+        "sustaineval_classification": {
+            "metric": "0.5281",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-05-01.291234/sustaineval_classification/training_logs/training.log"
+        },
+        "sustaineval_regression": {
+            "metric": "0.4104",
+            "train_log_path": "/Users/juliawunderle/Desktop/outputs/2025-06-20/09-05-33.326233/sustaineval_regression/training_logs/training.log"
+        }
+    }
+]
