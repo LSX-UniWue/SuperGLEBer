@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 """
+Sorry for the mess, but this tries to wrap the entire SuperGLEBer benchmark including already existing structures and decisions.
+We just try to make it work on a system where we are not sure where inputs and outputs lie.
+There is also an already prebuilt docker image online https://github.com/LSX-UniWue/SuperGLEBer/pkgs/container/supergleber/441825626?tag=germeval25
+and the code is also already public: https://github.com/LSX-UniWue/SuperGLEBer/tree/germeval25
+So please rest assured that all our submissions will be reproducible by design 🙏
+
 Main script for SustainEval submission - Runs classification and/or regression tasks
 This script reproduces the predictions for SustainEval subtasks.
 
