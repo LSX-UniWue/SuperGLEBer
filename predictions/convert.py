@@ -470,12 +470,14 @@ def convert_harmful_task(model_name, output_dir, task_type):
     convert_task(model_name, output_dir, task_config)
 
 
-def convert_sustaineval_classification_task(model_name, output_dir):
+def convert_sustaineval_classification_task(model_name, output_dir, test_tsv_for_sustaineval=None):
     """Convert sustaineval classification predictions to submission format."""
 
     task_config = {
         "task_name": "sustaineval classification",
-        "prediction_file": f"predictions/results/{model_name}/sustaineval_classification.tsv",
+        "prediction_file": f"predictions/results/{model_name}/sustaineval_classification.tsv"
+        if test_tsv_for_sustaineval is None
+        else test_tsv_for_sustaineval,
         "test_file": "data/Germeval/2025/SustainEval/test.txt",
         "parser_func": parse_sustaineval_classification_predictions,
         "test_text_column": "combined_text",  # We'll create this column
@@ -570,12 +572,14 @@ def convert_sustaineval_classification_task(model_name, output_dir):
     custom_convert_sustaineval_classification(model_name, output_dir, task_config)
 
 
-def convert_sustaineval_regression_task(model_name, output_dir):
+def convert_sustaineval_regression_task(model_name, output_dir, test_tsv_for_sustaineval=None):
     """Convert sustaineval regression predictions to submission format."""
 
     task_config = {
         "task_name": "sustaineval regression",
-        "prediction_file": f"predictions/results/{model_name}/sustaineval_regression.tsv",
+        "prediction_file": f"predictions/results/{model_name}/sustaineval_regression.tsv"
+        if test_tsv_for_sustaineval is None
+        else test_tsv_for_sustaineval,
         "test_file": "data/Germeval/2025/SustainEval/test.txt",
         "parser_func": parse_sustaineval_regression_predictions,
         "test_text_column": "combined_text",  # We'll create this column
@@ -919,52 +923,91 @@ def create_harmful_content_submission_zip(output_dir, model_name, team_name="LSX
 
 def create_sustaineval_submission_zip(output_dir, model_name, team_name="LSX-UniWue"):
     """
-    Create submission zip file for sustaineval tasks according to guidelines.
+    Create separate submission zip files for each sustaineval subtask.
 
-    Should contain prediction_task_a.csv and prediction_task_b.csv
+    Creates separate zips for:
+    - prediction_task_a.csv (classification)
+    - prediction_task_b.csv (regression)
+
+    Each zip contains the prediction file and code folder as per submission guidelines.
     """
     model_output_dir = output_dir / model_name
 
-    # Check which sustaineval files exist
+    # Check which sustaineval files exist and create separate zips
     task_a_file = model_output_dir / "prediction_task_a.csv"
     task_b_file = model_output_dir / "prediction_task_b.csv"
 
-    available_files = []
-    if task_a_file.exists():
-        available_files.append(("prediction_task_a.csv", task_a_file))
-    if task_b_file.exists():
-        available_files.append(("prediction_task_b.csv", task_b_file))
+    created_zips = []
 
-    if not available_files:
+    # Create zip for task_a (classification) if it exists
+    if task_a_file.exists():
+        zip_filename = f"{team_name}_{model_name}_sustaineval_task_a.zip"
+        zip_path = model_output_dir / zip_filename
+
+        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
+            zipf.write(task_a_file, "prediction_task_a.csv")
+            print(f"Added {task_a_file.name} as prediction_task_a.csv to zip")
+
+            # Add the main.py script for reproduction
+            main_py_path = Path("main.py")
+            zipf.write(main_py_path, "code/main.py")
+
+            # Add source code files
+            src_files = ["src/", "data/Germeval/2025/SustainEval/", "requirements.txt"]
+
+            for src_path in src_files:
+                if os.path.exists(src_path):
+                    if os.path.isdir(src_path):
+                        for root, dirs, files in os.walk(src_path):
+                            for file in files:
+                                file_path = Path(root) / file
+                                rel_path = file_path.relative_to(".")
+                                zipf.write(file_path, f"code/{rel_path}")
+                    else:
+                        zipf.write(src_path, f"code/{src_path}")
+
+            print("Added source code to zip")
+
+        print(f"Created sustaineval task_a (classification) submission zip: {zip_path}")
+        created_zips.append("task_a")
+
+    # Create zip for task_b (regression) if it exists
+    if task_b_file.exists():
+        zip_filename = f"{team_name}_{model_name}_sustaineval_task_b.zip"
+        zip_path = model_output_dir / zip_filename
+
+        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
+            zipf.write(task_b_file, "prediction_task_b.csv")
+            print(f"Added {task_b_file.name} as prediction_task_b.csv to zip")
+
+            # Add the main.py script for reproduction
+            main_py_path = Path("main.py")
+            zipf.write(main_py_path, "code/main.py")
+
+            # Add source code files
+            src_files = ["src/", "data/Germeval/2025/SustainEval/", "requirements.txt"]
+
+            for src_path in src_files:
+                if os.path.exists(src_path):
+                    if os.path.isdir(src_path):
+                        for root, dirs, files in os.walk(src_path):
+                            for file in files:
+                                file_path = Path(root) / file
+                                rel_path = file_path.relative_to(".")
+                                zipf.write(file_path, f"code/{rel_path}")
+                    else:
+                        zipf.write(src_path, f"code/{src_path}")
+
+            print("Added source code to zip")
+
+        print(f"Created sustaineval task_b (regression) submission zip: {zip_path}")
+        created_zips.append("task_b")
+
+    if not created_zips:
         print(f"No sustaineval prediction files found for {model_name}")
         return
 
-    # Create submission zip file
-    zip_filename = f"{team_name}_{model_name}_sustaineval.zip"
-    zip_path = model_output_dir / zip_filename
-
-    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zipf:
-        for submission_filename, file_path in available_files:
-            zipf.write(file_path, submission_filename)
-            print(f"Added {file_path.name} as {submission_filename} to zip")
-
-        # Create a basic code folder with main.py (for evaluation phase)
-        main_py_content = """#!/usr/bin/env python3
-# Placeholder main.py for SustainEval submission
-# Replace this with your actual prediction code
-
-def main():
-    print("This is a placeholder main.py file")
-    print("Replace with your actual prediction code for evaluation phase")
-
-if __name__ == "__main__":
-    main()
-"""
-        zipf.writestr("code/main.py", main_py_content)
-        print("Added placeholder code/main.py to zip")
-
-    print(f"Created sustaineval submission zip: {zip_path}")
-    print(f"Contains {len(available_files)} task predictions + code folder")
+    print(f"Created {len(created_zips)} separate sustaineval submission zip files: {', '.join(created_zips)}")
 
 
 def create_llms4subjects_submission_zip(output_dir, model_name, team_name="LSX-UniWue"):
@@ -1083,6 +1126,9 @@ def main():
     parser.add_argument("--team-name", default="LSX-UniWue", help="Team name for submission files")
     parser.add_argument("--run-number", type=int, default=1, help="Run number for harmful content submissions (1-3)")
     parser.add_argument("--create-zips", action="store_true", help="Create submission zip files")
+    parser.add_argument(
+        "--test_tsv_for_sustaineval", default="predictions/results", help="Directory containing results"
+    )
 
     args = parser.parse_args()
 
@@ -1130,10 +1176,10 @@ def main():
             convert_harmful_task(model_name, output_dir, "vio")
 
         if args.task == "sustaineval_class" or args.task == "all":
-            convert_sustaineval_classification_task(model_name, output_dir)
+            convert_sustaineval_classification_task(model_name, output_dir, args.test_tsv_for_sustaineval)
 
         if args.task == "sustaineval_regr" or args.task == "all":
-            convert_sustaineval_regression_task(model_name, output_dir)
+            convert_sustaineval_regression_task(model_name, output_dir, args.test_tsv_for_sustaineval)
 
         if args.task == "llms4subjects" or args.task == "all":
             convert_llms4subjects_task(model_name, output_dir)
@@ -1148,7 +1194,7 @@ def main():
             if any(args.task in ["harmful_c2a", "harmful_dbo", "harmful_vio", "all"] for _ in [1]):
                 create_harmful_content_submission_zip(output_dir, model_name, args.team_name, args.run_number)
 
-            # Create sustaineval submission zip
+            # Create sustaineval submission zips (separate for each subtask)
             if any(args.task in ["sustaineval_class", "sustaineval_regr", "all"] for _ in [1]):
                 create_sustaineval_submission_zip(output_dir, model_name, args.team_name)
 
