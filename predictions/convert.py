@@ -377,7 +377,7 @@ def convert_task(model_name, output_dir, task_config):
     model_output_dir.mkdir(exist_ok=True)
 
     output_path = model_output_dir / output_file
-    submission_df.to_csv(output_path, index=False)
+    submission_df.to_csv(output_path, index=False, sep=";")
 
     print(f"Saved submission file: {output_path}")
     print(f"Submission contains {len(submission_df)} entries")
