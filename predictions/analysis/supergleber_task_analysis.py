@@ -165,7 +165,7 @@ class SuperGLEBerAnalyzer:
         top_existing = discrimination_df[discrimination_df["task_type"] == "existing"].nlargest(10, "std")
         y_pos = np.arange(len(top_existing))
         plt.barh(y_pos, top_existing["std"], alpha=0.7, color="steelblue")
-        plt.yticks(y_pos, top_existing["task"])
+        plt.yticks(y_pos, top_existing["task"].tolist())
         plt.xlabel("Standard Deviation")
         plt.title("Top Discriminating Existing Tasks")
         plt.tight_layout()
@@ -177,7 +177,7 @@ class SuperGLEBerAnalyzer:
         top_new = discrimination_df[discrimination_df["task_type"] == "new"].nlargest(10, "std")
         y_pos = np.arange(len(top_new))
         plt.barh(y_pos, top_new["std"], alpha=0.7, color="orange")
-        plt.yticks(y_pos, top_new["task"])
+        plt.yticks(y_pos, top_new["task"].tolist())
         plt.xlabel("Standard Deviation")
         plt.title("Top Discriminating New Tasks")
         plt.tight_layout()
@@ -297,7 +297,9 @@ class SuperGLEBerAnalyzer:
 
         # 2. Box plots comparison
         plt.figure(figsize=(10, 6))
-        plt.boxplot([existing_scores, new_scores], labels=["Existing", "New"])
+        box_data = [existing_scores, new_scores]
+        bp = plt.boxplot(box_data)
+        plt.xticks([1, 2], ["Existing", "New"])
         plt.ylabel("Performance Score")
         plt.title("Performance Score Distribution Comparison")
         plt.tight_layout()
@@ -421,16 +423,16 @@ class SuperGLEBerAnalyzer:
         # Create data matrix
         data_matrix = pd.DataFrame(task_data)
 
-        # Standardize the data
+        # Standardize the data for task clustering
         scaler = StandardScaler()
-        data_scaled = scaler.fit_transform(data_matrix.T)  # Transpose to have tasks as rows
+        data_scaled_tasks = scaler.fit_transform(data_matrix.T)  # Transpose to have tasks as rows
 
-        # Perform hierarchical clustering
-        linkage_matrix = linkage(data_scaled, method="ward")
+        # Perform hierarchical clustering for tasks
+        linkage_matrix_tasks = linkage(data_scaled_tasks, method="ward")
 
-        # Create dendrogram
+        # Create task dendrogram
         plt.figure(figsize=(15, 10))
-        dendrogram(linkage_matrix, labels=data_matrix.columns, leaf_rotation=90)
+        dendrogram(linkage_matrix_tasks, labels=data_matrix.columns, leaf_rotation=90)
         plt.title("Task Clustering Based on Model Performance Patterns")
         plt.xlabel("Tasks")
         plt.ylabel("Distance")
@@ -446,12 +448,29 @@ class SuperGLEBerAnalyzer:
         plt.savefig("predictions/analysis/task_clustering.png", dpi=300, bbox_inches="tight")
         plt.show()
 
-        # K-means clustering
+        # Standardize the data for model clustering
+        data_scaled_models = scaler.fit_transform(data_matrix)  # Models as rows
+
+        # Perform hierarchical clustering for models
+        linkage_matrix_models = linkage(data_scaled_models, method="ward")
+
+        # Create model dendrogram
+        plt.figure(figsize=(15, 10))
+        model_labels = [model.split("/")[-1] if "/" in model else model for model in self.merged_df["model"]]
+        dendrogram(linkage_matrix_models, labels=model_labels, leaf_rotation=90)
+        plt.title("Model Clustering Based on Task Performance Patterns")
+        plt.xlabel("Models")
+        plt.ylabel("Distance")
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/model_clustering.png", dpi=300, bbox_inches="tight")
+        plt.show()
+
+        # K-means clustering for tasks
         n_clusters = 5
         kmeans = KMeans(n_clusters=n_clusters, random_state=42)
-        cluster_labels = kmeans.fit_predict(data_scaled)
+        cluster_labels = kmeans.fit_predict(data_scaled_tasks)
 
-        # Analyze clusters
+        # Analyze task clusters
         cluster_df = pd.DataFrame(
             {
                 "task": data_matrix.columns,
@@ -467,7 +486,25 @@ class SuperGLEBerAnalyzer:
             print(f"  New tasks: {cluster_tasks[cluster_tasks['task_type'] == 'new']['task'].tolist()}")
             print(f"  Existing tasks: {cluster_tasks[cluster_tasks['task_type'] == 'existing']['task'].tolist()}")
 
-        return cluster_df
+        # K-means clustering for models
+        kmeans_models = KMeans(n_clusters=min(n_clusters, len(self.merged_df)), random_state=42)
+        model_cluster_labels = kmeans_models.fit_predict(data_scaled_models)
+
+        # Analyze model clusters
+        model_cluster_df = pd.DataFrame(
+            {
+                "model": model_labels,
+                "cluster": model_cluster_labels,
+            }
+        )
+
+        print("\nModel clusters:")
+        for i in range(min(n_clusters, len(self.merged_df))):
+            cluster_models = model_cluster_df[model_cluster_df["cluster"] == i]
+            print(f"\nCluster {i}:")
+            print(f"  Models: {cluster_models['model'].tolist()}")
+
+        return cluster_df, model_cluster_df
 
     def perform_pca_analysis(self):
         """Perform PCA to understand task relationships in lower dimensional space."""
@@ -610,7 +647,7 @@ class SuperGLEBerAnalyzer:
         corr_df = self.analyze_task_correlations()
         difficulty_df = self.analyze_performance_distributions()
         rank_corr = self.analyze_model_ranking_consistency()
-        cluster_df = self.perform_task_clustering()
+        cluster_df, model_cluster_df = self.perform_task_clustering()
         pca, pca_result = self.perform_pca_analysis()
 
         # Generate summary report
@@ -629,6 +666,7 @@ class SuperGLEBerAnalyzer:
         print("- performance_distributions_stats.png")
         print("- ranking_consistency.png")
         print("- task_clustering.png")
+        print("- model_clustering.png")
         print("- pca_explained_variance.png")
         print("- pca_task_loadings.png")
         print("- pca_models.png")
@@ -639,6 +677,7 @@ class SuperGLEBerAnalyzer:
             "difficulty": difficulty_df,
             "rank_correlations": rank_corr,
             "clusters": cluster_df,
+            "model_clusters": model_cluster_df,
             "pca": pca,
             "pca_result": pca_result,
         }
