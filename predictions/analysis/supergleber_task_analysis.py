@@ -97,6 +97,9 @@ class SuperGLEBerAnalyzer:
         """Calculate how well each task discriminates between models."""
         print("\nCalculating task discrimination power...")
 
+        if self.merged_df is None:
+            raise ValueError("Data must be loaded first. Call load_and_preprocess_data().")
+
         discrimination_data = []
 
         # Calculate for existing tasks
@@ -133,47 +136,52 @@ class SuperGLEBerAnalyzer:
 
         discrimination_df = pd.DataFrame(discrimination_data)
 
-        # Create visualization
-        fig, axes = plt.subplots(2, 2, figsize=(15, 12))
-        fig.suptitle("Task Discrimination Power Analysis", fontsize=16)
+        # Create individual plots
 
-        # Standard deviation comparison
-        ax1 = axes[0, 0]
-        discrimination_df.boxplot(column="std", by="task_type", ax=ax1)
-        ax1.set_title("Standard Deviation by Task Type")
-        ax1.set_xlabel("Task Type")
-        ax1.set_ylabel("Standard Deviation")
-
-        # Coefficient of variation
-        ax2 = axes[0, 1]
-        discrimination_df.boxplot(column="cv", by="task_type", ax=ax2)
-        ax2.set_title("Coefficient of Variation by Task Type")
-        ax2.set_xlabel("Task Type")
-        ax2.set_ylabel("CV (std/mean)")
-
-        # Top discriminating tasks
-        ax3 = axes[1, 0]
-        top_existing = discrimination_df[discrimination_df["task_type"] == "existing"].nlargest(10, "std")
-        top_new = discrimination_df[discrimination_df["task_type"] == "new"].nlargest(10, "std")
-
-        y_pos = np.arange(len(top_existing))
-        ax3.barh(y_pos, top_existing["std"], alpha=0.7, label="Existing")
-        ax3.set_yticks(y_pos)
-        ax3.set_yticklabels(top_existing["task"], fontsize=8)
-        ax3.set_xlabel("Standard Deviation")
-        ax3.set_title("Top Discriminating Existing Tasks")
-
-        # Top new tasks
-        ax4 = axes[1, 1]
-        y_pos = np.arange(len(top_new))
-        ax4.barh(y_pos, top_new["std"], alpha=0.7, label="New", color="orange")
-        ax4.set_yticks(y_pos)
-        ax4.set_yticklabels(top_new["task"], fontsize=8)
-        ax4.set_xlabel("Standard Deviation")
-        ax4.set_title("Top Discriminating New Tasks")
-
+        # 1. Standard deviation comparison
+        plt.figure(figsize=(10, 6))
+        discrimination_df.boxplot(column="std", by="task_type")
+        plt.title("Standard Deviation by Task Type")
+        plt.xlabel("Task Type")
+        plt.ylabel("Standard Deviation")
+        plt.suptitle("")  # Remove default suptitle
         plt.tight_layout()
-        plt.savefig("predictions/analysis/task_discrimination_power.png", dpi=300, bbox_inches="tight")
+        plt.savefig("predictions/analysis/task_discrimination_std.png", dpi=300, bbox_inches="tight")
+        plt.show()
+
+        # 2. Coefficient of variation
+        plt.figure(figsize=(10, 6))
+        discrimination_df.boxplot(column="cv", by="task_type")
+        plt.title("Coefficient of Variation by Task Type")
+        plt.xlabel("Task Type")
+        plt.ylabel("CV (std/mean)")
+        plt.suptitle("")  # Remove default suptitle
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/task_discrimination_cv.png", dpi=300, bbox_inches="tight")
+        plt.show()
+
+        # 3. Top discriminating existing tasks
+        plt.figure(figsize=(12, 8))
+        top_existing = discrimination_df[discrimination_df["task_type"] == "existing"].nlargest(10, "std")
+        y_pos = np.arange(len(top_existing))
+        plt.barh(y_pos, top_existing["std"], alpha=0.7, color="steelblue")
+        plt.yticks(y_pos, top_existing["task"])
+        plt.xlabel("Standard Deviation")
+        plt.title("Top Discriminating Existing Tasks")
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/task_discrimination_existing.png", dpi=300, bbox_inches="tight")
+        plt.show()
+
+        # 4. Top discriminating new tasks
+        plt.figure(figsize=(12, 8))
+        top_new = discrimination_df[discrimination_df["task_type"] == "new"].nlargest(10, "std")
+        y_pos = np.arange(len(top_new))
+        plt.barh(y_pos, top_new["std"], alpha=0.7, color="orange")
+        plt.yticks(y_pos, top_new["task"])
+        plt.xlabel("Standard Deviation")
+        plt.title("Top Discriminating New Tasks")
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/task_discrimination_new.png", dpi=300, bbox_inches="tight")
         plt.show()
 
         return discrimination_df
@@ -181,6 +189,9 @@ class SuperGLEBerAnalyzer:
     def analyze_task_correlations(self):
         """Analyze correlations between new and existing tasks."""
         print("\nAnalyzing task correlations...")
+
+        if self.merged_df is None:
+            raise ValueError("Data must be loaded first. Call load_and_preprocess_data().")
 
         # Prepare correlation matrix data
         correlation_data = {}
@@ -255,6 +266,9 @@ class SuperGLEBerAnalyzer:
         """Analyze performance distributions across task types."""
         print("\nAnalyzing performance distributions...")
 
+        if self.merged_df is None:
+            raise ValueError("Data must be loaded first. Call load_and_preprocess_data().")
+
         # Collect all scores
         existing_scores = []
         new_scores = []
@@ -267,27 +281,30 @@ class SuperGLEBerAnalyzer:
             scores = pd.to_numeric(self.merged_df[task], errors="coerce").dropna()
             new_scores.extend(scores.tolist())
 
-        # Create comparison plots
-        fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-        fig.suptitle("Performance Distribution Analysis", fontsize=16)
+        # Create individual plots
 
-        # Distribution comparison
-        ax1 = axes[0, 0]
-        ax1.hist(existing_scores, alpha=0.7, label="Existing Tasks", bins=30)
-        ax1.hist(new_scores, alpha=0.7, label="New Tasks", bins=30)
-        ax1.set_xlabel("Performance Score")
-        ax1.set_ylabel("Frequency")
-        ax1.set_title("Score Distributions")
-        ax1.legend()
+        # 1. Distribution comparison
+        plt.figure(figsize=(12, 6))
+        plt.hist(existing_scores, alpha=0.7, label="Existing Tasks", bins=30)
+        plt.hist(new_scores, alpha=0.7, label="New Tasks", bins=30)
+        plt.xlabel("Performance Score")
+        plt.ylabel("Frequency")
+        plt.title("Performance Score Distributions")
+        plt.legend()
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/performance_distributions_histogram.png", dpi=300, bbox_inches="tight")
+        plt.show()
 
-        # Box plots
-        ax2 = axes[0, 1]
-        ax2.boxplot([existing_scores, new_scores], labels=["Existing", "New"])
-        ax2.set_ylabel("Performance Score")
-        ax2.set_title("Score Distribution Comparison")
+        # 2. Box plots comparison
+        plt.figure(figsize=(10, 6))
+        plt.boxplot([existing_scores, new_scores], labels=["Existing", "New"])
+        plt.ylabel("Performance Score")
+        plt.title("Performance Score Distribution Comparison")
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/performance_distributions_boxplot.png", dpi=300, bbox_inches="tight")
+        plt.show()
 
-        # Task difficulty (mean scores)
-        ax3 = axes[1, 0]
+        # Task difficulty (mean scores) preparation
         task_means = []
         task_names = []
         task_types = []
@@ -308,25 +325,28 @@ class SuperGLEBerAnalyzer:
 
         difficulty_df = pd.DataFrame({"task": task_names, "mean_score": task_means, "task_type": task_types})
 
-        difficulty_df.boxplot(column="mean_score", by="task_type", ax=ax3)
-        ax3.set_title("Task Difficulty (Mean Scores)")
-        ax3.set_xlabel("Task Type")
-        ax3.set_ylabel("Mean Performance")
+        # 3. Task difficulty comparison
+        plt.figure(figsize=(10, 6))
+        difficulty_df.boxplot(column="mean_score", by="task_type")
+        plt.title("Task Difficulty (Mean Scores)")
+        plt.xlabel("Task Type")
+        plt.ylabel("Mean Performance")
+        plt.suptitle("")  # Remove default suptitle
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/performance_distributions_difficulty.png", dpi=300, bbox_inches="tight")
+        plt.show()
 
-        # Performance range comparison
-        ax4 = axes[1, 1]
+        # 4. Performance statistics comparison
+        plt.figure(figsize=(12, 6))
         existing_stats = pd.Series(existing_scores).describe()
         new_stats = pd.Series(new_scores).describe()
-
         stats_comparison = pd.DataFrame({"Existing": existing_stats, "New": new_stats})
-
-        stats_comparison.loc[["min", "25%", "50%", "75%", "max"]].plot(kind="bar", ax=ax4)
-        ax4.set_title("Performance Statistics Comparison")
-        ax4.set_ylabel("Performance Score")
-        ax4.tick_params(axis="x", rotation=45)
-
+        stats_comparison.loc[["min", "25%", "50%", "75%", "max"]].plot(kind="bar")
+        plt.title("Performance Statistics Comparison")
+        plt.ylabel("Performance Score")
+        plt.xticks(rotation=45)
         plt.tight_layout()
-        plt.savefig("predictions/analysis/performance_distributions.png", dpi=300, bbox_inches="tight")
+        plt.savefig("predictions/analysis/performance_distributions_stats.png", dpi=300, bbox_inches="tight")
         plt.show()
 
         return difficulty_df
@@ -334,6 +354,9 @@ class SuperGLEBerAnalyzer:
     def analyze_model_ranking_consistency(self):
         """Analyze how consistent model rankings are across tasks."""
         print("\nAnalyzing model ranking consistency...")
+
+        if self.merged_df is None:
+            raise ValueError("Data must be loaded first. Call load_and_preprocess_data().")
 
         # Calculate rankings for each task
         rankings = {}
@@ -382,6 +405,9 @@ class SuperGLEBerAnalyzer:
     def perform_task_clustering(self):
         """Perform clustering analysis on tasks based on model performance patterns."""
         print("\nPerforming task clustering analysis...")
+
+        if self.merged_df is None:
+            raise ValueError("Data must be loaded first. Call load_and_preprocess_data().")
 
         # Prepare data matrix (models x tasks)
         task_data = {}
@@ -447,6 +473,9 @@ class SuperGLEBerAnalyzer:
         """Perform PCA to understand task relationships in lower dimensional space."""
         print("\nPerforming PCA analysis...")
 
+        if self.merged_df is None:
+            raise ValueError("Data must be loaded first. Call load_and_preprocess_data().")
+
         # Prepare data matrix
         task_data = {}
         all_tasks = self.existing_tasks + self.new_tasks
@@ -466,43 +495,47 @@ class SuperGLEBerAnalyzer:
         pca = PCA()
         pca_result = pca.fit_transform(data_scaled)
 
-        # Create PCA plots
-        fig, axes = plt.subplots(1, 3, figsize=(18, 6))
+        # Create individual plots
 
-        # Explained variance
-        ax1 = axes[0]
-        ax1.plot(np.cumsum(pca.explained_variance_ratio_))
-        ax1.set_xlabel("Number of Components")
-        ax1.set_ylabel("Cumulative Explained Variance")
-        ax1.set_title("PCA Explained Variance")
-        ax1.grid(True)
+        # 1. Explained variance
+        plt.figure(figsize=(10, 6))
+        plt.plot(np.cumsum(pca.explained_variance_ratio_), marker="o")
+        plt.xlabel("Number of Components")
+        plt.ylabel("Cumulative Explained Variance")
+        plt.title("PCA Explained Variance")
+        plt.grid(True)
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/pca_explained_variance.png", dpi=300, bbox_inches="tight")
+        plt.show()
 
-        # Task loadings in PC1 vs PC2
-        ax2 = axes[1]
+        # 2. Task loadings in PC1 vs PC2
+        plt.figure(figsize=(14, 10))
         loadings = pca.components_[:2].T
         for i, task in enumerate(data_matrix.columns):
             color = "red" if task in self.new_tasks else "blue"
-            ax2.scatter(loadings[i, 0], loadings[i, 1], c=color, alpha=0.7)
-            ax2.annotate(task, (loadings[i, 0], loadings[i, 1]), fontsize=8, alpha=0.7)
+            plt.scatter(loadings[i, 0], loadings[i, 1], c=color, alpha=0.7, s=50)
+            plt.annotate(task, (loadings[i, 0], loadings[i, 1]), fontsize=8, alpha=0.8)
 
-        ax2.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)")
-        ax2.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)")
-        ax2.set_title("Task Loadings in PCA Space")
-        ax2.grid(True)
-
-        # Model positions in PC space
-        ax3 = axes[2]
-        ax3.scatter(pca_result[:, 0], pca_result[:, 1], alpha=0.7)
-        for i, model in enumerate(self.merged_df["model"]):
-            ax3.annotate(model.split("/")[-1][:10], (pca_result[i, 0], pca_result[i, 1]), fontsize=6, alpha=0.7)
-
-        ax3.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)")
-        ax3.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)")
-        ax3.set_title("Models in PCA Space")
-        ax3.grid(True)
-
+        plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)")
+        plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)")
+        plt.title("Task Loadings in PCA Space (Red=New, Blue=Existing)")
+        plt.grid(True)
         plt.tight_layout()
-        plt.savefig("predictions/analysis/pca_analysis.png", dpi=300, bbox_inches="tight")
+        plt.savefig("predictions/analysis/pca_task_loadings.png", dpi=300, bbox_inches="tight")
+        plt.show()
+
+        # 3. Model positions in PC space
+        plt.figure(figsize=(12, 8))
+        plt.scatter(pca_result[:, 0], pca_result[:, 1], alpha=0.7, s=50)
+        for i, model in enumerate(self.merged_df["model"]):
+            plt.annotate(model.split("/")[-1][:15], (pca_result[i, 0], pca_result[i, 1]), fontsize=8, alpha=0.7)
+
+        plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)")
+        plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)")
+        plt.title("Models in PCA Space")
+        plt.grid(True)
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/pca_models.png", dpi=300, bbox_inches="tight")
         plt.show()
 
         return pca, pca_result
@@ -512,6 +545,9 @@ class SuperGLEBerAnalyzer:
         print("\n" + "=" * 60)
         print("SUPERGLEBER TASK ANALYSIS SUMMARY REPORT")
         print("=" * 60)
+
+        if self.merged_df is None:
+            raise ValueError("Data must be loaded first. Call load_and_preprocess_data().")
 
         print(f"\nDATASET OVERVIEW:")
         print(f"- Models analyzed: {len(self.merged_df)}")
@@ -580,7 +616,22 @@ class SuperGLEBerAnalyzer:
         # Generate summary report
         self.generate_summary_report(discrimination_df, corr_df, difficulty_df)
 
-        print(f"\nAnalysis complete! All plots saved to predictions/analysis/")
+        print(f"\nAnalysis complete! All individual plots saved to predictions/analysis/")
+        print("Generated plots:")
+        print("- task_discrimination_std.png")
+        print("- task_discrimination_cv.png")
+        print("- task_discrimination_existing.png")
+        print("- task_discrimination_new.png")
+        print("- task_correlations_heatmap.png")
+        print("- performance_distributions_histogram.png")
+        print("- performance_distributions_boxplot.png")
+        print("- performance_distributions_difficulty.png")
+        print("- performance_distributions_stats.png")
+        print("- ranking_consistency.png")
+        print("- task_clustering.png")
+        print("- pca_explained_variance.png")
+        print("- pca_task_loadings.png")
+        print("- pca_models.png")
 
         return {
             "discrimination": discrimination_df,
