@@ -1,426 +1,434 @@
-__label__LAGE:positiv	Der Garten ist sehr ruhig, man kann nach einer Mahlzeit entspannen.
-__label__HOTEL:positiv __label__SERVICE:positiv	Das Personal kennt die Bedeutung von höflichkeit kostet kein Geld.
-__label__LAGE:positiv __label__SERVICE:positiv __label__ZIMMER:negativ __label__ZIMMER:positiv	Preis-/Leistungsverhältnis: - im Vergleich zu den Preisen im $HOTEL$ Berlin deutlich zu teuer Zimmer: + Sauberkeit + Größe - keine Klimaanlage im Zimmer - Insektengitter nicht in allen Fenstern/Zimmer ohne Insektengitter - zu wenig Ablagen im Bad - keine Befestigungsmöglichkeit für die Duschbrause in Kopfhöhe - kein Dauerstrom für den Kühlschrank - schlechter Zustand der schwarzen Stühle Lage: + Ausblick auf die Altstadt + Nähe zur Altstadt Service: + rascher zuvorkommender Service + rasche Ergänzung.
-__label__LAGE:positiv	Die kostenlosen Hotelparkplätze waren meist besetzt, aber in Umgebung gibt es genügend Alternativen.
-__label__HOTEL:positiv	Alles in allem ein toller Aufenthalt.
-__label__SERVICE:positiv	Der Empfang war sehr freundlich und zuvorkommend und wir bekamen ein Zimmer im ersten Stock, leider nach vorne zu einer recht stark befahrenen Straße raus.
-__label__HOTEL:positiv	Die Lobby und die Lounge/Bar war sehr modern eingerichtet.
-__label__SERVICE:positiv __label__ZIMMER:positiv	Alle Angestellten sind sehr zuvorkommend und unserer Bitte, ein ruhiges Zimmer nach hinten zu bekommen, wurde sofort freundlich entsprochen.
-__label__ESSEN&TRINKEN:negativ __label__ESSEN&TRINKEN:positiv	Frühstück auch sehr gut, nur zu wenig Gemüse/Obst, aber nicht jeder ist ein Vegetarier wie ich.
-__label__HOTEL:positiv	So weit, so gut.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Mittagessen in Buffetform sehr gut und für jeden etwas dabei! Auch die Zimmer sehr sauber und sehr ruhig! Perfekter Service! Jederzeit zu empfehlen!!
-__label__LAGE:neutral	Wenn die etwas außerhalb liegende Lage nicht stört: buchen!
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Das Frühstück ist reichhaltig und der Service freundlich und hilfsbereit.
-__label__ZIMMER:negativ	2.Es wäre schön, wenn im Zimmer ein paar Bilder hängen würden, gibt dann ein bisschen mehr Flair.
-__label__LAGE:positiv	Die Lage und Verkehrsanbindung ist sehr gut.
-__label__LAGE:positiv	Hallo, die Lage ist ausgezeichnet, man geht nur über die Brücke und schon ist man in der Stadt.
-__label__HOTEL:positiv	Wenn man hier in $CITY$ was zu tun hat ist das hier das richtige Hotel.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Es gibt einen super Service und das Frühstück ist vorzüglich.
-__label__HOTEL:neutral	Eine Reservation war nicht notwendig.
-__label__HOTEL:positiv	Können wir gerne weiterempfehlen! Freundliche Grüße aus Riedlingen!
-__label__HOTEL:positiv	Parkplätze hat es ebenfalls genügend ums Hotel rum.
-__label__ZIMMER:negativ	Duschvorhang geht m.E. garnicht mehr! Außerdem wäre eine Zubereitungsmöglichkeit für Kaffee/ Tee wünschenswert.
-__label__ZIMMER:positiv	Es war tadellos sauber und sehr ruhig - es ist so gut, dass wir schliefen bei offenem Fenster in der Nacht hochgefahren und nicht so viel Verkehr hören oder mit dem Zug hören.
-__label__ZIMMER:neutral	Die Zimmer sind zweckmäßig eingerichtet.
-__label__ESSEN&TRINKEN:negativ	Ich hatte EZ gebucht und hatte 2 Betten ;-) Das Frühstücksbuffett war sehr überschaubar und die Quantität sowie die Qualität ist auf keinen Fall 4 Sterne wert.
-__label__HOTEL:positiv	Tolle Übernachtung.
-__label__LAGE:negativ	Hotel ist ein am Rande der Stadt gelegen, so dass die Sehenswürdigkeiten unterwegs ist kann ein wenig nervig sein kann.
-__label__HOTEL:positiv __label__LAGE:positiv __label__ZIMMER:positiv	Die modernen, gut ausgestatteten Zimmer, die großzügige Lobby, die Tiefgarage und nicht zuletzt die Autobahnanbindung machen dieses Hotel zu einer guten Businessadresse.
-__label__HOTEL:neutral	4* angemessen.
-__label__HOTEL:positiv	In Summe waren wir wirklich zufrieden und würden wieder kommen.
-__label__ZIMMER:positiv	Die Betten sind komfortabel und bequem und die Zimmer schön und modern eingerichtet.
-__label__HOTEL:positiv	Sehr gut, damit hat man immer ein super Erlebnis und sehr guten $HOTEL$ Standard.
-__label__ESSEN&TRINKEN:positiv	Frühstücksbuget ist lecker.
-__label__ZIMMER:positiv	Die Betten sind super.
-__label__ZIMMER:negativ	Bei meinem Einzug in das Zimmer mußte ich feststellen, dass auf einem der Betten unter einen dünnem Bettlaken.
-__label__ESSEN&TRINKEN:neutral	Frühstück gab es morgens in Buffetform im Restaurant Alte Ziegelei.
-__label__ESSEN&TRINKEN:neutral __label__SERVICE:positiv	Personal ist freundlich und hilfsbereit, Frühstück ist okay.
-__label__SERVICE:positiv	Personal im Hotel sehr zuvorkommend, hilfreich und freundlich.
-__label__HOTEL:neutral	Wir übernachteten im $HOTEL$ in der Marc-Aurel-Suite.
-__label__SERVICE:positiv	Der Service ist freundlich und sehr aufmerksam.
-__label__ESSEN&TRINKEN:positiv __label__ZIMMER:positiv	Hervorragendes Frühstück mit laktosefreier Auswahl Tolle Kissen! Nicht zu weich!
-__label__LAGE:neutral	Das Hotel liegt Zentral in der Altstadt von $CITY$.
-__label__LAGE:positiv	Die Lage in Bahnhof- und Altstadtnähe sind sehr komfortabel.
-__label__LAGE:positiv	Der $CITY$er Dom sowie alle Sehenswürdigkeiten liegen in unmittelbarer Nähe.
-__label__HOTEL:positiv	WLAN kostenfrei und recht schnell.
-__label__ESSEN&TRINKEN:positiv	Das Frühstück war ausreichend gut aber nichts besonderes.
-__label__LAGE:neutral __label__LAGE:positiv	Das Hotel liegt etwas am Rand der Stadt, die Autoanbindung ist super, die Bus und Bahnanbindung geht auch.
-__label__ZIMMER:positiv	Superschönes Zimmer mit großem Bad.
-__label__ESSEN&TRINKEN:positiv __label__LAGE:positiv	Das Hotel liegt sehr gut in der Altstadt in der Nähe der Steinernen Brücke und neben dem Dom in einem Altbaucarré mit Innenhof in dem der gute Biergarten des Hauses liegt.
-__label__SERVICE:positiv	Es ist ein Familienbetrieb, und Hotel und die Angestellten waren alle sehr nett und hilfsbereit - wir haben nichts auszusetzen.
-__label__LAGE:positiv	Tolles Hotel an sehr zentraler Lage einmalig direkt an der Donau gelegen, wirklich mit Postkartenblick.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:negativ	Das Frühstück entsprach den Erwartungen, man nimmt es allerdings in Gaststuben ein, die teilweise mit rustikaler Deko überladen sind.
-__label__HOTEL:positiv	Ich werde sicherlich wieder in diesem Hotel wohnen, wenn ich in der Gegend bin.
-__label__ESSEN&TRINKEN:positiv	Das Frühstücksbuffet ist toll und sehr viel Auswahl.
-__label__HOTEL:neutral __label__SERVICE:positiv	Der Parkplatz ist zu finden in der Tiefgarage parken neben dem Hotel. Traditionelle Gastfreundschaft in einer historischen Umgebung.
-__label__HOTEL:positiv	Das Preis/Leistungsverhältnis ist top.
-__label__ESSEN&TRINKEN:positiv	Das Frühstück ist vielfältig und gut.
-__label__ESSEN&TRINKEN:neutral	Das Frühstück war angemessen. .
-__label__ESSEN&TRINKEN:positiv	Das Frühstück, ist reichhaltig und vielfältig und kann auch in dem romantischem Innenhof eingenommen werden, wie auch die anderen Mahlzeiten.
-__label__HOTEL:negativ	Leider ist das Hotel nicht wirklich gepflegt.
-__label__ZIMMER:positiv	sehr groszügige Suiten mit sehr schönem und sehr sauberen Badezimmer sehr groß Badewanne super mit TV die Bar sowie die Terrasse sind okay eine Tiefgarage ist auch vorhanden.
-__label__HOTEL:positiv	Dies ist eines der besten Hotels, in denen ich je war.
-__label__LAGE:positiv	Das Hotel liegt günstig zur Autobahn.
-__label__HOTEL:negativ	Ein Geschmack der lange vorbei ist.
-__label__LAGE:positiv	Das Hotel ist direkt am Bahnhof gelegen und zu Fuss ist die Altstadt in ca. 10 min. zu ereichen.
-__label__HOTEL:positiv __label__ZIMMER:positiv	Der Innenhof zu sein scheint eines der Sehenswürdigkeiten, einige Gruppe Führungen hier. Hotel ist schön und die Zimmer sind geräumig.
-__label__LAGE:positiv	Und die Lage ist einfach nur mega besser hätte es gar nicht mehr sein können.
-__label__SERVICE:positiv	Der Service war vorbildlich.
-__label__ZIMMER:positiv	Zimmer sind geräumig und moder neingerichtet.
-__label__SERVICE:positiv __label__ZIMMER:positiv	Auch der Service im Hotel war sehr freundlich und die Mini-Bar inklusive.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv	Frühstücken konnte man in dem eleganten Speisesaal oder wahlweise im wunderschönen Biergarten.
-__label__SERVICE:positiv	Die Rezeption erfüllte jeden Wunsch, das Housekeeping arbeitete leise und gründlich.
-__label__LAGE:positiv __label__SERVICE:positiv	Beim Insel Hotel besticht zunächst vor allem die sehr schöne Lage und im übrigen die Professionalität.
-__label__SERVICE:positiv	Danke , liebes $HOTEL$-Team, für den schönen Aufenthalt!
-__label__LAGE:positiv	Das Hotel ist zentral gelegen.
-__label__ESSEN&TRINKEN:positiv	Vorallem das Frühstücksbuffet war klasse.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv __label__SERVICE:positiv	Das Frühstücksangebot war gut und immer reichlich vorhanden, netter Frühstücksraum und freundliches Frühstückspersonal.
-__label__HOTEL:neutral	Wir buchten 3 Übernachtungen mit Frühstück und Donauschifffahrt Weltenburg als Gesamtpaket.
-__label__LAGE:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Lage sehr zentral , aber trotzdem Ruhig , Personal freundlich und Aufmerksam , Zimmer hell, freundlich und sauber.
-__label__HOTEL:positiv	Es ist immer wieder angenehm, hier auch nur für einen kurzen Aufenthalt einzuchecken.
-__label__HOTEL:neutral	Für das was man zahlt in Ordnung.
-__label__LAGE:neutral	Zur Innenstadt von $CITY$ läuft man gut 30 Minuten 😥 aber nach einem anstrengenden Arbeitstag ist Bewegung gut.
-__label__LAGE:negativ	Standort nicht zentrumsnah.
-__label__LAGE:negativ	Zimmer nach vorne zum Eingang sind auch nicht empfehlenswert, weil sich hier die rauchenden (und auch lärmenden Gäste) aufhalten Im Prinzip ist das Hotel echt prima mit schönen Zimmern, leider eine völlige Fehlkonstruktion.
-__label__LAGE:positiv	Viele Restaurant zu Fuß erreichbar.
-__label__ZIMMER:positiv	Alles da was man braucht - und mehr: Mineralwasser kostenlos auf dem Zimmer - Gutschein für ein Getränk an der Bar.
-__label__SERVICE:neutral	Daraufhin haben wir storniert- Antwort durch Corona kann es länger zur Rückzahlung dauern.
-__label__SERVICE:positiv	Als wir eintrafen stand im Zimmer schon auf einer Decke ein Hundenapf mit frischem Wasser bereit, was nach der langen Anfahrt direkt angenommen wurde.
-__label__LAGE:positiv __label__ZIMMER:positiv	Geräumige, saubere und ruhige Zimmer trotz unmittelbarer Nähe zur A 93, gut funktionierende Klimanlage, dabei trotzdem zu öffnende Fenster.
-__label__ESSEN&TRINKEN:positiv __label__LAGE:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Sehr gutes Frühstücksbuffet, guter Service, saubere Zimmer und natürlich phantastischer Lage! Wir kommen sicherlich wieder.
-__label__ZIMMER:negativ	Uns hat ARTE und ein französischer Sender gefehlt.
-__label__HOTEL:positiv	WLAN gratis dabei.
-__label__ZIMMER:positiv	Schöne saubere Zimmer.
-__label__ESSEN&TRINKEN:positiv	Das Frühstücksbuffet war sehr gut.
-__label__LAGE:positiv	In der Nacht ist es auch bei offenem Fenster ruhig.
-__label__SERVICE:positiv	Das Personal ist ausgesprochen freundlich, entspannt und hilfsbereit.
-__label__ESSEN&TRINKEN:positiv	In der Minibar durfte man sich sogar kostenlos an den alkoholfreien Getränken bedienen.
-__label__SERVICE:positiv	Personal überaus freundlich und hilfsbereit!
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv __label__LAGE:positiv __label__SERVICE:positiv	- nettes Personal - gute Lage - Tiefgarage vorhanden - Restaurant mit guter Küche - schöne Bar mit ausreichenden Sitzgelegenheiten - schöne Tagungsräume mit guter Ausstattung - sehr flexibel bei Sonderwünschen - immer gute Angebote - moderne Einrichtung - sehr gute geeignet für Tagungen und Seminare.
-__label__ZIMMER:positiv	Es sind genügend Ablageflächen und Schränke vorhanden.
-__label__SERVICE:positiv	Sehr freundliches und entgegen kommendes Personal.
-__label__SERVICE:negativ	Die Freundlichkeit des Personals an der Rezeption sollte dramatisch verbessert werden.
-__label__LAGE:negativ __label__LAGE:positiv	Positiv: Für einen Zwischenstopp gut gelegen, aber leider sehr laut.
-__label__LAGE:positiv	Die Altstadt ist 15 Minuten zu Fuß vom Hotel entfernt.
-__label__ZIMMER:neutral	Das Zimmer ist einfach und zweckmässig eingerichtet.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv	Hotel ist hell und freundlich das Frühstücksbuffet ist reichhaltig.
-__label__HOTEL:positiv	Also das perfekte Business Hotel.
-__label__SERVICE:positiv	Sehr freundliches Personal uns wurde auf Anfrage sofort eine weitere Decke gegeben.
-__label__HOTEL:positiv	Ich bin sehr zufrieden mit meinem Aufenthalt im $HOTEL$ Hotels und $HOTEL$ $CITY$ wurde auch ein schönes Hotel.
-__label__ESSEN&TRINKEN:positiv	Verschiedene Säfte, Kaffee aus der Maschine, guter Geschmack.
-__label__HOTEL:positiv	Alles in Allem ein sehr empfehlenswertes Hotel, besonders für Geschäftsreisende.
-__label__LAGE:positiv	Nähe zur Autobahn, dennoch leise.
-__label__ZIMMER:negativ	Klimaanlage war nicht abschaltbar und kühlte erst im Lauf der Nacht.
-__label__ESSEN&TRINKEN:negativ __label__ESSEN&TRINKEN:neutral __label__HOTEL:negativ	Bas Abendessen war größtenteils in Ordnung, die Auswahl könnte aber etwas größer sein, die Preise waren relativ hoch.
-__label__LAGE:positiv	Dieses Hotel war nur einen kurzen Fußweg vom Bahnhof und vom Stadtzentrum entfernt.
-__label__SERVICE:positiv	Wir sind ausgezeichnet bewirtet worden.
-__label__SERVICE:negativ	Was ich persönlich unpassend fand, war die Streiterei mit einem Mitarbeiter während des Check-In, ob ich eine Kreditkarte als Sicherheit hinterlasse oder nicht.
-__label__LAGE:neutral	War aus geschäftlichen Gründen auf einem Seminar in Hotelnähe.
-__label__ESSEN&TRINKEN:negativ	Wer zum Frühstück sehr trockenes Rührei mag, war gut aufgehoben.
-__label__LAGE:positiv	Gut erreichbar auch mit dem Boot.
-__label__HOTEL:positiv __label__LAGE:positiv	Dieses Hotel ist wunderschön und zentral gelegen für beim Auschecken dieser beeindruckenden Stadt.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:neutral __label__SERVICE:neutral	Auch das Frühstück auf dem Zimmer war Top! Einziges Manko bei dem ich normalerweise einen Punkt für abziehe ist dass hier zu viel gebracht wurde! Obwohl laut „Bestellung“ explizit zwei Sorten Wurst angeben wurden waren 5 + Marmelade auf den Tellern! Schade für die Entsorgung/Verschwendung!!! Das Hotel/Ausstattung ist zwar ein wenig in die Jahre gekommen aber weder durchgesessen/gelegen! Gebrauchsspuren an den Holzmöbeln der Zeit entsprechend.
-__label__SERVICE:positiv __label__ZIMMER:positiv	Sehr bequeme und weiche Betten, frische Äpfel auf den Zimmern.
-__label__ZIMMER:negativ	Außerdem scheint ein grelles blaues Licht am Fernseher, dass beim schlafen stört.
-__label__SERVICE:positiv __label__ZIMMER:positiv	Freundliches und kompetentes Personal.
-__label__LAGE:positiv	Sehr verkehrsgünstig zur Autobahn gelegen.
-__label__SERVICE:negativ	Interessant ist die Theke Teil erlaubt lokalen Leute zu früh einchecken, aber für Asien bestanden darauf zu warten, bis 3 Uhr (wir sehen, weil wir in der Hotelhalle warten Sofa).
-__label__HOTEL:neutral __label__HOTEL:positiv	Das Preis-Leistungs-Verhältnis passt und ist anderen Hotels der Stadt auf jedenfall vorzuziehen.
-__label__LAGE:positiv	Diese ist in wenigen Minuten zu Fuß zu erreichen.
-__label__HOTEL:positiv	Das Preis-Leistungs-Verhältnis stimmt.
-__label__LAGE:negativ	Da das hotel in einem Gewerbegebiet liegt, war die umgebung nicht so ansprechend für einen längeren Urlaub.
-__label__HOTEL:positiv	Es war alles sauber und fast alles wie vereinbart.
-__label__ESSEN&TRINKEN:positiv	Das Frühstück war reichhaltig und lecker.
-__label__ZIMMER:negativ	Spiegel nicht richtig geputzt, Staub in den Ecken.
-__label__SERVICE:positiv	Schon bei der Buchung war ich von dem freundlichen und hilfsbereiten Service am Telefon begeistert.
-__label__LAGE:neutral	Direkt neben der Kathedrale dieser Innenhof umgeben von was ist jetzt das Hotel und sein Restaurant obvuously hat ein bißchen Geschichte.
-__label__ZIMMER:negativ	Sehr störend war das Rasenmähen ab Ca 5 Uhr früh am Montag, hoffe das nicht jeden Montag das so ist.
-__label__HOTEL:positiv __label__LAGE:positiv __label__SERVICE:positiv	Tolles Team, super freundlicher und hilfsbereiter Empfang - nettes Ambiente Unschlagbare Lage neben dem Dom im Herzen der Stadt.
-__label__HOTEL:positiv	für kurzreisen empfehlenswert.
-__label__ESSEN&TRINKEN:neutral __label__LAGE:positiv __label__ZIMMER:positiv	sehr gute Lage zur Altstadt und Kneitinger-Biergarten, empfehlenswert für ein verlängertes Wochenende, sehr gutes Preisleistungs-Verhältnis, Zimmerausstattung und Frühstück sind ok, jedoch für längere Aufenthalte zu wenig.
-__label__SERVICE:positiv	Das Personal hält Corona Vorgaben ein und hilft somit diese Zeit zu meistern.
-__label__ZIMMER:positiv	Die Zimmer sind groß und sauber und mit modernster Technik bestückt (großer Flatscreen, Musik im Badzimmer).
-__label__LAGE:positiv	Die Bushaltestelle ist direkt um die Ecke, man muss also nicht mit dem Auto in die Altstadt.
-__label__HOTEL:negativ	Mit diesen Rahmenbedingungen empfand ich den Auffenthalt dann doch als eher unbefriedigend, zumal das Hotel sicherlich auch schon mal bessere Zeiten gesehen hat.
-__label__SERVICE:positiv	Empfang und Personal im Frühstücksbereich sehr freundlich.
-__label__LAGE:positiv	relativ leicht zu Fuß in die Altstadt selbst an einem Sonntag Morgen eiskalt.
-__label__ESSEN&TRINKEN:positiv	Sehr reichhaltiges Frühstücks-Buffet.
-__label__ESSEN&TRINKEN:negativ	Brötchen wie vom Discounter aus der Theke.
-__label__ZIMMER:positiv	Das Zimmer war sauber, angenehm eingerichtet, mit einem sehr guten Bett, einem großen Fernseher und zusätzlichen Sitzgelegenheiten.
-__label__SERVICE:negativ	Absolut unpassend in den Aussagen, z.B. : Das Personal ist eh schon am Grenzbereich.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Selbst um Mitternacht noch eine Flasche Wein incl.Eiskühler im Foyer war absolut kein Problem.
-__label__SERVICE:positiv	Das Personal ist sehr freundlich und kompetent.
-__label__ESSEN&TRINKEN:positiv	Frühstück kann man auch sehr empfehlen.
-__label__SERVICE:negativ	Die Hotelbar hat 24 Stunden geöffnet leider lässt der Service zu wünschen übrig.
-__label__ZIMMER:neutral	Das Hotel hat 75 Zimmer, und an diesem Tag waren wir nur zu zweit im Hotel.
-__label__ZIMMER:positiv	Neben einem Schlafzimmer hatten wir ein kleines gemütliches Wohnzimmer ind eine gut ausgestattete Küche.
-__label__ZIMMER:positiv	Geräumige Zimmer mit guten Betten.
-__label__LAGE:positiv	Das Hotel liegt etwas außerhalb der Stadt liegt, aber die Verkehrsanbindung ist super.
-__label__ZIMMER:positiv	Das Zimmer hat viele separat schaltbare Lampen und einen Schreibtisch.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Frühstück und Personal waren sehr gut.
-__label__ZIMMER:negativ	Es gibt kein Shampoo und Duschgel im Bad, als wir Check - in.
-__label__ZIMMER:neutral	Die Zimmer sind einfach aber zweckentsprechend möbliert.
-__label__LAGE:positiv	Straßenlärm oder sonstige störenden Geräusche waren nicht zu vernehmen.
-__label__HOTEL:positiv __label__LAGE:positiv	"Man muss die """"Einrichtung"""" lieben. Aber wer nach $CITY$ kommt und genau unter dem Dom schlafen darf, ist hier genau richtig."
-__label__LAGE:positiv	Die Innenstadt ließ sich bequem zu Fuß oder auch mit 6 Buslinien erreichen, die gleich neben dem Hotel ihre Haltestelle hatten.
-__label__ESSEN&TRINKEN:negativ	Das Frühstück war unserer Meinung nach keine 8,90 € Wert.
-__label__HOTEL:negativ	Dies ist ein sehr altes Gebäude und ist sehr charmant.
-__label__SERVICE:positiv	Hilfsbereites Personal von Rezeption, Restaurant bis zum Frühstücksbuffet;
-__label__ZIMMER:positiv	Die Suite befindet sich in einem Nebengebäude und ist sehr geräumig, die Einrichtung in allen Räumen ist sehr schön und individuell.
-__label__SERVICE:positiv	Äpfel auch kostenlos im Zimmer.
-__label__LAGE:negativ	Doch etwas vom Zentrum von $CITY$ entfernt.
-__label__LAGE:positiv	Direkt ideal in Laufnähe liegt das Hotel Atrium im Park.
-__label__ESSEN&TRINKEN:neutral __label__ZIMMER:negativ	Die küche , frühstück und die Bar mit Sky bieten keine kritikpunkte aber wenn die wohlverdiente Nachtruhe durch klotzige und rauschende (kügelchen inside) kissen verwehrt wird macht das schöne keinen Spass mehr.
-__label__HOTEL:positiv	Wir fanden den Aufenthalt gemütlich und kommen sicher wieder gerne.
-__label__ZIMMER:positiv	Zimmer und Bad sind relativ groß, man hat viel Platz.
-__label__LAGE:positiv	Eine kurze Entfernung vom Ufer und in die Altstadt, gleich hinter der Kathedrale.
-__label__HOTEL:positiv	Eine vernünftige Alternative zu den häufig überteuerten Hotels in der Stadt.
-__label__ESSEN&TRINKEN:positiv __label__ZIMMER:positiv	Häufig auf Dienstreisen bevorzuge ich von Zeit zu Zeit ein gutes Businesshotel, das dem Geschäftsreisenden bietet, was nach einer langen Reise oder einem anstrengenden Arbeitstag wichtig ist: geräumige, komfortable und modern eingerichtete Zimmer, ein bequemes und großes Bett, einen Arbeitsplatz im Zimmer für Liegengebliebenes oder Unaufschiebbares und ein Restaurant mit guter Küche und Frühstücksbuffet, das kaum Wünsche offen lässt.
-__label__LAGE:positiv	Zimmer 301 mit Blick auf die steinerne Brücke und Dom und auch seitlich zur Altstadt.
-__label__ESSEN&TRINKEN:positiv	Die Speisen waren sehr köstlich und es hat an nichts gefehlt.
-__label__ESSEN&TRINKEN:neutral __label__LAGE:positiv	Die Lage ist perfekt zentral in der Altstadt. Das Frühstück wird in den Gaststuben-Räumlichkeiten abgehalten, und ist ein normales Buffet.
-__label__HOTEL:positiv __label__ZIMMER:positiv	Das Bad ist neuund exclusiv ausgestattet. Im Innenhof lädt ein schöner grosser Biergarten zum Verweilen ein.
-__label__SERVICE:positiv	Der Service war sehr nett und es hat alles unkompliziert funktioniert.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv __label__LAGE:positiv __label__ZIMMER:positiv	Die gute Autobahnanbindung, die sichere und kostengünstige Hotelgarage, die modernen funktionalen Zimmer und das hervorragende Frühstück waren ein Alleinstellunsmerkmal des Hotels.
-__label__ESSEN&TRINKEN:positiv	Das Frühstück bestand aus einer großen Auswahl und war lecker! Zu empfehlen.
-__label__LAGE:positiv __label__SERVICE:positiv	Dies $HOTEL$ zeichnet sich aus durch: Freundliches Personal, Nähe zum Bahnhof, Nähe zur Altstadt.
-__label__LAGE:positiv	Es ist auch ein leichter, 10 bis 15 Minuten zu Fuß vom Herzen der Altstadt von $CITY$.
-__label__ESSEN&TRINKEN:neutral	Frühstück war ok.
-__label__ESSEN&TRINKEN:negativ	Frühstück NICHT i.O., da man für EUR 17 durchaus erwarten kann, dass die Küche pochierte Eier zubereiten kann.
-__label__ESSEN&TRINKEN:positiv	Frühstück ausgezeichnet,es wird alles sofort nachgelegt.
-__label__ZIMMER:positiv	Waren überrascht, schönes und grosses helles Zimmer mit bequemen Betten.
-__label__SERVICE:positiv __label__ZIMMER:positiv	Das Zimmer zum Hof war ruhig, das Personal sehr freundlich.
-__label__LAGE:positiv	Die Lage des Hotels ist absolut zentrumsnah.
-__label__ESSEN&TRINKEN:positiv	Das Frühstück ist sehr gut und hat eine große Auswahl an verschiedenen Speisen (von gesund-deftig bis hin zu bayerischen).
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Das Frühstücksbuffet war sehr reichhaltig und der Service sehr gut, das Personal sehr nett und hilfsbereit.
-__label__ESSEN&TRINKEN:neutral	Frühstück auch ok.
-__label__ESSEN&TRINKEN:negativ	Vielleicht kann man die Auswahl beim Frühstückbuffets mal variieren.
-__label__LAGE:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Der Service ist gut, die Lage des Zimmers wie gewünscht, bequemes Bett.
-__label__HOTEL:negativ __label__HOTEL:positiv __label__LAGE:positiv __label__SERVICE:positiv __label__ZIMMER:negativ	Lage: Nähe HBF, Zollerstrasse, etwas versteckt, aber gute Parkmöglichkeit direkt vor dem Hotel oder in der Tiefgarage man kann zu Fuß zum HBF Laufen (Hintereingang) oder direkt in die Innenstadt Hotel: Zweckbau, nicht schön Zimmer: Ok, nicht zu abgewohnt, wie sonst bei $HOTEL$ üblich, aber mit der typischen Nasszelle Fazit: Super-Preis-Leistungsverhältnis bei überdurchschnittlicher $HOTEL$-Qualität und freundlichem Personal.
-__label__SERVICE:positiv __label__ZIMMER:positiv	Der Empfang war herzlich, das Zimmer genügend groß.
-__label__HOTEL:positiv	Es ist immer wieder ein schönes Erlebnis.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Die Ziimmer sind sehr liebevoll eingrichtet, der Service ist mehr als gut und das Frühstück vom Feinsten.
-__label__ZIMMER:negativ	Nur wenn unten geraucht wird zieht es bis ins Zimmer.
-__label__SERVICE:positiv	Das Personal sehr freundlich, trotz der schwierigen Zeit.
-__label__ZIMMER:positiv	Zimmer, gepflegt und großzügig geschnitten, ein Riesen-Bad, tolles sehr gemütliches Bett.
-__label__ZIMMER:positiv	Ich war überrascht von der großzügen Raumaufteilung und dem Riesen Badezimmer.
-__label__LAGE:positiv	Super Lage auch für Reisende mit PKW, da es unmittelbar an einer Autobahnabfahrt liegt.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Das Frühstück ist sehr gut, das Personal sehr nett und absolut Service orientiert, wir kommen garantiert wieder und das nächste Mal etwas länger!
-__label__ZIMMER:negativ	Möglichst ein Zimmer nach hinten nehmen, sonst ist doch einiges an Straßenlärm bei offenem Fenster zu hören.
-__label__SERVICE:positiv	Das Personal ist besonders freundlich und hilfsbereit.
-__label__HOTEL:negativ	Leider waren die Zimmer erst um 15 Uhr verfügbar.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv __label__LAGE:positiv __label__SERVICE:positiv	Für uns als Städtereisende, war dieses Hotel ein sehr schönes Erlebnis, freundliches Personal, ein hervorragendes Frühstück, die Aussicht auf den Dom, alles hat rundherum gepasst, auch die Parkmöglichkeit außerhalb des Hotels war schnell zu erreichen und die Kosten mit dem Verrechnen im Hotel angenehm, immer wieder!
-__label__LAGE:positiv __label__SERVICE:positiv	Sehr guter Service, gut gelegen mit Nähe zur Altstadt.
-__label__HOTEL:negativ	Die Tiefgarage ist sehr teuer.
-__label__ESSEN&TRINKEN:positiv __label__LAGE:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	War 2 Tage da, freundliches Personal, saubere Zimmer, reichhaltiges Frühstücksbuffet und eine gute Lage zentrumsnah aber doch ruhig im Gewerbepark.
-__label__ESSEN&TRINKEN:positiv	Man hat eine gute Auswahl von Müsli, über Brötchen mit Wurst und Käse bis Bohnen, Speck und Rührei.
-__label__SERVICE:neutral	Mehr als professionell, also zB persönlich oder individuell ist der Service aber auch nicht.
-__label__ESSEN&TRINKEN:neutral __label__HOTEL:positiv __label__LAGE:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Hervorragendes Preis-/Leistungsverhältnis, sehr stadtnah, ausgezeichnete Lärmschutzfenster zur Straße hin, so dass kein Lärm wahrzunehmen ist, gepflegtes Zimmer, freundliches Pesonal, Frühstück in Ordnung, guter Kaffee.
-__label__ESSEN&TRINKEN:positiv	Im Zimmerpreis war ein reichhaltiges Frühstücksbuffet mit sehr viel Auswahl enthalten.
-__label__SERVICE:neutral	Wir hatten 2 Übernachtungen, können also nur eine Zimmerrreinigung beurteilen.
-__label__SERVICE:positiv __label__ZIMMER:positiv	Das Personal ist sehr freundlich und die Zimmer sauber und funktionell.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Ach ja, welches Hotel bietet noch frische Waffeln zum Selberbacken? P.S.Hotelbar auch sehr gut! Checkout war auch reibungslos.
-__label__HOTEL:positiv	Sehr zu empfehlen.
-__label__LAGE:positiv	Das Hotel liegt sehr gut, - ca, 10 min zu Fuß in die Altstadt.
-__label__SERVICE:positiv	Sehr angenehmes Service-Personal.
-__label__ZIMMER:positiv	Das Zimmer ist relativ gross und modern eingerichtet.
-__label__HOTEL:positiv	Sind dafür aber mit 7 Euro/Tag recht günstig.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Es erwartet einen ein modern eingerichtetes Hotel mit sehr sauberen Zimmern, nettem Personal und tollem Service! Das Frühstück ist reichhaltig und qualitativ sehr hochwertig.
-__label__HOTEL:positiv __label__LAGE:negativ __label__LAGE:neutral	Nun gut, von den Sehenswürdigkeiten der schönen Stadt $CITY$ ist das Hotel schon ein Stück entfernt, dafür verwöhnt es mit einem Parkhaus direkt unter dem Hotel.
-__label__ZIMMER:positiv	Kleine schnuckelige Zimmer.
-__label__HOTEL:negativ	Parkplätze sehr schmal und kostenpflichtig.
-__label__ZIMMER:positiv	Die Zimmer sind geschmackvoll eingerichtet und man kann sich ziemlich wohl darin fühlen.
-__label__ESSEN&TRINKEN:positiv	Das Frühstück war reichhaltig und lecker, eine Auswahl an Tageszeitungen stand zur Verfügung, auch hier keinerlei Beanstandungen.
-__label__LAGE:positiv	Die Innenstadt ist gut zu Fuß zu erreichen.
-__label__HOTEL:positiv __label__LAGE:negativ	Das $HOTEL$ Premier liegt etwas außerhalb (ca. 5 Minuten mit dem Auto in die Stadtmitte) aber es ist sehr zu empfehlen.
-__label__HOTEL:neutral	Im Hotel erwartet einem der übliche $HOTEL$-Standard.
-__label__ZIMMER:positiv	Die Klimaanlage hat auch bei den hohen Temperaturen ausgezeichnet funktioniert.
-__label__ZIMMER:neutral __label__ZIMMER:positiv	Die Zimmer waren sauber, alles notwendige war vorhanden.
-__label__ZIMMER:positiv	Sehr ansprechend gestaltete Zimmer.
-__label__LAGE:neutral __label__LAGE:positiv	Obwohl das Hotel direkt an der Autobahnausfahrt gelegen ist, gibt es keinerlei Lärmbelästigung.
-__label__HOTEL:positiv	Zu dem gibt es genügend Info-Material auf separaten Tischen in der Lobby.
-__label__ESSEN&TRINKEN:positiv __label__ZIMMER:positiv	Saubere Zimmer, gutes Frühstück haben die europäische Art wünschte ich finden Sie genug für den Start in den Tag.
-__label__ESSEN&TRINKEN:neutral	Das Essen zum Frühstück war gut, aber nach drei Tage lang das gleiche Essen, dann wäre es schön zu mischen sich mit etwas Abwechslung.
-__label__LAGE:positiv	Super Anbindung für alle Anreisenden da direkt an der Autobahn gelegen.
-__label__ESSEN&TRINKEN:positiv	Eine gleichbleibend höchst schmackhafte Küche.
-__label__ZIMMER:positiv	Das Bett war sehr bequem und das Zimmer war gut ausgestattet.
-__label__ZIMMER:negativ __label__ZIMMER:positiv	Die Zimmer nach hinten raus sind sehr ruhig, allerdings ist der Blick auf ein leeres Feld (vielleicht irgendwann mal eine Baustelle) nicht besonders schön.
-__label__LAGE:positiv	Das Hotel liet mitten in der historischen Altstadt von $CITY$, direkt neben dem Dom.
-__label__HOTEL:negativ	Das Hotel hat nur Parkplätze, die bezahlt werden müssen.
-__label__SERVICE:positiv	Der Service war freundlich und kompetent.
-__label__ZIMMER:negativ	Das Zimmer war völlig überheizt ohne die Möglichkeit der Temperaturregelung.
-__label__ESSEN&TRINKEN:positiv __label__ZIMMER:positiv	Das Zimmer war ruhig, hatte sehr gute Betten und das Frühstück sehr gut.
-__label__ZIMMER:negativ	Die Bettdecke und noch mehr das Kopfkissen sind leider von mäßiger Qualität.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Freundliches Personal, saubere und gut ausgestattete Zimmer, ein gutes Frühstücksbüffet und ein angemessenes Preis- Leistunsverhältnis.
-__label__HOTEL:positiv	Schön ist, dass es im Haus einen Fitnessraum sowie eine schöne kleine Sauna gibt.
-__label__ESSEN&TRINKEN:positiv	Frühstück fand ich sehr in Ordnung, und denke dass jeder dort etwas für seinen Geschmack.
-__label__SERVICE:positiv	Personal sehr freundlich und hilfsbereit.
-__label__ZIMMER:positiv	Die Zimmer waren sehr schön und geräumig.
-__label__ZIMMER:negativ	Beim Wasserhahn am Waschbecken kam mir erst ein undefinierbarer Strahl und dann der ganze Perlator entgegen.
-__label__ESSEN&TRINKEN:positiv	Lobend zu erwähnen ist natürlich das Frühstück mit der reichhaltigen Auswahl und sehr gutem Kaffee.
-__label__ESSEN&TRINKEN:neutral	Frühstück kostet extra ist aber auch oK.
-__label__HOTEL:positiv	Eine tolle Unterkunft, wenn man eine angenehme Übernachtungsmöglichkeit sucht.
-__label__HOTEL:neutral	wir haben ein privates Wochenende hier im Juli 2016 verbracht.
-__label__LAGE:positiv	Dieses Hotel liegt wirklich zentral, der Weg in das Stadtzentrum ist zu Fuß ca. 10 Minuten und Busse fahren direkt vor der Türe in regelmässigen Abständen.
-__label__HOTEL:positiv	Es war einfach toll.
-__label__ZIMMER:positiv	Ein Hotel, das sich von den typischen Ketten abhebt: Die Zimmer sind geschmackvoll mit großen Fotos der Stadt geschmückt, warme und harmonische Farben entspannen den Aufenthalt.
-__label__SERVICE:positiv	Die Dame an der Rezeption war äußerst hilfsbereit während unser Check in und mit unseren speziellen Bedürfnissen unterstützt.
-__label__SERVICE:positiv	Sehr freundliches und hilfsbereite Personal.
-__label__SERVICE:positiv __label__ZIMMER:positiv	Zimmer war picobello sauber mit gehobener Ausstattung.
-__label__HOTEL:negativ	Hotelbar hat leider nur an 3 Tagen geöffnet.
-__label__HOTEL:neutral	+++ Standard wie in jedem Hotel mit Desinfektion etc.
-__label__LAGE:positiv	Verkehrsgünstige Lage sowohl für PKW und ÖPNV.
-__label__ZIMMER:negativ	"Die Kopfkissen waren mit diesem nervendem """"rutschendem"""" Kunststoffmaterial gefüllt."
-__label__ZIMMER:positiv	Das Zimmer aussergewöhnlich gross mit guten Betten.
-__label__LAGE:negativ __label__ZIMMER:negativ __label__ZIMMER:positiv	Eines der neu eingerichteten Suiten war sehr schön, Matratzen sehr gut, nachts nur mit geschlossenem Fenster ist an Schlaf zu denken, aber Hoteladresse ist wegen gesperrten Gassen auch mit GPS schwer zu finden, abenteuerlich die Hotelzufahrt.
-__label__HOTEL:positiv __label__SERVICE:positiv	Ich buche immer wieder gerne bei $HOTEL$ Hotels ,weil es sauber ist die Angestellten sehr freundlich sind und immer ein offenes Ohr haben, wenn man ein Anliegen hat.
-__label__ZIMMER:negativ	Die Zimmergrösse ist das einzige Manko, weil umdrehen mit Gepäck zur Zirkusnummer wird.
-__label__ESSEN&TRINKEN:positiv	Frühstück spitze, sehr große Auswahl, sogar Waffeln zum Selberbacken.
-__label__SERVICE:positiv	Das gesamte Personal war freundlcih und engagiert.
-__label__HOTEL:positiv	Unbürokratische direkte Buchung über das Hotel zu einem sehr guten Preis.
-__label__HOTEL:positiv __label__LAGE:positiv	Sehr gepflegtes Hotel mit Charme in der Naehe von $CITY$er Dom.
-__label__HOTEL:negativ	Es gab allerdings ein paar Renovierungsarbeiten im Gange und das Hotel sieht unfertig (ich konnte keine Notiz jedem funktioniert, aber es schien als Umleitungen Seite).
-__label__HOTEL:positiv __label__ZIMMER:positiv	Die Zimmer sind hell, sauber und das ganze Hotel ist super-modern.
-__label__HOTEL:positiv	Würde auch meinen Kollegen dieses Hotel empfehlen.
-__label__ZIMMER:negativ	Leider keine Klimaanlage! Okay, ist kein muss, aber wäre im Sommer natürlich schon aufwertend.
-__label__LAGE:positiv	Großes Plus ist die direkte Autobahnanbindung.
-__label__ZIMMER:positiv	Sie sind gut ausgestattet und gepflegt.
-__label__ZIMMER:negativ	Es entsprach genau der Beschreibung, ausser dass Seeblick fehlte.
-__label__ESSEN&TRINKEN:neutral	Die Hotelbar hat theoretisch 24h auf, da sie von der Rezeption mit gemacht wird.
-__label__HOTEL:negativ	Für mich nie wieder.
-__label__ZIMMER:negativ	Das Zimmer roch nach jemandem, in dem geraucht wurde, und hatte nur einen alten Geruch.
-__label__HOTEL:positiv __label__SERVICE:positiv	schönes Hotel und sehr nettes Personal.
-__label__ZIMMER:negativ __label__ZIMMER:positiv	Das Zimmer war bequem nach vorne, einige Straßenlärm mit dem Fenster geöffnet.
-__label__ZIMMER:positiv	Bad mit Dusche - klein, aber durch die geschickte Einteilung nicht beengt.
-__label__ZIMMER:neutral	Für Einzelzimmer in Ordnung.
-__label__LAGE:positiv __label__SERVICE:neutral	Trotz der tollen Lage und dem bemühten Service: Der Teufel steckt einfach im Detail.
-__label__ESSEN&TRINKEN:negativ __label__HOTEL:negativ	Leider gibt es im Hotel auch keine Möglichkeit, zu Abend zu essen, man ist auf die Fast Food Ketten im Gewerbegebiet angewiesen.
-__label__HOTEL:positiv __label__LAGE:positiv	Sehr bequem ist die Tiefgarage ebenfalls in Innenhof und der direkte Zugang zur historischen Innenstadt.
-__label__ESSEN&TRINKEN:positiv	Keine Beanstandungen beim nächsten Trip mit der Frühstücksrunde wird bestimmt wieder ein $HOTEL$ Hotel ausgewählt.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv __label__LAGE:neutral __label__ZIMMER:positiv	+ ruhiges, modernes, großes Zimmer + geräumiges Bad + bequeme Betten + Sauberkeit + ausgezeichnetes, üppiges Frühstück + funktionierendes WLan - etwas außerhalb der Innenstadt gelegen, wobei die Busanbindung Mo-Fr gut, am Wochenende jedoch deutlich schlechter ist.
-__label__ZIMMER:positiv	Und diese war traumhaft - groß, modern, sauber.
-__label__ESSEN&TRINKEN:positiv	Das Frühstück gibt es im nebenan gelegenen Restaurant, die Bar ist direkt im Hotel.
-__label__HOTEL:positiv	Ich konnte keine bessere Wahl treffen können.
-__label__LAGE:positiv	Das Hotel liegt in absoluter Bahnhofsnähe, am Rande der Altstadt.
-__label__SERVICE:positiv __label__ZIMMER:negativ __label__ZIMMER:positiv	Die kostenfreie Minibar kann Punkten, schade das die Zimmer Richtung Straße zu Laut sind, ich habe ohne Probleme ein Zimmer wechsel bekommen.
-__label__HOTEL:positiv	Der Preis war angemessen, da die meisten $HOTEL$ Hotels.
-__label__ZIMMER:positiv	Es war geschmackvoll, detailliert liebevoll und mit viel Charme eingerichtet.
-__label__ZIMMER:positiv	Die Zimmer waren gepflegt und sauber.
-__label__LAGE:negativ	Die Zufahrt zum Hotel ist derzeit durch eine Baustelle schwierig, am besten anrufen und den Weg genau erklären lassen, das Navi führt in gesperrte Einbahnstraßen.
-__label__LAGE:positiv __label__SERVICE:positiv	Ein sehr gutes Hotel in Altstadtnähe (etwa 5 min zu Fuß) mit einem außergewöhnlich freundlichen Personal, das uns jederzeit hilfsbereit zur Seite stand.
-__label__ESSEN&TRINKEN:positiv	Das Frühstücks-Büfett ist gut.
-__label__SERVICE:positiv	Beim Einchecken war das Personal sehr freundlich und hilfsbereit.
-__label__ESSEN&TRINKEN:positiv	Das Essen dort ist auch sehr zu.
-__label__SERVICE:positiv __label__ZIMMER:negativ __label__ZIMMER:positiv	Das Personal an der Rezeption war sehr fröhlich und hilfsbereit, das Zimmer absolut sauber und funktional, nur das Bad scheint ein wenig in die Jahre gekommen, das ist aber wohl eher auf die Farbe der Armaturen als auf den Zustand zurückzuführen.
-__label__LAGE:positiv	Tolle Lage als Ausgangspunkt zur Altstadt.
-__label__ZIMMER:positiv	Sehr nett ist das kostenlose Mineralwasser und der Gutschein für die Bar.
-__label__LAGE:negativ	Das Hotel liegt eher trostlos mitten in einem Industriegebiet.
-__label__HOTEL:positiv	Unser Aufenthalt war vom Feinsten.
-__label__SERVICE:neutral	Macht man ja zu hause auch so, oder? Hatte es an Rezeption gemeldet.
-__label__LAGE:positiv	Die Lage zum Bahnhof und zur Einkaufspassage ist perfekt.
-__label__LAGE:negativ __label__SERVICE:positiv	Die Anreise mit dem Auto (Umleitung) ist etwas schwierig, die Zufahrt zum Hotel schlecht bzw. dann gar nicht mehr ausgeschildert, aber der Anruf beim Hotel war hilfreich (sonst würden wir immer noch durch die Altstadt fahren.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Sehr zu loben ist die angeschlossene Gastwirtschaft bzw. der Biergarten (gutes Essen und sehr freundliches Personal).
-__label__HOTEL:negativ	Der Aufzug zur Etage mit dem Zimmer ist etwas klein geraten, Rollstuhl, Begleitperson und Rollkoffer zusammen passen nicht rein.
-__label__HOTEL:positiv	Das Preis- Leistungsverhältnis ist völlig in Ordnung.
-__label__SERVICE:positiv	Auch bei meinem dritten Anruf, aufgrund von Unklarheiten meinerseits, erhielt ich immer noch äußerst freundlich und hilfsbereit Auskunft.
-__label__LAGE:neutral __label__LAGE:positiv	Das neue Hotel liegt nahe der Autobahn und trotzdem ruhig.
-__label__LAGE:positiv	Das Hotel liegt sehr gut, mitten in der Altstadt.
-__label__ZIMMER:neutral	Einst möglicherweise einem Appartement (es hatte eine Küche).
-__label__SERVICE:positiv	Toller höflicher Service.
-__label__ZIMMER:neutral	Im Zimmer befindet sich ein Flachbild-Fernseher und ein Schreibtisch.
-__label__HOTEL:negativ	Werden in dieses Hotel eher nicht mehr kommen.
-__label__ZIMMER:positiv	Die Zimmer sind sehr stylisch und auf dem neuesten Stand (Flachbildschirm, Lautsprecher im Bad, Design-Möbel, Milchglas-Schiebetüren zum Bad, hochwertige Armaturen, Klimaanlage, etc).
-__label__HOTEL:positiv	Wie immer war auch dieses Mal meine Erfahrung mit dem $HOTEL$ Hotel sehr gut.
-__label__HOTEL:positiv	Die Nachfolgebuchung spricht da wohl schon für sich! Der Reiseanlass war nicht schön, aber das Hotel hat mich das etwas vergessen und Kraft tanken lassen!
-__label__HOTEL:negativ	Das Hotel wurde wohl kostengünstig gebaut und ist schon etwas in die Jahre gekommen.
-__label__SERVICE:positiv __label__ZIMMER:positiv	sehr ruhige stilvoll eingerichtete Zimmer , alles sauber und ordentlich, Aufgeschlossenes Personal an der Rezeption, rasche Abwicklung bei Ankunft und Abreise.
-__label__HOTEL:positiv	Das $HOTEL$ $CITY$ City ist schon ein etwas älteres Haus, da ist es sehr angenehm, dass die Räume jetzt wieder einmal auf einen aktuellen Stand gebracht werden.
 __label__SERVICE:positiv	Personal am Empfang ist sehr freundlich.
-__label__ZIMMER:positiv	Der Fernseher war größer als erwartet, das WLAN funktionierte sicher, die Betten waren bequem.
-__label__ESSEN&TRINKEN:positiv	Auch das Frühstück ist wunderbar.
-__label__ESSEN&TRINKEN:positiv	Es ist nicht übermäßig üppig,aber für den Preis vollkommen in Ordnung.
-__label__HOTEL:negativ __label__ZIMMER:negativ	Auch für dieses Hotel der $HOTEL$-Gruppe gilt, dass einfach etwas Geld in die Hand genommen werden müsste, um die Zimmer nicht nur akzeptabel zu halten, sondern auf den aktuellen Stand zu bringen.
-__label__HOTEL:positiv	Das Hotel ist sehr charmant und die alte Welt Weg.
-__label__HOTEL:positiv	Wir waren schon einige Male im $HOTEL$-Hotel untergebracht und auch dieses Mal wieder sehr zufrieden.
-__label__HOTEL:positiv	Das hotel hat uns rundum zufrieden gestellt.
-__label__HOTEL:negativ __label__ZIMMER:negativ	Das ganze Haus bedarf einer dringenden Renovierung! Die Einrichtung unseres Zimmers (Junior Suite) hatte DDR-Stil.
-__label__ESSEN&TRINKEN:positiv	Das Frühstück war recht gut mit einer großen Auswahl an warmen Speisen und frische Speisen.
-__label__LAGE:positiv	Das Hotel ist auch nur 3 Gehminuten vom Hauptbahnhof entfernt.
-__label__ESSEN&TRINKEN:neutral	Es grabscht dann nicht jeder Brötchen und Brot mit den bloßen Händen an.
-__label__LAGE:positiv	Das Hotel ist relativ zentral an der Innen-/Altstadt gelegen und direkt an einem Einkaufzentrum und dem Hauptbahnhof.
-__label__ESSEN&TRINKEN:positiv	Ausgezeichneter Kaffee und glücklicherweise ohne Limit zu haben.
-__label__SERVICE:positiv	Das Besitzer-Ehepaar Schmalhofer kümmert sich persönlich um Hotel und Restaurant.
-__label__ESSEN&TRINKEN:positiv __label__SERVICE:positiv	Gute regionale Küche, schneller Service, zackige Speisenaufbereitung, gutes bayerisches Bier, nettes Ambiente und im Sommer ein Muss: Der Biergarten im Hof!
-__label__HOTEL:neutral	Tiefgarage kostet circa acht Euro die Nacht.
-__label__HOTEL:positiv	Sowohl für eine Übernachtung, wie auch für eine Hochzeit.
-__label__SERVICE:positiv	Rezeption war sehr nett.
-__label__HOTEL:negativ __label__SERVICE:negativ	Auf mein Nachfragen kurz vor Anreise, ob man bitte einen Platz in der Tiefgarage fest für uns reservieren könne, da wir durch eine Fotoreise meines Mannes sehr viel Equipment im Auto hatten und auf keinen Fall auf der Straße parken könnten, wurden wir auf äußerst unfreundliche Art von der Rezeptionistin darauf hingewiesen, dass man dies nicht tun würde.
-__label__ZIMMER:negativ	Allerdings sollte man bei der Buchung auf Zimmer bestehen, die auf der Rückseite liegen, denn lärmende und rauchende Gäste vor dem Hotel lassen ein offenes Fenster kaum zu.
-__label__LAGE:positiv __label__SERVICE:positiv	Freundliches Personal, die Lage ist in der Nähe von Restaurants und Sehenswürdigkeiten.
-__label__LAGE:positiv	Dieses Hotel hat eie einmalige Lage und wird gerade auf Vordermann gebracht.
-__label__HOTEL:neutral	Standard-$HOTEL$-Hotel.
-__label__HOTEL:positiv __label__ZIMMER:positiv	Das Hotel und die Zimmer sind sauber.
-__label__LAGE:negativ	Der Eingang ist allerdings nicht leicht zu finden.
-__label__ZIMMER:positiv	Schönes großes Zimmer mit allem dran.
-__label__ESSEN&TRINKEN:positiv	Nicht die 08/15 Soße wie meistens und die Portion so wie das Fleisch, super.
-__label__LAGE:positiv	Die Lage des Hotels gleich an der Steineren Brücke ist ideal für den Besuch der historischen Stadt.
-__label__HOTEL:neutral	Die Garage, keine Hotelgarage, im Kellergewölbe ist über den Innenhof (dort Haltemöglichkeit zum Be- und Entladen) zu erreichen.
-__label__LAGE:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Tolle Lage für die Anreise aber auch zu einer Citytour, Frühstück und Zimmer Top, Bar ebelfalls super , das Hotel eignet sich hervorragend für Business- oder Privatreisen, das Personal ist durwegs freundlich und zuvorkommend, war sdchön öfter hier und komme immer gerne wieder!!
-__label__ZIMMER:positiv	Die Zimmer waren sauber und modern.
-__label__ZIMMER:positiv	Leider war kurzfristig kein Doppelzimmer zu bekommen, alternativ wurde uns eine Junior Suite angeboten.
-__label__HOTEL:positiv __label__ZIMMER:positiv	Und, das größte Plus gab es ausgezeichnete Klimaanlage während der Hitzewelle, die die Stadt während unserer zwei Übernachtungen im späten Juli quälten.
-__label__ZIMMER:negativ	Dusche noch in der Badewanne mit älteren Duschvorhang geht einfach genau so wenig wie ein Teppichboden mit einigen Flecken.
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv	Ideales Hotel für Geschäftsreisende; trotz CoVid einwandfreie Restaurantleistung und sehr guter Frühstücksservice.
-__label__ZIMMER:neutral	Die Zimmer gehen von einem Innenraum aus.
-__label__SERVICE:positiv	Schnelles und unkompliziertes Checking.
-__label__HOTEL:positiv	Alles ist sehr sauber und gepflegt.
-__label__HOTEL:positiv	Wie immer meine erste Wahl, ei Hotel der Accor Gruppe.
-__label__LAGE:positiv	Durch die Lage im Gewerbepark sind immer ausreichend Parkplätze vorhanden.
-__label__ZIMMER:negativ	Die Klimaanlage war etwas laut, konnte sie ausschalten weil es nicht so heiss war.
-__label__LAGE:negativ	Dadurch bekamen wir jedoch die ganze Nacht den Verkehrslärm der großen Kreuzung zu hören-( Einen Parkplatz direkt am Hotel hatten wir auch dazu gebucht.
-__label__HOTEL:positiv	Wir waren zwei Nächte dort und waren sehr zufrieden.
-__label__LAGE:negativ	Leider gibt es am Sonntag abends wenig Möglichkeiten in unmittelbarer Umgebung zu essen - es sei denn man liebt asiatische Küche.
-__label__HOTEL:positiv __label__SERVICE:positiv	Es ist alles da was man brauchte, es funktioniert alles und wenn etwas, wie z.B.die Batterie der FS Fernbedienung, nicht mehr will, dann wird sofort Abhilfe geschaffen.
-__label__HOTEL:positiv __label__SERVICE:positiv	Sauberes Hotel mit freundlichem Servicepersonal.
-__label__ESSEN&TRINKEN:positiv	Dafür war das Frühstück zu 100% in Ordnung- nichts zu bemängeln.
-__label__LAGE:positiv	Die Lage könnte nicht besser sein, direkt neben dem Dom.
-__label__ESSEN&TRINKEN:negativ	Das einzige was ich vermisste war gebratener Schinken zum Rührei.
-__label__ESSEN&TRINKEN:negativ __label__ESSEN&TRINKEN:neutral __label__ZIMMER:positiv	Warum nur 2 Sterne ? Wir können alles nur loben,bis auf eine Ausnahme: das Frühstück ist in Ordnung - Brötchen gut , Kaffee gut ,Käse gut, Obst da , nur die Wurstsorten haben nicht lecker ausgesehen und auch nicht gut geschmeckt - $HOTEL$ sollte einmal den Metzger wechseln ! Zimmer sehr schön - gutes Bad - großer Fernseher mit 100 Programmen.
-__label__HOTEL:positiv	Gut ist die vorhandene tiefgarage.
-__label__HOTEL:positiv __label__LAGE:positiv	Sehr angenehm ausgestattetes Hotel, günstige Erreichbarkeit.
-__label__ZIMMER:negativ __label__ZIMMER:positiv	Zimmer sauber, jedoch lief die Dusche schlecht ab.
-__label__ZIMMER:positiv	Die Zimmer sind stilvoll und dennoch modern eingerichtet.
-__label__HOTEL:negativ	Parkplätze und Tiefgarage könnten besser ausgeschildert sein (Einfahrt von der Gemeinstraße und bloß nicht eine Tiefgarage zu früh reinfahren!).
-__label__SERVICE:neutral	Wir sollten doch bitteschön gegenüber der Rezeption Platz nehmen und warten.
-__label__HOTEL:positiv	Auch, die Pries stimmt.
-__label__SERVICE:positiv	Freundliches und zuvorkommendes Personal runden das Wohlbefinden des Gastes ab.
-__label__LAGE:positiv	Innenstadt mit Bus sehr schnell erreichbar, viele Einkaufs- und Essensmöglichkeiten in direkter Nähe.
-__label__LAGE:positiv	Lage des Hotels zentral,10 Min. zu Fuß von der Innenstadt(Dom).
-__label__ESSEN&TRINKEN:positiv __label__HOTEL:positiv __label__LAGE:positiv __label__SERVICE:positiv	Hotel mit guter Ausstattung, sehr gute Lage, freundlicher Service in allen Bereichen und reichhaltigem Frühstücksbuffet.
-__label__HOTEL:positiv __label__ZIMMER:positiv	Zimmer und Bad modern ausgestattet, hell und sauber, der Frühstücksraum mit großen Fensterfronten auf zwei Seiten - soviel Tageslicht beim Frühstück ist in vielen Hotels leider keine Selbstverständlichkeit.
-__label__HOTEL:positiv __label__LAGE:neutral	Sehr neues und modernes Hotel, das an ein Ärztezentrum angrenzt.
-__label__HOTEL:negativ	Eine Renovierung sollte nicht mehr lange auf sich warten lassen.
-__label__HOTEL:positiv	Modern und sauber.
-__label__ZIMMER:positiv	Das Zimmer war schön, ruhig und sauber.
-__label__HOTEL:negativ	Das auf dem Flur zur Abreisezeit neben dem üblichen Equipment ein Entsorgungskübel steht muss nicht unbedingt sein.
-__label__HOTEL:positiv	Es war eines der besten Hotels auf unserer Tour durch Deutschland.
-__label__HOTEL:positiv	Das Hotel hat eine eigene Tiefgarage, was gerade im Stadtzentrum keine Selbstverständlichkeit ist.
-__label__LAGE:neutral	Die Innenstadt erreicht man innerhalb von ca. 15 Minuten entweder über die Brücke oder direkt über den Bahnhof.
-__label__LAGE:positiv	Auch hier phantastischer Blick auf die Altstadt.
-__label__SERVICE:positiv	Ich vergaß der Adapter Stecker, der mir zugeschickt wurden in Köln keine Gebühr.
-__label__LAGE:positiv	Die Busverbindung in die Innenstadt ist ein Klacks.
-__label__ZIMMER:positiv	Schöne Zimmer.
-__label__ZIMMER:negativ	Heißwasserbereiter zeigte deutliche Verkalkungen.
-__label__HOTEL:positiv	Ideal für Geschäftsbesuch in $CITY$.
+__label__ESSEN&TRINKEN:positiv	Prima Frühstück mit viel frischem, geschnittenem Obst.
+__label__HOTEL:neutral	Wir waren dort und waren echt erstaunt über dieses $HOTEL$ Hotel.
+__label__HOTEL:positiv  __label__SERVICE:positiv	Kostenloses Fitness, was will Man(n) mehr ! Nettes Personal an allen Stellen.
+__label__ZIMMER:negativ	Es gibt keine MÖGLICHKEIT, einen Kaffee im Zimmer.
+__label__HOTEL:positiv  __label__LAGE:positiv	Kostenfreie Parkplätze und auch die Lage ist gar nicht so schlecht.
+__label__HOTEL:positiv	Ein gepflegtes Hotel mit Hartboden.
+__label__LAGE:neutral	Ist sehr ruhig gelegen.
+__label__LAGE:positiv	Das Hotel ist nur einen kurzen Fußweg entfernt (400 m) von der Altstadt entfernt (Altstadt).
+__label__SERVICE:positiv	Das Personal wirkt sehr zuvorkommend.
+__label__HOTEL:positiv	Das Hotel selbst war gut ausgestattet, exzellent eingerichtet usw.
+__label__HOTEL:positiv	Eine erholsame Nacht auf der Heimreise aus dem Urlaub.
+__label__LAGE:neutral	Die Altstadt ist mit dem Bus zu erreichen.
+__label__LAGE:positiv	Das Hotel liegt mitten in der wunderschönen Altstadt.Alle Sehenswürdigkeiten sind fussläufig zu erreichen.
+__label__ZIMMER:positiv	Die meisten Zimmer sind aber durch die Bauform von der Straße weg.
+__label__HOTEL:negativ  __label__ZIMMER:positiv	"Hatten erst bedenken, da der Teppichboden in den Gängen sehr """"speziell"""" gemustert ist, waren dann aber sehr positiv von der Zimmereinrichtung überrascht."
+__label__SERVICE:positiv	Erfreulich ist, das die meiste Mitarbeiter sehr freundlich und zuvorkommend sind.
+__label__HOTEL:positiv	Eine tolle Unterkunft, wenn man eine angenehme Übernachtungsmöglichkeit sucht.
+__label__SERVICE:positiv	Sehr freundlicher Empfang.
+__label__SERVICE:positiv	"Die Mitarbeiter/innen sorgen dafür, dass man sich ""wie zuhause"" fühlt."
+__label__ZIMMER:positiv	Küchenzeile mit Krups-Kaffeemaschine sorgt für klasse Start in den Tag.
+__label__ESSEN&TRINKEN:negativ  __label__ESSEN&TRINKEN:neutral	Das Frühstück war ok, kostete 12,50€ pro Person.
+__label__HOTEL:positiv	Wir waren für ein Konzert in $CITY$, und haben ein günstiges Hotel gesucht.
+__label__HOTEL:negativ  __label__HOTEL:neutral	Der Aufbau der offenen Flure erinnert an alte Gefängnisse, rechts und links die Gänge, in der Mitte Freiraum und Oberlicht.
+__label__ZIMMER:positiv	Das Zimmer hat viele separat schaltbare Lampen und einen Schreibtisch.
+__label__LAGE:positiv  __label__SERVICE:positiv	Freundliches Personal, die Lage ist in der Nähe von Restaurants und Sehenswürdigkeiten.
+__label__HOTEL:neutral	Dieses Jahr wurde wohl komplett renoviert.
+__label__SERVICE:neutral	Tip von mir: der Nachtpförtner läuft gegen 22 Uhr durchs Haus.
+__label__ESSEN&TRINKEN:positiv  __label__LAGE:neutral	Das spannende Gebäude und die Lage auf einer Donauinsel kompensieren das etwas, der Knüller ist aber das Frühstück.
+__label__LAGE:positiv	Direkt ideal in Laufnähe liegt das Hotel Atrium im Park.
+__label__ZIMMER:negativ	Wir mussten Ohrstöpsel benutzen, um zu schlafen.
+__label__LAGE:positiv	relativ leicht zu Fuß in die Altstadt selbst an einem Sonntag Morgen eiskalt.
+__label__ZIMMER:positiv	Das Badezimmer hat eine Dusche komplett aus Glas (eine Seite Milchglas) und eine sehr gute Beleuchtung.
+__label__ESSEN&TRINKEN:negativ  __label__ESSEN&TRINKEN:positiv	Beim guten und reichhaltigen Frühstück muss man sich gerade an den Wochenenden einen etwas ruhigeren Platz suchen.
+__label__LAGE:positiv	Die Lage des Hotels ist für einen $CITY$-Besuch spitze und kaum zu übertreffen.
+__label__HOTEL:positiv	Für jeden der geschäftlich unterwegs ist und nicht die Zeit hat ein Wellness Paket zu nutzen, der ideale Platz.
+__label__HOTEL:positiv	Wir waren schon öfters in diesem $HOTEL$-Hotel und waren immer sehr zufrieden.
+__label__ESSEN&TRINKEN:negativ	Wer zum Frühstück sehr trockenes Rührei mag, war gut aufgehoben.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv	Ausstattung und Design waren sehr hochwertig, Speisen und Getränke sehr gut bei angemessenem Preis-/Leistungsverhältnis.
+__label__ZIMMER:positiv	Das Bad ist ausreichend groß und ebenfalls gut ausgestattet.
+__label__SERVICE:positiv	Sehr hilfsbereites Personal.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv  __label__SERVICE:positiv	Alles in allem war es ein angenehmer Aufenthalt, sehr gutes Abendesen und Frühstück, das Servicepersonal sehr aufmerksam.
+__label__ZIMMER:negativ  __label__ZIMMER:positiv	Kleines Zimmer - Lärmempfindlich! Gute Klimatisierung, sauber.
+__label__HOTEL:negativ	Denn es lagen nur lange Frauenhaare herum.
+__label__LAGE:negativ  __label__LAGE:positiv	Positiv: Für einen Zwischenstopp gut gelegen, aber leider sehr laut.
+__label__HOTEL:positiv  __label__LAGE:positiv	Sehr schöne, historische Hotelanlage im Zentrum von $CITY$.
+__label__SERVICE:positiv	Personal extrem freundlich und kompetent.
+__label__ESSEN&TRINKEN:positiv	Das Frühstück ist rein qualitativ nicht so sehr hochwertig aber auf jeden Fall vielseitig, ausreichend und lecker.
+__label__ZIMMER:negativ	Vier Sterne, kein Kühlschrank, keine Minibar, keine Gläser im Zimmer.
 __label__LAGE:negativ	Der einzige Nachteil ist, dass wir als Bahnreisende immer ein Taxi zur Altstadt nehmen mussten.
-__label__SERVICE:negativ	Unsere Reservierung für den Abend war untergegangen und so bekamen wir auch keinen Tisch mehr zur gewünschten Uhrzeit, sondern hätten auf den nächsten freien Tisch warten müssen.
-__label__LAGE:positiv __label__ZIMMER:positiv	Sehr schöne Zimmer, tolle Lage mitten in $CITY$.
-__label__LAGE:negativ	Im Gewerbepark etwas schwer zu finden.
-__label__HOTEL:positiv __label__SERVICE:positiv __label__ZIMMER:positiv	Super sauber nettes Personal unser Hund war auch herzlich Willkommen wir waren schon öfter in diesem Hotel nun ist mal eine Nette Bewertung fällig kann man weiter empfehlen obwohl genau an der Autobahn trotzdem recht ruhig alle Zimmer haben Klimaanlage Super.
+__label__ESSEN&TRINKEN:negativ  __label__HOTEL:positiv	War eigentlich sehr zufrieden mit allem bis auf das Frühstück.
+__label__HOTEL:negativ  __label__ZIMMER:negativ	Wir waren doch etwas enttäuscht von der kargen Atmosphäre des Hotels und des Zimmers.
+__label__ESSEN&TRINKEN:positiv	Auch das Frühstück, dass in einem angrenzenden Haus stattfand, ließ in dieser Kategorie keinerlei Wünsche offen und das Personal war.
+__label__ESSEN&TRINKEN:positiv  __label__ZIMMER:positiv	Zimmer sehr schön und gutes Frühstück.
+__label__ESSEN&TRINKEN:negativ	Das Frühstück ist sehr billig d.h.die angesagte Vielfalt eine Frühstückbuffet ist nicht erkennbar.
+__label__SERVICE:positiv	Sehr zuvorkommendes und freundliches Personal.
+__label__LAGE:positiv	Gutes italienisches Restaurant in der Nähe, zu Fuß erreichbar.
+__label__HOTEL:positiv	Das Hotel ist definitiv empfehlenswert und wir würden jederzeit wieder kommen.
+__label__HOTEL:positiv	Wir waren zwei Nächte dort und waren sehr zufrieden.
+__label__ZIMMER:positiv	Aber auch im Zimmer zur Straße dank Schallisolierung kaum Lärmbelästigung.
+__label__LAGE:positiv	Sehr gute Autobahnanbindung.
+__label__HOTEL:positiv  __label__LAGE:positiv	Das Hotel ist modern gestylt und liegt für Autofahrer, die über die Autobahn kommen sehr gut.
+__label__ZIMMER:negativ	Im Zimmer wackeln sämtliche Haken und Duschstangen, man hat den Eindruck, hier hat seit Jahren niemand mehr nachgeschaut.
+__label__HOTEL:positiv  __label__LAGE:neutral	Sehr neues und modernes Hotel, das an ein Ärztezentrum angrenzt.
+__label__HOTEL:positiv	Super Übernachtungsmöglichkeit beim UNESCO Welterbe.
+__label__LAGE:positiv	Es gibt direkt in der Nähe eine Bushaltestelle und der Tagesticketpreis ist günstig.
+__label__ZIMMER:negativ	Große Zimmer, Halle mit dem Charm eines Gefängnis.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv	Haben uns sehr wohl gefühlt und beim Frühstück war für jeden was dabei.
+__label__ZIMMER:negativ	"Die Kopfkissen waren mit diesem nervendem """"rutschendem"""" Kunststoffmaterial gefüllt."
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv  __label__ZIMMER:positiv	Das Bad sehr schön ausgestättet, in der Minibar darf man sich kostenlos an den alkoholfreien Getränken bedienen.
+__label__ZIMMER:negativ	Die Fenster sind zwar sehr gut, doch die Musik einer Cocktailbar konnten auch sie nicht komplett draußen lassen.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv	War in mehreren Abständen insgesamt 6 Wochen dort,alles top sauber und das Frühstück ist sehr sehr gut.
+__label__ESSEN&TRINKEN:positiv	Das Frühstück ist reichhaltig und preislich angemessen.
+__label__HOTEL:positiv	Wir werden auf jeden Fall wieder hier übernachten, wenn ich in $CITY$.
+__label__ZIMMER:positiv	Zum Glück konnte das Fenster geöffnet werden.
+__label__ZIMMER:positiv	Auch Nackenstützkissen sind vorhanden.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv  __label__ZIMMER:positiv	Ein sauberes Zimmer, sehr freundliches Personal und ein gutes Frühstüchsbuffet, alles was zu einem schönen Wochenende gehört.
+__label__SERVICE:positiv	Sehr freundliches und hilfsbereites Personal.
+__label__SERVICE:negativ	"Der Mitarbeiter am Check-In war mehr mit ""rumblödeln"" mit seinen Kolleginen? beschäftigt als sich um uns zu kümmern."
+__label__ZIMMER:negativ  __label__ZIMMER:neutral	"Ich frage mich bis heute, warum man auch in dieser Preisklasse ( ca. 190 Euro für eine Juniorsuite ) verfleckten Teppichboden akzeptieren muss....also """"Hausschuhe"""" nicht vergessen."
+__label__HOTEL:neutral  __label__LAGE:neutral	Ein klassisches 4 Sterne Hotel etwas abseits der Altstadt.
+__label__SERVICE:positiv  __label__ZIMMER:neutral	Die Begrüßung am Empfang war sehr freundlich, das Zimmer o.k.
+__label__LAGE:negativ	Fühlte mich großartig und luxuriös. Schade, dass die Straßen super laut sind, was es schwierig macht, gut zu schlafen.
+__label__LAGE:positiv	Eine kurze Entfernung vom Ufer und in die Altstadt, gleich hinter der Kathedrale.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv	Das Frühstück ist sehr reichhaltig, insbesondere die besonders freundliche Dame, die den Service macht gehört erwähnt - aber auch sonst ist alles freundlich und nett.
+__label__ESSEN&TRINKEN:neutral  __label__HOTEL:positiv	Mein Lieblingshotel in der Stadt. Außerdem hab ich hier eine Garage und ein Restaurant mit dabei.
+__label__SERVICE:positiv	Durchweg sehr freundliches Personal.
+__label__LAGE:positiv	Es gibt eine kleine beer House gegenüber, die herrlich, um etwas zu essen oder einen ruhigen Drink zu genießen.
+__label__LAGE:negativ  __label__ZIMMER:negativ  __label__ZIMMER:positiv	Die Zimmer sind sehr gut ausgestattet, einziges Problem, wenn man an der Strasse die Fenster hat, wird es doch relative laut, da die Auffahrt zur Autobahn direkt gegenüber ist.
+__label__SERVICE:positiv  __label__ZIMMER:positiv	Auch der Service im Hotel war sehr freundlich und die Mini-Bar inklusive.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv	Da ich am ersten Tag aufgrund eines frühen Termin ist nicht am Frühstück teilnehmen konnte, erhielt ich ein Lunchpaket.
+__label__LAGE:positiv	Die Hotel liegen sehr zentral (Vorteil), aber auch an sehr verkehrsreichen Straßen.
+__label__LAGE:neutral  __label__LAGE:positiv	Ruhig gelegen, trotz unmittelbarer Lage an der Autobahn.
+__label__HOTEL:positiv  __label__LAGE:positiv	Gutes Cityhotel in zentraler Lage.
+__label__HOTEL:negativ  __label__SERVICE:positiv	Das Personal war effizient und freundlich und das Hotel war sauber.
+__label__LAGE:neutral	abseits des Stadtzenrums in einem gewerbegebiet.
+__label__ZIMMER:positiv	Ein tolles Bad sowie ein gemütliches Bett sind weitere Highlights.
+__label__LAGE:positiv	Super Lage auch für Reisende mit PKW, da es unmittelbar an einer Autobahnabfahrt liegt.
+__label__LAGE:positiv	Die Lage ist großartig und Arkarden Atmosphäre ist so gut.
+__label__LAGE:positiv	Dazu die Bahnhofs-Arcaden und Bus-Stop ganz nah dran.
+__label__HOTEL:positiv	Nicht unbedingt als Urlaubshotel zu empfehlen, aber für Business-Trips super!
+__label__ESSEN&TRINKEN:positiv  __label__LAGE:positiv	Wenn man schnell, gut und preiswert regional essen und trinken will, ist der $HOTEL$ immer noch sehr zu empfehlen. Nahe am Dom in historischen Räumlichkeiten sitzt man gemütlich und kann sich fallen lassen!
+__label__HOTEL:positiv  __label__LAGE:positiv  __label__SERVICE:positiv  __label__ZIMMER:positiv	Was uns am $HOTEL$-Hotel in $CITY$ gefallen hat: - günstige Lage (nahe zum Bahnhof, zum Stadtzentrum und zum Einkaufszentrum $CITY$ Arcaden) - freundliches Personal an der Rezeption - heller, geräumiger Frühstücksraum - gute Schlafqualität durch Lärmschutzfenster und komfortable Matrazen Insgesamt eine empfehlenswerte, preisgünstige Unterkunft für einen Kurzurlaub, für längere Aufenthalte sind die Zimmer etwas klein und etwas spartanisch eingerichtet.
+__label__HOTEL:positiv	Das Zweisternehotel bietet allen Komfort für einen Kurzaufenthalt, um die schöne Stadt zu entdecken.
+__label__ESSEN&TRINKEN:neutral	Das Frühstück kostet extra und war auch ok.
+__label__ZIMMER:negativ	Leider fehlt die Minibar oder ein Wasserkocher, was bei einem 4 Sterne Hotel schon sein sollte.
+__label__SERVICE:positiv	Das Personal aufmerksam und sehr hilfreich.
+__label__SERVICE:positiv	Die Mitarbeiter der Rezeption hatten immer ein offenes Ohr.
+__label__LAGE:positiv	Zentral gelegen, guter Schlafkomfort.
+__label__SERVICE:positiv	Die Frühstückszeiten bekamen wir auf dem Weg zum Lift noch nachgerufen! Das andere Personal war sehr freundlich und zuvorkommend.
+__label__HOTEL:positiv  __label__ZIMMER:negativ	Zimmergröße ok für Stadttrip, sehr sauber, Bad relativ klein und leicht muffig, weil kein Fenster vorhanden und auch keine Lüftung.
+__label__LAGE:positiv  __label__ZIMMER:negativ	Positiv: nähe zum Konferenzzentru, Frühstück abwechselungsreich,, kostenloses Parken, gutes gastronomisches Angebot im fussläufigem Umkreis Negativ: Keine Zimmer mit Badewanne, Nur ein Aufzug bei 6 Etagen, Frühstück unübersichtlich, nur eine Kaffemaschine.
+__label__ZIMMER:positiv	Das Personal gab uns die Suite zum selben Preis wie ein Doppelzimmer.
+__label__HOTEL:positiv	Alles sauber und ordentlich, Möbel auch nicht abgenutzt.
+__label__HOTEL:negativ  __label__LAGE:positiv	Lage absolut top! Leider aber ein abgewohntes, lieblos eingerichtetes Hotel im 70er Jahre Stil.
+__label__LAGE:negativ	Bei den beengten Verhältnissen auf der Insel ist dies schwer möglich.
+__label__HOTEL:positiv	Es war rundherum alles fantastisch.
+__label__HOTEL:positiv	Sehr empfehlenswert für kurze Aufenthalte.
+__label__ZIMMER:positiv	Es gab einen Schrank mit Safe, eine große Tischablage mit Stuhl davor, darüber ein großes TV-Gerät.
+__label__HOTEL:positiv	Bis jetzt habe ich sehr gute Erfahrungen gemacht.
+__label__HOTEL:positiv	Werden Ihr Hotel weiterempfehlen.
+__label__HOTEL:positiv	Wir haben uns wie immer sehr wohl gefühlt.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv	Lecker Essen einen ausgezeichneten Service. Ich empfehle, buchen Sie das Tisch im Voraus.
+__label__LAGE:positiv  __label__SERVICE:positiv  __label__ZIMMER:positiv	Das Personal ist sehr kompetent und freundlich. Die Lage ist perfekt und die Deluxe Zimmer einfach super!
+__label__ZIMMER:negativ	Man kann zwischen zwei Kissen wählen, aber beide waren für mich nicht gut, sodass ich leider nicht wirklich erholsam schlafen konnte.
+__label__ESSEN&TRINKEN:negativ	Der schöne Garten war leider schon total voll, es war ja in der Stadt ein großes Fest (Brückeneinweihung nach Renovierung) so sind wir in einen Nebenraum gegangen.
+__label__HOTEL:positiv  __label__ZIMMER:positiv	Die Zimmer sind modern eingerichtet und die etwas spärlichen Inhalte der Minibar waren kostenlos.
+__label__LAGE:positiv	Großartige Lage, direkt neben den Dom, zu Fuß erreichbar und die gesamte Altstadt.
+__label__ESSEN&TRINKEN:neutral  __label__ZIMMER:positiv	Sauberes Zimmer, Frühstück Auswahl ok.
+__label__LAGE:positiv	Wir waren für ein paar Nächte und genossen die Bequemlichkeit, in der Altstadt.
+__label__HOTEL:neutral	Die Fensterseite des Gebäudes schmiegt sich direkt an die Fassade des Doms an.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv	Das Frühstücksbuffett mit einem reichhaltigen, qualitätvollen Angebot und es wird auch noch spät nachgeliefert.
+__label__HOTEL:negativ  __label__LAGE:negativ	Angekommen, Baustelle vorm Haus überlebt, ins Parkhaus eingefahren und einen sehr verschmutzten, feuchten Zustand (einschl.
+__label__ESSEN&TRINKEN:negativ  __label__HOTEL:negativ	Leider gibt es im Hotel auch keine Möglichkeit, zu Abend zu essen, man ist auf die Fast Food Ketten im Gewerbegebiet angewiesen.
+__label__HOTEL:positiv  __label__SERVICE:positiv	Ein schönes Businesshotel mit sehr freundlichem Empfang und Personal.
+__label__HOTEL:positiv	Parkplatz kostenfrei, Fitnessraum vorhanden - und das bei dem Preis: super!
+__label__HOTEL:positiv	Dies liegt sicher daran, dass es relativ neu ist.
+__label__HOTEL:positiv  __label__SERVICE:positiv	Schönes sauberes Hotel mit sehr guter Parkmöglichkeit, mit sehr netten Personal! Das Zimmer ist nicht sehr groß aber gut klimatisiert.
+__label__HOTEL:positiv	Das Hotel entsprach voll und ganz unseren Erwartungen.
+__label__HOTEL:positiv	Ich habe mich sehr wohlgefühlt und werde bestimmt wiederkommen.
+__label__HOTEL:positiv	Sehr angenehm.
+__label__LAGE:positiv  __label__ZIMMER:positiv	Das Hotel liegt sehr gut erreichbar an einer Hauptverkehrader und ist aufgrund dessen auch sehr gut schallgedämmt.
+__label__HOTEL:positiv	Das Hotel ist schön und besitzt Charme.
+__label__HOTEL:positiv	Das Hotel ist einfach, sauber und attraktiv vor.
+__label__HOTEL:positiv	Ich bin sehr zufrieden mit meinem Aufenthalt im $HOTEL$ Hotels und $HOTEL$ $CITY$ wurde auch ein schönes Hotel.
+__label__HOTEL:positiv	Weil meine Tochter in $CITY$ studiert, brauche ich dort ab und zu eine Bleibe und das $HOTEL$-Hotel ist mir schon ans Hetz gewachsen.
+__label__ZIMMER:positiv	Die Zimmer sind sehr nett und groß.
+__label__ZIMMER:positiv	Komfortable und frisch renovierte Zimmer.
+__label__ZIMMER:neutral	Die Zimmer sind zweckmäßig eingerichtet.
+__label__HOTEL:neutral	Tiefgarage beim Hotel.
+__label__ZIMMER:negativ  __label__ZIMMER:positiv	Zimmer war ein bisschen eng aber sauber.
+__label__SERVICE:positiv  __label__ZIMMER:positiv	Die Zimmer sind im Vergleich zum Teppich im Flur sehr ansprechend und modern eingerichtet, der Service ist sehr freundlich und unkompliziert.
+__label__HOTEL:positiv  __label__LAGE:negativ	Das Hotel ist etwas außerhalb von $CITY$, aber wenn man mit dem Auto anreist ist es ideal, wenn man dort kostenlos parken kann.
+__label__ESSEN&TRINKEN:neutral	Frühstücksbuffet ist hinsichtlich Auswahl völlig ausreichend und qualitativ in Ordnung.
+__label__SERVICE:positiv	Alles wurde schnell abgeräumt und es wurde nachgefragt ob alles gut ist.
+__label__LAGE:negativ	Dies war für uns kein Problem, aber der einzige Nachteil ist, dass dieses Hotel ist 10 Minuten mit dem Auto entfernt von der Innenstadt.
+__label__ZIMMER:positiv	Die Zimmer sauber und zweckmäßig eingerichtet.
+__label__ESSEN&TRINKEN:positiv	Haben ohne Frühstück gebucht, dieser Bereich sah aber ruhig aus.
+__label__LAGE:neutral	5 min zu Fuß bis zur Innenstadt.
+__label__SERVICE:positiv	Es hat einen guten Service.
+__label__HOTEL:positiv	Haus wirkt modern, gepflegt und sauber.
+__label__ZIMMER:positiv	Wir haben mal wieder eine ruhige Nacht hier verbracht.
+__label__HOTEL:neutral  __label__LAGE:positiv	Die Lage im Stadtzentrum direkt neben dem Cineplexx und einem guten Mexikaner ist top, ansonsten nur Durchschnitt.
+__label__LAGE:negativ	Lediglich die Lage in einem Gewerbegebiet am Rande von $CITY$ könnte dies verhindern.
+__label__ZIMMER:neutral	Das Bad liegt im Schlafzimmer hinter einer Glasscheibe.
+__label__HOTEL:negativ	Kein Aufzug in unserem Flügel.
+__label__HOTEL:positiv	Alles ist sehr sauber und gepflegt.
+__label__HOTEL:negativ	Insgesamt wirkt das Hotel daher stark abgewohnt.
+__label__HOTEL:positiv	Sowohl für eine Übernachtung, wie auch für eine Hochzeit.
+__label__LAGE:neutral	Das $HOTEL$ Premier Hotel liegt direkt an der Autobahnabfahrt der A93.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv  __label__LAGE:positiv  __label__ZIMMER:positiv	- Tolle, zentrale Lage - Schöner Innenhof - Gutes Frühstück - bequemes Bett Nachteile:
+__label__ZIMMER:neutral	Die Zimmer sind $HOTEL$-Standart, also klein und funktional.
+__label__ZIMMER:negativ	Bad leider nur durch Glasscheiben (teilweise lichtdurchlässig) vom übrigen Zimmer getrennt.
+__label__HOTEL:positiv  __label__LAGE:positiv  __label__ZIMMER:positiv	Die zentrale Lage des Hotels in der City von $CITY$ und die mehr wie ausreichende Ausstattung macht dieses Hotel zu einem Preisleistungsbonbon.
+__label__HOTEL:positiv	Wenn $CITY$, dann $HOTEL$ Premier Hotel! Es befindet sich zwar nicht in zentraler Lage, dafür hat man kein Parkplatzproblem.
+__label__HOTEL:positiv  __label__ZIMMER:positiv	Die Zimmer sind hell, sauber und das ganze Hotel ist super-modern.
+__label__ZIMMER:negativ	Die Zimmer nachts sehr laut.
+__label__HOTEL:negativ	der Ausfall der Klimaanlage im Tagungsraum sind zu bemängeln.
+__label__LAGE:negativ	Ich würde wieder in diesem Hotel übernachten wenn in $CITY$.
+__label__ZIMMER:negativ	Das einzige, was ich nicht mochte, war die Kopfkissen, was einem.
+__label__SERVICE:positiv	Außerdem eine kleine Flasche Wein und eine große Flasche Wasser kostenlos.
+__label__LAGE:positiv	Nur 10 Minuten bis zum Zentrum von $CITY$.
+__label__LAGE:positiv	Das Hotel ist relativ zentral an der Innen-/Altstadt gelegen und direkt an einem Einkaufzentrum und dem Hauptbahnhof.
+__label__ZIMMER:positiv	Das Zimmer war sauber und ordentlich.
+__label__ESSEN&TRINKEN:positiv	Frühstück sehr gut, Zimmer war gross und sehr OK.
+__label__HOTEL:positiv	Ganz wichtig für ein Hotel im Stadtzentrum, hat der $HOTEL$ eigene Parkplätze.
+__label__HOTEL:positiv	Ansonsten gibt es auch Parkplätze auf der Strasse.
+__label__ESSEN&TRINKEN:positiv	Fruehstueck fuer 10€ mit guter Auswahl.
+__label__HOTEL:neutral  __label__HOTEL:positiv	Das Preis-Leistungs-Verhältnis passt und ist anderen Hotels der Stadt auf jedenfall vorzuziehen.
+__label__LAGE:positiv	Vom Hotel aus ist die Orientierung für einen Altstadtbesuch leicht.
+__label__ZIMMER:negativ	Das Zimmer roch nach jemandem, in dem geraucht wurde, und hatte nur einen alten Geruch.
+__label__ESSEN&TRINKEN:positiv	Das Frühstücksbuffet lässt keine Wünsche übrig, lediglich sollte man hier den gebratenen.
+__label__LAGE:positiv	Hotel direkt zentral hinter dem Bahnhof.
+__label__LAGE:negativ	Der korrekt Name des Hotels müsste im GEWERBE-Park lauten. Dort befindet sich das Hotel.
+__label__ESSEN&TRINKEN:negativ	beim Frühstücksbuffet wurden immer die unwichtigen Dinge aufgefüllt, die auch noch ausreichend vorhanden waren 8 (zBServietten, Teller), während Obstsalat, Milch im Kaffeeautomat, Croissants uns Speck lange leer standen.
+__label__LAGE:positiv	Die Lage ist gut mit dem Auto erreichbar und nur wenige Gehminuten entfernt vom Stadtzentrum.
+__label__HOTEL:neutral	Guter Standard so wie $HOTEL$ halt ist.
+__label__ZIMMER:neutral	Wenn man den Glockenklang vom Dom-Turm liebt ist man hier richtig.
+__label__ESSEN&TRINKEN:positiv	Auch das Frühstück ist wunderbar.
+__label__ESSEN&TRINKEN:positiv	besonders lecker war der selbstgemachte Schokoladenpudding, tolle Bar, (super Aussicht vom Glasaufzug), abends beleuchtet, wir kommen wieder.
+__label__LAGE:positiv	Das Hotel liegt direkt an der Donau und bietet einen schönen Blick auf die Donau und die Altstadt.
+__label__SERVICE:neutral	"Das gibt es in anderen gleichwertigen Hotels alles unter dem """"Service-Aspekt"""" ohne nachfragen. Extrem."
+__label__ZIMMER:negativ	Die alten sind recht historisch aber ich finde, dass sie etwas dunkel.
+__label__LAGE:positiv	Das Hotel liegt etwas am Stadtrand, jedoch mit guter Verkehrsanbindung.
+__label__HOTEL:positiv	Sehr verschachteltes altes Gebäude mit sehr schönem ruhigen Biergarten.
+__label__SERVICE:positiv	Nette Kellner in der Bar.
+__label__ZIMMER:positiv	Auch an eine Kofferablage war gedacht.
+__label__ZIMMER:negativ	Zimmer geräumig, aber deutlich renovierungsbedürftig.
+__label__HOTEL:negativ	Kein schickes Hotel, also wenn einem dies wichtig ist, ist dies nicht der richtige Ort für Sie.
+__label__ESSEN&TRINKEN:negativ	Was ich mir noch - nicht nur in diesem Hotel - wünschte, wäre die Bereitstellung von Kaffee/Tee und einem Wasserkocher nach englischem Vorbild.
+__label__SERVICE:positiv  __label__ZIMMER:positiv	Das Personal war sehr freundlich und die Zimmer sauber, was in der Regel das wichtigste ist.
+__label__LAGE:positiv	Wir haben hier ein sommerliches Wochenende verbracht und uns aufgrund der guten Lage für das $HOTEL$ entschieden, die Altstadt ist nur eine Brückenüberquerung entfernt.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv	Die Mitarbeiter sind sehr freundlich und aufmerksam, das Frühstücksbuffet ausgezeichnet.
+__label__ZIMMER:positiv	Die Zimmer waren modern, Sauber und man konnte sich wohlfühlen.
+__label__HOTEL:neutral	Die Ausstattung war in Ordnung und entsprach dem Standard eines Vier-Sterne-Hotels, das Bett aber leider relativ hart.
+__label__HOTEL:positiv	Es ist modern, aber trotzdem in einem historischen Gebäude.
+__label__ESSEN&TRINKEN:positiv	Barpreise fair.
+__label__ESSEN&TRINKEN:positiv	In der Minibar durfte man sich sogar kostenlos an den alkoholfreien Getränken bedienen.
+__label__ZIMMER:positiv	Die Betten sind gut, das Bad bietet ausreichend Platz, es gibt eine Dusche mit Regendusche.
+__label__ZIMMER:negativ	Die Bettdecke und noch mehr das Kopfkissen sind leider von mäßiger Qualität.
+__label__ZIMMER:neutral	Sauberkeit ok bis auf kleine, alte Zahnpastaspritzer im Bad und viel Staub am Rahmen der Luftabsaugung.
+__label__HOTEL:positiv  __label__SERVICE:positiv  __label__ZIMMER:positiv	Tolles Hotel mit super freundlichem Personal!! Mein Zimmer war zwar nicht gerade riesig aber total modern, sauber und schön eingerichtet.
+__label__HOTEL:negativ	Hier war doch alles sehr einfach.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv  __label__SERVICE:positiv  __label__ZIMMER:positiv	Es erwartet einen ein modern eingerichtetes Hotel mit sehr sauberen Zimmern, nettem Personal und tollem Service! Das Frühstück ist reichhaltig und qualitativ sehr hochwertig.
+__label__HOTEL:positiv  __label__LAGE:positiv  __label__SERVICE:positiv	Ein phantastisches Hotel, ruhig mit hervorragendem Service, zuvorkommendes Personal, obwohl etwas früher als die normalen 15.00 Uhr eingecheckt.
+__label__HOTEL:positiv	Alles in allem ein Top-Aufenthalt.
+__label__ZIMMER:neutral	Zimmergröße und Sauberkeit waren ok.
+__label__ZIMMER:negativ	Im Schlafraum war sehr viel Staub.
+__label__ZIMMER:negativ	Mein Zimmer hatte eine Verbindungstüre zum Nachbarn (habe nicht geprüft, ob die abgeschlossen war) und das war fatal.
+__label__LAGE:positiv	und Lage unweit vom Stadtzentrum günstig.
+__label__HOTEL:negativ	Das Problem war im Hotel bekannt, kann aber wohl nicht gelöst werden.
+__label__ZIMMER:positiv	Leider war kurzfristig kein Doppelzimmer zu bekommen, alternativ wurde uns eine Junior Suite angeboten.
+__label__LAGE:positiv	Hotel ist vom Bahnhof nur ein paar Gehminuten entfernt.
+__label__ESSEN&TRINKEN:positiv	Frühstück fand ich sehr in Ordnung, und denke dass jeder dort etwas für seinen Geschmack.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:negativ	Das Frühstück entsprach den Erwartungen, man nimmt es allerdings in Gaststuben ein, die teilweise mit rustikaler Deko überladen sind.
+__label__ESSEN&TRINKEN:positiv	Waren über Silvester schön essen und blieben im Hotel übernacht.
+__label__SERVICE:positiv	Das Personal ist besonders freundlich und hilfsbereit.
+__label__ESSEN&TRINKEN:positiv	Auch das Frühstück bietet alles, was man mag.
+__label__ZIMMER:positiv	Die Zimmer sind sehr einladend, gemütlich und sauber.
+__label__HOTEL:negativ  __label__HOTEL:positiv	Das einzig Top in dem Haus- die Preise! Fazit - niederschmetternd trostloses Hotel!
+__label__ZIMMER:positiv	Die Zimmer bisher waren hell und sauber.
+__label__SERVICE:positiv	Das Zimmer schon bereits war als ich angekommen bin.
+__label__HOTEL:positiv	Alles in allem - wenn immer wieder nach $CITY$, wird dieses Hotel wieder buchen.
+__label__HOTEL:positiv	Wenn Sie in $CITY$ übernachten, würde auf jeden Fall in diesem Hotel übernachten.
+__label__LAGE:positiv	Wenige Minuten vom Zentrum entfernt.
+__label__LAGE:negativ	Lage definitiv zu weit zum Zentrum (45 Minuten zu Fuß).
+__label__ESSEN&TRINKEN:positiv	Frühstücksbuffet war sehr reichlich.
+__label__SERVICE:positiv	Aber das Personal ist entgegenkommen und freundlich.
+__label__ESSEN&TRINKEN:positiv	Erfreulich war auch das Frühstück, aktuelles Extra waren frische Erdbeeren.
+__label__HOTEL:positiv	Das Hotel mitten im Gewerbegebiet kommt von außen noch recht ordentlich daher.
+__label__SERVICE:positiv	Der Service ist kompetent und aufmerksam.
+__label__HOTEL:positiv	Modernes Gebäude mit einem zentralen Atrium mit Zimmer führen direkt von allen Etagen.
+__label__ZIMMER:negativ	Die Sauberkeit im Zimmer lässt zu wünschen übrig.
+__label__ESSEN&TRINKEN:positiv	Essen sehr gut,
+__label__SERVICE:negativ	Wir hätten ja angeben können das wir kein Behinderten Zimmer wüschten, so die Aussage.
+__label__ZIMMER:positiv	Das Bad mit Dusche war sauber.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv  __label__LAGE:positiv  __label__SERVICE:positiv  __label__ZIMMER:positiv	sehr stilvolle Einrichtung Lobby und Zimmer Freundliches Personal sehr saubere Zimmer und bequeme Betten verkehrsgünstige Lage schönes modernes Bad größe Frühstücksauswahl - beim späten Frühstück nach 9 Uhr musste leider auf Nachbestückung hingewiesen werden.
+__label__HOTEL:positiv  __label__ZIMMER:neutral	Die drahtlose Internetverbindung war kostenlos, aber ich war nicht um eine gute Verbindung von meinem Zimmer ermöglichen.
+__label__LAGE:positiv	Die Zentrale Lage ist gut zum Besuch der Altstadt und des schönen $CITY$er Dom.
+__label__LAGE:positiv	Standort des Hotel gut, da nah zur City und Bahnhof.
+__label__HOTEL:neutral	Alles soweit ok.
+__label__HOTEL:positiv	Wenn Sie ein Auto haben, gibt es auch einen Parkplatz auf der Rückseite des Hotels - aber ein GPS Reference als es werden viele.
+__label__SERVICE:positiv	da dies über die Jahreswende war rechneten wir mit reduzierten Service und Massenabfertigung, aber weit gefehlt.
+__label__SERVICE:positiv	Von den Mitarbeitern des Hotels waren wir rundrum begeistert, schon während der Buchungsphase.
+__label__HOTEL:neutral	Dieses Hotel war durchschnittlich.
+__label__SERVICE:negativ	Die Freundlichkeit einiger weniger des Personal könnte verbessert werden aber ansonsten ist das Hotel in Ordnung.
+__label__SERVICE:positiv	Top Service und sehr freundliche Mitarbeiter.
+__label__SERVICE:positiv	Die Mitarbeiter sehr sehr freundlich, hilfsbereit und zuvorkommend.
+__label__ESSEN&TRINKEN:neutral	Die reichhaltige Auswahl war noch landestypisch mit Weißwürsten ergänzt.
+__label__ZIMMER:positiv	Die Zimmer sind geräumig und gut eingerichtet.
+__label__ESSEN&TRINKEN:positiv  __label__LAGE:positiv  __label__SERVICE:positiv	Sehr freundliches und aufmerksames Personal-tolles Frühstück-gut bestückte Bar!!Wir können dieses Hotel (10 Personen) auf jeden Fall weiter empfehlen und werden bestimmt noch einmal wieder kommen-Auch die Anbindung mit Bussen ist recht gut.
+__label__HOTEL:positiv	Das $HOTEL$ Hotel in $CITY$ ist ein sehr sauberes 2 Sterne Hotel für wenig Geld.
+__label__ZIMMER:positiv	Die Zimmer waren geräumig und ordentlich.
+__label__SERVICE:positiv	Spätes Einchecken nach telefonischer Zimmernachfrage/ Reservierung von unterwegs, beim freundlichen aufmerksamen Empfangspersonal absolut schnell und unkompliziert.
+__label__HOTEL:positiv	Ideal für ein Wochenende in $CITY$.
+__label__LAGE:negativ  __label__SERVICE:positiv	Die Anreise mit dem Auto (Umleitung) ist etwas schwierig, die Zufahrt zum Hotel schlecht bzw. dann gar nicht mehr ausgeschildert, aber der Anruf beim Hotel war hilfreich (sonst würden wir immer noch durch die Altstadt fahren.
+__label__HOTEL:positiv	Die öffentliche Bereiche sind sehr großzügig angelegt.
+__label__LAGE:positiv	Auch ins Zentrum ist es nicht weit.
+__label__ZIMMER:positiv	Die Fenster sind gut schallisoliert.
+__label__LAGE:neutral  __label__ZIMMER:positiv	Die Zimmer sind sehr geräumig und sehr sauber und insbesondere meines hatte einen Blick auf den Fluss und den $CITY$er Dom.
+__label__SERVICE:positiv	Ansonsten war das Personal hervorragend.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:negativ	Das Frühstück war gut und ausreichend, der Service ließ jedoch zu wünschen übrig - besonders im Nachhinein.
+__label__HOTEL:positiv	Alleine dies ist ein großer Pluspunkt dieses Hauses.
+__label__LAGE:positiv	Am Abend sind die Parkmöglichkeiten in der näheren Umgebung sehr gut.
+__label__SERVICE:positiv	Der Service an der Rezeption war sehr hilfsbereit.
+__label__ESSEN&TRINKEN:positiv  __label__LAGE:positiv  __label__SERVICE:positiv  __label__ZIMMER:positiv	Sehr gutes Frühstücksbuffet, guter Service, saubere Zimmer und natürlich phantastischer Lage! Wir kommen sicherlich wieder.
+__label__ZIMMER:negativ	Leider ist die Dusche nicht schimmelfrei und auch unter dem Toilettenrand ist es nicht sauber genug.
+__label__ESSEN&TRINKEN:positiv	Buffet war auch sehr gut.
+__label__ZIMMER:negativ	Manko: anscheinend je nach Zimmer gutes oder sehr schlechtes W-lan.
+__label__HOTEL:negativ	Nur, für eine Nacht parken in der Tiefgarage 17 € zu verlangen das ist schon ein bisschen viel!
+__label__ZIMMER:positiv	Die Zimmer sind ziemlich groß, die villgratental ist zuverlässig.
+__label__LAGE:neutral	Direkt neben dem Hotel befindet sich ein kleiner See.
+__label__ZIMMER:positiv	Die Zimmer sind sehr modern eingerichtet, sehr sauber.
+__label__ESSEN&TRINKEN:positiv  __label__ZIMMER:positiv	Wir hatten ein renoviertes großes, elegant eingerichtetes Zimmer, auch Bad groß. Innen- und Außenrestaurant: Sehr gute Küche.
+__label__ZIMMER:neutral	Die Betten sind nicht vergleichbar mit Betten in den USA - dafür darf man in $CITY$ aber die Fenster öffnen :-) Das Zimmer war zweckmäßig, alles da was man brauchte.
+__label__ZIMMER:negativ	Der Fussboden im Zimmer war etwas staubig.
+__label__ESSEN&TRINKEN:positiv  __label__ZIMMER:negativ	für eine Zwischenüertnachtung (auf der Fahrt nach Ungarn oder Wien) oder eine Wochenend-Städtereise sehr gut geeignet, sonst ist das Zimmer etwas klein Das Frühstück ist super, sehr groiße Auswahl von allem was das Herz begehrt.
+__label__SERVICE:positiv	Das ein und auschecken lief reibungslos ab.
+__label__ESSEN&TRINKEN:neutral	Die Hotelbar hat theoretisch 24h auf, da sie von der Rezeption mit gemacht wird.
+__label__ZIMMER:neutral	Wir wohnten dieses Mal im renovierten Teil im Haupthaus.
+__label__HOTEL:positiv	Sehr empfehlenswertes Hotel sowohl für Urlaub als auch für Geschäftsreisen.
+__label__ZIMMER:positiv	Sehr saubere und geräumige Zimmer.
+__label__SERVICE:positiv	Das komplette Personal war äußerst aufmerksam, zuvorkommend, höflich und freundlich.
+__label__SERVICE:negativ  __label__ZIMMER:negativ	Ich hätte gerne wieder 2 normale Decken statt einer großen, die Damen an der Rezeption waren früher viel stilvoller gekleidet (Dirndl), und der Wasserdruck in den Duschen ist ein wenig mau.
+__label__ZIMMER:positiv	Die Zimmer waren gepflegt und sauber.
+__label__HOTEL:neutral	In Summe geht der Preis in Ordnung!
+__label__ZIMMER:positiv	Ausstattung der Zimmer hat jetzt vier Sterne verdient.
+__label__ZIMMER:positiv	Das Zimmer war sauber, geräumig und schön eingerichtet.
+__label__SERVICE:positiv	Schon im Empfang diese Freundlichkeit der sehr netten Mitarbeiterin und alle Fragen wurden schnell und kompetent beantwortet.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv  __label__LAGE:positiv  __label__SERVICE:positiv	Schönes Hotel, top Lage, freundliches Personal, gutes Restaurant.
+__label__LAGE:positiv	Ich bin das Zentrum der Altstadt.
+__label__HOTEL:positiv	Alles in Allem ein sehr empfehlenswertes Hotel, besonders für Geschäftsreisende.
+__label__ZIMMER:positiv	Zimmer super, sauber und täglich gereinigt.
+__label__SERVICE:positiv  __label__ZIMMER:negativ  __label__ZIMMER:positiv	Das Personal an der Rezeption war sehr fröhlich und hilfsbereit, das Zimmer absolut sauber und funktional, nur das Bad scheint ein wenig in die Jahre gekommen, das ist aber wohl eher auf die Farbe der Armaturen als auf den Zustand zurückzuführen.
+__label__HOTEL:positiv	Für eine Nacht kann man das Hotel aber empfehlen.
+__label__ZIMMER:negativ	Den Punkt Abzug gebe ich, weil die Kissen und auch die Matratze für mein Befinden einfach viel zu hart waren.
+__label__ZIMMER:positiv	Das Deluxe-Doppelzimmer machte seinem Namen alle Ehre.
+__label__HOTEL:negativ	Wenn vuiel Betrieb ist, wird es mit den Parkplätzen etwas eng.
+__label__HOTEL:positiv	Wir kamen nach $CITY$ über die Donau auf ein Fluss Bootsfahrt, Planung für den verlängerten Aufenthalt eine zusätzliche Nacht.
+__label__HOTEL:positiv	Das Hotel ist vollklimatisiert.
+__label__ZIMMER:negativ	Hatte leider bei meinem Zimmer großes Pech.
+__label__SERVICE:negativ  __label__ZIMMER:negativ  __label__ZIMMER:positiv	Zimmer sind sauber, Putzteam im Flur war laut, an ein Ausschlafen war nicht zu denken.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:positiv	Das Hotel nutzt einen Teil eines großen viereckigen Gebäudes um einen sehr schönen Innengarten, in dem ein Restaurant betrieben wird und der bei gutem Wetter auch für das Frühstück genutzt werden kann.
+__label__ESSEN&TRINKEN:positiv	Im Preis enthalten ist die Minibar mit Alkoholfreien Drinks und Snacks.
+__label__SERVICE:positiv	Das Personal war sehr hilfsbereit.
+__label__ZIMMER:positiv	Die Zimmer waren von sehr guter Qualität, sauber und das Bett war komfortabel.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv	Sehr zu loben ist die angeschlossene Gastwirtschaft bzw. der Biergarten (gutes Essen und sehr freundliches Personal).
 __label__ZIMMER:positiv	Das Zimmer war sehr geräumig, großes Bad, komfortables Bett, ruhig.
-__label__LAGE:positiv	Zentrale Lage unmittelbar in Bahnhofsnähe, in 3 Minuten in der Stadt, idealer Ausgangspunkt für Schopping, Weihnachtsmarkt etc.
-__label__HOTEL:positiv	Wir können Ihnen für jede Geschäfts- oder Urlaubsreisende empfehlen.
-__label__LAGE:positiv	Für einen Städtetrip nach $CITY$ ist es also der optimale Ort für die Erkundung der Stadt zu Fuß.
-__label__HOTEL:negativ __label__ZIMMER:negativ	Etwas in die Jahre gekommen, Reinigung lässt zu Wünschen übrig (Mülleiner im Bad nicht geleert).
-__label__ESSEN&TRINKEN:neutral	"Das Frühstücksbuffett ist gut sortiert, das Essen im Restaurant """"Alte Ziegelei"""" ist gut, aber nichts Besonderes."
-__label__ESSEN&TRINKEN:positiv	Das Frühstück war großartig, gute Auswahl an Käse, Aufschnitt, Müsli, Eier, egal was man mochte.
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv  __label__ZIMMER:neutral  __label__ZIMMER:positiv	Sehr freundliches Personal, zweckmässig eingerichtete helle Zimmer, sehr ausber und ein gutes Frühstück.
+__label__HOTEL:positiv	Gerne buche ich den nächsten Aufenthalt wieder hier, da ich zufrieden war mit den Leistungen.
+__label__LAGE:neutral	Lage ist in einem Gewerbepark und dadurch am Wochenende bzw.
+__label__HOTEL:positiv  __label__LAGE:negativ  __label__LAGE:neutral	Nun gut, von den Sehenswürdigkeiten der schönen Stadt $CITY$ ist das Hotel schon ein Stück entfernt, dafür verwöhnt es mit einem Parkhaus direkt unter dem Hotel.
+__label__LAGE:positiv	Überall in der Altstadt ist nur 15 Minuten zu Fuß bis von der Rezeption.
+__label__LAGE:positiv	Der $HOTEL$ liegt unmittelbar neben dem $CITY$er Dom, mithin in toller zentraler Lage.
+__label__ZIMMER:negativ	Es ist aber unbequem, zum Duschen in die Wanne klettern zu müssen und sich mit Hilfe der Handbrause duschen zu müssen.
+__label__HOTEL:positiv  __label__SERVICE:positiv	Das Personal war sehr freundlich und auch sonst war alles top.
+__label__ZIMMER:positiv	Die Zimmer sind ordentlich und auch leise.
+__label__HOTEL:negativ	Sehr enges Parkhaus.
+__label__HOTEL:neutral  __label__SERVICE:positiv	Solide Unterkunft für den $CITY$-Besuch, hinter dem Bahnhof gelegen, Bushaltestelle mit kurz getakteten Verbindungen in die Altstadt vor der Tür, charmantes, freundliches und kompetentes Team (incl.
+__label__ZIMMER:positiv	Das Zimmer bot einen wunderschönen Ausblick auf den Dom und auf das.
+__label__ZIMMER:positiv	Dusche & WC sind sauber.
+__label__LAGE:positiv	Kaufen Sie sich eine Tageskarte und es ist sehr günstig.
+__label__HOTEL:neutral	Insgesamt ok.
+__label__ESSEN&TRINKEN:positiv	Aufgrund einer Tagung hatte ich die Möglichkeit auch das Essen auszuprobieren, was sehr gut geschmeckt hat.
+__label__HOTEL:neutral	Das Parken kostet 7 Euro pro Nacht.
+__label__ZIMMER:positiv	Das Bad war modern ausgestattet.
+__label__ESSEN&TRINKEN:positiv	Das Frühstück gibts in Buffetform und lässt keine Wünsche offen.
+__label__SERVICE:positiv  __label__ZIMMER:positiv	Unser Zimmer (325) war gut ausgestattet und komfortabel. Ruhige fit für den Zweck, nichts Besonderes! Die Angestellten sind wirklich sehr freundlich und einladend.
+__label__SERVICE:negativ	Die Zimmerreinigung war leider etwas oberflächlich, so lagen die Handtücher am Abend noch so im Bad, wie diese von uns hinterlassen wurden.
+__label__HOTEL:positiv	Das Hotel sowie auch die gesamte Anlage befindet sich auf neuestem technischen Stand.
+__label__SERVICE:negativ	Dennoch fand ich die Situation etwas schade.
+__label__ZIMMER:positiv	Dank der Schallschutzfenster auch sehr ruhig.
+__label__ZIMMER:neutral  __label__ZIMMER:positiv	Die Zimmer entsprechen dem $HOTEL$-Standart und sind wie immer sehr gut gereinigt.
+__label__ZIMMER:positiv	Das Zimmer geräumig und sauber.
+__label__LAGE:positiv	Das $HOTEL$ Premium liegt verkehrsgünstig in der Nähe der Autobahnabfahrt.
+__label__HOTEL:positiv	Gute Parkmöglichkeit (gratis).
+__label__ESSEN&TRINKEN:negativ	Alleine das Frühstück kennen wir da aus anderen Hotels dieser Kategorie ganz anders.
+__label__HOTEL:positiv	Der Innenhof ist dank Glasdach hell.
+__label__HOTEL:positiv	Ein schmuckes Hotel direkt auf der Donauinsel.
+__label__SERVICE:negativ	Absolut unpassend in den Aussagen, z.B. : Das Personal ist eh schon am Grenzbereich.
+__label__SERVICE:negativ	Enttäuscht sind wir jedoch sehr über den eigentlich recht schönen Biergarten: Der Service ist eher bescheiden.
+__label__LAGE:neutral	Das Hotel liegt Zentral in der Altstadt von $CITY$.
+__label__SERVICE:positiv	Das Personal war freundlich und sehr hilfsbereit und alle Informationen, die wir brauchten.
+__label__LAGE:positiv	Sehr angenehm für Business-Reisende: ausreichend Parkplätze direkt am Hotel.
+__label__ESSEN&TRINKEN:positiv	Frühstücksbüffet super vielfältig und gut.
+__label__ZIMMER:negativ	Das Zimmer war entgegen der Aussage der Reception extrem laut trotz Schallschutzfenster.
+__label__ESSEN&TRINKEN:positiv	Das Frühstück ist mehr als reichhaltig, man ist sehr bemüht selbst aufs Ende des Frühstückszeitraums zu den sehr hohen Standard zu halten (eine Dame ergänzte fortwährend fehlende Esswaren).
+__label__HOTEL:negativ	Die Zufahrt zum Parkplatz ist für nicht eingeweihte etwas schwer zu finden.
+__label__LAGE:positiv	Hotel sehr zentral gelegen, also gut um die Stadt zu Fuß zu erkunden.
+__label__SERVICE:negativ	Die Hotelbar hat 24 Stunden geöffnet leider lässt der Service zu wünschen übrig.
+__label__ZIMMER:positiv	Sogar ein schönen Samsung LCD Schirm.
+__label__LAGE:positiv	Ansonsten liegt das Hotel gut und die Stadt ist bequem fußläufig zu erreichen.
+__label__LAGE:neutral	Der Bahnhof ist nur wenige Meter entfernt.
+__label__LAGE:positiv	Außerdem gibt es zwei Buslinien, die einen innerhalb von weniger als 10 Minuten in die Innenstadt bringen.
+__label__ZIMMER:neutral	Zimmer, Ausstattung, Sauberkeit war in Ordnung (heißt: da gab es keinen Grund zu meckern).
+__label__ESSEN&TRINKEN:negativ  __label__ZIMMER:negativ	Eine Grundrenovierung, einschl.des Waschbeckens (Überlauf) ist mehr als notwendig ! Den extra Frühstückspreis von 10,00euro pro Pers. empfinde ich als überteuert.
+__label__ESSEN&TRINKEN:negativ  __label__SERVICE:negativ	Als sie wieder kam hatte sie die Schocki für meine Tochter vergessen. Dieser schmeckte dann als er wieder kam wässerig.
+__label__ESSEN&TRINKEN:positiv	Das Frühstücksbüffet ist sehr gut wie auch das Restaurant und die Bar.
+__label__ESSEN&TRINKEN:positiv	Reichhaltiges Frühstück zur Stärkung am Morgen.
+__label__HOTEL:positiv  __label__SERVICE:positiv	Das Hotel und der Service waren sehr gut.
+__label__HOTEL:negativ  __label__SERVICE:negativ	Auf mein Unverständnis kam die Antwort, man könne keine Plätze garantieren, wenn die Garage voll sei, müsse ich mir selbst einen auf der Straße suchen.
+__label__HOTEL:neutral	Den Wagen konnte man für 7 Euro in der Einstellhalle parken.
+__label__ESSEN&TRINKEN:positiv	Ordentliches, ansprechendes Frühstücksbuffet.
+__label__HOTEL:positiv  __label__LAGE:positiv	Die Lage in großartig um die Stadt zu erkunden und das Hotel selbst einzigartig in seiner Mischung aus alt und neu.
+__label__ESSEN&TRINKEN:positiv  __label__ZIMMER:positiv	Das Zimmer war ruhig, hatte sehr gute Betten und das Frühstück sehr gut.
+__label__ESSEN&TRINKEN:positiv	Das Restaurant: sagen wir mal so, wir sind zum Essen immer im Haus geblieben, wenn man so von anderen Restaurants eingekreist ist wie in der Mitte von $CITY$, spricht das sehr für die Küche. Kann man also rundum empfehlen!
+__label__ESSEN&TRINKEN:positiv  __label__SERVICE:positiv	"Leckeres Frühstpcksbüffet, absehen von den schrecklichen """"Croissants"""". Servicepersonal sehr freundlich, Chefin persönlich verabschiedete uns - mit einer Marillenmarmelade als Geschenk."
+__label__HOTEL:positiv	Wir haben sehr gut geschlafen und zum Frühstück konnten wir alles genießen, was wir uns erhofft haben.
+__label__SERVICE:positiv	Freundliches und zuvorkommendes Personal.
+__label__HOTEL:positiv	Dies ist eines der besten Hotels, in denen ich je war.
+__label__ZIMMER:negativ	keinen Minikühlschrank.
+__label__HOTEL:negativ	Eigentlich Schade aber zu viele Kleinigkeiten, die den Gesamteintrug nachhaltig schmälern.
+__label__ESSEN&TRINKEN:positiv  __label__HOTEL:neutral	Es gib sogar ein separates Café mit Kuchentheke, sehr gemütlich. Wer also die Einfahrt zum Innenhof gemeistert hat, kann sich auf einen angenehmen Aufenthalt in einer tollen Stadt freuen.
+__label__LAGE:neutral  __label__ZIMMER:negativ	Das Hotel liegt in einem reinen Gewerbegebiet Die Ausstattung der Zimmer entspricht eher einem 3 Sterne Hotel und könnte eine Renovierung vertragen.
+__label__HOTEL:positiv	Aber nicht nur das... das Hotel ist sauber und wunderbar liebevoll eingerichtet. Zu Coronazeiten besonders wichtig: das Hygienekonzept ist einwandfrei umgesetzt.
+__label__HOTEL:negativ	Eine Renovierung sollte nicht mehr lange auf sich warten lassen.
+__label__ZIMMER:negativ	In der Nacht kann das Licht den Partner beim Schlafen stören.
+__label__HOTEL:positiv	Großes helles Atrium.
+__label__SERVICE:positiv	Der Service am Empfang und der Hotelbar war einwandfrei.
+__label__SERVICE:negativ	Interessant ist die Theke Teil erlaubt lokalen Leute zu früh einchecken, aber für Asien bestanden darauf zu warten, bis 3 Uhr (wir sehen, weil wir in der Hotelhalle warten Sofa).
+__label__ESSEN&TRINKEN:positiv	Man hat eine gute Auswahl von Müsli, über Brötchen mit Wurst und Käse bis Bohnen, Speck und Rührei.
+__label__ZIMMER:positiv	Großzügige Zimmer mit bequemen Betten.
+__label__HOTEL:neutral	Daher lerne: nur wenn man ein ruhiges Zimmer bei Buchung anfordert, darf man auch eines erwarten.
+__label__HOTEL:positiv	Ich kann dieses Hotel jedem wärmstens empfehlen!
+__label__ESSEN&TRINKEN:neutral	Frühstück gab es morgens in Buffetform im Restaurant Alte Ziegelei.
+__label__HOTEL:positiv	Kostenloses WiFi verfügbar, aber meine Tablet gewarnt, dass es nicht eine sichere Verbindung, daher nicht genutzt.
+__label__ZIMMER:negativ	Beide Abflüsse (Dusche und Waschbecken) waren leicht verstopft und der einzige Platz, an dem man seinen Laptop abstellen kann, um zu arbeiten, ist direkt vor dem Fenster, das nicht wirklich dicht ist, sodass es da ziemlich kalt an der Hand wird.
+__label__HOTEL:positiv  __label__SERVICE:positiv	Alles sauber,alle nett.
+__label__ZIMMER:positiv	Die Betten waren sehr gut, wir haben gutgeschlafen.
+__label__SERVICE:positiv	Sehr guter Service, Zimmerwunsch (nach hinten) wurde berücksichtigt, auch eine zweite Decke war da.
+__label__LAGE:neutral	Das Hotel liegt mitten in einem Gewerbepark.
+__label__ESSEN&TRINKEN:neutral  __label__SERVICE:positiv	Extrem unkompliziert, niemand nervt, niemand stellt hundert Fragen, viele freundlich, viel Leben dennoch im Hotel, Bar okay, Frühstück auch.
+__label__HOTEL:negativ	Die Bauform des Hotels, auch wenn dies etwas unpassend klingt, erinnert innen ein bisschen an ein Gefängnis, mit Lichthof und Innenflur der rundum begehbar ist und man von oben bis runter in die Bar schauen kann.
+__label__SERVICE:positiv	Beim Auschecken wurden wir vorbildlich behandelt.
+__label__ZIMMER:negativ	Die Flure und das Zimmer selbst haben jedoch sicherlich schon bessere Zeiten gesehen.
+__label__LAGE:neutral	Es liegt etwas abseits vom Zentrum, dafür sehr nah an der Autobahn.
+__label__LAGE:positiv	super schöner Ausblick auf die Donau und den $CITY$er Dom.
+__label__LAGE:positiv	"Das Hotel liegt dehr nah am Bahnhof, was es für ""Kurzreisende"" sehr angenehm macht."
+__label__ZIMMER:positiv	Die Zimmer sind tadellos und sehr grosszügig, hatten eine neue Corner Suite, waren beeindruckt.
+__label__ESSEN&TRINKEN:neutral	Frühstück war auch völlig in Ordnung.
+__label__HOTEL:neutral	Garage kostenpflichtig vorhanden.
+__label__ESSEN&TRINKEN:positiv	Frühstück war wirklich reichhaltig.
+__label__SERVICE:positiv	Das Personal ist ausgesprochen freundlich, entspannt und hilfsbereit.
+__label__ZIMMER:neutral	Das Zimmer war ok.
+__label__ZIMMER:positiv	Die Zimmer sind sehr gut, hervorragende Betten, mit einem großen und schönen Bad.
+__label__LAGE:positiv	Direkt hinter dem Dom, dem Wahrzeichen $CITY$.
+__label__LAGE:neutral	Mittwn im Gewerbepark liegt dieses Hotel.
+__label__LAGE:positiv	Dass das Hotel direkt in der Mitte der Altstadt, in unmittelbarer Nachbarschaft zum Dom liegt, macht es besonders attraktiv.
+__label__HOTEL:positiv  __label__ZIMMER:positiv	Dieses moderne Hotel punktet mit sehr großen, kompfortabel eingerichteten Zimmern.
+__label__HOTEL:positiv	Preis-Leistungsgefüge ist in Ordnung.
+__label__HOTEL:positiv  __label__LAGE:positiv  __label__ZIMMER:negativ	"Gute Lage, schönes, sauberes Erscheinungsbild, die Suite, die ich hatte, wäre normalerweise 10 Punkte wert, aber einen Punkt Abzug gab es für unangenehmen, permanenten """"Kanalisationsgeruch"""" im Badezimmer."
+__label__SERVICE:positiv  __label__ZIMMER:positiv	Die Zimmer des Hotels sind komfortabel: das Bett war gut und die Rezeption war ausreichend groß.
+__label__HOTEL:positiv  __label__ZIMMER:positiv	Wieder einmal hat uns $HOTEL$ Premier überzeugt! Super schickes Zimmer, Klimaanlage, großes Bad - hier wäre uns eine Dusche allerdings lieber gewesen, als eine Badewanne mit Brause.
+__label__ESSEN&TRINKEN:neutral	Frühstück war nicht überragend, jedoch gut.
