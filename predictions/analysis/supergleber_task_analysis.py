@@ -180,6 +180,60 @@ class SuperGLEBerAnalyzer:
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/task_discrimination_new.png", dpi=300, bbox_inches="tight")
 
+        # 5. Combined top discriminating tasks (top 5 from each category)
+        plt.figure(figsize=(12, 10))
+        top_existing_5 = discrimination_df[discrimination_df["task_type"] == "existing"].nlargest(5, "std")
+        top_new_5 = discrimination_df[discrimination_df["task_type"] == "new"].nlargest(5, "std")
+
+        # Combine and sort by discriminative power
+        combined_top = pd.concat([top_existing_5, top_new_5]).sort_values("std", ascending=True)
+
+        # Create color list based on task type
+        colors = ["steelblue" if task_type == "existing" else "orange" for task_type in combined_top["task_type"]]
+
+        y_pos = np.arange(len(combined_top))
+        plt.barh(y_pos, combined_top["std"], alpha=0.7, color=colors)
+        plt.yticks(y_pos, combined_top["task"].tolist())
+        plt.xlabel("Standard Deviation")
+        plt.title("Top Discriminating Tasks: Combined New and Existing (Top 5 Each)")
+
+        # Add legend
+        from matplotlib.patches import Patch
+
+        legend_elements = [
+            Patch(facecolor="steelblue", alpha=0.7, label="Existing Tasks"),
+            Patch(facecolor="orange", alpha=0.7, label="New Tasks"),
+        ]
+        plt.legend(handles=legend_elements, loc="lower right")
+
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/plots/task_discrimination_combined.png", dpi=300, bbox_inches="tight")
+
+        # 6. Top 10 overall most discriminating tasks (across all categories)
+        plt.figure(figsize=(12, 10))
+        top_overall = discrimination_df.nlargest(10, "std").sort_values("std", ascending=True)
+
+        # Create color list based on task type
+        colors = ["steelblue" if task_type == "existing" else "orange" for task_type in top_overall["task_type"]]
+
+        y_pos = np.arange(len(top_overall))
+        plt.barh(y_pos, top_overall["std"], alpha=0.7, color=colors)
+        plt.yticks(y_pos, top_overall["task"].tolist())
+        plt.xlabel("Standard Deviation")
+        plt.title("Top 10 Most Discriminating Tasks Overall")
+
+        # Add legend
+        from matplotlib.patches import Patch
+
+        legend_elements = [
+            Patch(facecolor="steelblue", alpha=0.7, label="Existing Tasks"),
+            Patch(facecolor="orange", alpha=0.7, label="New Tasks"),
+        ]
+        plt.legend(handles=legend_elements, loc="lower right")
+
+        plt.tight_layout()
+        plt.savefig("predictions/analysis/plots/task_discrimination_overall.png", dpi=300, bbox_inches="tight")
+
         return discrimination_df
 
     def analyze_task_correlations(self):
