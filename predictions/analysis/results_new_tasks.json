@@ -105,6 +105,111 @@
     }
   },
   {
+    "model": "LSX-UniWue/LLaMmlein2Vec_120M",
+    "F-Class": {
+      "metric": "0.918",
+      "train_log_path": ""
+    },
+    "F-Tag": {
+      "metric": "0.419",
+      "train_log_path": ""
+    },
+    "HC-c2a": {
+      "metric": "0.905",
+      "train_log_path": ""
+    },
+    "HC-dbo": {
+      "metric": "0.832",
+      "train_log_path": ""
+    },
+    "HC-vio": {
+      "metric": "0.936",
+      "train_log_path": ""
+    },
+    "llms4s": {
+      "metric": "0.712",
+      "train_log_path": ""
+    },
+    "SE-Class": {
+      "metric": "0.161",
+      "train_log_path": ""
+    },
+    "SE-Reg": {
+      "metric": "0.368",
+      "train_log_path": ""
+    }
+  },
+  {
+    "model": "LSX-UniWue/LLaMmlein2Vec_1B",
+    "F-Class": {
+      "metric": "0.940",
+      "train_log_path": ""
+    },
+    "F-Tag": {
+      "metric": "0.609",
+      "train_log_path": ""
+    },
+    "HC-c2a": {
+      "metric": "0.943",
+      "train_log_path": ""
+    },
+    "HC-dbo": {
+      "metric": "0.874",
+      "train_log_path": ""
+    },
+    "HC-vio": {
+      "metric": "0.951",
+      "train_log_path": ""
+    },
+    "llms4s": {
+      "metric": "0.765",
+      "train_log_path": ""
+    },
+    "SE-Class": {
+      "metric": "0.251",
+      "train_log_path": ""
+    },
+    "SE-Reg": {
+      "metric": "0.270",
+      "train_log_path": ""
+    }
+  },
+  {
+    "model": "LSX-UniWue/LLaMmlein2Vec_7B",
+    "F-Class": {
+      "metric": "0.947",
+      "train_log_path": ""
+    },
+    "F-Tag": {
+      "metric": "0.657",
+      "train_log_path": ""
+    },
+    "HC-c2a": {
+      "metric": "0.943",
+      "train_log_path": ""
+    },
+    "HC-dbo": {
+      "metric": "0.900",
+      "train_log_path": ""
+    },
+    "HC-vio": {
+      "metric": "0.947",
+      "train_log_path": ""
+    },
+    "llms4s": {
+      "metric": "0.780",
+      "train_log_path": ""
+    },
+    "SE-Class": {
+      "metric": "0.614",
+      "train_log_path": ""
+    },
+    "SE-Reg": {
+      "metric": "0.350",
+      "train_log_path": ""
+    }
+  },
+  {
     "model": "LSX-UniWue/ModernGBERT_134M",
     "F-Class": {
       "metric": "0.932",

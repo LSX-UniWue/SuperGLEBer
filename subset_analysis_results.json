@@ -1,0 +1,283 @@
+{
+  "task_correlations": {
+    "existing_toxic_comments": 0.6202254717917584,
+    "existing_offensive_lang": 0.9250383071366733,
+    "existing_db_aspect": 0.9167806546523047,
+    "existing_hotel_aspect": 0.8962460540855318,
+    "existing_polarity": 0.9576880027954477,
+    "existing_query_ad": 0.8756567897669464,
+    "existing_quest_ans": 0.835969630615224,
+    "existing_pawsx": 0.6986752849010945,
+    "existing_webcage": 0.5810899575175363,
+    "existing_verbal_idioms": 0.8836701662397302,
+    "existing_engaging_comments": 0.47502761305450425,
+    "existing_factclaiming_comments": 0.5535851652768112,
+    "existing_news_class": 0.9543366798472273,
+    "existing_nli": 0.8096514757427073,
+    "existing_argument_mining": 0.8640367688153017,
+    "existing_massive_intents": 0.9686885620388908,
+    "existing_topic_relevance": 0.8408027427225016,
+    "existing_ner_news": 0.8066969427186429,
+    "existing_ner_europarl": 0.808929748770175,
+    "existing_ner_biofid": 0.6963279415715341,
+    "existing_ner_wiki_news": 0.6302539744347596,
+    "existing_ner_legal": 0.886711956737754,
+    "existing_up_pos": 0.11315594476515324,
+    "existing_up_dep": 0.2338643879430137,
+    "existing_massive_seq": 0.85321675046628,
+    "existing_germeval_opinions": 0.45194836061846516,
+    "existing_mlqa": 0.7089536284150639,
+    "existing_germanquad": 0.7534361627971442,
+    "existing_similarity_pawsx": 0.6513435366696321,
+    "new_F-Class": 0.9191418046258881,
+    "new_F-Tag": 0.8509520733816126,
+    "new_HC-c2a": 0.883840727999544,
+    "new_HC-dbo": 0.9244746557964536,
+    "new_HC-vio": 0.8764221982841746,
+    "new_llms4s": 0.9327496705706398,
+    "new_SE-Class": 0.8890469416785207,
+    "new_SE-Reg": 0.4827624062243596
+  },
+  "greedy_selection": {
+    "tasks": [
+      "existing_massive_intents"
+    ],
+    "correlations": [
+      0.9686885620388908
+    ]
+  },
+  "best_subsets": {
+    "1": {
+      "tasks": [
+        "existing_massive_intents"
+      ],
+      "correlation": 0.9686885620388908
+    },
+    "2": {
+      "tasks": [
+        "existing_verbal_idioms",
+        "existing_massive_intents"
+      ],
+      "correlation": 0.9780598581143827
+    },
+    "3": {
+      "tasks": [
+        "existing_toxic_comments",
+        "existing_db_aspect",
+        "existing_ner_legal"
+      ],
+      "correlation": 0.9899332530911478
+    },
+    "4": {
+      "tasks": [
+        "existing_toxic_comments",
+        "existing_db_aspect",
+        "existing_verbal_idioms",
+        "existing_ner_legal"
+      ],
+      "correlation": 0.9919028340080971
+    },
+    "5": {
+      "tasks": [
+        "existing_offensive_lang",
+        "existing_db_aspect",
+        "existing_ner_news",
+        "existing_germanquad",
+        "new_HC-dbo"
+      ],
+      "correlation": 0.9940912572491519
+    }
+  },
+  "model_rankings": [
+    {
+      "model": "DiscoResearch/Llama3-German-8B",
+      "avg_all": 0.7696621621621622,
+      "rank_all": 7.0
+    },
+    {
+      "model": "FacebookAI/xlm-roberta-base",
+      "avg_all": 0.6638675675675675,
+      "rank_all": 33.0
+    },
+    {
+      "model": "FacebookAI/xlm-roberta-large",
+      "avg_all": 0.6939972972972971,
+      "rank_all": 27.0
+    },
+    {
+      "model": "GeistBERT/GeistBERT_base",
+      "avg_all": 0.6770837837837838,
+      "rank_all": 32.0
+    },
+    {
+      "model": "LSX-UniWue/LLaMmlein2Vec_120M",
+      "avg_all": 0.6892783783783785,
+      "rank_all": 30.0
+    },
+    {
+      "model": "LSX-UniWue/LLaMmlein2Vec_1B",
+      "avg_all": 0.7629216216216216,
+      "rank_all": 9.0
+    },
+    {
+      "model": "LSX-UniWue/LLaMmlein2Vec_7B",
+      "avg_all": 0.7960945945945945,
+      "rank_all": 2.0
+    },
+    {
+      "model": "LSX-UniWue/LLaMmlein_120M",
+      "avg_all": 0.6979594594594597,
+      "rank_all": 26.0
+    },
+    {
+      "model": "LSX-UniWue/LLaMmlein_1B",
+      "avg_all": 0.759772972972973,
+      "rank_all": 11.0
+    },
+    {
+      "model": "LSX-UniWue/LLaMmlein_7B",
+      "avg_all": 0.7888108108108106,
+      "rank_all": 3.0
+    },
+    {
+      "model": "LSX-UniWue/ModernGBERT_134M",
+      "avg_all": 0.7387243243243243,
+      "rank_all": 17.0
+    },
+    {
+      "model": "LSX-UniWue/ModernGBERT_1B",
+      "avg_all": 0.8066459459459459,
+      "rank_all": 1.0
+    },
+    {
+      "model": "LeoLM/leo-hessianai-7b",
+      "avg_all": 0.7796270270270269,
+      "rank_all": 4.0
+    },
+    {
+      "model": "Qwen/Qwen2.5-0.5B",
+      "avg_all": 0.6429405405405407,
+      "rank_all": 36.0
+    },
+    {
+      "model": "Qwen/Qwen2.5-7B",
+      "avg_all": 0.7408837837837836,
+      "rank_all": 16.0
+    },
+    {
+      "model": "TUM/GottBERT_large",
+      "avg_all": 0.7093459459459459,
+      "rank_all": 25.0
+    },
+    {
+      "model": "benjamin/gerpt2",
+      "avg_all": 0.639716216216216,
+      "rank_all": 37.0
+    },
+    {
+      "model": "benjamin/gerpt2-large",
+      "avg_all": 0.7263756756756756,
+      "rank_all": 19.0
+    },
+    {
+      "model": "bert-base-german-cased",
+      "avg_all": 0.6916,
+      "rank_all": 29.0
+    },
+    {
+      "model": "bigscience/bloomz-560m",
+      "avg_all": 0.603437837837838,
+      "rank_all": 38.0
+    },
+    {
+      "model": "dbmdz/german-gpt2",
+      "avg_all": 0.645937837837838,
+      "rank_all": 35.0
+    },
+    {
+      "model": "deepset/gbert-base",
+      "avg_all": 0.7094756756756756,
+      "rank_all": 24.0
+    },
+    {
+      "model": "deepset/gbert-large",
+      "avg_all": 0.7594972972972973,
+      "rank_all": 12.0
+    },
+    {
+      "model": "deepset/gelectra-base",
+      "avg_all": 0.6498054054054053,
+      "rank_all": 34.0
+    },
+    {
+      "model": "deepset/gelectra-large",
+      "avg_all": 0.7296702702702705,
+      "rank_all": 18.0
+    },
+    {
+      "model": "facebook/mbart-large-50",
+      "avg_all": 0.6839162162162162,
+      "rank_all": 31.0
+    },
+    {
+      "model": "flair/bueble-lm-2b",
+      "avg_all": 0.7528108108108106,
+      "rank_all": 13.0
+    },
+    {
+      "model": "gerturax/gerturax-1",
+      "avg_all": 0.7173351351351349,
+      "rank_all": 22.0
+    },
+    {
+      "model": "gerturax/gerturax-2",
+      "avg_all": 0.7225243243243243,
+      "rank_all": 20.0
+    },
+    {
+      "model": "gerturax/gerturax-3",
+      "avg_all": 0.7197324324324326,
+      "rank_all": 21.0
+    },
+    {
+      "model": "malteos/bloom-6b4-clp-german",
+      "avg_all": 0.7669324324324325,
+      "rank_all": 8.0
+    },
+    {
+      "model": "maxidl/DOSMo-7B-v0.2",
+      "avg_all": 0.7760216216216215,
+      "rank_all": 6.0
+    },
+    {
+      "model": "meta-llama/Llama-3.2-1B",
+      "avg_all": 0.7105972972972973,
+      "rank_all": 23.0
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B",
+      "avg_all": 0.7486162162162161,
+      "rank_all": 14.0
+    },
+    {
+      "model": "meta-llama/Meta-Llama-3.1-8B",
+      "avg_all": 0.7628027027027028,
+      "rank_all": 10.0
+    },
+    {
+      "model": "uklfr/gottbert-base",
+      "avg_all": 0.6923243243243244,
+      "rank_all": 28.0
+    },
+    {
+      "model": "utter-project/EuroLLM-1.7B",
+      "avg_all": 0.745810810810811,
+      "rank_all": 15.0
+    },
+    {
+      "model": "utter-project/EuroLLM-9B",
+      "avg_all": 0.7767594594594595,
+      "rank_all": 5.0
+    }
+  ]
+}

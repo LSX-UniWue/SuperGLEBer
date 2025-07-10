@@ -11,10 +11,10 @@ from scipy.stats import kendalltau, spearmanr
 
 def load_data():
     """Load existing and new task results"""
-    with open("results_existing_tasks.json", "r") as f:
+    with open("predictions/analysis/results_existing_tasks.json", "r") as f:
         existing_results = json.load(f)
 
-    with open("results_new_tasks.json", "r") as f:
+    with open("predictions/analysis/results_new_tasks.json", "r") as f:
         new_results = json.load(f)
 
     return existing_results, new_results
@@ -71,17 +71,26 @@ def calculate_rankings_and_averages(df):
     new_tasks = [col for col in df.columns if col.startswith("new_")]
     all_tasks = existing_tasks + new_tasks
 
-    # Calculate averages (only for models with data)
-    df["avg_existing"] = df[existing_tasks].mean(axis=1, skipna=True)
-    df["avg_new"] = df[new_tasks].mean(axis=1, skipna=True)
-    df["avg_all"] = df[all_tasks].mean(axis=1, skipna=True)
+    # Filter to only include models with complete data for all tasks
+    initial_model_count = len(df)
+    df_complete = df.dropna(subset=all_tasks).copy()
+    final_model_count = len(df_complete)
+
+    print(f"Filtered from {initial_model_count} to {final_model_count} models with complete data")
+    print(f"Removed {initial_model_count - final_model_count} models with incomplete data")
+    print()
+
+    # Calculate averages (now all models have complete data)
+    df_complete["avg_existing"] = df_complete[existing_tasks].mean(axis=1)
+    df_complete["avg_new"] = df_complete[new_tasks].mean(axis=1)
+    df_complete["avg_all"] = df_complete[all_tasks].mean(axis=1)
 
     # Calculate rankings (higher score = better rank, use min method for consistent tie handling)
-    df["rank_existing"] = df["avg_existing"].rank(ascending=False, method="min", na_option="bottom")
-    df["rank_new"] = df["avg_new"].rank(ascending=False, method="min", na_option="bottom")
-    df["rank_all"] = df["avg_all"].rank(ascending=False, method="min", na_option="bottom")
+    df_complete["rank_existing"] = df_complete["avg_existing"].rank(ascending=False, method="min")
+    df_complete["rank_new"] = df_complete["avg_new"].rank(ascending=False, method="min")
+    df_complete["rank_all"] = df_complete["avg_all"].rank(ascending=False, method="min")
 
-    return df, existing_tasks, new_tasks, all_tasks
+    return df_complete, existing_tasks, new_tasks, all_tasks
 
 
 def evaluate_subset_ranking(df, task_subset, reference_ranking):
@@ -123,7 +132,8 @@ def greedy_subset_selection(df, all_tasks, reference_ranking, max_tasks=10):
             candidate_subset = selected_tasks + [task]
             spearman_corr, _ = evaluate_subset_ranking(df, candidate_subset, reference_ranking)
 
-            if spearman_corr > best_corr:
+            # Handle NaN correlations
+            if not np.isnan(spearman_corr) and spearman_corr > best_corr:
                 best_corr = spearman_corr
                 best_task = task
 
@@ -135,7 +145,7 @@ def greedy_subset_selection(df, all_tasks, reference_ranking, max_tasks=10):
             print(f"Step {i + 1}: Added '{best_task}' -> Correlation: {best_corr:.4f}")
 
             # Stop if we achieve very high correlation
-            if best_corr > 0.95:
+            if not np.isnan(best_corr) and best_corr > 0.95:
                 print(f"High correlation achieved ({best_corr:.4f}), stopping early.")
                 break
         else:
@@ -160,13 +170,17 @@ def exhaustive_small_subset_search(df, all_tasks, reference_ranking, max_size=5)
         for subset in combinations(all_tasks, size):
             spearman_corr, _ = evaluate_subset_ranking(df, list(subset), reference_ranking)
 
-            if spearman_corr > best_corr:
+            # Handle NaN correlations
+            if not np.isnan(spearman_corr) and spearman_corr > best_corr:
                 best_corr = spearman_corr
                 best_subset = subset
 
         best_subsets[size] = (best_subset, best_corr)
         print(f"Size {size}: Best correlation = {best_corr:.4f}")
-        print(f"  Tasks: {list(best_subset)}")
+        if best_subset is not None:
+            print(f"  Tasks: {list(best_subset)}")
+        else:
+            print(f"  Tasks: None found")
         print()
 
     return best_subsets
