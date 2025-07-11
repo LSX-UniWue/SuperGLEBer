@@ -26,6 +26,9 @@ plt.style.use("seaborn-v0_8")
 sns.set_palette("husl")
 
 
+FONT_SIZE = 14
+
+
 class SuperGLEBerAnalyzer:
     """Main analyzer class for SuperGLEBer benchmark results."""
 
@@ -141,9 +144,11 @@ class SuperGLEBerAnalyzer:
         # 1. Standard deviation comparison
         plt.figure(figsize=(10, 6))
         discrimination_df.boxplot(column="std", by="task_type")
-        plt.title("Standard Deviation by Task Type")
-        plt.xlabel("Task Type")
-        plt.ylabel("Standard Deviation")
+        plt.title("Standard Deviation by Task Type", fontsize=FONT_SIZE)
+        plt.xlabel("Task Type", fontsize=FONT_SIZE)
+        plt.ylabel("Standard Deviation", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
+        plt.yticks(fontsize=FONT_SIZE)
         plt.suptitle("")  # Remove default suptitle
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/task_discrimination_std.png", dpi=300, bbox_inches="tight")
@@ -151,9 +156,11 @@ class SuperGLEBerAnalyzer:
         # 2. Coefficient of variation
         plt.figure(figsize=(10, 6))
         discrimination_df.boxplot(column="cv", by="task_type")
-        plt.title("Coefficient of Variation by Task Type")
-        plt.xlabel("Task Type")
-        plt.ylabel("CV (std/mean)")
+        plt.title("Coefficient of Variation by Task Type", fontsize=FONT_SIZE)
+        plt.xlabel("Task Type", fontsize=FONT_SIZE)
+        plt.ylabel("CV (std/mean)", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
+        plt.yticks(fontsize=FONT_SIZE)
         plt.suptitle("")  # Remove default suptitle
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/task_discrimination_cv.png", dpi=300, bbox_inches="tight")
@@ -163,9 +170,10 @@ class SuperGLEBerAnalyzer:
         top_existing = discrimination_df[discrimination_df["task_type"] == "existing"].nlargest(10, "std")
         y_pos = np.arange(len(top_existing))
         plt.barh(y_pos, top_existing["std"], alpha=0.7, color="steelblue")
-        plt.yticks(y_pos, top_existing["task"].tolist())
-        plt.xlabel("Standard Deviation")
-        plt.title("Top Discriminating Existing Tasks")
+        plt.yticks(y_pos, top_existing["task"].tolist(), fontsize=FONT_SIZE)
+        plt.xlabel("Standard Deviation", fontsize=FONT_SIZE)
+        plt.title("Top Discriminating Existing Tasks", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/task_discrimination_existing.png", dpi=300, bbox_inches="tight")
 
@@ -174,9 +182,10 @@ class SuperGLEBerAnalyzer:
         top_new = discrimination_df[discrimination_df["task_type"] == "new"].nlargest(10, "std")
         y_pos = np.arange(len(top_new))
         plt.barh(y_pos, top_new["std"], alpha=0.7, color="orange")
-        plt.yticks(y_pos, top_new["task"].tolist())
-        plt.xlabel("Standard Deviation")
-        plt.title("Top Discriminating New Tasks")
+        plt.yticks(y_pos, top_new["task"].tolist(), fontsize=FONT_SIZE)
+        plt.xlabel("Standard Deviation", fontsize=FONT_SIZE)
+        plt.title("Top Discriminating New Tasks", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/task_discrimination_new.png", dpi=300, bbox_inches="tight")
 
@@ -193,9 +202,10 @@ class SuperGLEBerAnalyzer:
 
         y_pos = np.arange(len(combined_top))
         plt.barh(y_pos, combined_top["std"], alpha=0.7, color=colors)
-        plt.yticks(y_pos, combined_top["task"].tolist())
-        plt.xlabel("Standard Deviation")
-        plt.title("Top Discriminating Tasks: Combined New and Existing (Top 5 Each)")
+        plt.yticks(y_pos, combined_top["task"].tolist(), fontsize=FONT_SIZE)
+        plt.xlabel("Standard Deviation", fontsize=FONT_SIZE)
+        plt.title("Top Discriminating Tasks: Combined New and Existing (Top 5 Each)", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
 
         # Add legend
         from matplotlib.patches import Patch
@@ -204,7 +214,7 @@ class SuperGLEBerAnalyzer:
             Patch(facecolor="steelblue", alpha=0.7, label="Existing Tasks"),
             Patch(facecolor="orange", alpha=0.7, label="New Tasks"),
         ]
-        plt.legend(handles=legend_elements, loc="lower right")
+        plt.legend(handles=legend_elements, loc="lower right", fontsize=FONT_SIZE)
 
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/task_discrimination_combined.png", dpi=300, bbox_inches="tight")
@@ -218,9 +228,10 @@ class SuperGLEBerAnalyzer:
 
         y_pos = np.arange(len(top_overall))
         plt.barh(y_pos, top_overall["std"], alpha=0.7, color=colors)
-        plt.yticks(y_pos, top_overall["task"].tolist())
-        plt.xlabel("Standard Deviation")
-        plt.title("Top 10 Most Discriminating Tasks Overall")
+        plt.yticks(y_pos, top_overall["task"].tolist(), fontsize=FONT_SIZE)
+        plt.xlabel("Standard Deviation", fontsize=FONT_SIZE)
+        plt.title("Top 10 Most Discriminating Tasks Overall", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
 
         # Add legend
         from matplotlib.patches import Patch
@@ -229,7 +240,7 @@ class SuperGLEBerAnalyzer:
             Patch(facecolor="steelblue", alpha=0.7, label="Existing Tasks"),
             Patch(facecolor="orange", alpha=0.7, label="New Tasks"),
         ]
-        plt.legend(handles=legend_elements, loc="lower right")
+        plt.legend(handles=legend_elements, loc="lower right", fontsize=FONT_SIZE)
 
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/task_discrimination_overall.png", dpi=300, bbox_inches="tight")
@@ -290,10 +301,11 @@ class SuperGLEBerAnalyzer:
             mask=mask,
             fmt=".2f",
             cbar_kws={"label": "Pearson Correlation"},
+            annot_kws={"fontsize": FONT_SIZE - 2},
         )
-        plt.title("Correlations between New and Existing Tasks")
-        plt.xticks(rotation=45, ha="right")
-        plt.yticks(rotation=0)
+        plt.title("Correlations between New and Existing Tasks", fontsize=FONT_SIZE)
+        plt.xticks(rotation=45, ha="right", fontsize=FONT_SIZE)
+        plt.yticks(rotation=0, fontsize=FONT_SIZE)
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/task_correlations_heatmap.png", dpi=300, bbox_inches="tight")
 
@@ -336,10 +348,12 @@ class SuperGLEBerAnalyzer:
         plt.figure(figsize=(12, 6))
         plt.hist(existing_scores, alpha=0.7, label="Existing Tasks", bins=30)
         plt.hist(new_scores, alpha=0.7, label="New Tasks", bins=30)
-        plt.xlabel("Performance Score")
-        plt.ylabel("Frequency")
-        plt.title("Performance Score Distributions")
-        plt.legend()
+        plt.xlabel("Performance Score", fontsize=FONT_SIZE)
+        plt.ylabel("Frequency", fontsize=FONT_SIZE)
+        plt.title("Performance Score Distributions", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
+        plt.yticks(fontsize=FONT_SIZE)
+        plt.legend(fontsize=FONT_SIZE)
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/performance_distributions_histogram.png", dpi=300, bbox_inches="tight")
 
@@ -347,9 +361,10 @@ class SuperGLEBerAnalyzer:
         plt.figure(figsize=(10, 6))
         box_data = [existing_scores, new_scores]
         bp = plt.boxplot(box_data)
-        plt.xticks([1, 2], ["Existing", "New"])
-        plt.ylabel("Performance Score")
-        plt.title("Performance Score Distribution Comparison")
+        plt.xticks([1, 2], ["Existing", "New"], fontsize=FONT_SIZE)
+        plt.ylabel("Performance Score", fontsize=FONT_SIZE)
+        plt.title("Performance Score Distribution Comparison", fontsize=FONT_SIZE)
+        plt.yticks(fontsize=FONT_SIZE)
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/performance_distributions_boxplot.png", dpi=300, bbox_inches="tight")
 
@@ -377,9 +392,11 @@ class SuperGLEBerAnalyzer:
         # 3. Task difficulty comparison
         plt.figure(figsize=(10, 6))
         difficulty_df.boxplot(column="mean_score", by="task_type")
-        plt.title("Task Difficulty (Mean Scores)")
-        plt.xlabel("Task Type")
-        plt.ylabel("Mean Performance")
+        plt.title("Task Difficulty (Mean Scores)", fontsize=FONT_SIZE)
+        plt.xlabel("Task Type", fontsize=FONT_SIZE)
+        plt.ylabel("Mean Performance", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
+        plt.yticks(fontsize=FONT_SIZE)
         plt.suptitle("")  # Remove default suptitle
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/performance_distributions_difficulty.png", dpi=300, bbox_inches="tight")
@@ -390,9 +407,11 @@ class SuperGLEBerAnalyzer:
         new_stats = pd.Series(new_scores).describe()
         stats_comparison = pd.DataFrame({"Existing": existing_stats, "New": new_stats})
         stats_comparison.loc[["min", "25%", "50%", "75%", "max"]].plot(kind="bar")
-        plt.title("Performance Statistics Comparison")
-        plt.ylabel("Performance Score")
-        plt.xticks(rotation=45)
+        plt.title("Performance Statistics Comparison", fontsize=FONT_SIZE)
+        plt.ylabel("Performance Score", fontsize=FONT_SIZE)
+        plt.xticks(rotation=45, fontsize=FONT_SIZE)
+        plt.yticks(fontsize=FONT_SIZE)
+        plt.legend(fontsize=FONT_SIZE)
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/performance_distributions_stats.png", dpi=300, bbox_inches="tight")
 
@@ -439,10 +458,11 @@ class SuperGLEBerAnalyzer:
             center=0,
             fmt=".2f",
             cbar_kws={"label": "Spearman Rank Correlation"},
+            annot_kws={"fontsize": FONT_SIZE - 2},
         )
-        plt.title("Model Ranking Consistency: New vs Existing Tasks")
-        plt.xticks(rotation=45, ha="right")
-        plt.yticks(rotation=0)
+        plt.title("Model Ranking Consistency: New vs Existing Tasks", fontsize=FONT_SIZE)
+        plt.xticks(rotation=45, ha="right", fontsize=FONT_SIZE)
+        plt.yticks(rotation=0, fontsize=FONT_SIZE)
         plt.tight_layout()
         plt.savefig("predictions/analysis/plots/ranking_consistency.png", dpi=300, bbox_inches="tight")
 
@@ -477,9 +497,11 @@ class SuperGLEBerAnalyzer:
         # Create task dendrogram
         plt.figure(figsize=(15, 10))
         dendrogram(linkage_matrix_tasks, labels=data_matrix.columns, leaf_rotation=90)
-        plt.title("Task Clustering Based on Model Performance Patterns")
-        plt.xlabel("Tasks")
-        plt.ylabel("Distance")
+        plt.title("Task Clustering Based on Model Performance Patterns", fontsize=FONT_SIZE)
+        plt.xlabel("Tasks", fontsize=FONT_SIZE)
+        plt.ylabel("Distance", fontsize=FONT_SIZE)
+        plt.xticks(fontsize=FONT_SIZE)
+        plt.yticks(fontsize=FONT_SIZE)
 
         # Color code new vs existing tasks
         ax = plt.gca()
@@ -502,9 +524,11 @@ class SuperGLEBerAnalyzer:
         if self.merged_df is not None:
             model_labels = [model.split("/")[-1] if "/" in model else model for model in self.merged_df["model"]]
             dendrogram(linkage_matrix_models, labels=model_labels, leaf_rotation=90)
-            plt.title("Model Clustering Based on Task Performance Patterns")
-            plt.xlabel("Models")
-            plt.ylabel("Distance")
+            plt.title("Model Clustering Based on Task Performance Patterns", fontsize=FONT_SIZE)
+            plt.xlabel("Models", fontsize=FONT_SIZE)
+            plt.ylabel("Distance", fontsize=FONT_SIZE)
+            plt.xticks(fontsize=FONT_SIZE)
+            plt.yticks(fontsize=FONT_SIZE)
             plt.tight_layout()
             plt.savefig("predictions/analysis/plots/model_clustering.png", dpi=300, bbox_inches="tight")
 
@@ -604,9 +628,11 @@ class SuperGLEBerAnalyzer:
             # Explained variance
             plt.figure(figsize=(10, 6))
             plt.plot(np.cumsum(pca.explained_variance_ratio_), marker="o")
-            plt.xlabel("Number of Components")
-            plt.ylabel("Cumulative Explained Variance")
-            plt.title(f"PCA Explained Variance - {task_type_name}")
+            plt.xlabel("Number of Components", fontsize=FONT_SIZE)
+            plt.ylabel("Cumulative Explained Variance", fontsize=FONT_SIZE)
+            plt.title(f"PCA Explained Variance - {task_type_name}", fontsize=FONT_SIZE)
+            plt.xticks(fontsize=FONT_SIZE)
+            plt.yticks(fontsize=FONT_SIZE)
             plt.grid(True)
             plt.tight_layout()
             plt.savefig(
@@ -619,11 +645,13 @@ class SuperGLEBerAnalyzer:
             for i, task in enumerate(data_matrix.columns):
                 color = "red" if task in self.new_tasks else "blue"
                 plt.scatter(loadings[i, 0], loadings[i, 1], c=color, alpha=0.7, s=50)
-                plt.annotate(task, (loadings[i, 0], loadings[i, 1]), fontsize=8, alpha=0.8)
+                plt.annotate(task, (loadings[i, 0], loadings[i, 1]), fontsize=FONT_SIZE, alpha=0.8)
 
-            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)")
-            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)")
-            plt.title(f"Task Loadings in PCA Space - {task_type_name}")
+            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)", fontsize=FONT_SIZE)
+            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)", fontsize=FONT_SIZE)
+            plt.title(f"Task Loadings in PCA Space - {task_type_name}", fontsize=FONT_SIZE)
+            plt.xticks(fontsize=FONT_SIZE)
+            plt.yticks(fontsize=FONT_SIZE)
             plt.grid(True)
             plt.tight_layout()
             plt.savefig(
@@ -631,15 +659,19 @@ class SuperGLEBerAnalyzer:
             )
 
             # Model positions in PC space
-            plt.figure(figsize=(12, 8))
+            plt.figure(figsize=(12, 10))
             plt.scatter(pca_result[:, 0], pca_result[:, 1], alpha=0.7, s=50)
             if self.merged_df is not None:
                 for i, model in enumerate(self.merged_df["model"]):
-                    plt.annotate(model.split("/")[-1][:15], (pca_result[i, 0], pca_result[i, 1]), fontsize=8, alpha=0.7)
+                    # Use full model name without truncation
+                    model_name = model.split("/")[-1] if "/" in model else model
+                    plt.annotate(model_name, (pca_result[i, 0], pca_result[i, 1]), fontsize=FONT_SIZE, alpha=0.7)
 
-            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)")
-            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)")
-            plt.title(f"Models in PCA Space - {task_type_name}")
+            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)", fontsize=FONT_SIZE)
+            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)", fontsize=FONT_SIZE)
+            plt.title(f"Models in PCA Space - {task_type_name}", fontsize=FONT_SIZE)
+            plt.xticks(fontsize=FONT_SIZE)
+            plt.yticks(fontsize=FONT_SIZE)
             plt.grid(True)
             plt.tight_layout()
             plt.savefig(f"predictions/analysis/plots/pca_models_{filename_suffix}.png", dpi=300, bbox_inches="tight")
@@ -722,9 +754,11 @@ class SuperGLEBerAnalyzer:
             # Explained variance
             plt.figure(figsize=(10, 6))
             plt.plot(np.cumsum(pca.explained_variance_ratio_), marker="o")
-            plt.xlabel("Number of Components")
-            plt.ylabel("Cumulative Explained Variance")
-            plt.title(f"Ranking-based PCA Explained Variance - {task_type_name}")
+            plt.xlabel("Number of Components", fontsize=FONT_SIZE)
+            plt.ylabel("Cumulative Explained Variance", fontsize=FONT_SIZE)
+            plt.title(f"Ranking-based PCA Explained Variance - {task_type_name}", fontsize=FONT_SIZE)
+            plt.xticks(fontsize=FONT_SIZE)
+            plt.yticks(fontsize=FONT_SIZE)
             plt.grid(True)
             plt.tight_layout()
             plt.savefig(
@@ -739,11 +773,13 @@ class SuperGLEBerAnalyzer:
             for i, task in enumerate(data_matrix.columns):
                 color = "red" if task in self.new_tasks else "blue"
                 plt.scatter(loadings[i, 0], loadings[i, 1], c=color, alpha=0.7, s=50)
-                plt.annotate(task, (loadings[i, 0], loadings[i, 1]), fontsize=8, alpha=0.8)
+                plt.annotate(task, (loadings[i, 0], loadings[i, 1]), fontsize=FONT_SIZE, alpha=0.8)
 
-            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)")
-            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)")
-            plt.title(f"Ranking-based Task Loadings in PCA Space - {task_type_name}")
+            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)", fontsize=FONT_SIZE)
+            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)", fontsize=FONT_SIZE)
+            plt.title(f"Ranking-based Task Loadings in PCA Space - {task_type_name}", fontsize=FONT_SIZE)
+            plt.xticks(fontsize=FONT_SIZE)
+            plt.yticks(fontsize=FONT_SIZE)
             plt.grid(True)
             plt.tight_layout()
             plt.savefig(
@@ -757,11 +793,15 @@ class SuperGLEBerAnalyzer:
             plt.scatter(pca_result[:, 0], pca_result[:, 1], alpha=0.7, s=50)
             if self.merged_df is not None:
                 for i, model in enumerate(self.merged_df["model"]):
-                    plt.annotate(model.split("/")[-1][:15], (pca_result[i, 0], pca_result[i, 1]), fontsize=8, alpha=0.7)
+                    # Use full model name without truncation
+                    model_name = model.split("/")[-1] if "/" in model else model
+                    plt.annotate(model_name, (pca_result[i, 0], pca_result[i, 1]), fontsize=FONT_SIZE, alpha=0.7)
 
-            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)")
-            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)")
-            plt.title(f"Models in Ranking-based PCA Space - {task_type_name}")
+            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)", fontsize=FONT_SIZE)
+            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)", fontsize=FONT_SIZE)
+            plt.title(f"Models in Ranking-based PCA Space - {task_type_name}", fontsize=FONT_SIZE)
+            plt.xticks(fontsize=FONT_SIZE)
+            plt.yticks(fontsize=FONT_SIZE)
             plt.grid(True)
             plt.tight_layout()
             plt.savefig(
