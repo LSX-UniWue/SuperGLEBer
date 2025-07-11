@@ -107,10 +107,14 @@ def evaluate_subset_ranking(df, task_subset, reference_ranking):
         return 0.0, 0.0
 
     # Calculate Spearman and Kendall correlations
-    spearman_corr, _ = spearmanr(subset_ranking[valid_mask], reference_ranking[valid_mask])
-    kendall_corr, _ = kendalltau(subset_ranking[valid_mask], reference_ranking[valid_mask])
+    spearman_result = spearmanr(subset_ranking[valid_mask], reference_ranking[valid_mask])
+    kendall_result = kendalltau(subset_ranking[valid_mask], reference_ranking[valid_mask])
 
-    return spearman_corr, kendall_corr
+    # Extract correlation values (handle both scalar and tuple returns)
+    spearman_corr = spearman_result.correlation if hasattr(spearman_result, "correlation") else spearman_result[0]
+    kendall_corr = kendall_result.correlation if hasattr(kendall_result, "correlation") else kendall_result[0]
+
+    return float(spearman_corr), float(kendall_corr)
 
 
 def greedy_subset_selection(df, all_tasks, reference_ranking, max_tasks=10):
@@ -339,6 +343,20 @@ def main():
     top_models = df.nlargest(10, "avg_all")[["model", "avg_all", "rank_all"]]
     for _, row in top_models.iterrows():
         print(f"{row['model']:<40}: {row['avg_all']:.4f} (rank {row['rank_all']:.0f})")
+    print()
+
+    # Display top models by existing tasks ranking
+    print("Top 10 models by existing tasks average:")
+    top_existing = df.nlargest(10, "avg_existing")[["model", "avg_existing", "rank_existing"]]
+    for _, row in top_existing.iterrows():
+        print(f"{row['model']:<40}: {row['avg_existing']:.4f} (rank {row['rank_existing']:.0f})")
+    print()
+
+    # Display top models by new tasks ranking
+    print("Top 10 models by new tasks average:")
+    top_new = df.nlargest(10, "avg_new")[["model", "avg_new", "rank_new"]]
+    for _, row in top_new.iterrows():
+        print(f"{row['model']:<40}: {row['avg_new']:.4f} (rank {row['rank_new']:.0f})")
     print()
 
     # Analyze task importance
