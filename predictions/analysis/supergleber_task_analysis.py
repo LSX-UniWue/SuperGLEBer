@@ -676,6 +676,43 @@ class SuperGLEBerAnalyzer:
             plt.tight_layout()
             plt.savefig(f"predictions/analysis/plots/pca_models_{filename_suffix}.png", dpi=300, bbox_inches="tight")
 
+            # Additional plots: Models colored by performance on each new task
+            if filename_suffix == "all" and self.merged_df is not None:
+                for new_task in self.new_tasks:
+                    if new_task in self.merged_df.columns:
+                        task_scores = pd.to_numeric(self.merged_df[new_task], errors="coerce")
+                        if not task_scores.isna().all():
+                            plt.figure(figsize=(12, 10))
+
+                            # Create scatter plot with color mapping based on task performance
+                            scatter = plt.scatter(
+                                pca_result[:, 0], pca_result[:, 1], c=task_scores, cmap="viridis", alpha=0.7, s=100
+                            )
+                            plt.colorbar(scatter, label=f"{new_task} Performance")
+
+                            # Annotate models
+                            for i, model in enumerate(self.merged_df["model"]):
+                                model_name = model.split("/")[-1] if "/" in model else model
+                                plt.annotate(
+                                    model_name, (pca_result[i, 0], pca_result[i, 1]), fontsize=FONT_SIZE - 2, alpha=0.8
+                                )
+
+                            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)", fontsize=FONT_SIZE)
+                            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)", fontsize=FONT_SIZE)
+                            plt.title(f"Models in PCA Space - Colored by {new_task} Performance", fontsize=FONT_SIZE)
+                            plt.xticks(fontsize=FONT_SIZE)
+                            plt.yticks(fontsize=FONT_SIZE)
+                            plt.grid(True)
+                            plt.tight_layout()
+
+                            # Save with task-specific filename
+                            safe_task_name = new_task.replace("/", "_").replace(" ", "_")
+                            plt.savefig(
+                                f"predictions/analysis/plots/pca_models_colored_by_{safe_task_name}.png",
+                                dpi=300,
+                                bbox_inches="tight",
+                            )
+
             return pca, pca_result
 
         # Perform PCA for all task combinations
@@ -807,6 +844,46 @@ class SuperGLEBerAnalyzer:
             plt.savefig(
                 f"predictions/analysis/plots/pca_ranking_models_{filename_suffix}.png", dpi=300, bbox_inches="tight"
             )
+
+            # Additional plots: Models colored by performance on each new task (for ranking-based PCA)
+            if filename_suffix == "all" and self.merged_df is not None:
+                for new_task in self.new_tasks:
+                    if new_task in self.merged_df.columns:
+                        task_scores = pd.to_numeric(self.merged_df[new_task], errors="coerce")
+                        if not task_scores.isna().all():
+                            plt.figure(figsize=(12, 10))
+
+                            # Create scatter plot with color mapping based on task performance
+                            scatter = plt.scatter(
+                                pca_result[:, 0], pca_result[:, 1], c=task_scores, cmap="viridis", alpha=0.7, s=100
+                            )
+                            plt.colorbar(scatter, label=f"{new_task} Performance")
+
+                            # Annotate models
+                            for i, model in enumerate(self.merged_df["model"]):
+                                model_name = model.split("/")[-1] if "/" in model else model
+                                plt.annotate(
+                                    model_name, (pca_result[i, 0], pca_result[i, 1]), fontsize=FONT_SIZE - 2, alpha=0.8
+                                )
+
+                            plt.xlabel(f"PC1 ({pca.explained_variance_ratio_[0]:.1%} variance)", fontsize=FONT_SIZE)
+                            plt.ylabel(f"PC2 ({pca.explained_variance_ratio_[1]:.1%} variance)", fontsize=FONT_SIZE)
+                            plt.title(
+                                f"Models in Ranking-based PCA Space - Colored by {new_task} Performance",
+                                fontsize=FONT_SIZE,
+                            )
+                            plt.xticks(fontsize=FONT_SIZE)
+                            plt.yticks(fontsize=FONT_SIZE)
+                            plt.grid(True)
+                            plt.tight_layout()
+
+                            # Save with task-specific filename
+                            safe_task_name = new_task.replace("/", "_").replace(" ", "_")
+                            plt.savefig(
+                                f"predictions/analysis/plots/pca_ranking_models_colored_by_{safe_task_name}.png",
+                                dpi=300,
+                                bbox_inches="tight",
+                            )
 
             return pca, pca_result, data_matrix
 
