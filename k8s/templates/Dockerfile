@@ -41,7 +41,9 @@ ENV UV_LINK_MODE=copy
 
 # Use lockfile for reproducible installs
 # Pre-install build dependencies needed for --no-build-isolation
-RUN uv pip install --no-cache packaging wheel setuptools psutil ninja
+# flash-attn requires torch to be present during its build
+RUN uv pip install --no-cache packaging wheel setuptools psutil ninja \
+    "torch==$(grep -E '^torch==' requirements.lock | cut -d'=' -f3)"
 RUN uv pip sync --no-cache --no-build-isolation requirements.lock
 RUN uv pip freeze
 
