@@ -1,15 +1,8 @@
-FROM nvidia/cuda:12.6.3-devel-ubuntu24.04
+FROM nvidia/cuda:12.1.1-devel-ubuntu22.04
 
 ARG USER={{lastname}}
 ARG UID={{uuid}}
 
-# 1. Create the home directory first
-RUN mkdir -p /localdir/
-
-# 2. Delete the default 'ubuntu' user (UID 1000)
-RUN userdel -r ubuntu || true
-
-# 3. Create your custom user
 RUN adduser ${USER} --uid ${UID} --home /localdir/ --disabled-password --gecos "" --no-create-home
 
 SHELL ["/bin/bash", "-c"]
@@ -17,49 +10,36 @@ SHELL ["/bin/bash", "-c"]
 ENV PYTHONUNBUFFERED=1
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Berlin
-# This flag is necessary on Ubuntu 24.04 to allow pip to install globally
-# without creating a virtual environment (PEP 668 override).
-ENV PIP_BREAK_SYSTEM_PACKAGES=1
 
-# 4. Install Packages
-# Added python3-pip here
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    cmake \
-    curl \
-    git \
-    libfl-dev \
-    libibverbs1 \
-    libnl-3-dev \
-    libnl-route-3-dev \
-    libudev-dev \
-    ninja-build \
-    pkg-config \
-    python3-pip \
-    python3.12 \
-    python3.12-dev \
-    python3.12-venv \
-    vim \
-    wget \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update \
+  && apt-get install -y software-properties-common \
+  && add-apt-repository -y ppa:deadsnakes/ppa \
+  && apt-get update \
+  && apt-get install -y \
+  python3.11 \
+  python3.11-dev \
+  python3.11-venv \
+  ninja-build \
+  git \
+  curl \
+  libfl-dev \
+  && rm -rf /var/lib/apt/lists/*
+# https://askubuntu.com/questions/1465653/usr-bin-ld-cannot-find-ll-no-such-file-or-directory/1465654#1465654
 
-# 5. Fix Python Symlinks
-# Ensure python and python3 point to python3.12
-RUN ln -sf /usr/bin/python3.12 /usr/bin/python3 && \
-    ln -sf /usr/bin/python3.12 /usr/bin/python
+RUN ln -sf /usr/bin/python3.11 /usr/bin/python
 
-# (Removed the manual get-pip.py installation step)
+RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python
 
 WORKDIR /localdir/
 RUN chown -R ${USER}:${USER} /localdir/
 
 COPY . .
-
-# 6. Install Python packages
 RUN python -m pip install packaging wheel
-RUN python -m pip install --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cu124 torch \
-    && rm -rf /root/.cache/pip
-RUN python -m pip install --no-build-isolation -r requirements.txt
+RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu121 torch==2.3.1+cu121
+RUN python -m pip install --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
+
+#RUN python -m pip install flash-attn==2.5.7 --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
+#RUN python -m pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation --config-settings "--build-option=--cpp_ext" --config-settings "--build-option=--cuda_ext" git+https://github.com/NVIDIA/apex/
 
 USER ${USER}
 WORKDIR /localdir/
