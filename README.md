@@ -67,7 +67,7 @@ Feel free to reach out 💡:
 ```
 
 For our GermEval 2025 participation cite: 
-```
+```bib
 @inproceedings{wunderle-etal-2025-die,
     title = "Die {S}uper{GLEB}er at {G}erm{E}val 2025 Shared Tasks: Growing Pains - When More Isn{'}t Always Better",
     author = "Wunderle, Julia  and

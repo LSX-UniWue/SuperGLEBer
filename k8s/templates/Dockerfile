@@ -12,33 +12,37 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Berlin
 
 RUN apt-get update \
-  && apt-get install -y software-properties-common \
-  && add-apt-repository -y ppa:deadsnakes/ppa \
-  && apt-get update \
   && apt-get install -y \
-  python3.11 \
-  python3.11-dev \
-  python3.11-venv \
   ninja-build \
   git \
   curl \
   libfl-dev \
-  && apt-get remove -y python3.10 python3.10-minimal libpython3.10-minimal libpython3.10-stdlib || true \
-  && apt-get autoremove -y \
   && rm -rf /var/lib/apt/lists/*
 # https://askubuntu.com/questions/1465653/usr-bin-ld-cannot-find-ll-no-such-file-or-directory/1465654#1465654
 
-RUN ln -sf /usr/bin/python3.11 /usr/bin/python
-
-RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python
+# Install uv
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 WORKDIR /localdir/
+
+# Create venv with Python 3.11 (uv downloads Python automatically)
+RUN uv venv --python 3.11 /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+ENV VIRTUAL_ENV=/opt/venv
+
 RUN chown -R ${USER}:${USER} /localdir/
 
 COPY . .
-RUN python -m pip install --no-cache-dir packaging wheel psutil ninja
-RUN python -m pip install --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cu128 torch==2.8.0+cu128
-RUN python -m pip install --no-cache-dir --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu128 -r requirements.txt
+
+# Install dependencies
+ENV UV_EXTRA_INDEX_URL=https://download.pytorch.org/whl/cu128
+ENV UV_INDEX_STRATEGY=unsafe-best-match
+ENV UV_LINK_MODE=copy
+
+# Use lockfile for reproducible installs
+RUN uv pip install --no-cache packaging wheel psutil ninja
+RUN uv pip sync --no-cache --no-build-isolation requirements.lock
+RUN uv pip freeze
 
 USER ${USER}
 WORKDIR /localdir/
