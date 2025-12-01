@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.1.1-devel-ubuntu22.04
+FROM nvidia/cuda:12.8.1-devel-ubuntu22.04
 
 ARG USER={{lastname}}
 ARG UID={{uuid}}
@@ -35,8 +35,8 @@ RUN chown -R ${USER}:${USER} /localdir/
 
 COPY . .
 RUN python -m pip install packaging wheel psutil ninja
-RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu121 torch==2.3.1+cu121
-RUN python -m pip install --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
+RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu128 torch==2.8.0+cu128
+RUN python -m pip install --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu128 -r requirements.txt
 
 USER ${USER}
 WORKDIR /localdir/
