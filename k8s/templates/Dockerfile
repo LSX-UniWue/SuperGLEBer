@@ -1,21 +1,4 @@
 FROM nvidia/cuda:12.6.3-devel-ubuntu24.04
-#FROM nvidia/cuda:12.3.1-devel-ubuntu22.04
-
-ARG USER={{lastname}}
-ARG UID={{uuid}}
-
-RUN userdel -r ubuntu || true
-
-RUN adduser ${USER} --uid ${UID} --home /localdir/ --disabled-password --gecos "" --no-create-home
-
-SHELL ["/bin/bash", "-c"]
-
-ENV PYTHONUNBUFFERED=1
-ENV DEBIAN_FRONTEND=noninteractive
-ENV TZ=Europe/Berlin
-
-Dockerfile
-FROM nvidia/cuda:12.6.3-devel-ubuntu24.04
 
 ARG USER={{lastname}}
 ARG UID={{uuid}}
