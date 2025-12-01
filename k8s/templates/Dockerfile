@@ -17,8 +17,12 @@ SHELL ["/bin/bash", "-c"]
 ENV PYTHONUNBUFFERED=1
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Berlin
+# This flag is necessary on Ubuntu 24.04 to allow pip to install globally
+# without creating a virtual environment (PEP 668 override).
+ENV PIP_BREAK_SYSTEM_PACKAGES=1
 
 # 4. Install Packages
+# Added python3-pip here
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
@@ -31,6 +35,7 @@ RUN apt-get update && apt-get install -y \
     libudev-dev \
     ninja-build \
     pkg-config \
+    python3-pip \
     python3.12 \
     python3.12-dev \
     python3.12-venv \
@@ -39,18 +44,18 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # 5. Fix Python Symlinks
-# I removed the trailing '\' at the end of this block
+# Ensure python and python3 point to python3.12
 RUN ln -sf /usr/bin/python3.12 /usr/bin/python3 && \
     ln -sf /usr/bin/python3.12 /usr/bin/python
 
-# 6. Install Pip
-# Now this runs as a fresh command
-RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python
+# (Removed the manual get-pip.py installation step)
 
 WORKDIR /localdir/
 RUN chown -R ${USER}:${USER} /localdir/
 
 COPY . .
+
+# 6. Install Python packages
 RUN python -m pip install packaging wheel
 RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu124 torch
 RUN python -m pip install --no-build-isolation -r requirements.txt
