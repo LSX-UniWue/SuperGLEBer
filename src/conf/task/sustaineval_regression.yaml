@@ -1,0 +1,13 @@
+task_name: sustaineval_regression
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextPairRegressor
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: DataPairCorpus
+corpus_args:
+  data_folder: "Germeval/2025/SustainEval"
+  columns: [2, 3, 5]
+  label_type: *label_type
+  skip_first_line: True

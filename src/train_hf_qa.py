@@ -1,22 +1,19 @@
 from collections import Counter
 from pathlib import Path
-import bitsandbytes
 import numpy as np
 import pandas as pd
-import torch
 from datasets import DatasetDict, load_from_disk
 from loguru import logger
 from omegaconf import DictConfig
-from peft import LoraConfig, TaskType, get_peft_model, prepare_model_for_kbit_training
-from transformers import AutoConfig, AutoModelForQuestionAnswering
+from peft import TaskType, get_peft_model, prepare_model_for_kbit_training
+from transformers import AutoConfig
 from transformers.models.auto.tokenization_auto import AutoTokenizer
 from transformers.tokenization_utils import PreTrainedTokenizer
 from transformers.trainer import Trainer, TrainingArguments
 from lib_patches.transformers_patches.Gemma2ForQuestionAnswering import Gemma2ForQuestionAnswering
-from lib_patches.transformers_patches.ModernBERTForQuestionAnswering import ModernBertForQuestionAnswering
-
+from lib_patches.transformers_patches.EuroBERTForQuestionAnswering import EuroBertForQuestionAnswering
 from transformers.models.gemma2.configuration_gemma2 import Gemma2Config
-from transformers.models.modernbert.configuration_modernbert import ModernBertConfig
+from lib_patches.transformers_patches.EuroBERTForQuestionAnswering import EuroBertConfig
 
 from transformers import AutoModel, AutoModelForQuestionAnswering
 import sys
@@ -82,10 +79,10 @@ def training(cfg: DictConfig) -> None:
 
             # If the answer is not fully inside the context, label it (0, 0)
             if (
-                context_start >= len(offset)
-                or context_end >= len(offset)
-                or offset[context_start][0] > end_char
-                or offset[context_end][1] < start_char
+                    context_start >= len(offset)
+                    or context_end >= len(offset)
+                    or offset[context_start][0] > end_char
+                    or offset[context_end][1] < start_char
             ):
                 start_positions.append(0)
                 end_positions.append(0)
@@ -135,33 +132,34 @@ def training(cfg: DictConfig) -> None:
         per_device_eval_batch_size=cfg.train_args.batch_size,
         num_train_epochs=cfg.train_args.epochs,
         seed=cfg.seed,
-        # fp16=cfg.train_args.get("fp16", False),
+        fp16=cfg.train_args.get("fp16", False),
         gradient_accumulation_steps=(
             cfg.train_args.gradient_accumulation_steps if cfg.train_args.gradient_accumulation_steps else 1
         ),
-     #   optim="paged_adamw_8bit",
+        optim="paged_adamw_8bit",
         save_strategy="no",
     )
 
     logger.info("creating model")
     Gemma2ForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
     AutoModelForQuestionAnswering.register(Gemma2Config, Gemma2ForQuestionAnswering)
-
-    ModernBertForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
-    AutoModelForQuestionAnswering.register(ModernBertConfig, ModernBertForQuestionAnswering)
-
-    config = AutoConfig.from_pretrained(cfg.model.model_name, finetuning_task="question-answering",
+    AutoConfig.register("eurobert", EuroBertConfig)
+    EuroBertForQuestionAnswering.register_for_auto_class("AutoModelForQuestionAnswering")
+    AutoModelForQuestionAnswering.register(EuroBertConfig, EuroBertForQuestionAnswering)
+    config = AutoConfig.from_pretrained(cfg.model.model_name, trust_remote_code=False,
+                                        finetuning_task="question-answering",
                                         **cfg.model.get("model_config_args", {}))
 
     bnb_config = {}
     if "bnb_config" in cfg.train_procedure:
-        if config.model_type == "bert" or config.model_type=="modernbert":  # bert does not support quantization
+        if config.model_type == "bert" or config.model_type == "modernbert" or config.model_type == "eurobert":  # bert does not support quantization
             bnb_config = {}
         else:
             bnb_config = {"quantization_config": get_bnb_config(cfg)}
 
+
     # https://github.com/huggingface/transformers/issues/30381#issuecomment-2120004654 - weights are not initialized
-    if config.model_type == "llama" or config.model_type == "mistral":
+    if  config.model_type == "llama" or config.model_type == "mistral":
         model = AutoModel.from_pretrained(cfg.model.model_name)
         model.save_pretrained("tmp")
         model = AutoModelForQuestionAnswering.from_pretrained("tmp",

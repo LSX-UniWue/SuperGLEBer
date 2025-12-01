@@ -1,0 +1,291 @@
+[
+  {
+    "model": "LLaMmlein_120M",
+    "argument_mining": "0.8138",
+    "db_aspect": "0.5585",
+    "engaging_comments": "0.6746",
+    "factclaiming_comments": "0.7012",
+    "hotel_aspect": "0.6287",
+    "massive_intents": "0.7579",
+    "massive_seq": "0.8997",
+    "ner_biofid": "0.5296",
+    "ner_europarl": "0.5174",
+    "ner_legal": "0.8686",
+    "ner_news": "0.449",
+    "ner_wiki_news": "0.7931",
+    "nli": "0.589",
+    "offensive_lang": "0.436",
+    "polarity": "0.7705",
+    "query_ad": "0.7226",
+    "quest_ans": "0.5923",
+    "similarity_pawsx": "0.5159",
+    "topic_relevance": "0.9341",
+    "toxic_comments": "0.6345",
+    "up_dep": "0.8596",
+    "up_pos": "0.9239",
+    "verbal_idioms": "0.8974",
+    "webcage": "0.7589"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_100",
+    "db_aspect": "0.5625",
+    "factclaiming_comments": "0.706",
+    "ner_europarl": "0.5826",
+    "nli": "0.5858",
+    "similarity_pawsx": "0.5025",
+    "webcage": "0.7549"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_1000",
+    "db_aspect": "0.5441",
+    "factclaiming_comments": "0.7202",
+    "ner_europarl": "0.6691",
+    "nli": "0.5074",
+    "similarity_pawsx": "0.4904",
+    "webcage": "0.7529"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_1500",
+    "db_aspect": "0.5154",
+    "factclaiming_comments": "0.7055",
+    "ner_europarl": "0.6243",
+    "nli": "0.513",
+    "similarity_pawsx": "0.4609",
+    "webcage": "0.749"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_2000",
+    "db_aspect": "0.5239",
+    "factclaiming_comments": "0.708",
+    "ner_europarl": "0.676",
+    "nli": "0.506",
+    "similarity_pawsx": "0.4963",
+    "webcage": "0.7568"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_2500",
+    "db_aspect": "0.5114",
+    "factclaiming_comments": "0.6983",
+    "ner_europarl": "0.6033",
+    "nli": "0.5218",
+    "similarity_pawsx": "0.4748",
+    "webcage": "0.7514"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_3000",
+    "db_aspect": "0.5184",
+    "factclaiming_comments": "0.7146",
+    "ner_europarl": "0.5836",
+    "nli": "0.5257",
+    "similarity_pawsx": "0.4755",
+    "webcage": "0.7493"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_3099",
+    "db_aspect": "0.52",
+    "factclaiming_comments": "0.708",
+    "ner_europarl": "0.5973",
+    "nli": "0.5271",
+    "similarity_pawsx": "0.4690",
+    "webcage": "0.7507"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_3099_ext2_100",
+    "db_aspect": "0.5087",
+    "factclaiming_comments": "0.6932",
+    "ner_europarl": "0.54",
+    "nli": "0.4934",
+    "similarity_pawsx": "0.4804",
+    "webcage": "0.7548"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_3099_ext2_500",
+    "db_aspect": "0.511",
+    "factclaiming_comments": "0.679",
+    "ner_europarl": "0.5363",
+    "nli": "0.4711",
+    "similarity_pawsx": "0.4055",
+    "webcage": "0.751"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_3099_ext2_858",
+    "db_aspect": "0.5081",
+    "factclaiming_comments": "0.6809",
+    "ner_europarl": "0.4144",
+    "nli": "0.4587",
+    "similarity_pawsx": "0.4009",
+    "webcage": "0.744"
+  },
+  {
+    "model": "LLaMmlein_120M_ext1_500",
+    "db_aspect": "0.5443",
+    "factclaiming_comments": "0.7096",
+    "ner_europarl": "0.6654",
+    "nli": "0.5232",
+    "similarity_pawsx": "0.4885",
+    "webcage": "0.7542"
+  },
+  {
+    "model": "LLaMmlein_120M_ext2_100",
+    "db_aspect": "0.5561",
+    "factclaiming_comments": "0.7218",
+    "ner_europarl": "0.5973",
+    "nli": "0.594",
+    "similarity_pawsx": "0.5042",
+    "webcage": "0.7558"
+  },
+  {
+    "model": "LLaMmlein_120M_ext2_500",
+    "db_aspect": "0.5482",
+    "factclaiming_comments": "0.7037",
+    "ner_europarl": "0.5829",
+    "nli": "0.5289",
+    "similarity_pawsx": "0.4846",
+    "webcage": "0.7524"
+  },
+  {
+    "model": "LLaMmlein_120M_ext2_858",
+    "db_aspect": "0.5282",
+    "factclaiming_comments": "0.6734",
+    "ner_europarl": "0.5577",
+    "nli": "0.5142",
+    "similarity_pawsx": "0.4732",
+    "webcage": "0.7526"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_1000",
+    "db_aspect": "0.6208",
+    "factclaiming_comments": "0.7201",
+    "ner_europarl": "0.7511",
+    "nli": "0.6709",
+    "similarity_pawsx": "0.5981",
+    "webcage": "0.7486"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_2000",
+    "db_aspect": "0.5923",
+    "factclaiming_comments": "0.7199",
+    "ner_europarl": "0.7952",
+    "nli": "0.6637",
+    "similarity_pawsx": "0.5907",
+    "webcage": "0.7435"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_3000",
+    "db_aspect": "0.6006",
+    "factclaiming_comments": "0.7122",
+    "ner_europarl": "0.7945",
+    "nli": "0.6838",
+    "similarity_pawsx": "0.5996",
+    "webcage": "0.7538"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_4000",
+    "db_aspect": "0.6026",
+    "factclaiming_comments": "0.7412",
+    "ner_europarl": "0.7808",
+    "nli": "0.6579",
+    "similarity_pawsx": "0.5971",
+    "webcage": "0.7507"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_5000",
+    "db_aspect": "0.6005",
+    "factclaiming_comments": "0.7427",
+    "ner_europarl": "0.7803",
+    "nli": "0.6667",
+    "similarity_pawsx": "0.5963",
+    "webcage": "0.7485"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_5364",
+    "db_aspect": "0.6011",
+    "factclaiming_comments": "0.7317",
+    "ner_europarl": "0.7689",
+    "nli": "0.6645",
+    "similarity_pawsx": "0.6043",
+    "webcage": "0.7504"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_5364_ext2_100",
+    "db_aspect": "0.5957",
+    "factclaiming_comments": "0.6922",
+    "ner_europarl": "0.7294",
+    "nli": "0.6265",
+    "similarity_pawsx": "0.6063",
+    "webcage": "0.7499"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_5364_ext2_858",
+    "db_aspect": "0.5287",
+    "factclaiming_comments": "0.6976",
+    "ner_europarl": "0.6316",
+    "nli": "0.4479",
+    "similarity_pawsx": "0.5433",
+    "webcage": "0.7584"
+  },
+  {
+    "model": "LLaMmlein_1B_ext2_500",
+    "db_aspect": "0.5834",
+    "factclaiming_comments": "0.6817",
+    "ner_europarl": "0.7468",
+    "nli": "0.5934",
+    "similarity_pawsx": "0.5870",
+    "webcage": "0.7472"
+  },
+  {
+    "model": "LLaMmlein_1B_ext2_858",
+    "db_aspect": "0.5791",
+    "factclaiming_comments": "0.7059",
+    "ner_europarl": "0.745",
+    "nli": "0.598",
+    "similarity_pawsx": "0.5801",
+    "webcage": "0.7422"
+  },
+  {
+    "model": "LLaMmlein_1B_ext1_5364_ext2_500",
+    "db_aspect": "0.5870",
+    "factclaiming_comments": "0.6625",
+    "ner_europarl": "0.8069",
+    "nli": "0.4447",
+    "similarity_pawsx": "0.5426",
+    "webcage": "0.7481"
+  },
+
+  {
+    "model": "LLaMmlein_1B_ext2_100",
+    "db_aspect": "0.5921",
+    "factclaiming_comments": "0.7256",
+    "ner_europarl": "0.8069",
+    "nli": "0.5956",
+    "similarity_pawsx": "0.5893",
+    "webcage": "0.7513"
+  },
+  {
+    "model": "LLaMmlein_1B",
+    "argument_mining": "0.8369",
+    "db_aspect": "0.6004",
+    "engaging_comments": "0.6645",
+    "factclaiming_comments": "0.7387",
+    "hotel_aspect": "0.7332",
+    "massive_intents": "0.8493",
+    "massive_seq": "0.9314",
+    "ner_biofid": "0.6702",
+    "ner_europarl": "0.675",
+    "ner_legal": "0.9348",
+    "ner_news": "0.6913",
+    "ner_wiki_news": "0.8598",
+    "nli": "0.7222",
+    "offensive_lang": "0.5084",
+    "polarity": "0.8133",
+    "query_ad": "0.771",
+    "quest_ans": "0.6578",
+    "similarity_pawsx": "0.5804",
+    "topic_relevance": "0.9493",
+    "toxic_comments": "0.6382",
+    "up_dep": "0.8975",
+    "up_pos": "0.9374",
+    "verbal_idioms": "0.9259",
+    "webcage": "0.7634"
+  }
+]

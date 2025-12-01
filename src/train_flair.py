@@ -20,25 +20,33 @@ from flair.models import (
     SequenceTagger,
     TextClassifier,
     TextPairClassifier,
+    TextPairRegressor,
     TextTripleClassifier,
 )
 from flair.nn import Classifier
 from flair.trainers import ModelTrainer
 from loguru import logger
 from omegaconf import DictConfig
-from peft import LoraConfig
+from torch import nn
+
 from transformers import AutoConfig
+
 from lib_patches.flair_patches.dummyclassifier import DummyTextClassifier
+
 from utils import (
     create_weight_dict,
     get_bnb_config,
     get_max_seq_length,
     get_peft_config,
+
 )
+
+from lib_patches.flair_patches.version_missmatch import patched_transformer_forward
+TransformerEmbeddings.forward = patched_transformer_forward
 
 
 def training(cfg: DictConfig) -> None:
-    model_conf = AutoConfig.from_pretrained(cfg["model"]["model_name"])
+    model_conf = AutoConfig.from_pretrained(cfg["model"]["model_name"], trust_remote_code=True)
     logger.add(Path.cwd() / cfg.task.task_name / "training_logs" / "logfile.log", level="INFO")
     if cfg.train_args.get("use_mps", False):
         flair.device = torch.device("mps")
@@ -62,21 +70,23 @@ def training(cfg: DictConfig) -> None:
     corpus.filter_empty_sentences()
 
     additional_classifier_args = dict()
+
+    if "multi_label" in cfg.task:
+        additional_classifier_args["multi_label"] = cfg.task.get("multi_label", False)
+
     if cfg.task.classifier_type in ["TextClassifier", "TextPairClassifier", "TextTripleClassifier"]:
         additional_classifier_args["label_dictionary"] = corpus.make_label_dictionary(label_type=cfg.task.label_type)
     elif cfg.task.classifier_type == "SequenceTagger":
         additional_classifier_args["tag_dictionary"] = corpus.make_label_dictionary(
             label_type=cfg.task.label_type, add_unk=True
         )
-        if "multi_label" in cfg.task:
-            additional_classifier_args["multi_label"] = cfg.task.get("multi_label", False)
 
     logger.info(f"label distribution: {corpus.get_label_distribution()}")
 
-    logger.info("creating model")
     weight_dict = create_weight_dict(data=corpus.train)
     logger.info(f"weight_dict has been created {weight_dict}")
 
+    logger.info("loading flair model")
     if cfg["model"]["model_name"] == "dummy":
         classifier: flair.nn.Classifier = DummyTextClassifier(
             baseline_type=cfg.model.baseline_type,
@@ -92,26 +102,55 @@ def training(cfg: DictConfig) -> None:
 
         bnb_config = {}
         if "bnb_config" in cfg.train_procedure:
-            if model_conf.model_type == "bert" or model_conf.model_type == "modernbert":  # bert does not support quantization
+            if (
+                    model_conf.model_type == "bert" or model_conf.model_type == "modernbert"
+            ):  # bert does not support quantization
                 bnb_config = {}
             else:
                 bnb_config = {"quantization_config": get_bnb_config(cfg)}
 
-        classifier: flair.nn.Classifier = globals()[cfg.task.classifier_type](
-            embeddings=globals()[cfg.task.embedding_type](
+        classifier_class = globals()[cfg.task.classifier_type]
+        classifier_kwargs = {
+            "embeddings": globals()[cfg.task.embedding_type](
                 model=cfg.model.model_name,
                 fine_tune=cfg.train_procedure.get("fine_tune", True),
                 force_max_length=True,
-                transformers_config_kwargs=cfg.model.get("model_config_args", {}),
-                transformers_model_kwargs=bnb_config | dict(cfg.model.get("model_args", {})),
-                transformers_tokenizer_kwargs={"model_max_length": get_max_seq_length(cfg)},
+                transformers_config_kwargs={**cfg.model.get("model_config_args", {}), "trust_remote_code": True},
+                transformers_model_kwargs={
+                    **bnb_config,
+                    **dict(cfg.model.get("model_args", {})),
+                    "trust_remote_code": True,
+                },
+                transformers_tokenizer_kwargs={"model_max_length": get_max_seq_length(cfg), "trust_remote_code": True},
                 peft_config=peft_config if "peft_config" in cfg.train_procedure else None,
                 peft_gradient_checkpointing_kwargs={"gradient_checkpointing_kwargs": {"use_reentrant": False}},
             ),
             **cfg.task.get("classifier_args", {}),
             **additional_classifier_args,
-            loss_weights=weight_dict,
-        )
+        }
+
+        if classifier_class.__name__ != "TextPairRegressor":
+            # Conditionally add loss_weights only if classifier is NOT regression
+            classifier_kwargs["loss_weights"] = weight_dict
+        else:
+            # constrain the output to be between 0 and 1
+            classifier_kwargs["decoder"] = nn.Sequential(
+                nn.RMSNorm(
+                    2 * classifier_kwargs["embeddings"].embedding_length
+                    if classifier_kwargs.get("embed_separately", False)
+                    else classifier_kwargs["embeddings"].embedding_length
+                ),
+                nn.Linear(
+                    2 * classifier_kwargs["embeddings"].embedding_length
+                    if classifier_kwargs.get("embed_separately", False)
+                    else classifier_kwargs["embeddings"].embedding_length,
+                    1,
+                ),
+                nn.Sigmoid(),
+            )
+            nn.init.xavier_uniform_(classifier_kwargs["decoder"][1].weight)
+
+        classifier: flair.nn.Classifier = classifier_class(**classifier_kwargs)
 
     if cfg.model.get("set_pad_token_to_eos_token_id", False):
         logger.info("patching tokenizer")

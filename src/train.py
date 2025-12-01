@@ -36,6 +36,12 @@ def training(cfg: DictConfig):
     torch.cuda.manual_seed_all(cfg.seed)
     set_seed(cfg.seed)
 
+    # enable correct model merging for llm2vec before starting training
+    if cfg['model'].get("peft_paths", None) and cfg['model'].get("is_bidirectional", False):
+        merge_multiple_llm2vec(cfg)
+
+    logger.info(f'Using model "{cfg.model.model_name}"')
+
     if cfg.task.framework == "flair":
         logger.info("Training with flair")
         train_flair(cfg)

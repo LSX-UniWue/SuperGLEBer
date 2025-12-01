@@ -1,0 +1,3 @@
+model_name: EuroBERT/EuroBERT-210m
+supports_qlora: False
+peft_target_modules: ["q_proj", "v_proj"]

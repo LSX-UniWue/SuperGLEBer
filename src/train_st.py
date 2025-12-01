@@ -43,7 +43,6 @@ def calculate_evaluation_score(true_labels, predicted_scores):
 
 
 def training(cfg: DictConfig) -> None:
-
     Transformer = models.Transformer
     Transformer._load_model = TransformerPatches.get_load_model(cfg)
 
@@ -93,7 +92,6 @@ def training(cfg: DictConfig) -> None:
 
     print(hf_corpus['train'][0])
 
-
     try:
         similarity_score = "similarity_score"
         NORMALIZING_CONSTANT = max(hf_corpus["train"][similarity_score])
@@ -113,18 +111,22 @@ def training(cfg: DictConfig) -> None:
     for split in hf_corpus.keys():
         # https://github.com/UKPLab/sentence-transformers/blob/master/examples/training/nli/training_nli_v2.py#L74
         sentence_transformer_corpus["dev" if split == "validation" else split] = [
-            InputExample(
-                texts=[example["sentence1"], example["sentence2"]],
-                label=example[similarity_score] / NORMALIZING_CONSTANT,
-            )
-            for example in hf_corpus[split]
-        ] + [
-            InputExample(
-                texts=[example["sentence2"], example["sentence1"]],
-                label=example[similarity_score] / NORMALIZING_CONSTANT,
-            )
-            for example in hf_corpus[split]
-        ]
+                                                                                     InputExample(
+                                                                                         texts=[example["sentence1"],
+                                                                                                example["sentence2"]],
+                                                                                         label=example[
+                                                                                                   similarity_score] / NORMALIZING_CONSTANT,
+                                                                                     )
+                                                                                     for example in hf_corpus[split]
+                                                                                 ] + [
+                                                                                     InputExample(
+                                                                                         texts=[example["sentence2"],
+                                                                                                example["sentence1"]],
+                                                                                         label=example[
+                                                                                                   similarity_score] / NORMALIZING_CONSTANT,
+                                                                                     )
+                                                                                     for example in hf_corpus[split]
+                                                                                 ]
         threshold_similar = 0.5
         for row in hf_corpus[split]:
             sent1 = row["sentence1"].strip()
@@ -181,7 +183,6 @@ def training(cfg: DictConfig) -> None:
         save_best_model=False,
 
     )
-
 
     logger.info("evaluating on test set")
     logger.info("Saving predictions")

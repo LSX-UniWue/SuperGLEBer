@@ -13,7 +13,7 @@ def get_max_seq_length(cfg: DictConfig) -> int:
     from transformers.modeling_utils import PretrainedConfig
     from transformers.models.auto.configuration_auto import AutoConfig
 
-    model_conf: PretrainedConfig = AutoConfig.from_pretrained(cfg["model"]["model_name"])
+    model_conf: PretrainedConfig = AutoConfig.from_pretrained(cfg["model"]["model_name"], trust_remote_code=True)
 
     possible_attrs = ["max_position_embeddings", "n_positions", "seq_length"]
     possible_attrs = [getattr(model_conf, attr, None) for attr in possible_attrs]

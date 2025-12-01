@@ -9,27 +9,42 @@ For the current leaderboard and more information check out the [SuperGLEBer Webs
 
 This is the updated branch that contains the new and improved version of the SuperGLEBer benchmark.
 
+## Updates
+- We added 8 new tasks of the GermEval 2025 shared task. 
+- Additionally, we added support for LLM2Vec models, with the integration of bidirectional masks (Thanks @vasqu)
+
+
 ## Running Experiments
 
-create all relevant files necessary to schedule runs on a k8s/slurm cluster:
+Create all relevant files necessary to schedule runs on a k8s/slurm cluster:
 
 ```bash
 python src/template_k8s.py
 ```
 
-running a model on a task:
+Running a model on a task:
 
 ```bash
 python src/train.py +model=gbert_base +train_args=a100 +task=news_class
 ```
 
-override config keys via CLI:
+Override config keys via CLI:
 
 ```bash
 python src/train.py +model=gbert_base +train_args=a100 +task=news_class train_args.batch_size=1
 ```
 
-you can find valid parameters in the provided yaml configs: <https://github.com/LSX-UniWue/SuperGLEBer/tree/paper/src/conf>
+You can find valid parameters in the provided yaml configs: <https://github.com/LSX-UniWue/SuperGLEBer/tree/paper/src/conf>
+
+
+## Contact
+
+Feel free to reach out 💡:  
+[supergleber@informatik.uni-wuerzburg.de](mailto:supergleber@informatik.uni-wuerzburg.de)
+
+
+
+
 ## Citation
 ```bib
 @inproceedings{pfister-hotho-2024-supergleber,
@@ -50,3 +65,23 @@ you can find valid parameters in the provided yaml configs: <https://github.com/
     abstract = "We assemble a broad Natural Language Understanding benchmark suite for the German language and consequently evaluate a wide array of existing German-capable models in order to create a better understanding of the current state of German LLMs. Our benchmark consists of 29 different tasks ranging over different types such as document classification, sequence tagging, sentence similarity, and question answering, on which we evaluate 10 different German-pretrained models, thereby charting the landscape of German LLMs. In our comprehensive evaluation we find that encoder models are a good choice for most tasks, but also that the largest encoder model does not necessarily perform best for all tasks. We make our benchmark suite and a leaderboard publically available at https://supergleber.professor-x.de and encourage the community to contribute new tasks and evaluate more models on it (https://github.com/LSX-UniWue/SuperGLEBer)."
 }
 ```
+
+For our GermEval 2025 participation cite: 
+```
+@inproceedings{wunderle-etal-2025-die,
+    title = "Die {S}uper{GLEB}er at {G}erm{E}val 2025 Shared Tasks: Growing Pains - When More Isn{'}t Always Better",
+    author = "Wunderle, Julia  and
+      Pfister, Jan  and
+      Hotho, Andreas",
+    editor = "Wartena, Christian  and
+      Heid, Ulrich",
+    booktitle = "Proceedings of the 21st Conference on Natural Language Processing (KONVENS 2025): Workshops",
+    month = sep,
+    year = "2025",
+    address = "Hannover, Germany",
+    publisher = "HsH Applied Academics",
+    url = "https://aclanthology.org/2025.konvens-2.45/",
+    pages = "479--493"
+}
+```
+

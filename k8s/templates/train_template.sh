@@ -8,10 +8,21 @@
 #SBATCH --constraint=a100_80
 {%- endif %}
 #SBATCH --time={{slurm_runtime}}
-#SBATCH --chdir={{slurm_path}}
 {%- if mail_address is defined %}
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user={{mail_address}}
 {%- endif %}
 
-apptainer exec ~/superkleber.sif python3 src/train.py +model={{model}} +task={{task_name}} {% if grad_accum != 1 %}_grad_accum{{grad_accum}}{% endif %}
+
+export HTTP_PROXY=http://proxy.nhr.fau.de:80
+export HTTPS_PROXY=http://proxy.nhr.fau.de:80
+
+export http_proxy=http://proxy.nhr.fau.de:80
+export https_proxy=http://proxy.nhr.fau.de:80
+
+
+export HF_HOME="/hnvme/workspace/b185cb13-lsx/b185cb13-llammlein-1755918661/modular_llammlein/pytorch.sif"
+export HF_TOKEN="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"
+
+
+apptainer exec /hnvme/workspace/b185cb13-lsx/b185cb13-llammlein-1755918661/supergleber_modular.sif python3 src/train.py +model={{model}} +task={{task_name}} {% if grad_accum != 1 %}_grad_accum{{grad_accum}}{% endif %}

@@ -30,6 +30,18 @@ template_vars = [
         "image_tag": "main",
     },
     {
+        "lastname": "wunderle",
+        "affiliation": "lsx",
+        "pullsecret": "multipull",
+        "cluster_path": "/home/s386162/SuperGLEBer",
+        "slurm_path": "/home/s386162/SuperGLEBer",
+        "user": "b185cb13",
+        "mail_address": "wunderle@informatik.uni-wuerzburg.de",
+        "uuid": 1000,
+        "image_name": "ghcr.io/LSX-UniWue/SuperGLEBer:main",
+        "image_tag": "main",
+    },
+    {
         # this one is only used for creating the docker image on github actions
         "lastname": "supergleber",
         "affiliation": "lsx",
@@ -48,7 +60,7 @@ logger.info("adding default values")
 for template_config in template_vars:
     template_config["k8s_gpu_type"] = "a100"
     template_config["k8s_gpu_count"] = 1
-    template_config["slurm_gpu_type"] = "a100"
+    template_config["slurm_gpu_type"] = "h100"
     template_config["slurm_gpu_count"] = 1
     template_config["cpu_count"] = 8
     template_config["mem_amount"] = "48Gi"
@@ -132,12 +144,12 @@ for template_config in template_vars:
                         seed=seed,
                     )
                     out_file = (
-                        out_dir
-                        / "tasks_k8s"
-                        / "seeds"
-                        / model_conf.stem
-                        / task_conf.stem
-                        / f"{task_conf.stem}-{seed}.yaml"
+                            out_dir
+                            / "tasks_k8s"
+                            / "seeds"
+                            / model_conf.stem
+                            / task_conf.stem
+                            / f"{task_conf.stem}-{seed}.yaml"
                     )
                     out_file.parent.mkdir(exist_ok=True, parents=True)
                     with open(out_file, "w") as f:

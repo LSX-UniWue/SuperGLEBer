@@ -1,0 +1,2 @@
+model_name: Qwen/Qwen3-8B
+peft_target_modules: ["q_proj", "v_proj"]

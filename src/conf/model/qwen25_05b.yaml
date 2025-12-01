@@ -1,2 +1,0 @@
-model_name: Qwen/Qwen2.5-0.5B
-peft_target_modules: ["q_proj", "v_proj"]

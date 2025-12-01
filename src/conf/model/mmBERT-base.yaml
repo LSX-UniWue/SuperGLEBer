@@ -1,0 +1,3 @@
+model_name: jhu-clsp/mmBERT-base
+supports_qlora: False
+peft_target_modules: ["Wqkv", "Wo", "Wi"]

@@ -1,0 +1,14 @@
+task_name: harmful_content_c2a
+framework: "flair"
+embedding_type: TransformerDocumentEmbeddings
+classifier_type: TextClassifier
+label_type: &label_type "label"
+classifier_args:
+  label_type: *label_type
+corpus_type: CSVClassificationCorpus
+corpus_args:
+  data_folder: "Germeval/2025/HarmfulContent/c2a"
+  column_name_map: { 1: "text", 2: "label" }
+  label_type: *label_type
+  delimiter: ";"
+  skip_header: True
