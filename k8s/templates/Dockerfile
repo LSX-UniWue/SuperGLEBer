@@ -40,7 +40,8 @@ ENV UV_INDEX_STRATEGY=unsafe-best-match
 ENV UV_LINK_MODE=copy
 
 # Use lockfile for reproducible installs
-RUN uv pip install --no-cache packaging wheel psutil ninja
+# Pre-install build dependencies needed for --no-build-isolation
+RUN uv pip install --no-cache packaging wheel setuptools psutil ninja
 RUN uv pip sync --no-cache --no-build-isolation requirements.lock
 RUN uv pip freeze
 
