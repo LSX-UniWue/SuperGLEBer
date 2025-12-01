@@ -57,7 +57,8 @@ COPY . .
 
 # 6. Install Python packages
 RUN python -m pip install packaging wheel
-RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu124 torch
+RUN python -m pip install --no-cache-dir --extra-index-url https://download.pytorch.org/whl/cu124 torch \
+    && rm -rf /root/.cache/pip
 RUN python -m pip install --no-build-isolation -r requirements.txt
 
 USER ${USER}
