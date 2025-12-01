@@ -39,7 +39,8 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 # ^^^ I REMOVED THE BACKSLASH HERE ^^^
 
-RUN ln -sf /usr/bin/python3 /usr/bin/python
+RUN ln -sf /usr/bin/python3.12 /usr/bin/python3 && \
+    ln -sf /usr/bin/python3.12 /usr/bin/python \
 
 RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python
 
