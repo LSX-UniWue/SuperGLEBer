@@ -37,11 +37,14 @@ RUN apt-get update && apt-get install -y \
     vim \
     wget \
     && rm -rf /var/lib/apt/lists/*
-# ^^^ I REMOVED THE BACKSLASH HERE ^^^
 
+# 5. Fix Python Symlinks
+# I removed the trailing '\' at the end of this block
 RUN ln -sf /usr/bin/python3.12 /usr/bin/python3 && \
-    ln -sf /usr/bin/python3.12 /usr/bin/python \
+    ln -sf /usr/bin/python3.12 /usr/bin/python
 
+# 6. Install Pip
+# Now this runs as a fresh command
 RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python
 
 WORKDIR /localdir/
