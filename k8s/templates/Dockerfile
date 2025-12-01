@@ -34,12 +34,9 @@ WORKDIR /localdir/
 RUN chown -R ${USER}:${USER} /localdir/
 
 COPY . .
-RUN python -m pip install packaging wheel
+RUN python -m pip install packaging wheel psutil ninja
 RUN python -m pip install --extra-index-url https://download.pytorch.org/whl/cu121 torch==2.3.1+cu121
 RUN python -m pip install --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
-
-#RUN python -m pip install flash-attn==2.5.7 --no-build-isolation --extra-index-url https://download.pytorch.org/whl/cu121 -r requirements.txt
-#RUN python -m pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation --config-settings "--build-option=--cpp_ext" --config-settings "--build-option=--cuda_ext" git+https://github.com/NVIDIA/apex/
 
 USER ${USER}
 WORKDIR /localdir/
