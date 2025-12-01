@@ -14,17 +14,48 @@ ENV PYTHONUNBUFFERED=1
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Berlin
 
-RUN apt-get update \
-  && apt-get install -y \
-  python3-dev \
-  python3-venv \
-  python3-distutils \
-  ninja-build \
-  git \
-  curl \
-  libfl-dev \
-  && rm -rf /var/lib/apt/lists/*
-# https://askubuntu.com/questions/1465653/usr-bin-ld-cannot-find-ll-no-such-file-or-directory/1465654#1465654
+Dockerfile
+FROM nvidia/cuda:12.6.3-devel-ubuntu24.04
+
+ARG USER={{lastname}}
+ARG UID={{uuid}}
+
+# 1. Create the home directory first
+RUN mkdir -p /localdir/
+
+# 2. Delete the default 'ubuntu' user (UID 1000) to avoid conflict
+RUN userdel -r ubuntu || true
+
+# 3. Create your custom user
+RUN adduser ${USER} --uid ${UID} --home /localdir/ --disabled-password --gecos "" --no-create-home
+
+SHELL ["/bin/bash", "-c"]
+
+ENV PYTHONUNBUFFERED=1
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Europe/Berlin
+
+# 4. Merged Package List
+# Note: python3-distutils removed (deprecated in Py3.12)
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    curl \
+    git \
+    libfl-dev \
+    libibverbs1 \
+    libnl-3-dev \
+    libnl-route-3-dev \
+    libudev-dev \
+    ninja-build \
+    pkg-config \
+    python3.12 \
+    python3.12-dev \
+    python3.12-venv \
+    vim \
+    wget \
+    && rm -rf /var/lib/apt/lists/* \
+
 
 RUN ln -sf /usr/bin/python3 /usr/bin/python
 
